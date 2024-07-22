@@ -1,0 +1,22 @@
+{
+  "A_termine": {
+    "description": "Descrizione del termine",
+    "acronyms": [],
+    "synonyms": []
+  },
+  "B_termine": {
+    "description": "Descrizione del termine",
+    "acronyms": [],
+    "synonyms": []
+  },
+  "B_termine2": {
+    "description": "Descrizione del termine2",
+    "acronyms": [],
+    "synonyms": []
+  },
+  "termine": {
+    "description": "Descrizione del termine",
+    "acronyms": [],
+    "synonyms": []
+  }
+}
