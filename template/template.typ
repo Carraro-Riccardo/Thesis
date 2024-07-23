@@ -3,13 +3,37 @@
 #let template(
   body
 ) = {  
+  show heading.where(
+    level: 1
+  ): it => {
+    set text(size: 1.5em)
+    it
+    v(1em, weak: true)
+  }
+  show heading.where(
+    level: 2
+  ): it => {
+    set text(size: 1.2em)
+    v(0.5em, weak: false)
+    it
+    v(1em, weak: true)
+  }
+  show heading.where(
+    level: 3
+  ): it => {
+    set text(size: 1.1em)
+    it
+    v(1em, weak: true)
+  }
+  
+
   show: coverPage
 
   set page(
     numbering: "1",
     number-align: center,
     paper: "a4",
-    margin: (x: 2cm, y: 2.5cm),
+    margin: (x: 3cm, y: 2.5cm),
   )
   set heading(
     numbering: "1.1",
@@ -25,33 +49,13 @@
     stroke: 0.5pt + luma(140),
   )
   show link: set text(fill: blue)
-  show heading.where(
-    level: 1
-  ): it => {
-    it
-    v(1em, weak: true)
-  }
-  show heading.where(
-    level: 2
-  ): it => {
-    v(0.5em, weak: false)
-    it
-    v(1em, weak: true)
-  }
-  show heading.where(
-    level: 3
-  ): it => {
-    it
-    v(1em, weak: true)
-  }
-  
   show outline.entry.where(
     level: 1
   ): it => {
     v(6pt)
     strong(it)
   }
-  
+
   show "TODO": it => [
     #box(
       stroke: red,
@@ -59,6 +63,8 @@
       text("Riferimento assente", fill: red, weight: "bold")
     )
   ]
+
+  show figure.where(kind: table): set figure(supplement: "Tabella")
   
   // Page header
   set page(
@@ -70,13 +76,11 @@
           #line(length: 100%, stroke: 0.25pt)
         ]
       )
-    })
+    }),
+    margin: (x: 3cm, y: 2.5cm),
   )
   
-  set page(
-    margin: (x: 2cm, y: 2.5cm),
-  )
-  set text(size: 11pt)
+  set text(size: 13pt)
   // Index of contents
   page(numbering: none)[
     #outline(
@@ -137,7 +141,9 @@
   }
   
   // Body
-  set par(justify: true)
+  set par(
+    justify: true
+  )
   counter(page).update(1)
 
   body
@@ -160,14 +166,31 @@
   pagebreak()
 
   [= Glossario]
-  
+
+  show heading.where(
+    level: 1
+  ): it => {
+    set text(size: 1em)
+    it
+    v(1em, weak: true)
+  }
+  show heading.where(
+    level: 2
+  ): it => {
+    set text(size: 0.8em)
+    it
+    v(1em, weak: true)
+  }
+
   let previousTerm = glossary.keys().at(0)
   heading(
     level: 1,
     outlined: false,
     previousTerm.at(0)
   )
+  v(-1em)
   line(length: 100%)
+  v(-1em)
   for term in glossary.keys() {
     if (term.at(0) != previousTerm.at(0)) {
       heading(
@@ -175,7 +198,9 @@
         outlined: false,
         term.at(0)
       )
+      v(-1em)
       line(length: 100%)
+      v(-1em)
     }
     heading(
       level: 2,
@@ -196,4 +221,16 @@
   pagebreak()
 
   [= Bibliografia e sitografia]
+}
+
+#let showImageWithSource(imagePath: "", imageWidth: auto, caption: "", source: "",label: "") = {
+  [
+    #figure(
+    image(imagePath, width: imageWidth),
+      caption: [#caption],
+      supplement: "Immagine"
+    )#label
+    #v(-1.7em)
+    #align(center, text("\nFonte: " + link(source)))
+  ]
 }

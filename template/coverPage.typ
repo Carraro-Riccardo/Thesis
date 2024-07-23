@@ -29,7 +29,7 @@
     numbering: "i",
     number-align: center,
     paper: "a4",
-    margin: (x: 2cm, y: 2.5cm),
+    margin: (x: 3cm, y: 2.5cm),
   )
   counter(page).update(1)
   
