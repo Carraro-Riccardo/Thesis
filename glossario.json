@@ -162,6 +162,6 @@
 	"Way of Working": {
     "description": "Rappresenta il modo di lavorare del gruppo. È la descrizione di tutte le tecnologie, attività, metodologie adottate dal gruppo e di come queste sono utilizzate.",
     "acronyms": ["WoW"],
-    "synonyms": ["Norme di Progetto"]
+    "synonyms": []
   }
 }

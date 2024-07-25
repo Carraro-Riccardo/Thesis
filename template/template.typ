@@ -201,7 +201,6 @@
   )
   v(-1em)
   line(length: 100%)
-  v(-1em)
   for term in acronyms.keys() {
     if (term.at(0) != previousTerm.at(0)) {
       heading(
@@ -211,16 +210,8 @@
       )
       v(-1em)
       line(length: 100%)
-      v(-1em)
     }
-    heading(
-      level: 2,
-      outlined: false,
-      term
-    )
-    text(
-      acronyms.at(term)
-    )
+    [#strong(term): #text(acronyms.at(term)). \ ]
     previousTerm = term
   }
   

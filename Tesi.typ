@@ -11,7 +11,7 @@ Con oltre 2500 clienti e più di 650 dipendenti, Sanmarco Informatica opera in u
 L'obiettivo dell'azienda è l'innovazione delle aziende clienti, agevolandone la trasformazione digitale, progettando e realizzando soluzioni digitali integrate.
 
 == Organizzazione aziendale e i prodotti
-Durante il periodo di tirocinio ho potuto osservare da vicino l'organizzazione che l'azienda segue. Sanmarco Informatica è organizzazta in diverse _Business Unit_ (BU), ciascuna in grado di operare in modo autonomo o semi-autonomo, con l'obiettivo di garantire al cliente finale servizi e prodotti di qualità, adattandosi alle diverse esigenze del mercato.
+Durante il periodo di tirocinio ho potuto osservare da vicino l'organizzazione che l'azienda segue. Sanmarco Informatica è organizzazta in diverse _business unit_ (BU), ciascuna in grado di operare in modo autonomo o semi-autonomo, con l'obiettivo di garantire al cliente finale servizi e prodotti di qualità, adattandosi alle diverse esigenze del mercato.
 
 Le BU in cui l'azienda è suddivisa sono undici, ciascuna specializzata in un settore specifico:
 
@@ -25,9 +25,9 @@ Le BU in cui l'azienda è suddivisa sono undici, ciascuna specializzata in un se
 
 - *JPA*: sviluppa _software_ di _Business Process Management_ (BPM) per l'automazione e l'integrazione dei processi aziendali, offrendo una piattaforma completa con un _designer_ grafico per la loro modellazione, un motore per l'esecuzione e un'interfaccia grafica per la gestione dei _task_ assegnati agli utenti;
 
-- *FACTORY*: soddisfa le esigenze della _Supply Chain_ con soluzioni per la fabbrica del futuro, focalizzate sull'ottimizzazione del servizio clienti, degli asset e dei profitti. Fornisce inoltre soluzioni per la gestione dei magazzini e della produzione. Si tratta della _Business Unit_ in cui ho svolto il tirocinio;
+- *FACTORY*: soddisfa le esigenze della _Supply Chain_ con soluzioni per la fabbrica del futuro, focalizzate sull'ottimizzazione del servizio clienti, degli asset e dei profitti. Fornisce inoltre soluzioni per la gestione dei magazzini e della produzione. Si tratta della _business unit_ in cui ho svolto il tirocinio;
 
-- *JGALILEO*: sviluppa JGalileo, una soluzione di  _Enterprise Resource Planning_ (ERP) integrata progettata per ottimizzare i processi aziendali delle imprese, con un focus particolare sulle normative fiscali di carattere internazionale;
+- *JGALILEO*: sviluppa JGalileo, una soluzione di _Enterprise Resource Planning_ (ERP) integrata progettata per ottimizzare i processi aziendali delle imprese, con un focus particolare sulle normative fiscali di carattere internazionale;
 
 - *TCE*: si impegna a semplificare i processi di preventivazione e acquisizione ordini attraverso il prodotto CPQ, che consente una configurazione rapida e precisa di prodotti e servizi;
 
@@ -116,7 +116,7 @@ Con l'#ref(<userStoriesImage>) mostro come le _User Stories_ siano l'_input_ fon
 
 Da quanto ho potuto constatare durante il mio tirocinio, ogni incontro tra il _Product Owner_ e il cliente, non solo permetteva di mostrare i risultati fino a quel momento ottenuti dal _team_, ma produceva come risultato un documento di analisi che raccoglieva gli eventuali cambiamenti e le nuove funzionalità richieste dal cliente.
 
-Questa analisi, andava ad integrare la documentazione presente su _Confluence_, la piattaforma utilizzata dall'azienda per la documentazione, e, nel meeting di pianificazione dello _Sprint_ successivo, veniva discussa e valutata insieme al _team_ di sviluppo.
+Questa analisi, andava ad integrare la documentazione presente su _Confluence_, la piattaforma utilizzata dall'azienda per la documentazione, e, nel _meeting_ di pianificazione dello _Sprint_ successivo, veniva discussa e valutata insieme al _team_ di sviluppo.
 
 
 ==== Sviluppo<softwareQualificationTesting>
@@ -163,7 +163,7 @@ Questo _framework_ infatti si trova alla base di tutti i prodotti _software_ svi
 ==== Documentazione
 La documentazione è un aspetto fondamentale per garantire la qualità del prodotto _software_ e la sua manutenibilità. Tra gli obiettivi del mio tirocinio (discussi nel dettaglio nel #ref(<obiettiviTirocinio>, supplement: "paragrafo")), vi era infatti anche la produzione di documentazione relativa non solo alle funzionalità implementate, ma anche alla loro analisi e progettazione.
 
-Come risultato di ogni meeting il _team_ si occupa di documentare le decisioni prese, le funzionalità implementate e le problematiche riscontrate, utilizzando la piattaforma _Confluence_.
+Come risultato di ogni _meeting_ il _team_ si occupa di documentare le decisioni prese, le funzionalità implementate e le problematiche riscontrate, utilizzando la piattaforma _Confluence_.
 
 Anche l'approccio al _framework Synergy_, è stato un'ulteriore conferma in merito all'importanza della documentazione del _software_: trattandosi di un _framework_ proprietario, la mia unica fonte di informazioni in merito al suo corretto utilizzo, residieva nella documentazione presente su _Confluence_, e per questo motivo, il suo aggiornamento costante e la sua completezza erano aspetti fondamentali per permettere a me (e anche ai nuovi colleghi) di utilizzarlo in modo efficace ed efficiente.
 
@@ -201,13 +201,13 @@ Nel mio caso infatti, prima di procedere all'integrazione della _codebase_ con i
 ==== Gestione dell'infrastruttura
 Al fine di gestire in modo efficiente ed efficace i processi istanziati, l'azienda si avvale di strumenti e tecnologie che possano coprire i diversi aspetti dello sviluppo. Comprendere il loro corretto utilizzo e funzionamento è stato per me un aspetto fondamentale per poter svolgere il mio tirocinio.
 
-Nei successivi paragrafi descriverò l'infrastruttura che ho avuto modo di osservare durante il periodo di tirocinio, presentando le tecnologie utilizzate e come queste siano state integrate nei processi aziendali.
+Nei successivi paragrafi descriverò l'infrastruttura che ho avuto modo di osservare, presentando le tecnologie utilizzate e come queste siano state integrate nei processi aziendali.
 
 \
 ==== Strumenti di tracciamento delle attività
 *Jira*
 
-Jira è uno strumento di _issue tracking system_ (ITS) utilizzato dall'azienda per la gestione delle attività di sviluppo. Lo strumento permette al _team leader_ ad ogni _Sprint planning_, di strutturare la _board_ con i diversi _task_ (o _issue_) da svolgere entro lo _Sprint_, assegnando a ciascun membro del _team_ i compiti da svolgere.
+Jira è uno strumento di _issue tracking system_ (ITS) utilizzato dall'azienda per la gestione delle attività di sviluppo. Lo strumento permette al _team leader_ ad ogni _Sprint planning_, di strutturare la _board_ con i diversi _task_ (o _issue_) da svolgere entro la fine dello _Sprint_, assegnando a ciascun membro del _team_ i compiti da svolgere.
 
 Il tracciamento delle attività è fondamentale per garantire che il _team_ sia allineato con gli obiettivi, permettendo di avere sempre una visione di insieme dello stato di avanzamento dei lavori.
 
@@ -218,7 +218,7 @@ Durante il mio tirocinio ho utilizzato lo strumento secondo le convenzioni azien
 - *User story*: attività di implementazione di nuove funzionalità.
 
 Lo svolgimento di queste attività seguiva una _pipeline_ di stati ben definita:
-- *To do*: il _task_ è stata creata;
+- *To do*: il _task_ è stato creato;
 - *In progress*: il _task_ è in corso di svolgimento: questo stato è sinonimo  della presenza  di un _branch_ di sviluppo attivo, e che uno o più membri del _team_ stanno lavorando al _task_;
 - *Ready for test*: il _task_ è stato completato e il lavoro prodotto è pronto per essere sottoposto al _software qualification test_ (#ref(<softwareQualificationTesting>, supplement: "paragrafo")). Il _task_ viene ora assgnato al _tester_ del _team_ e, a seconda del risultato dei _test_ condotti, il _task_ può tornare in _In progress_ o essere spostato in _Done_;
 - *Done*: il _task_ è stato completato con successo.
@@ -238,20 +238,20 @@ Le integrazioni con strumenti come Bitbucket (#ref(<strumentiSviluppo>, suppleme
 ==== Strumenti di comunicazione
 *Google Meet e Google Chat*
 \
-Sanmarco Informatica fa utilizzo della _suite_ di strumenti offerta da Google per la comunicazione interna, in particolar modo _Google Meet_ per le riunioni e _Google Chat_ per la comunicazione testuale.
+Sanmarco Informatica fa utilizzo della _suite_ di strumenti offerta da Google per la comunicazione interna, in particolar modo Google Meet per le riunioni e Google Chat per la comunicazione testuale.
 
 
 
-_Google meet_ è uno strumento che permette di organizzare riunioni virtuali, con la possibilità di condividere schermo e documenti, e di registrare la riunione stessa.
+Google meet è uno strumento che permette di organizzare riunioni virtuali, con la possibilità di condividere schermo e documenti, e di registrare la riunione stessa.
 
 Durante il mio tirocinio ho partecipato a diverse riunioni utilizzando questo strumento, in particolar modo ai _Daily Standup Meeting_ (quando il _team_ operava in remoto) e ai _meeting_ di _Sprint Review_ e _Sprint Retrospective_ (#ref(<modelloDiSviluppo>, supplement: "paragrafo")), dove mediante la condivisione dello schermo, il _team_ presentava i risultati ottenuti.
 
-_Google Chat_ d'altro canto, è uno strumento di messaggistica istantanea che permette di comunicare in modo rapido e diretto con i colleghi. Ho utilizzato questo strumento per comunicare con i membri del _team_ e per risolvere eventuali problematiche riscontrate durante lo sviluppo quando non era possibile un contatto diretto o si trattava di comunicazioni non urgenti.
+Google Chat d'altro canto, è uno strumento di messaggistica istantanea che permette di comunicare in modo rapido e diretto con i colleghi. Ho utilizzato questo strumento per comunicare con i membri del _team_ e per risolvere eventuali problematiche riscontrate durante lo sviluppo quando non era possibile un contatto diretto o si trattava di comunicazioni non urgenti.
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/googleMeet.svg",
   imageWidth: auto,
-  caption: [Interfaccia di _Google Meet_],
+  caption: [Interfaccia di Google Meet],
   source: "https://support.google.com/meet/answer/10550593?hl=it",
   label: <googleMeet>
 )
@@ -259,7 +259,7 @@ _Google Chat_ d'altro canto, è uno strumento di messaggistica istantanea che pe
 \
 *Scrumlr.io*
 \
-_Scrumlr.io_ è uno strumento che permette di creare diverse tipologie di _board_ in supporto alla _Sprint Retrospective_, dove ogni membro del _team_ può inserire i propri _feedback_ e le proprie considerazioni relative allo _Sprint_ concluso.
+Scrumlr.io è uno strumento che permette di creare diverse tipologie di _board_ in supporto alla _Sprint Retrospective_, dove ogni membro del _team_ può inserire i propri _feedback_ e le proprie considerazioni relative allo _Sprint_ concluso.
 
 \
 Nei _meeting_ di retrospettiva che ho svolto, la _board_ era divisa in *Kudos* (_feedback_ positivi ad uno o più membri del _team_), *Positive* (cosa è andato bene), *Negative* (cosa non è andato bene) e *Action* (azioni da intraprendere per migliorare i processi aziendali delineate dal _team leader_).
@@ -267,7 +267,7 @@ Nei _meeting_ di retrospettiva che ho svolto, la _board_ era divisa in *Kudos* (
 #showImageWithSource(
   imagePath: "/assets/chapter1/scrumlr.png",
   imageWidth: 95%,
-  caption: [Interfaccia di _Scrumlr.io_],
+  caption: [Interfaccia di Scrumlr.io],
   source: "https://www.scrumlr.io/",
   label: <scrumlr>
 )
@@ -290,7 +290,7 @@ Lo strumento è utilizzato dal _team_ per la definizione delle tabelle relative 
 
 *Confluence*
 \
-_Confluence_ è una piattaforma di documentazione che permette di creare, organizzare e condividere documenti in modo collaborativo. Possiede un registro delle modifiche aggiornato automaticamente, in modo da tracciare in modo preciso i cambiamenti apportati ai documenti.
+_Confluence_ è una piattaforma di documentazione che permette di creare, organizzare e condividere documenti in modo collaborativo. Possiede un registro delle modifiche aggiornato automaticamente, in modo da tracciare precisamente i cambiamenti apportati ai documenti.
 
 Lo strumento è utilizzato dall'azienda per la documentazione dei processi e delle attività svolte, e per la condivisione di documenti e analisi.
 
@@ -308,7 +308,7 @@ Questa piattaforma è stata per me la principale fonte di informazioni in merito
 ==== Strumenti di sviluppo<strumentiSviluppo>
 *Bitbucket*
 
-Bitbucket è uno strumento di controllo di versione utilizzato dall'azienda per la gestione del codice sorgente. Lo strumento permette di creare _repository_ in cui caricare il codice sorgente, e di gestire i diversi _branch_ di sviluppo affinchè l'avanzamento dei lavori possa avvenire in modo parallelo, coordinato e collaborativo.
+Bitbucket è uno strumento di controllo di versione utilizzato dall'azienda per la gestione del codice sorgente. Lo strumento permette di creare _repository_ in cui caricare la _codebase_, e di gestire i diversi _branch_ di sviluppo affinchè l'avanzamento dei lavori possa avvenire in modo parallelo, coordinato e collaborativo.
 
 Grazie all'integrazione con Jira, Bitbucket permette di collegare i _task_ presenti nella _board_ con i _branch_ di sviluppo, in modo da garantire che ogni _task_ sia associato al _branch_ corrispontente.
 
@@ -338,7 +338,7 @@ Le numerose estensioni disponibili, rendono questo strumento estremamente versat
 \ \
 *IntelliJ*
 \
-IntelliJ è un altro ambiente di sviluppo integrato (IDE) utilizzato dall'azienda per la scrittura del codice sorgente. Data la sua migliore integrazione con _gradle_ e _tomcat_, il suo utilizzo semplifica lo sviluppo del codice _backend_.
+IntelliJ è un altro ambiente di sviluppo integrato (IDE) utilizzato dall'azienda per la scrittura del codice sorgente. Data la sua migliore integrazione con _gradle_ e _tomcat_, il suo utilizzo semplifica lo sviluppo del codice _backend_ realizzato in Java.
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/intellij.png",
@@ -388,12 +388,12 @@ Ecco una rappresentazione grafica di come gli strumenti sopra descritti siano in
 
 \
 ==== Gestione delle risorse umane<formazione>
-Il processo di gestione delle risorse umane è quello che si occupa di definire le competenze necessarie per lo sviluppo del prodotto, di assegnare i compiti ai membri del _team_ e di garantire che le risorse siano utilizzate in modo efficace ed efficiente.
+Il processo di gestione delle risorse umane si occupa di definire le competenze necessarie per lo sviluppo del prodotto, di assegnare i compiti ai membri del _team_ e di garantire che le risorse siano utilizzate in modo efficace ed efficiente.
 
-Nello svolgimento del mio percorso ho avuto la possibilità di comprendere comequesto processo sia istanziato dall'azienda, e l'importanza che riveste la formazione e la crescita professionale dei membri del _team_.
+Nello svolgimento del mio percorso ho avuto la possibilità di comprendere come questo processo sia istanziato dall'azienda, e l'importanza che riveste la formazione e la crescita professionale dei membri del _team_.
 
 Le prime due settimane del mio tirocinio sono state dedicate alla formazione, mediante lo svolgimento di lezioni frontali e di esercitazioni pratiche, permettondomi di apprendere le basi del _framework_ _Synergy_ mediante un approccio _learn by doing_.
-Inoltre la formazione è un processo continuo che anche i membri del _team_ a cui sono stato affiancato, svolgono costantemente, grazie ai corsi offerti dall'azienda nella piattaforma Udemy.
+Inoltre ho avuto modo di constatare come la formazione sia un processo continuo che anche per i membri del _team_ a cui sono stato affiancato, i quali svolgono regolarmente corsi offerti dall'azienda nella piattaforma Udemy.
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/udemy.png",
@@ -410,7 +410,7 @@ L'azienda stessa incentiva la formazione continua dei propri dipendenti, ritenut
 == Il ruolo dell'innovazione
 Un elemento distintivo della strategia aziendale di Sanmarco Informatica è l'importanza attribuita all'innovazione, come testimoniato dall'investimento annuale di una quota significativa del fatturato, tra il 15% e il 20%, in Ricerca e Sviluppo. Questo impegno garantisce l'aggiornamento continuo dei prodotti e dei servizi, assicurando che rimangano allineati con le ultime tendenze tecnologiche.
 
-La formazione continua dei dipendenti è un altro pilastro della filosofia aziendale. Come ho spiegato nel #ref(<formazione>, supplement: "paragrafo"), Sanmarco Informatica offre costantemtne corsi di formazione su nuove tecnologie e strumenti, avvalendosi di esperti interni e consulenti esterni, e utilizzando piattaforme di e-learning come Udemy Business. Questo investimento in competenze garantisce che il personale sia sempre aggiornato e in grado di affrontare le sfide tecnologiche future.
+La formazione continua dei dipendenti è un altro pilastro della filosofia aziendale. Come ho spiegato nel #ref(<formazione>, supplement: "paragrafo"), Sanmarco Informatica offre costantemtne corsi di formazione su nuove tecnologie e strumenti, avvalendosi di esperti interni e consulenti esterni, e utilizzando piattaforme di _e-learning_ come Udemy. Questo investimento in competenze garantisce che il personale sia sempre aggiornato e in grado di affrontare le sfide tecnologiche future.
 
 L'azienda inoltre promuove la partecipazione a conferenze e seminari come ad esempio l'evento "I nuovi paradigmi innovativi della Pianificazione su Commessa" tenutosi il 17 luglio 2024, o ancora il seminario "Intelligenza Artificiale al Servizio del _Business_" organizzato in collaborazione con IBM, _partner_ storico dell'azienda.
 
@@ -526,7 +526,7 @@ Il livello di copertura dei requisiti individuati durante l'analisi.
 === Copertura di testing
 Il livello di copertura di codice in relazione ai test implementati.
 === Materiali prodotti
-Il livello complessivo dei materiali prodotti durante il tirocinio: oltre infatti al codice, durante il percorso di tirocinio ho tenuto traccia giornalmente della attività svolte mediante una bacheca su Notion. Inoltre mi sono preoccupato di redigere puntualmente la documentazione relativa a tutte le funzionalità prodotte e alla loro analisi, condividendola anche il referente aziendale. Questa sezione riporterà una panoramica quantitativa di questi materiali prodotti, le linee di codice scritte, i meeting svolti e le issue su Jira svolte (_bugfix_ e funzionalità).
+Il livello complessivo dei materiali prodotti durante il tirocinio: oltre infatti al codice, durante il percorso di tirocinio ho tenuto traccia giornalmente della attività svolte mediante una bacheca su Notion. Inoltre mi sono preoccupato di redigere puntualmente la documentazione relativa a tutte le funzionalità prodotte e alla loro analisi, condividendola anche il referente aziendale. Questa sezione riporterà una panoramica quantitativa di questi materiali prodotti, le linee di codice scritte, i _meeting_ svolti e le issue su Jira svolte (_bugfix_ e funzionalità).
 
 #pagebreak()
 = Valutazione retrospettiva
