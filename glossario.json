@@ -1,22 +1,167 @@
 {
-  "A_termine": {
-    "description": "Descrizione del termine",
+  "Agile": {
+    "description": "Metodologia di sviluppo software che prevede la realizzazione di progetti in modo iterativo e incrementale, con particolare attenzione alla collaborazione tra i membri del team e alla risposta rapida ai cambiamenti.",
     "acronyms": [],
     "synonyms": []
   },
-  "B_termine": {
-    "description": "Descrizione del termine",
+  "Application Programming Interface": {
+    "description": "Insieme di regole e protocolli che consente la comunicazione standardizzata tra software distinti. Definisce le modalità di scambio e le strutture dati scambiate durante la comunicazione.",
+    "acronyms": ["API"],
+    "synonyms": []
+  },
+  "Backlog": {
+    "description": "Gruppo di attività da completare per conseguire un certo obiettivo.",
     "acronyms": [],
     "synonyms": []
   },
-  "B_termine2": {
-    "description": "Descrizione del termine2",
+  "Bitbucket": {
+    "description": "Software di versionamento distribuito utilizzabile tramite linea di comando.",
     "acronyms": [],
     "synonyms": []
   },
-  "termine": {
-    "description": "Descrizione del termine",
+  "Branch": {
+    "description": "Nel contesto di Git rappresenta un ramo di sviluppo, implementato come puntatore ad un commit. La suddivisione in branch permette di lavorare parallelamente a parti diverse dello stesso prodotto.",
     "acronyms": [],
     "synonyms": []
+  },
+  "Bug": {
+    "description": "Anomalia che porta al malfunzionamento di un software, producendo un risultato inatteso o errato.",
+    "acronyms": [],
+    "synonyms": []
+  },
+  "Codebase": {
+    "description": "Insieme di codice sorgente di un software.",
+    "acronyms": [],
+    "synonyms": []
+  },
+  "Continuous Delivery": {
+    "description": "Pratica di sviluppo software che prevede il deployment continuo in produzione delle modifiche al codice sorgente.",
+    "acronyms": ["CI/CD"],
+    "synonyms": []
+  },
+  "Continuous Integration": {
+    "description": "Pratica di sviluppo software che prevede l'integrazione continua delle modifiche al codice sorgente da parte dei vari membri del team. L'obiettivo è quello di rilevare e risolvere i problemi di integrazione il prima possibile (feedback rapido).",
+    "acronyms": ["CI/CD"],
+    "synonyms": []
+  },
+  "Database": {
+    "description": "Insieme di informazioni (o dati) strutturate, in genere archiviate elettronicamente in un sistema informatico. Solitamente i database sono gestiti da un DBMS (Database Management System), il quale deve garantire efficacia, efficienza, privacy ed affidabilità.",
+    "acronyms": ["DB"],
+    "synonyms": []
+  },
+  "Diagrammi di burndown": {
+    "description": "Un burndown chart è una rappresentazione grafica del lavoro da fare su un progetto nel tempo. Di solito il lavoro rimanente (o backlog) è indicato sull'asse verticale e il tempo sull'asse orizzontale. Il diagramma rappresenta una serie storica del lavoro da fare.",
+    "acronyms": [],
+    "synonyms": ["burndown", "burndown chart"]
+  },
+  "Feature": {
+    "description": "Specifica funzionalità o caratteristica del prodotto sviluppato. Può essere richiesta esplicitamente dal Proponente o individuata dal Fornitore sulla base del processo di Analisi dei Requisiti.",
+    "acronyms": [],
+    "synonyms": []
+  },
+  "GitHub": {
+    "description": "Servizio di hosting di progetti software basato su Git utilizzato da singoli ed organizzazioni. Fornisce un Issue Tracking System integrato e permette di implementare sistemi di Continuous Integration e Continuous Delivery tramite automazioni chiamate Action.",
+    "acronyms": ["GH"],
+    "synonyms": []
+  },
+  "Google Drive": {
+    "description": "Servizio di web cloud offerto da Google basato sull'archiviazione e condivisione di file e documenti all'interno di uno spazio condiviso e modificabile via web.",
+    "acronyms": [],
+    "synonyms": []
+  },
+  "Google Sheets": {
+    "description": "Applicazione web-based che permette la creazione, aggiornamento e modifica di fogli di calcolo.",
+    "acronyms": [],
+    "synonyms": []
+  },
+  "Ingegneria del Software": {
+    "description": "Disciplina che si occupa della progettazione, sviluppo, test e manutenzione del software. Adotta un approccio sistematico, disciplinato e quantificabile, che mira a creare software di alta qualità, affidabile e manutenibile. ",
+    "acronyms": ["IS", "SWE"],
+    "synonyms": []
+  },
+  "Issue": {
+    "description": "Specifico problema riscontrato durante una delle fasi del ciclo di vita del prodotto sviluppato.",
+    "acronyms": [],
+    "synonyms": []
+  },
+  "Issue Tracking System": {
+    "description": "Sistema informatico che gestisce e mantiene elenchi di problemi riscontrati durante il ciclo di vita di un'applicazione.",
+    "acronyms": ["ITS"],
+    "synonyms": []
+  },
+  "Jira": {
+    "description": "Suite di software proprietari per l'ITS sviluppata da Atlassian, che consente il bug tracking e la gestione dei progetti sviluppati con metodologie agile.",
+    "acronyms": [],
+    "synonyms": []
+  },
+  "Repository": {
+    "description": "Archivio in cui vengono conservati tutti i file di un progetto, utilizzato dagli sviluppatori per apportare e gestire le modifiche al codice sorgente/documentazione del prodotto. Questa cartella può essere salvata localmente o ospitata su una piattaforma online (ad esempio GitHub).",
+    "acronyms": [],
+    "synonyms": ["Repo"]
+  },
+  "Requisito": {
+    "description": "È una condizione o funzionalità che deve essere verificata o posseduta dal sistema o da un componente del sistema per soddisfare un contratto, uno standard, una specifica o qualsiasi altro documento formalmente specificato.",
+    "acronyms": [],
+    "synonyms": []
+  },
+	"Review": {
+    "description": "Revisione di documenti o codice. È un processo di peer review utilizzato per individuare eventuali problemi e migliorare la qualità del prodotto. È un'attività fondamentale per garantire uno standard qualitativo al prodotto.",
+    "acronyms": [],
+    "synonyms": ["Revisione"]
+  },
+  "Scrum": {
+    "description": "Framework agile di gestione dello sviluppo di progetti complessi con l'obiettivo di consegnare il maggior valore business nel più breve tempo possibile.",
+    "acronyms": [],
+    "synonyms": []
+  },
+	"Sprint": {
+    "description": "Uno sprint è un breve periodo di tempo (una settimana nel nostro specifico caso), in cui un team Scrum collabora per completare una determinata quantità di lavoro. Gli sprint rappresentano una parte essenziale delle metodologie Scrum e Agile.",
+    "acronyms": [],
+    "synonyms": []
+  },
+	"Test di accettazione": {
+    "description": "Test formale eseguito per verificare se l'applicazione soddisfa i requisiti richiesti.",
+    "acronyms": [],
+    "synonyms": ["acceptance test"]
+  },
+	"Test di integrazione": {
+    "description": "Attività di testing che verifica il corretto funzionamento dell'interazione o dell'interfaccia tra due o più moduli integrati.",
+    "acronyms": [],
+    "synonyms": ["integration test"]
+  },
+	"Test di sistema": {
+    "description": "Attività di testing che verifica il corretto funzionamento del sistema integrato nel suo complesso. Questa tipologia di test è anche detta \"end-to-end\".",
+    "acronyms": ["E2E"],
+    "synonyms": ["system test"]
+  },
+  "Test di unità": {
+    "description": "Attività di testing che verifica il corretto funzionamento di una singola unità di un software. A seconda del paradigma di programmazione adottato, l'unità può essere un singolo metodo, una classe, un modulo o un componente.",
+    "acronyms": [],
+    "synonyms": ["unit test"]
+  },
+  "Testing": {
+    "description": "Attività di verifica e validazione del software tramite il collaudo di partizioni di esso.",
+    "acronyms": [],
+    "synonyms": []
+  },
+  "Ticket": {
+    "description": "Rappresenta il lavoro da completare a sostegno degli obiettivi più ampi, ogni ticket è individuale e atomico.",
+    "acronyms": [],
+    "synonyms": ["task", "story"]
+  },
+  "Unified Modeling Language": {
+    "description": "Linguaggio di modellazione visivo, destinato a fornire un modo standard per visualizzare la progettazione di un sistema.",
+    "acronyms": ["UML"],
+    "synonyms": []
+  },
+	"Versionamento": {
+    "description": "Processo di assegnazione di identificatori univoci a diversi momenti di sviluppo di un software o progetto. Comprende il recupero di versioni diverse da quella attuale e l'aggiornamento della versione stessa.",
+    "acronyms": [],
+    "synonyms": []
+  },
+	"Way of Working": {
+    "description": "Rappresenta il modo di lavorare del gruppo. È la descrizione di tutte le tecnologie, attività, metodologie adottate dal gruppo e di come queste sono utilizzate.",
+    "acronyms": ["WoW"],
+    "synonyms": ["Norme di Progetto"]
   }
 }

@@ -64,6 +64,11 @@
     )
   ]
 
+  let lastVisitedOn(date) = {
+    if (date.at(2) < 99) { date.at(2) += 2000 }
+    text("(ultimo accesso " + datetime(year: date.at(2), month: date.at(1), day: date.at(0)).display("[day]/[month]/[year]") + ")", size: 0.8em, style: "italic", fill: luma(100))
+  }
+
   show figure.where(kind: table): set figure(supplement: "Tabella")
   
   // Page header
@@ -90,6 +95,14 @@
     )
   ]
   pagebreak()
+
+  show outline.entry.where(
+    level: 1
+  ): it => {
+    set text(weight: "extralight")
+    v(-6pt)
+    it
+  }
   
   // Index of images
   page(numbering: none)[
@@ -160,27 +173,60 @@
     level: 1,
     numbering: none,
   )
-  
-  [= Acronimi e abbreviazioni]
-  
-  pagebreak()
-
-  [= Glossario]
 
   show heading.where(
     level: 1
   ): it => {
-    set text(size: 1em)
+    set text(size: 14pt)
     it
     v(1em, weak: true)
   }
   show heading.where(
     level: 2
   ): it => {
-    set text(size: 0.8em)
+    set text(size: 12pt)
     it
     v(1em, weak: true)
   }
+  
+  [= Acronimi e abbreviazioni]
+
+  let acronyms = json("/acronimi.json");
+  
+  let previousTerm = acronyms.keys().at(0)
+  heading(
+    level: 1,
+    outlined: false,
+    previousTerm.at(0)
+  )
+  v(-1em)
+  line(length: 100%)
+  v(-1em)
+  for term in acronyms.keys() {
+    if (term.at(0) != previousTerm.at(0)) {
+      heading(
+        level: 1,
+        outlined: false,
+        term.at(0)
+      )
+      v(-1em)
+      line(length: 100%)
+      v(-1em)
+    }
+    heading(
+      level: 2,
+      outlined: false,
+      term
+    )
+    text(
+      acronyms.at(term)
+    )
+    previousTerm = term
+  }
+  
+  pagebreak()
+
+  [= Glossario]
 
   let previousTerm = glossary.keys().at(0)
   heading(
@@ -221,6 +267,29 @@
   pagebreak()
 
   [= Bibliografia e sitografia]
+
+  let bibliography = json("/bibliografia_sitografia.json");
+  let previousTerm = bibliography.keys().at(0)
+  heading(
+    level: 1,
+    outlined: false,
+    previousTerm.at(0)
+  )
+  v(-1em)
+  line(length: 100%)
+  for term in bibliography.keys() {
+    if (term.at(0) != previousTerm.at(0)) {
+      heading(
+        level: 1,
+        outlined: false,
+        term.at(0)
+      )
+      line(length: 100%)
+      v(1em)
+    }
+    [- #eval(bibliography.at(term).description, mode: "markup") \ #link(bibliography.at(term).url) #lastVisitedOn(bibliography.at(term).date) \ \ ]
+    previousTerm = term
+  }
 }
 
 #let showImageWithSource(imagePath: "", imageWidth: auto, caption: "", source: "",label: "") = {

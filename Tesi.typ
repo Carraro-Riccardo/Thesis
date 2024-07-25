@@ -13,29 +13,29 @@ L'obiettivo dell'azienda è l'innovazione delle aziende clienti, agevolandone la
 == Organizzazione aziendale e i prodotti
 Durante il periodo di tirocinio ho potuto osservare da vicino l'organizzazione che l'azienda segue. Sanmarco Informatica è organizzazta in diverse _Business Unit_ (BU), ciascuna in grado di operare in modo autonomo o semi-autonomo, con l'obiettivo di garantire al cliente finale servizi e prodotti di qualità, adattandosi alle diverse esigenze del mercato.
 
-Le BU in cui l'azienda è suddivisa sono 11, ciascuna specializzata in un settore specifico:
+Le BU in cui l'azienda è suddivisa sono undici, ciascuna specializzata in un settore specifico:
 
 - *SMITECH*: specializzata in _Cybersecurity_ e protezione dei dati, offre servizi di consulenza, formazione e soluzioni tecnologiche per garantire la sicurezza informatica.
 
 - *ECM*: offre soluzioni di _Enterprise Content Management_ (ECM) per una gestione efficiente dei documenti digitali, includendo strumenti per la gestione dei contenuti, la collaborazione e la condivisione dei documenti;
 
-- *DISCOVERY QUALITY*: sviluppa _software_ per la governance aziendale, il controllo dei processi e la misurazione delle _performance_, con attenzione alle normative e alle metriche di sostenibilità (_Sustainable Development Goals_ (SDGs), _Benefit Corporation_ (BCorp)), per assicurare la qualità di prodotti e servizi;
+- *DISCOVERY QUALITY*: sviluppa _software_ per la _governance_ aziendale, il controllo dei processi e la misurazione delle _performance_, con attenzione alle normative e alle metriche di sostenibilità (_Sustainable Development Goals_ (SDGs), _Benefit Corporation_ (BCorp)), per assicurare la qualità di prodotti e servizi;
 
-- *JPM*: fornisce soluzioni di _Project Management_ per la gestione dei progetti, con strumenti per la pianificazione, il monitoraggio e il controllo dei progetti su commessa o a preventivo;
+- *JPM*: fornisce soluzioni di _Project Management_ per la gestione dei progetti, con strumenti per la pianificazione, il monitoraggio e il controllo su commessa o a preventivo;
 
-- *JPA*: sviluppa _software_ di _Business Process Management_ (BPM) per l'automazione e l'integrazione dei processi aziendali, offrendo una piattaforma completa con un _designer_ grafico per la modellazione dei processi, un motore per l'esecuzione dei processi e un'interfaccia grafica per la gestione dei _task_ assegnati agli utenti;
+- *JPA*: sviluppa _software_ di _Business Process Management_ (BPM) per l'automazione e l'integrazione dei processi aziendali, offrendo una piattaforma completa con un _designer_ grafico per la loro modellazione, un motore per l'esecuzione e un'interfaccia grafica per la gestione dei _task_ assegnati agli utenti;
 
 - *FACTORY*: soddisfa le esigenze della _Supply Chain_ con soluzioni per la fabbrica del futuro, focalizzate sull'ottimizzazione del servizio clienti, degli asset e dei profitti. Fornisce inoltre soluzioni per la gestione dei magazzini e della produzione. Si tratta della _Business Unit_ in cui ho svolto il tirocinio;
 
-- *JGALILEO*: sviluppa JGalileo, una soluzione ERP integrata progettata per ottimizzare i processi aziendali delle imprese, con un focus particolare sulle normative fiscali di carattere internazionale;
+- *JGALILEO*: sviluppa JGalileo, una soluzione di  _Enterprise Resource Planning_ (ERP) integrata progettata per ottimizzare i processi aziendali delle imprese, con un focus particolare sulle normative fiscali di carattere internazionale;
 
-- *TCE*: si impegna a semplificare le fasi di preventivazione e acquisizione ordini attraverso il prodotto CPQ, che consente una configurazione rapida e precisa di prodotti e servizi;
+- *TCE*: si impegna a semplificare i processi di preventivazione e acquisizione ordini attraverso il prodotto CPQ, che consente una configurazione rapida e precisa di prodotti e servizi;
 
 - *NEXTBI*: specializzata in _Information Technology_ e consulenza strategica, con competenze specifiche in _marketing_, vendite, retail, innovazione per il cliente, _Business Intelligence_ e soluzioni _Internet of Things_ (IoT);
 
 - *4WORDS*: propone soluzioni _Business to Business_ (B2B), applicazioni e _Customer Relationship Management_ (CRM) per potenziare il business attraverso strumenti digitali, inclusi portali B2B e realtà aumentata;
 
-- *ELEMENT*: è la divisione creativa specializzata nello sviluppo di siti web ed _e-commerce_, con particolare attenzione all'esperienza utente e all'interfaccia grafica.
+- *ELEMENT*: è la divisione creativa specializzata nello sviluppo di siti _web_ ed _e-commerce_, con particolare attenzione all'esperienza utente e all'interfaccia grafica.
 
 == I clienti
 Il portfolio clienti di Sanmarco Informatica vanta più di 2500 aziende, da piccole/medie imprese a grandi aziende internazionali.
@@ -46,7 +46,7 @@ Durante il mio periodo di tirocinio, ho avuto modo di assistere al rapporto che 
 
 == Processi
 === Modello di sviluppo <modelloDiSviluppo>
-Durante il mio tirocinio ho avuto modo di osservare il modello di sviluppo _software_ utilizzato dall'azienda: Sanmarco Informatica opera mediante un modello di sviluppo _Agile_, implementando nello specifico il _framework Scrum_. Per quanto avessi già familiartià con questo modello grazie ai corsi di "Ingegneria del _software_" e "Metodologie e Tecnologie per lo sviluppo Software" frequentati durante il corso di laurea, il tirocinio mi ha permesso di osservare in prima persona come questo modello venga applicato in un contesto aziendale.
+Durante il mio tirocinio, ho osservato da vicino il modello di sviluppo _software_ utilizzato dall'azienda: Sanmarco Informatica opera mediante un modello di sviluppo _Agile_, implementando nello specifico il _framework Scrum_. Per quanto avessi già familiartià con questo modello grazie ai corsi di "Ingegneria del _software_" e "Metodologie e Tecnologie per lo sviluppo _software_" frequentati durante il corso di laurea, il tirocinio mi ha permesso di osservare in prima persona come questo modello venga applicato in un contesto aziendale.
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/scrum.png",
@@ -62,7 +62,7 @@ Durante il mio tirocinio ho avuto modo di osservare il modello di sviluppo _soft
 }
 Quanto mostro nell'#ref(<scrumImage>) rappresenta l'insieme di attività e processi che vengono istanziati dall'azienda nella realizzazione di un prodotto _software_.
 
-Il concetto alla base del modello _Agile_ sono le _User Stories_ definite in collaborazione con il cliente, sulla base delle quali si andrà a definire il _Product Backlog_, ovvero l'insieme di tutte i _task_ che il _team_ di sviluppo dovrà svolgere al fine di implementare le funzionalità desiderate.
+Il concetto cardine del modello _Agile_ sono le _User Stories_ definite in collaborazione con il cliente, sulla base delle quali si andrà a definire il _Product Backlog_, ovvero l'insieme di tutte i _task_ che il _team_ di sviluppo dovrà svolgere al fine di implementare le funzionalità desiderate.
 
 Il modello _Agile_ suddivide il periodo di realizzazione in _Sprint_, ossia iterazioni di sviluppo di durata fissa (nel caso di Sanmarco Informatica di 4 settimane), durante le quali il _team_ si impegna a sviluppare l'insieme di funzionalità definite all'interno dello _Sprint Backlog_.
 
@@ -70,7 +70,7 @@ Per assicurare un allinemanto costante tra ogni membro del _team_ in merito allo
 
 Svolgendo questa attività quotidianamente, ho avuto la riprova di quanto sia importante la comunicazione all'interno di un _team_ di sviluppo, in quanto permette di mantenere un allineamento costante tra i membri e di risolvere eventuali problemi in modo rapido ed efficace.
 
-Al termine di ogni _Sprint_ si svolge una retrospettiva per valutare i risultati dello _Sprint_, denominata _Sprint Review_, durante la quale il _team_ presenta il progresso ottenuto, susseguita successivamente dalla _Sprint Retrospective_, che l'obiettivo di far riflettere sul lavoro svolto e sulle modalità con cui poter migliorare il processo di sviluppo.
+Al termine di ogni periodo di sviluppo, si svolge una retrospettiva per valutare i risultati dello _Sprint_, denominata _Sprint Review_, durante la quale il _team_ presenta il progresso ottenuto, susseguita successivamente dalla _Sprint Retrospective_, che ha l'obiettivo di far riflettere sul lavoro svolto e sulle modalità con cui poter migliorare il processo di sviluppo.
 
 Solo a questo punto, si procede alla pianificazione dello _Sprint_ successivo e alla definizione del nuovo _Sprint Backlog_.
 
@@ -90,7 +90,7 @@ La corretta implementazione del _framework Scrum_ richiede l'individuazione di r
     [*_Team leader_*], [Responsabile del coordinamento del _team_ di sviluppo, si occupa di assegnare i compiti e di garantire che il _team_ sia allineato con gli obiettivi dello _Sprint_.],
     [*Sviluppatore*], [Responsabile della realizzazione effettiva delle funzionalità del prodotto.],
     [*_Tester_*], [Responsabile della verifica del prodotto, si occupa di testare le funzionalità implementate e di segnalare eventuali _bug_ al _team_ di sviluppo.],
-    [*Consulente*], [Responsabile dell'installazione del prodotto presso il cliente, si occupa di garantire che il prodotto sia installato correttamente e che soddisfi le esigenze del cliente.],
+    [*Consulente*], [Responsabile dell'installazione del prodotto presso il cliente, si occupa di garantire che il prodotto soddisfi le esigenze del cliente.],
   ),
   caption: [Ruoli aziendali],
 )
@@ -124,13 +124,15 @@ Il processo di sviluppo è quello che più da vicino ho potuto osservare durante
 
 Il processo di sviluppo si articola nelle seguenti attività principali:
 
-- *_Software requirements analysis_*: attività di analisi dei requisiti del prodotto. Il suo obiettivo è definire i requisiti del prodotto a partire da quanto emerso dai meeting con il cliente e dal documento di analisi prodotto dal _Product Owner_ durante il processo di fornitura (#ref(<fornitura>, supplement: "paragrafo")); I meeting di analisi che ho svolto insieme al team, hanno avuto durata media ci circa 4 ore, e sono sempre terminati con la rendicontazione delle decisioni prese nella piattaforma _Confluence_.
+- *_Software requirements analysis_*: attività di analisi dei requisiti del prodotto. Il suo obiettivo è definire i requisiti del prodotto a partire da quanto emerso dai _meeting_ con il cliente e dal documento di analisi prodotto dal _Product Owner_ durante il processo di fornitura (#ref(<fornitura>, supplement: "paragrafo")); I _meeting_ di analisi che ho svolto insieme al _team_, hanno avuto durata media ci circa 4 ore, e sono sempre terminati con la rendicontazione delle decisioni prese nella piattaforma _Confluence_.
 
-- *_Software detailed design_*: attività di progettazione dettagliata del prodotto. Il suo obiettivo è definire l'architettura del prodotto e i dettagli di implementazione delle funzionalità. Durante il mio tirocinio ho avuto modo di partecipare attivamente a questa attività, in particolare nella progettazione dell'ambiente tridimensionale e della funzionalità di _drag & drop_. Anche in questo caso, le decisioni prese durante i meeting di progettazione sono state documentate su _Confluence_, facendo altresì utilizzo di diagrammi UML e _mockup_ dell'interfaccia.
+- *_Software detailed design_*: attività di progettazione dettagliata del prodotto. Il suo obiettivo è definire l'architettura del prodotto e i dettagli di implementazione delle funzionalità. Durante il mio tirocinio ho avuto modo di partecipare attivamente a questa attività, in particolare nella progettazione dell'ambiente tridimensionale e della funzionalità di _drag & drop_. Anche in questo caso, le decisioni prese durante i _meeting_ di progettazione sono state documentate su _Confluence_, facendo altresì utilizzo di diagrammi UML e _mockup_ dell'interfaccia.
 
-- *_Software coding and testing_*: attività di codifica e test del prodotto. Il suo obiettivo è l'implementazione delle funzionalità e verificare che siano conformi alle aspettative. Il _testing_ in questo caso si concentra maggiormente sui test di unità e di integrazione, con l'obiettivo di garantire che il prodotto sia pronto per il _Software qualification testing_.
+- *_Software coding and testing_*: attività di codifica e _test_ del prodotto. Il suo obiettivo è l'implementazione delle funzionalità e verificare che siano conformi alle aspettative. Il _testing_ in questo caso si concentra maggiormente sui _test_ di unità e di integrazione, con l'obiettivo di garantire che il prodotto sia pronto per il _Software qualification testing_.
 
-- *_Software qualification testing_*: attività di test di qualifica del prodotto. Il suo obiettivo è verificare che il prodotto soddisfi i requisiti del cliente e che sia pronto per la consegna. In Sanmarco Informatica, questa attività è svolta da una figura specializzata (_tester_) che si occupa di testare le funzionalità implementate e di segnalare eventuali problematiche al _team_ di sviluppo.
+- *_Software qualification testing_*: attività di _test_ di qualifica del prodotto. Il suo obiettivo è verificare che il prodotto soddisfi i requisiti del cliente e che sia pronto per la consegna. In Sanmarco Informatica, questa attività è svolta da una figura specializzata (_tester_) che si occupa di testare le funzionalità implementate e di segnalare eventuali problematiche al _team_ di sviluppo.
+
+Questi processi si integrano perfettamente con le pratiche di _continuous integration_, dove grazie allo strumento di controllo di versione Bitbucket (#ref(<strumentiSviluppo>, supplement: "paragrafo")), ad ogni modifica apportata alla _codebase_ viene attivata una _pipeline_ di _build_ e _test_ automatici.
 
 ==== Manutenzione
 Lo sviluppo del _software_ non termina con la consegna del prodotto al cliente: il processo di manutenzione ricopre un ruolo fondamentale per garantire che il prodotto sia sempre funzionante e allineato alle esigenze del cliente.
@@ -143,7 +145,7 @@ Lo sviluppo del _software_ non termina con la consegna del prodotto al cliente: 
   label: <maintenanceImage>
 )
 
-Come mostro nell'#ref(<maintenanceImage>), la manutenzione del _software_ possiede diversi aspetti e attività, ciascuna con obiettivi ben definiti.
+Come mostro nell'#ref(<maintenanceImage>), la manutenzione del _software_ possiede diversi aspetti, ciascuno con obiettivi ben definiti.
 Nel mio tirocinio mi è stato possibile notare come l'azienda si preoccupi della manutenzione dei prodotti _software_ sviluppati, con l'obiettivo non solo di rispondere alle esigenze del cliente, ma anche di risolvere eventuali problematiche riscontrate.
 
 Ho potuto individuare tre tipologie di manutenzione:
@@ -168,9 +170,9 @@ Anche l'approccio al _framework Synergy_, è stato un'ulteriore conferma in meri
 Inoltre, anche all'interno del codice mi sono assicurato di seguire le convezioni aziendali in materia di commenti e produzione dei _Javadoc_, in modo da garantire che ogni porzione di codice da me prodotta fosse conforme, documentata e rapidamente comprensibile.
 
 ==== Verifica
-Il processo di verifica comprende l'insieme di attività necessarie per garantire che il prodotto _software_ soddisfi i requisiti del cliente e che sia pronto per la consegna. Durante il mio tirocinio ho avuto modo di osservare come questa attività sia svolta in azienda, partendo dai test di unità e di integrazione, fino ai test di sistema e di accettazione.
+Il processo di verifica comprende l'insieme di attività necessarie per garantire che il prodotto _software_ soddisfi i requisiti del cliente e che sia pronto per la consegna. Durante il mio tirocinio ho avuto modo di osservare come questa attività sia svolta in azienda, partendo dai _test_ di unità e di integrazione, fino ai _test_ di sistema e di accettazione.
 
-A seguito al processo di progettazione, vengono identificati e definiti i requisiti del prodotto, e per ciascun di questi definiti i test necessari per verificarne il soddisfacimento.
+A seguito al processo di progettazione, vengono identificati e definiti i requisiti del prodotto, e per ciascun di questi definiti i test necessari per verificarne il loro soddisfacimento.
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/testing.png",
@@ -188,16 +190,16 @@ Come mostro nell'#ref(<testingImage>), il processo di verifica comprende diversi
 
 - *Test di sistema*: attività di verifica del prodotto nel suo complesso. L'obiettivo pertanto è verificare che il prodotto soddisfi quanto emerso dai requisiti e che il suo comportamento sia conforme alle aspettative.
 
-- *Test di accettazione*: attività di verifica del prodotto da parte del cliente. L'obiettivo è verificare che il prodotto soddisfi le esigenze del cliente e che sia pronto per la consegna. Questa tipologia di _test_ viene in un primo momento svolta dal _tester_ del _team_,sia manualmente che in modo automatico.
+- *Test di accettazione*: attività di verifica del prodotto da parte del cliente. L'obiettivo è verificare che il prodotto soddisfi le esigenze del cliente e che sia pronto per la consegna. Questa tipologia di _test_ viene in un primo momento svolta dal _tester_ del _team_, sia manualmente che in modo automatico.
 
 In azienda ho partecipato attivamente a queste attività, in particolare ai test di unità e di integrazione, con l'obiettivo di garantire che il prodotto fosse pronto per il _Software qualification testing_ (#ref(<softwareQualificationTesting>, supplement: "paragrafo")).
 
-Nel mio caso infatti, prima di procedere all'integrazione della _codebase_ con il mio lavoro svolto, un automatismo si occupava di verificare che tutte le _suite_ di _test_ predisposte fossero eseguiti con esito positivo, in modo da non compromettere il funzionamento del prodotto.
+Nel mio caso infatti, prima di procedere all'integrazione della _codebase_ con il mio lavoro svolto, un automatismo si occupava di verificare che tutte le _suite_ di _test_ predisposte fossero eseguite con esito positivo, in modo da non compromettere il funzionamento del prodotto.
 
 \
 === Processi organizzativi
 ==== Gestione dell'infrastruttura
-Al fine di gestire in modo efficiente ed efficace i diversi processi istanziati, l'azienda si avvale di strumenti e tecnologie che possano coprire i diversi aspetti dello sviluppo. Comprendere il loro corretto utilizzo e funzionamento è stato per me un aspetto fondamentale per poter svolgere il mio tirocinio.
+Al fine di gestire in modo efficiente ed efficace i processi istanziati, l'azienda si avvale di strumenti e tecnologie che possano coprire i diversi aspetti dello sviluppo. Comprendere il loro corretto utilizzo e funzionamento è stato per me un aspetto fondamentale per poter svolgere il mio tirocinio.
 
 Nei successivi paragrafi descriverò l'infrastruttura che ho avuto modo di osservare durante il periodo di tirocinio, presentando le tecnologie utilizzate e come queste siano state integrate nei processi aziendali.
 
@@ -217,9 +219,9 @@ Durante il mio tirocinio ho utilizzato lo strumento secondo le convenzioni azien
 
 Lo svolgimento di queste attività seguiva una _pipeline_ di stati ben definita:
 - *To do*: il _task_ è stata creata;
-- *In progress*: il _task_ è in corso di svolgimento: questo stato rappresenta che è presente un _branch_ di sviluppo attivo, e che uno o più membri del _team_ stanno lavorando alla _task_;
-- *Ready for test*: il _task_ è stata completato e il lavoro prodotto è pronto per essere testato. Il task viene ora assgnato al _tester_ del _team_ e, a seconda del risultato del test, il _task_ può tornare in _In progress_ o essere spostato in _Done_;
-- *Done*: il _task_ è stata completato con successo.
+- *In progress*: il _task_ è in corso di svolgimento: questo stato è sinonimo  della presenza  di un _branch_ di sviluppo attivo, e che uno o più membri del _team_ stanno lavorando al _task_;
+- *Ready for test*: il _task_ è stato completato e il lavoro prodotto è pronto per essere sottoposto al _software qualification test_ (#ref(<softwareQualificationTesting>, supplement: "paragrafo")). Il _task_ viene ora assgnato al _tester_ del _team_ e, a seconda del risultato dei _test_ condotti, il _task_ può tornare in _In progress_ o essere spostato in _Done_;
+- *Done*: il _task_ è stato completato con successo.
 
 Le integrazioni con strumenti come Bitbucket (#ref(<strumentiSviluppo>, supplement: "paragrafo")) rendono Jira uno strumento estremamente versatile e in grado di adattarsi alle diverse esigenze dell'azienda.  
 
@@ -242,7 +244,7 @@ Sanmarco Informatica fa utilizzo della _suite_ di strumenti offerta da Google pe
 
 _Google meet_ è uno strumento che permette di organizzare riunioni virtuali, con la possibilità di condividere schermo e documenti, e di registrare la riunione stessa.
 
-Durante il mio tirocinio ho partecipato a diverse riunioni utilizzando questo strumento, in particolar modo ai _Daily Standup Meeting_ (quando il_team_operava in remoto) e ai meeting di _Sprint Review_ e _Sprint Retrospective_ (#ref(<modelloDiSviluppo>, supplement: "paragrafo")), dove mediante la condivisione dello schermo, il _team_ presentava i risultati ottenuti.
+Durante il mio tirocinio ho partecipato a diverse riunioni utilizzando questo strumento, in particolar modo ai _Daily Standup Meeting_ (quando il _team_ operava in remoto) e ai _meeting_ di _Sprint Review_ e _Sprint Retrospective_ (#ref(<modelloDiSviluppo>, supplement: "paragrafo")), dove mediante la condivisione dello schermo, il _team_ presentava i risultati ottenuti.
 
 _Google Chat_ d'altro canto, è uno strumento di messaggistica istantanea che permette di comunicare in modo rapido e diretto con i colleghi. Ho utilizzato questo strumento per comunicare con i membri del _team_ e per risolvere eventuali problematiche riscontrate durante lo sviluppo quando non era possibile un contatto diretto o si trattava di comunicazioni non urgenti.
 
@@ -257,10 +259,10 @@ _Google Chat_ d'altro canto, è uno strumento di messaggistica istantanea che pe
 \
 *Scrumlr.io*
 \
-_Scrumlr.io_ è uno strumento che permette di creare diverse tipologie di _board_ in supporto alla _Sprint Retrospective_, dove ogni membro del _team_ può inserire i propri feedback e le proprie considerazioni relative allo _Sprint_ concluso.
+_Scrumlr.io_ è uno strumento che permette di creare diverse tipologie di _board_ in supporto alla _Sprint Retrospective_, dove ogni membro del _team_ può inserire i propri _feedback_ e le proprie considerazioni relative allo _Sprint_ concluso.
 
 \
-Nei meeting di retrospettiva che ho svolto, la _board_ era divisa in *Kudos* (feedback positivi ad uno o più membri del _team_), *Positive* (cosa è andata bene), *Negative* (cosa non è andata bene) e *Action* (azioni da intraprendere per migliorare i processi aziendali delineate dal _team leader_).
+Nei _meeting_ di retrospettiva che ho svolto, la _board_ era divisa in *Kudos* (_feedback_ positivi ad uno o più membri del _team_), *Positive* (cosa è andato bene), *Negative* (cosa non è andato bene) e *Action* (azioni da intraprendere per migliorare i processi aziendali delineate dal _team leader_).
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/scrumlr.png",
@@ -273,6 +275,7 @@ Nei meeting di retrospettiva che ho svolto, la _board_ era divisa in *Kudos* (fe
 \
 ==== Strumenti documentali
 *Google Sheets*
+\
 Google Sheets è uno strumento di foglio elettronico che permette di creare e condividere documenti in modo collaborativo, specializzato nella rappresentazione di dati in forma tabellare.
 
 Lo strumento è utilizzato dal _team_ per la definizione delle tabelle relative al _database_ del prodotto e per il tracciamento dei requisiti che intendono soddisfare.
@@ -285,7 +288,6 @@ Lo strumento è utilizzato dal _team_ per la definizione delle tabelle relative 
   label: <googleSheets>
 )
 
-\ \
 *Confluence*
 \
 _Confluence_ è una piattaforma di documentazione che permette di creare, organizzare e condividere documenti in modo collaborativo. Possiede un registro delle modifiche aggiornato automaticamente, in modo da tracciare in modo preciso i cambiamenti apportati ai documenti.
@@ -302,7 +304,7 @@ Questa piattaforma è stata per me la principale fonte di informazioni in merito
   label: <confluence>
 )
 
-#pagebreak()
+\
 ==== Strumenti di sviluppo<strumentiSviluppo>
 *Bitbucket*
 
@@ -333,14 +335,14 @@ Le numerose estensioni disponibili, rendono questo strumento estremamente versat
   label: <vscode>
 )
 
-\
+\ \
 *IntelliJ*
 \
 IntelliJ è un altro ambiente di sviluppo integrato (IDE) utilizzato dall'azienda per la scrittura del codice sorgente. Data la sua migliore integrazione con _gradle_ e _tomcat_, il suo utilizzo semplifica lo sviluppo del codice _backend_.
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/intellij.png",
-  imageWidth: 98%,
+  imageWidth: 97%,
   caption: [Interfaccia di _IntelliJ_ con il codice _backend_ del prodotto del tirocinio],
   source: "",
   label: <intellij>
@@ -355,16 +357,15 @@ La sua peculiarità è la semplicità di utilizzo, che permette, anche senza ese
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/dbeaver.png",
-  imageWidth: auto,
+  imageWidth: 97%,
   caption: [Interfaccia di DBeaver con il _database_ del prodotto del tirocinio],
   source: "",
   label: <dbeaver>
 )
 
-\
 *Postman*
 \
-Postman è uno strumento di sviluppo di API utilizzato dall'azienda per testare e documentare le API del prodotto. Lo strumento permette di creare delle _request_ al server dell'applicativo, e di visualizzare la risposta in modo chiaro e dettagliato.
+Postman è uno strumento di sviluppo di API utilizzato dall'azienda per testare e documentare le API del prodotto. Lo strumento permette di creare delle _request_ al _server_ dell'applicativo, e di visualizzare la risposta in modo chiaro e dettagliato.
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/postman.png",
@@ -386,11 +387,34 @@ Ecco una rappresentazione grafica di come gli strumenti sopra descritti siano in
 )
 
 \
-==== Gestione delle risorse umane
-Descrizione del processo di gestione delle risorse umane: nel contesto del tirocinio, questo processo si rifà al processo di sviluppo delle competenze mediante corsi, tutoring e lezioni offerto dall'azienda, con particolare riferimento alle prime due settimane di formazione che ho svolto.
+==== Gestione delle risorse umane<formazione>
+Il processo di gestione delle risorse umane è quello che si occupa di definire le competenze necessarie per lo sviluppo del prodotto, di assegnare i compiti ai membri del _team_ e di garantire che le risorse siano utilizzate in modo efficace ed efficiente.
+
+Nello svolgimento del mio percorso ho avuto la possibilità di comprendere comequesto processo sia istanziato dall'azienda, e l'importanza che riveste la formazione e la crescita professionale dei membri del _team_.
+
+Le prime due settimane del mio tirocinio sono state dedicate alla formazione, mediante lo svolgimento di lezioni frontali e di esercitazioni pratiche, permettondomi di apprendere le basi del _framework_ _Synergy_ mediante un approccio _learn by doing_.
+Inoltre la formazione è un processo continuo che anche i membri del _team_ a cui sono stato affiancato, svolgono costantemente, grazie ai corsi offerti dall'azienda nella piattaforma Udemy.
+
+#showImageWithSource(
+  imagePath: "/assets/chapter1/udemy.png",
+  imageWidth: auto,
+  caption: [Corso di formazione Angular su Udemy],
+  source: "https://www.udemy.com/course/the-complete-guide-to-angular-2/",
+  label: <udemy>
+)
+
+Come mostro nell'#ref(<udemy>) Udemy, è una piattaforma di formazione _online_ che permette di accedere a corsi di formazione in diversi argomenti, offrendo videolezioni e materiale didattico, permettendo di apprendere in modo autonomo e flessibile.
+
+L'azienda stessa incentiva la formazione continua dei propri dipendenti, ritenuta fondamentale per perseguire gli obiettivi di innovazione e di crescita.
 
 == Il ruolo dell'innovazione
-Il paragrafo descriverà il rapporto tra l'azienda e l'innovazione, e quanto questa sia importante per Sanmarco Informatica.
+Un elemento distintivo della strategia aziendale di Sanmarco Informatica è l'importanza attribuita all'innovazione, come testimoniato dall'investimento annuale di una quota significativa del fatturato, tra il 15% e il 20%, in Ricerca e Sviluppo. Questo impegno garantisce l'aggiornamento continuo dei prodotti e dei servizi, assicurando che rimangano allineati con le ultime tendenze tecnologiche.
+
+La formazione continua dei dipendenti è un altro pilastro della filosofia aziendale. Come ho spiegato nel #ref(<formazione>, supplement: "paragrafo"), Sanmarco Informatica offre costantemtne corsi di formazione su nuove tecnologie e strumenti, avvalendosi di esperti interni e consulenti esterni, e utilizzando piattaforme di e-learning come Udemy Business. Questo investimento in competenze garantisce che il personale sia sempre aggiornato e in grado di affrontare le sfide tecnologiche future.
+
+L'azienda inoltre promuove la partecipazione a conferenze e seminari come ad esempio l'evento "I nuovi paradigmi innovativi della Pianificazione su Commessa" tenutosi il 17 luglio 2024, o ancora il seminario "Intelligenza Artificiale al Servizio del _Business_" organizzato in collaborazione con IBM, _partner_ storico dell'azienda.
+
+Inoltre, data l'enorme risonanza che l'intelligenza artificiale sta avendo attualmente nel mondo dell'informatica, l'azienda ha in programma la definizione di un nuovo _team_ dedicato, in modo da poter sfruttare appieno le potenzialità di questa nuova tecnologia su cui tante aspettative sono riposte.
 
 #pagebreak()
 = Il tirocinio
