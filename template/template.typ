@@ -226,11 +226,13 @@
 #let showImageWithSource(imagePath: "", imageWidth: auto, caption: "", source: "",label: "") = {
   [
     #figure(
-    image(imagePath, width: imageWidth),
-      caption: [#caption],
-      supplement: "Immagine"
+    align(center,image(imagePath, width: imageWidth)),
+    caption: [#caption],
+    supplement: "Immagine"
     )#label
-    #v(-1.7em)
-    #align(center, text("\nFonte: " + link(source)))
+    #if source != "" [
+      #v(-1.7em)
+      #align(center, text("\nFonte: " + link(source)))
+    ]
   ]
 }
