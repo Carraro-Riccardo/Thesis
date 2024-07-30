@@ -504,7 +504,7 @@ In particolare lo _stack_ tecnologico utilizzato è il seguente:
 - *Backend*:
   - *Java*: linguaggio di programmazione utilizzato per lo sviluppo del _backend_ dell'applicativo (mediante il _framework_ proprietario Synergy);
 
-  - *Tomcat*: _server_ _web_ per l'esecuzione di applicazioni _web_ in _Java_.
+  - *Tomcat*: _server_ _web_ per l'esecuzione di applicazioni _web_ in Java.
 
 - *Database*:
 
