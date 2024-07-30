@@ -407,7 +407,7 @@ Come mostro nell'#ref(<udemy>) Udemy, è una piattaforma di formazione _online_ 
 
 L'azienda stessa incentiva la formazione continua dei propri dipendenti, ritenuta fondamentale per perseguire gli obiettivi di innovazione e di crescita.
 
-== Il ruolo dell'innovazione
+== Il ruolo dell'innovazione<innovazione>
 Un elemento distintivo della strategia aziendale di Sanmarco Informatica è l'importanza attribuita all'innovazione, come testimoniato dall'investimento annuale di una quota significativa del fatturato, tra il 15% e il 20%, in Ricerca e Sviluppo. Questo impegno garantisce l'aggiornamento continuo dei prodotti e dei servizi, assicurando che rimangano allineati con le ultime tendenze tecnologiche.
 
 La formazione continua dei dipendenti è un altro pilastro della filosofia aziendale. Come ho spiegato nel #ref(<formazione>, supplement: "paragrafo"), Sanmarco Informatica offre costantemtne corsi di formazione su nuove tecnologie e strumenti, avvalendosi di esperti interni e consulenti esterni, e utilizzando piattaforme di _e-learning_ come Udemy. Questo investimento in competenze garantisce che il personale sia sempre aggiornato e in grado di affrontare le sfide tecnologiche future.
@@ -419,30 +419,122 @@ Inoltre, data l'enorme risonanza che l'intelligenza artificiale sta avendo attua
 #pagebreak()
 = Il tirocinio
 == Il ruolo dello stage per Sanmarco Informatica
-Descrizione dell'approccio dell'azienda con lo stage e la sua importanza, in relazione al ruolo che ricopre l'innovazione per Sanmarco Informatica.
+Sanmarco Informatica attribuisce allo _stage_ un ruolo fondamentale nel suo processo di crescita: come descritto nel #ref(<innovazione>, supplement: "paragrafo"), per perseguire gli obiettivi di innovazione e di crescita, l'azienda investe in formazione continua, e lo _stage_, è un'occasione per far crescere nuovi talenti e per portare nuove idee e competenze all'interno dell'azienda.
+
+Durante il mio percorso, sono stato inserito in un _team_ collaborativo e sempre presente, creando di fatto un ambiente accogliente e inclusivo, dove la figura dello stagista non era posta in secondo piano, ma anzi, era vista come un'opportunità per l'azienda stessa di crescere e innovare. Nelle due prime settimane, dedicate alla formazione, ho avuto modo di conoscere anche altri tirocinanti, alcuni provenienti come me dall'Università di Padova, altri da contesti lavorativi o universitari differenti, ulteriore sinonimo di come l'azienda investa nella formazione e nell'acquisizione di nuove risorse.
+
+L'esperienza di _stage_ infatti, rappresenta un'opportunità per gli studenti di mettere in pratica le conoscenze apprese durate il percorso di studi in un contesto aziendale, e allo stesso tempo, per le aziende, rappresenta un'occasione per conoscere nuovi talenti e per valutare la possibilità di inserirli nel _team_ in modo permanente.
+
 
 == Il progetto proposto
 === Descrizione del progetto
-Descrizione del progetto proposto, partendo da una descrizione ad alto livello di cos'è il prodotto WMS, e di come il lavoro da me svolto lo sia andato ad integrare, con quali funzionalità e a quali necessità doveva rispondere.
-=== Obiettivi <obiettiviTirocinio>
+Il progetto proposto consisteva nell'estensione delle funzionalità del prodotto WMS (_Warehouse Management System_) sviluppato dall'azienda, un appicativo volto alla gestione della logistica interna di un'azienda, monitorando l'utilizzo di _asset_ e risorse, e ottimizzando operazioni di _handling_ e movimentazione.
+
+Nello specifico veniva richiesta l'implementazione di un ambiente tridimensionale in grado di rappresentare lo stato del magazzino, con la possibilità di interrogare i saldi presenti ed individuarne la collocazione.
+
+A tale funzionalità si aggiungeva la possibilità di creare ordini di movimentazione della merce mediante un'operazione di _drag & drop_ sull'interfaccia, semplificando il processo di creazione degli ordini e rendendolo più intuitivo e veloce.
+
+Il progetto di _stage_ pertanto, non trattandosi di un'implementazione da zero, ma di un'estensione di un prodotto già esistente, mi ha permesso di lavorare con un prodotto _software_ più complesso e strutturato, e, in questo senso, di mettere mano ad un prodotto _software_ di carattere professionale, con tutte le sfide e le opportunità che questo comporta. 
+
 \
+=== Obiettivi <obiettiviTirocinio>
 ==== Obiettivi aziendali
-Gli obiettivi del tirocinio di interesse aziendale, individuati all'interno del piano di stage.
+Gli obiettivi del tirocinio di interesse aziendale sono individuabili nello sviluppo e miglioramento delle funzionalità del prodotto WMS, in modo da renderlo più competitivo sul mercato e rispondere alle esigenze del cliente.
+
+Si farà riferimento agli obiettivi aziendali secondo le seguenti notazioni:
+- *Obbligatori (OB)* : obiettivi primari, che devono essere necessariamente raggiunti per il completamento del tirocinio;
+
+- *Desiderabili (D)* : obiettivi non vincolanti o strettamente necessari, ma dal riconoscibile valore aggiunto;
+
+- *Opzionali (OP)* : obiettivi secondari, che possono essere raggiunti in caso di tempo e risorse disponibili.
+
+Le sigle precedentemente indicate saranno seguite da un numero intero positivo, identificativo del'obiettivo.
+
+#figure(
+  table(
+    columns: (0.5fr, 1fr),
+    align: left+horizon,
+    table.cell([*Obiettivi obbligatori (OB)*], fill: luma(220), colspan: 2, align: center),
+    [*OB1*], [Implementazione dell'ambiente tridimensionale per la visualizzazione dello stato del magazzino],
+    [*OB2*], [Implementazione della funzionalità di _drag & drop_ per la creazione degli ordini di movimentazione],
+    table.cell([*Obiettivi desiderabili (D)*], fill: luma(220), colspan: 2, align: center),
+    [*D1*], [Gestione assegnazione e presa in carico degli ordini di movimentazione],
+    [*D2*], [Gestione esecuzione degli ordini di movimentazione],
+    table.cell([*Obiettivi opzionali (OP)*], fill: luma(220), colspan: 2, align: center),
+    [*OP1*], [Documentazione funzionalità sviluppate],
+  ),
+  caption: [Obiettivi aziendali],
+)
+
 \
 ==== Obiettivi personali
-Gli obiettivi del tirocinio di interesse personali, individuabili nello sviluppo e miglioramento delle capacità tecniche e organizzative, sfruttando la possibilità di essere inserito in un contesto aziendale.
-=== Vincoli
+Gli obiettivi del tirocinio di interesse personale riguardano l'insieme di quegli aspetti che mi aspettavo di curare durante il tirocinio, in modo da crescere professionalmente e personalmente. 
+
+In particolare, prima di iniziare il tirocinio, questi sono gli aspetti che ho tenuto in particolare considerazione: 
+- *_Teamworking_*: migliorare le mie capacità di collaborazione e di comunicazione all'interno di un _team_ di sviluppo. Durante il percorso di studi infatti, vi sono state poche occasioni di lavorare in gruppo, e in quelle situazioni, spesso il gruppo era formato da persone che già conoscevo. Il tirocinio invece, mi dava la possibilità di lavorare con persone sconosciute, con competenze e _background_ diversi, e quindi, di mettere alla prova le mie capacità di collaborazione e di comunicazione.
+
+- *_Problem solving_*: migliorare il mio approccio all'affrontare problemi complessi e di trovare soluzioni efficaci, rispettando vincoli imposti dal contesto aziendale.
+
+- *Conoscenze tecniche*: acquisire nuove conoscenze e competenze in merito alle tecnologie utilizzate e richieste nel mondo del lavoro, dandomi la possibilità di mettere in pratica i concetti appresi durante il corso di studi.
+
+- *Conoscenze metodologiche*: acquisire nuove conoscenze e competenze in merito alle metodologie di sviluppo _software_ e dei processi aziendali, in modo da poter mettere in pratica i concetti appresi durante i corsi di "Ingegneria del _software_" e "Metodologie e Tecnologie per lo sviluppo _software_" in un contesto aziendale.
+
+- *Lavoro di qualità*: garantire la qualità del prodotto _software_ sviluppato, rispettando le convenzioni aziendali e i processi di verifica e validazione. Mi avrebbe fatto molto piacere poter consegnare all'azienda un prodotto _software_ di qualità, pronto per essere utilizzato e integrato nel prodotto esistente, come di fatto è avvenuto. 
+
+- *Panoramica del mondo del lavoro*: acquisire una visione più chiara del mondo del lavoro, delle dinamiche e delle esigenze aziendali.
+
+Si è trattato della mia prima vera esperienza lavorativa e ho voluto sfruttarla al meglio per crescere professionalmente e personalmente.
+
 \
+=== Vincoli
 ==== Vincoli temporali
-I vincoli temporali a cui sottostare durante il periodo di tirocinio.
+I vincoli temporali rappresentano le tempistiche entro cui il progetto doveva essere completato. Il periodo di tirocinio prevedeva una durata massima di 320 ore, organizzate in 8 settimane, con un impegno di 40 ore settimanali, tradotte in 8 ore giornaliere.
 \
 ==== Vincoli tecnologici <vincoliTecnologici>
-I vincoli tecnologici.
+Trattandosi di un progetto che prevedeva l'estensione di un prodotto già esistente, i vincoli tecnologici erano rappresentati dalle tecnologie già utilizzate e presenti nel prodotto, in modo da garantire la compatibilità e l'integrazione delle nuove funzionalità con quelle già esistenti.
+
+In particolare lo _stack_ tecnologico utilizzato è il seguente:
+- *Frontend*:
+  - *Angular*: _framework_ per lo sviluppo di applicazioni _web_ in _TypeScript_;
+
+  - *TypeScript*: sovrastruttura di _JavaScript_ che permette di scrivere codice più robusto e manutenibile basato sul paradigma della programmazione ad oggetti;
+
+  - *HTML e CSS*: linguaggi di _markup_ e di stile per la definizione dell'interfaccia _web_.
+
+- *Backend*:
+  - *Java*: linguaggio di programmazione utilizzato per lo sviluppo del _backend_ dell'applicativo (mediante il _framework_ proprietario Synergy);
+
+  - *Tomcat*: _server_ _web_ per l'esecuzione di applicazioni _web_ in _Java_.
+
+- *Database*:
+
+  - *PostgreSQL*: _database_ relazionale utilizzato per la memorizzazione dei dati.
+
 \
 ==== Vincoli organizzativi
-I vincoli organizzativi.
+L'organizzazione del periodo di tirocinio è stata fondamentale al fine di garantire un percorso valido e conforme alle aspettative, provvedendo ad un costante allineamento tra tutti gli attori coinvolti. 
+
+In questo senso, è stato fondamentale curare due aspetti chiave:
+- *Comunicazione con il referente aziendale*: durante l'intero percorso il contatto con il referente aziendale doveva essere costante, in modo da monitorare l'avanzamento del progetto e garantire che gli obiettivi prefissati fossero raggiunti. Come discusso nel #ref(<modelloDiSviluppo>, supplement: "paragrafo"), lo svolgimento dei _Daily Standup Meeting_ e delle _Sprint Review_ e _Sprint Retrospective_ erano fondamentali per garantire un allineamento costante tra le parti.
+
+- *Comunicazione con il relatore*: il contatto con il relatore universitario doveva essere costante, in modo da essere allineato con l'andamento del tirocinio e sullo stato di avanzamento. A tal fine, ogni 5 giorni lavorativi, era necessario inviassi un resoconto delle attività svolte, degli obiettivi raggiunti e quanto pianificato per il periodo successivo.
+
 == Motivazione della scelta
-Le motivazioni che mi hanno spinto a svolgere questo percorso tirocinio.
+Durante l'evento _StageIT_ tenutosi in data 8 aprile 2024, ho avuto modo di conoscere diverse aziende e di valutare le opportunità di _stage_ offerte. Nel valutare l'azienda presso cui svolgere il tirocinio ho tenuto in considerazione diversi aspetti, dalla presentazione dell'azienda, allo _stack_ tecnologico utilizzato, e le conseguenti possibilità di crescita professionale e personale.
+
+Le ragioni per cui ho scelto di svolgere il tirocinio presso Sanmarco Informatica sono molteplici e coprono i diversi aspetti che ho ritenuto fondamentali anche in relazione agli obiettivi personali che mi ero posto:
+
+- *L'azienda*: durante il progetto del corso di _Ingegneria del software_ mi ero già relazionato con l'azienda, la quale si era dimostrata e disponibile durante tutto il percorso. Questo aspetto per me era fondamentale: in un'esperienza formativa come lo _stage_, necessaria al completamento del percorso di studi, era importante per me poter contare su un rapporto costante e collaborativo con l'azienda.
+
+- *Il contesto aziendale*: nella mia precedente esperienza con l'azienda nella realizzazione del progetto di _Ingegneria del software_, avevo avuto modo di realizzare un prodotto dalle finalità simili, ma in un ambiente molto diverso, di carattere accademico. Svolgere il tirocinio presso Sanmarco Informatica, mi dava la possibilità di vedere come invece un progetto del genere venisse sviluppato in un contesto aziendale, con tutte le sfide e le opportunità che questo comporta. Ho ritenuto la possibilità di confrontare le due esperienze e i due approcci allo sviluppo, molto affascinante e formativa, dandomi la possibilità di vedere nel concreto le differenze tra le due tipologie di approccio. 
+
+- *Stack tecnologico*: lo _stack_ tecnologico utilizzato dall'azienda aveva suscitato il mio interesse. Ho lavorato con _framework_ come Angular, estremamente diffuso e richiesto nel mondo del lavoro, e con tecnologie come Java e PostgreSQL, che mi avrebbero permesso di acquisire nuove competenze e di mettere in pratica i concetti appresi durante il corso di studi. Angular e Java infatti sono due tecnologie che già conoscevo, ma che non avevo mai utilizzato e approfondito, specialmente in un contesto professionale.
+
+- *Tecnologie 3D*: un aspetto che aveva particolarmente colto la mia attenzione e che ho avuto modo di apprezzare, è stato lavorare con tecnologie 3D, in particolar modo Three.js. Si tratta di un campo diverso e peculiare, dove si vengono a creare anche ulteriori sfide come la gestione delle prestazioni e la rappresentazione di oggetti complessi. Questo aspetto mi ha dato la possibilità di mettermi alla prova e di apprendere nuove competenze in un campo stimolante e diverso dal classico sviluppo _web_.
+
+Nella scelta non ho tenuto in particolare considerazione la posizione geografica delle aziende presso cui ho svolto i colloqui, in quanto il principale obiettivo era l'aspetto formativo e l'esperienza che avrei potuto acquisire. Nel caso specifico di Sanmarco Informatica, la sede dista tra i 30 e i 40 minuti in auto da dove risiedo.
+
+Prima di inziare il percorso di tirocinio, ho svolto due colloqui conoscitivi in sede con l'azienda, in presenza del _team_ delle risorse umane e del referente aziendale, e solo a seguito del processo di selezione tenutosi nei giorni successivi, ho avuto modo di procedere con l'inizio del tirocinio.
 
 #pagebreak()
 = Svolgimento del tirocinio

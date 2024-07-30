@@ -275,8 +275,8 @@
         outlined: false,
         term.at(0)
       )
+      v(-1em)
       line(length: 100%)
-      v(1em)
     }
     [- #eval(bibliography.at(term).description, mode: "markup") \ #link(bibliography.at(term).url) #lastVisitedOn(bibliography.at(term).date) \ \ ]
     previousTerm = term
