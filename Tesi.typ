@@ -461,7 +461,7 @@ Il progetto di _stage_ pertanto, non trattandosi di un'implementazione da zero, 
 ==== Obiettivi aziendali
 Gli obiettivi del tirocinio di interesse aziendale sono individuabili nello sviluppo e miglioramento delle funzionalità del prodotto WMS, in modo da renderlo più competitivo sul mercato e rispondere alle esigenze del cliente.
 
-Si farà riferimento agli obiettivi aziendali (OA) secondo la seguente notazione:
+Farò riferimento agli obiettivi aziendali (OA) secondo la seguente notazione:
 #align(center, [`OA-TI`])
 dove:
 - *T* è il tipo di obiettivo, distinto in:
@@ -508,7 +508,7 @@ In particolare, prima di iniziare il tirocinio, questi sono gli aspetti che ho t
 
 Si è trattato della mia prima vera esperienza lavorativa e ho voluto sfruttarla al meglio per crescere professionalmente e personalmente.
 
-Si farà riferimento agli obiettivi personali (OP) secondo la seguente notazione:
+Farò riferimento agli obiettivi personali (OP) secondo la seguente notazione:
 #align(center, [`OPI`])
 
 - *I* è un numero intero positivo, identificativo dell'obiettivo.
