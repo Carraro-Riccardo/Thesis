@@ -292,6 +292,7 @@
     )#label
     #if source != "" [
       #v(-1.7em)
+      #set par(justify: false)
       #align(center, text("\nFonte: " + link(source)))
     ]
   ]

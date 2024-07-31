@@ -1,6 +1,11 @@
 {
     "API": "Application Programming Interface",
     "BU": "Business Unit",
+    "OA": "Obiettivi aziendali",
+    "OA-OB": "Obiettivi aziendali obbligatori",
+    "OA-D": "Obiettivi aziendali desiderabili",
+    "OA-OP": "Obiettivi aziendali opzionali",
+    "OP": "Obiettivi personali",
     "IDE": "Integrated Development Environment",
     "ITS": "Issue Tracking System",
     "UML": "Unified Modeling Language"

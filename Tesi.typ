@@ -37,6 +37,15 @@ Le BU in cui l'azienda è suddivisa sono undici, ciascuna specializzata in un se
 
 - *ELEMENT*: è la divisione creativa specializzata nello sviluppo di siti _web_ ed _e-commerce_, con particolare attenzione all'esperienza utente e all'interfaccia grafica.
 
+
+#showImageWithSource(
+  imagePath: "/assets/chapter1/BU.png",
+  imageWidth: auto,
+  caption: [Divisione in _business unit_],
+  source: "https://www.udemy.com/course/the-complete-guide-to-angular-2/",
+  label: <BU>
+)
+
 == I clienti
 Il portfolio clienti di Sanmarco Informatica vanta più di 2500 aziende, da piccole/medie imprese a grandi aziende internazionali.
 
@@ -50,7 +59,7 @@ Durante il mio tirocinio, ho osservato da vicino il modello di sviluppo _softwar
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/scrum.png",
-  imageWidth: auto,
+  imageWidth: 91%,
   caption: [Modello di sviluppo _Agile_],
   source: "https://www.scrum.org/resources/what-is-scrum",
   label: <scrumImage>
@@ -79,6 +88,8 @@ Durante il mio tirocinio, ho partecipato attivamente a tutte le attività sopra 
 \
 === Ruoli aziendali
 La corretta implementazione del _framework Scrum_ richiede l'individuazione di ruoli chiave, ciascuno con compiti e responsabilità ben definite. In azienda, ho avuto modo di osservare i seguenti ruoli:
+
+\ \
 #set table.cell(inset: (y:0.25cm),breakable: true)
 #show figure: set block(breakable: true)
 #figure(
@@ -139,7 +150,7 @@ Lo sviluppo del _software_ non termina con la consegna del prodotto al cliente: 
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/maintenance.png",
-  imageWidth: auto,
+  imageWidth: 80%,
   caption: [Manutenzione _software_],
   source: "https://cleancommit.io/blog/importance-of-software-maintenance-in-software-engineering/",
   label: <maintenanceImage>
@@ -228,13 +239,12 @@ Le integrazioni con strumenti come Bitbucket (#ref(<strumentiSviluppo>, suppleme
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/jiraBoard.png",
-  imageWidth: auto,
+  imageWidth: 86%,
   caption: [Esempio di _board_ in Jira],
   source: "https://www.atlassian.com/it/software/jira/guides/boards/overview#what-is-a-jira-board",
   label: <jira>
 )
 
-\
 ==== Strumenti di comunicazione
 *Google Meet e Google Chat*
 \
@@ -266,7 +276,7 @@ Nei _meeting_ di retrospettiva che ho svolto, la _board_ era divisa in *Kudos* (
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/scrumlr.png",
-  imageWidth: 95%,
+  imageWidth: 91%,
   caption: [Interfaccia di Scrumlr.io],
   source: "https://www.scrumlr.io/",
   label: <scrumlr>
@@ -282,7 +292,7 @@ Lo strumento è utilizzato dal _team_ per la definizione delle tabelle relative 
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/googleSheets.png",
-  imageWidth: 98%,
+  imageWidth: 95%,
   caption: [Interfaccia di _Google Sheets_],
   source: "https://support.google.com/meet/answer/10550593?hl=it",
   label: <googleSheets>
@@ -434,34 +444,47 @@ Nello specifico veniva richiesta l'implementazione di un ambiente tridimensional
 
 A tale funzionalità si aggiungeva la possibilità di creare ordini di movimentazione della merce mediante un'operazione di _drag & drop_ sull'interfaccia, semplificando il processo di creazione degli ordini e rendendolo più intuitivo e veloce.
 
-Il progetto di _stage_ pertanto, non trattandosi di un'implementazione da zero, ma di un'estensione di un prodotto già esistente, mi ha permesso di lavorare con un prodotto _software_ più complesso e strutturato, e, in questo senso, di mettere mano ad un prodotto _software_ di carattere professionale, con tutte le sfide e le opportunità che questo comporta. 
+#showImageWithSource(
+  imagePath: "/assets/chapter2/funzionalita.png",
+  imageWidth: auto,
+  caption: [Come le funzionalità sviluppate nel tirocinio si integrano tra loro nel prodotto WMS],
+  source: "",
+  label: <funzionalita>
+)
+
+Nell'#ref(<funzionalita>), mostro come le funzionalità sviluppate nel mio tirocinio si dovessero integrare tra loro, partendo dalla visualizzazione dello stato del magazzino, passando per la creazione degli ordini di movimentazione, fino alla gestione della loro presa in carico.
+
+Il progetto di _stage_ pertanto, non trattandosi di un'implementazione da zero, ma di un'estensione di un prodotto già esistente, mi ha permesso di lavorare con un prodotto _software_ più complesso e strutturato, e, in questo senso, di mettere mano ad un prodotto _software_ di carattere professionale, con tutte le sfide e le opportunità che questo comporta.
 
 \
 === Obiettivi <obiettiviTirocinio>
 ==== Obiettivi aziendali
 Gli obiettivi del tirocinio di interesse aziendale sono individuabili nello sviluppo e miglioramento delle funzionalità del prodotto WMS, in modo da renderlo più competitivo sul mercato e rispondere alle esigenze del cliente.
 
-Si farà riferimento agli obiettivi aziendali secondo le seguenti notazioni:
-- *Obbligatori (OB)* : obiettivi primari, che devono essere necessariamente raggiunti per il completamento del tirocinio;
+Si farà riferimento agli obiettivi aziendali (OA) secondo la seguente notazione:
+#align(center, [`OA-TI`])
+dove:
+- *T* è il tipo di obiettivo, distinto in:
+  - *Obbligatori (OB)* : obiettivi primari, che devono essere necessariamente raggiunti per il completamento del tirocinio;
 
-- *Desiderabili (D)* : obiettivi non vincolanti o strettamente necessari, ma dal riconoscibile valore aggiunto;
+  - *Desiderabili (D)* : obiettivi non vincolanti o strettamente necessari, ma dal riconoscibile valore aggiunto;
 
-- *Opzionali (OP)* : obiettivi secondari, che possono essere raggiunti in caso di tempo e risorse disponibili.
+  - *Opzionali (OP)* : obiettivi secondari, che possono essere raggiunti in caso di tempo e risorse disponibili.
 
-Le sigle precedentemente indicate saranno seguite da un numero intero positivo, identificativo del'obiettivo.
+- *I* è un numero intero positivo, identificativo dell'obiettivo.
 
 #figure(
   table(
     columns: (0.5fr, 1fr),
     align: left+horizon,
-    table.cell([*Obiettivi obbligatori (OB)*], fill: luma(220), colspan: 2, align: center),
-    [*OB1*], [Implementazione dell'ambiente tridimensionale per la visualizzazione dello stato del magazzino],
-    [*OB2*], [Implementazione della funzionalità di _drag & drop_ per la creazione degli ordini di movimentazione],
-    table.cell([*Obiettivi desiderabili (D)*], fill: luma(220), colspan: 2, align: center),
-    [*D1*], [Gestione assegnazione e presa in carico degli ordini di movimentazione],
-    [*D2*], [Gestione esecuzione degli ordini di movimentazione],
-    table.cell([*Obiettivi opzionali (OP)*], fill: luma(220), colspan: 2, align: center),
-    [*OP1*], [Documentazione funzionalità sviluppate],
+    table.cell([*Obiettivi aziendali obbligatori (OB)*], fill: luma(220), colspan: 2, align: center),
+    [*OA-OB1*], [Implementazione dell'ambiente tridimensionale per la visualizzazione dello stato del magazzino],
+    [*OA-OB2*], [Implementazione della funzionalità di _drag & drop_ per la creazione degli ordini di movimentazione],
+    table.cell([*Obiettivi aziendali desiderabili (D)*], fill: luma(220), colspan: 2, align: center),
+    [*OA-D1*], [Gestione assegnazione e presa in carico degli ordini di movimentazione],
+    [*OA-D2*], [Gestione esecuzione degli ordini di movimentazione],
+    table.cell([*Obiettivi aziendali opzionali (OP)*], fill: luma(220), colspan: 2, align: center),
+    [*OA-OP1*], [Documentazione funzionalità sviluppate],
   ),
   caption: [Obiettivi aziendali],
 )
@@ -484,6 +507,30 @@ In particolare, prima di iniziare il tirocinio, questi sono gli aspetti che ho t
 - *Panoramica del mondo del lavoro*: acquisire una visione più chiara del mondo del lavoro, delle dinamiche e delle esigenze aziendali.
 
 Si è trattato della mia prima vera esperienza lavorativa e ho voluto sfruttarla al meglio per crescere professionalmente e personalmente.
+
+Si farà riferimento agli obiettivi personali (OP) secondo la seguente notazione:
+#align(center, [`OPI`])
+
+- *I* è un numero intero positivo, identificativo dell'obiettivo.
+
+Alla luce degli aspetti sopra descritti, gli obiettivi personali che mi sono posto sono i seguenti:
+
+#figure(
+  table(
+    columns: (0.5fr, 1fr),
+    align: left+horizon,
+    table.cell([*Obiettivi personali (OP)*], fill: luma(220), colspan: 2, align: center),
+    [*OP1*], [Sviluppare competenze con strumenti di comunicazione e collaborazione aziendali come Google Meet e GitHub],
+    [*OP2*], [Approfondire l'utilizzo di ITS in un contesto aziendale, come ad esempio Jira],
+    [*OP3*], [Partecipare attivamente ai processi di sviluppo _software_ in un contesto aziendale],
+    [*OP4*], [Sviluppare competenze con _framework_ ampiamente utilizzati come Angular],
+    [*OP5*], [Sviluppare competenze con nuovi linguaggi di programmazione come Java e TypeScript],
+    [*OP6*], [Sviluppare codice di qualità tale da essere utilizzabile dall'azienda al termine del mio percorso],
+    [*OP7*], [Comprendere i ritmi e le dinamiche di un lavoro in questo settore],
+  ),
+  caption: [Obiettivi personali],
+)
+
 
 \
 === Vincoli
