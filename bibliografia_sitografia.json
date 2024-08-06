@@ -1,4 +1,9 @@
 {
+    "Gestione di progetto": {
+        "url" : "https://www.math.unipd.it/~tullio/IS-1/2023/Dispense/T4.pdf",
+        "description" : "_Gestione di progetto_, slide del corso di Ingegneria del Software",
+        "date" : [5, 8, 24]
+    },
     "I processi di ciclo di vita del software": {
         "url" : "https://www.math.unipd.it/~tullio/IS-1/2023/Dispense/T2.pdf",
         "description" : "_I processi di ciclo di vita del software_, slide del corso di Ingegneria del Software",
@@ -9,6 +14,11 @@
         "description" : "_Modelli di sviluppo software_, slide del corso di Ingegneria del Software",
         "date" : [25, 7, 24]
     },
+    "Qualità del Software": {
+        "url" : "https://www.math.unipd.it/~tullio/IS-1/2023/Dispense/T7.pdf",
+        "description" : "_Qualità del Software_, slide del corso di Ingegneria del Software",
+        "date" : [6, 8, 24]
+    },
     "SanmarcoInformatica": {
         "url" : "https://www.sanmarcoinformatica.it/",
         "description" : "Sito web dell'azienda Sanmarco Informatica",
@@ -17,6 +27,11 @@
     "Scrum": {
         "url" : "https://www.scrum.org/resources/what-scrum-module",
         "description" : "Sito web ufficiale di Scrum",
+        "date" : [25, 7, 24]
+    },
+    "SEMAT": {
+        "url" : "https://semat.org/",
+        "description" : "Sito web ufficiale di SEMAT",
         "date" : [25, 7, 24]
     }
 }

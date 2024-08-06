@@ -94,6 +94,11 @@
     "acronyms": [],
     "synonyms": []
   },
+  "Pull Request": {
+    "description": "Richiesta, rivolta all'autore originale di un software da parte di suoi collaboratori, di includere modifiche al suo progetto. Questa richiesta ha come oggetto due branch, sui quali, in caso di accettazione della PR, viene effettuato un merge (unione).",
+    "acronyms": ["PR"],
+    "synonyms": []
+  },
   "Repository": {
     "description": "Archivio in cui vengono conservati tutti i file di un progetto, utilizzato dagli sviluppatori per apportare e gestire le modifiche al codice sorgente/documentazione del prodotto. Questa cartella può essere salvata localmente o ospitata su una piattaforma online (ad esempio GitHub).",
     "acronyms": [],

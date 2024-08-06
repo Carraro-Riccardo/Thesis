@@ -215,7 +215,7 @@ Al fine di gestire in modo efficiente ed efficace i processi istanziati, l'azien
 Nei successivi paragrafi descriverò l'infrastruttura che ho avuto modo di osservare, presentando le tecnologie utilizzate e come queste siano state integrate nei processi aziendali.
 
 \
-==== Strumenti di tracciamento delle attività
+==== Strumenti di tracciamento delle attività <strumentiDiTracciamento>
 *Jira*
 
 Jira è uno strumento di _issue tracking system_ (ITS) utilizzato dall'azienda per la gestione delle attività di sviluppo. Lo strumento permette al _team leader_ ad ogni _Sprint planning_, di strutturare la _board_ con i diversi _task_ (o _issue_) da svolgere entro la fine dello _Sprint_, assegnando a ciascun membro del _team_ i compiti da svolgere.
@@ -245,7 +245,7 @@ Le integrazioni con strumenti come Bitbucket (#ref(<strumentiSviluppo>, suppleme
   label: <jira>
 )
 
-==== Strumenti di comunicazione
+==== Strumenti di comunicazione <strumentiDiComunicazione>
 *Google Meet e Google Chat*
 \
 Sanmarco Informatica fa utilizzo della _suite_ di strumenti offerta da Google per la comunicazione interna, in particolar modo Google Meet per le riunioni e Google Chat per la comunicazione testuale.
@@ -534,7 +534,7 @@ Alla luce degli aspetti sopra descritti, gli obiettivi personali che mi sono pos
 
 \
 === Vincoli
-==== Vincoli temporali
+==== Vincoli temporali<vincoliTemporali>
 I vincoli temporali rappresentano le tempistiche entro cui il progetto doveva essere completato. Il periodo di tirocinio prevedeva una durata massima di 320 ore, organizzate in 8 settimane, con un impegno di 40 ore settimanali, tradotte in 8 ore giornaliere.
 \
 ==== Vincoli tecnologici <vincoliTecnologici>
@@ -586,25 +586,269 @@ Prima di inziare il percorso di tirocinio, ho svolto due colloqui conoscitivi in
 #pagebreak()
 = Svolgimento del tirocinio
 == Pianificazione
+L'organizzazione del tirocinio, secondo i vincoli temporali discussi nel #ref(<vincoliTemporali>, supplement: "paragrafo"), prevedeva una pianificazione delle attività atta a garantire il raggiungimento degli obiettivi prefissati.
+
+Il mio percorso è suddiviso in quattro periodi di due settimane, ciascuno dedicato ad un aspetto specifico del piano di _stage_, in modo da garantire un'organizzazione efficace e una suddivisione chiara delle attività.
+
+I periodi del tirocinio sono stati organizzati secondo la seguente tabella:
+#figure(
+  table(
+    columns: (0.3fr, 1fr, auto, auto),
+    align: (x,y) => {
+      if (x == 0){ return center+horizon;}
+      else {return left+horizon;}
+    },
+    [*Periodo*],  [*Descrizione*],                              [*Data inizio*],  [*Data fine*],
+    [*1*],        [Formazione],                                 [20/05/2024],     [02/06/2024],
+    [*2*],        [Ambiente 3D],     [03/06/2024],     [16/06/2024],
+    [*3*],        [Funzionalità _drag & drop_],  [17/06/2024],     [30/06/2024],
+    [*4*],        [Validazione e documentazione],      [01/07/2024],     [14/07/2024],
+  ),
+  caption: [Macrosuddivisione del tirocinio],
+)
+
+\
+Ciascuno dei periodi prevedeva lo svolgimento di attività specifiche, il cui tracciamento e monitoraggio avveniva mediante l'utilizzo di Jira.
+
+\
+Nel dettaglio, i quattro periodi del tirocinio sono stati organizzati come segue:
+
++ *Formazione*:
+  - *Formazione frontale _framework_ Synergy*: formazione sul _framework_ _Synergy_, mediante lezioni frontali e esercitazioni pratiche. Questo periodo mi ha permesso di apprendere le basi del _framework_ dell'azienda;
+
+  - *Visione video di formazione _frontend_*: videolezioni registrate dell'azienda per approfondire le mie conoscenze su Angular, il _framework_ _frontend_ utilizzato dall'azienda;
+
+  - *Creazione e configurazione dell'ambiente di sviluppo*: configurazione dell'ambiente di sviluppo per poter iniziare a lavorare sul prodotto WMS;
+
+  - *Formazione frontale del prodotto WMS*: formazione frontale sul prodotto WMS, per comprendere meglio le funzionalità del prodotto e il contesto in cui mi sarei inserito.
+
+  Tali attività sono state organizzate come mostro nell'#ref(<gantt1>):
+  #showImageWithSource(
+    imagePath: "/assets/chapter3/gantt1.png",
+    imageWidth: auto,
+    caption: [Diagramma di Gantt delle attività del primo periodo],
+    source: "",
+    label: <gantt1>
+  ) \
+
++ *Ambiente 3D*:
+
+  - *Risoluzione di _bug_ per approcciare il prodotto*: risoluzione di alcuni _bug_ presenti nel prodotto al fine di approcciare gradualmente il _software_ e comprendere meglio il contesto in cui mi sarei inserito;
+
+  - *Analisi e studio di fattibilità per la ristrutturazione del codice*: analisi del codice esistente, anche con l'aiuto di colleghi, per capire come poter ristrutturare l'ambiente 3D;
+
+  - *Implementazione delle classi di modello dell'ambiente 3D*: definizione e implementazione delle classi di modello necessarie per la visualizzazione dell'ambiente 3D, rivedendo la logica presente in una logica maggiormente strutturata e modulare;
+
+  - *Integrazione dell'ambiente 3D nell'applicativo*: integrazione dell'ambiente 3D nell'applicativo esistente, assicurandomi che le funzionalità esistenti non venissero compromesse;
+
+  - *Verifica corretta integrazione dell'ambiente 3D con le funzionalità esistenti*: verifica che l'ambiente 3D si integrasse correttamente con le funzionalità esistenti e con gli altri componenti del prodotto.
+
+  Tali attività sono state organizzate come mostro nell'#ref(<gantt2>):
+  #showImageWithSource(
+    imagePath: "/assets/chapter3/gantt2.png",
+    imageWidth: auto,
+    caption: [Diagramma di Gantt delle attività del secondo periodo],
+    source: "",
+    label: <gantt2>
+  ) \
+
++ *Funzionalità _drag & drop_*:
+
+  - *Implementazione della funzionalità di _drag & drop_*: implementazione della funzionalità di _drag & drop_ per la creazione degli ordini di movimentazione, mediante il trascianamento di un _bin_ (unità di contenimento) sull'interfaccia;
+
+  - *Implementazione del _dialog_ di creazione dell'ordine di movimentazione*: implementazione del _dialog_ per la creazione dell'ordine di movimentazione per la definizione dei saldi da movimentare, aperto al termine dell'operazione di _drag & drop_;
+
+  - *Analisi tabelle necessarie per la creazione dell'ordine di movimentazione*: analisi collettiva con i membri del _team_ delle tabelle necessarie per la creazione dell'ordine di movimentazione;
+
+  - *Implementazione dei servizi REST per la creazione dell'ordine di movimentazione*: implementazione dei servizi REST per la creazione dell'ordine di movimentazione;
+
+  - *Verifica corretto funzionamento della funzionalità _drag & drop_*: verifica del corretto funzionamento della funzionalità di _drag & drop_ e implementazione dei _test_ necessari.
+
+  Tali attività sono state organizzate come mostro nell'#ref(<gantt3>):
+  #showImageWithSource(
+    imagePath: "/assets/chapter3/gantt3.png",
+    imageWidth: auto,
+    caption: [Diagramma di Gantt delle attività del terzo periodo],
+    source: "",
+    label: <gantt3>
+  ) \
+
++ *Validazione e documentazione*:
+
+  - *Presentazione finale del lavoro svolto*: presentazione finale del lavoro svolto durante il tirocinio al _team_ e al referente aziendale;
+
+  - *Documentazione delle funzionalità sviluppate*: produzione della documentazione delle funzionalità sviluppate durante il tirocinio.
+
+  Tali attività sono state organizzate come mostro nell'#ref(<gantt4>):
+  #showImageWithSource(
+    imagePath: "/assets/chapter3/gantt4.png",
+    imageWidth: auto,
+    caption: [Diagramma di Gantt delle attività del quarto periodo],
+    source: "",
+    label: <gantt4>
+  )
+
+\
+Nel complesso, la pianificazione del tirocinio è la seguente:
+#showImageWithSource(
+  imagePath: "/assets/chapter3/gantt.png",
+  imageWidth: auto,
+  caption: [Diagramma di Gantt complessivo delle attività svolte durante il tirocinio],
+  source: "",
+  label: <gantt>
+)
 == Metodo di lavoro
 === _Way of Working_
-Come mi sono approcciato al tirocinio, le attività che lo hanno caratterizzato, l'organizzazione per sprint e i compiti assegnati su Jira.
-In questa sezione discuterei dei principi appresi durante il corso di ingegneria del software (e consolidati durante il periodo di tirocinio) che hanno caratterizzato il mio _way of working_. 
-=== Obiettivi di qualità
-Panoramica del mio approccio alla realizzazione di prodotto software e documentale di qualità, descrivendo gli obiettivi dei processi di verifica e validazione.
+Durante il corso di "Ingegneria del _software_" ho avuto modo di comprendere l'importanza di seguire una metodologia di sviluppo _software_ strutturata e organizzata, e il tirocinio mi ha permesso di metterli in pratica, e vedere come questi venissero applicati in un contesto aziendale.
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/semat.png",
+  imageWidth: auto,
+  caption: [L'importanza del _Way of Working_ nel SEMAT],
+  source: "https://www.semanticscholar.org/paper/The-Essence-of-Software-Engineering%3A-The-SEMAT-Jacobson-Ng/ba4a3c5706ced64a2a71a230b30ba6ff5370ab6d",
+  label: <semat>
+)
+
+Come descritto dal SEMAT (#ref(<semat>)), il _way of working_ è fondamentale per garantire il successo di un progetto _software_, situato di fatto alla base di tutti gli aspetti del progetto.
+
+Durante il mio tirocinio, mi sono impegnato a seguire un approccio strutturato e organizzato, che possedesse le seguenti caratteristiche:
+- *Sistematico*: ho cercato di seguire un approccio sistematico e strutturato, organizzando le attività in modo da garantire un avanzamento costante e un monitoraggio efficace;
+
+- *Disciplinato*: ho cercato di seguire le procedure e le convenzioni aziendali, rispettando le scadenze e gli impegni presi, e garantendo la qualità del prodotto _software_ sviluppato;
+
+- *Quantificabile*: ho cercato di quantificare le attività svolte, in modo da poter monitorare l'avanzamento del progetto e garantire il rispetto delle scadenze.
+
+Come descritto nel #ref(<modelloDiSviluppo>, supplement: "paragrafo"), l'azienda segue un modello di sviluppo _software_ _Agile_, implementando nello specifico la metodologia _Scrum_. Questo approccio mi ha permesso di lavorare in modo organizzato e strutturato, garantendo un avanzamento costante e un monitoraggio efficace delle attività svolte.
+
+In particolare, ho partecipato attivamente ai _Daily Standup Meeting_ e alle _Sprint Review_ e _Sprint Retrospective_, in modo da garantire un allineamento costante tra le parti e un monitoraggio efficace dell'avanzamento del progetto.
+
+Trattandosi di un'esperienza dal carattere fortemente formativo, ho ritenuto inoltre opportuno prendere costantemente appunti, configurando una bacheca personale su Notion ( piattaforma per la presa di note in modo strutturato) dove ho annotato le attività svolte, le problematiche riscontrate e le soluzioni adottate, in modo da garantire una traccia costante del mio percorso e un'analisi critica delle attività svolte, come mostrato nell'#ref(<notion>):
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/notion.png",
+  imageWidth: auto,
+  caption: [Bacheca personale su Notion],
+  source: "",
+  label: <notion>
+)
+
+=== Obiettivi di qualità <obiettiviDiQualita>
+Ispirandomi ai principi dell'Ingegneria del _software_, ho cercato di garantire efficacia ed efficienza nel conseguimento dei miei obiettivi, seguendo un approccio di qualità e di conformità alle convenzioni aziendali.
+
+In particolare, ho posto attenzione a due processi fondamentali, quali:
+- *Verifica*: ho svolto attività di verifica costanti, mediante l'utilizzo di strumenti di analisi statica e dinamica del codice, e di test automatici e manuali, in modo da garantire la qualità del prodotto _software_ sviluppato;
+
+- *Validazione*: ho svolto attività di validazione costanti, mediante l'esecuzione di test di sistema e di accettazione (svolti dal _tester_ del _team_), in modo da garantire che il prodotto realizzato fosse conforme alle aspettative e alle esigenze del cliente.
+
+Attraverso l'applicazione rigorosa di questi processi, ho mirato a creare un prodotto che consideri questi aspetti cruciali:
+
+- *Funzionalità*: il prodotto deve essere esaustivo nelle sue caratteristiche, preciso nel suo funzionamento e adattato al suo contesto d'uso;
+
+- *Aderenza agli _standard_*: è essenziale che il prodotto rispetti le norme e le convenzioni aziendali, garantendo una coerenza e una uniformità nel codice e nelle funzionalità;
+
+- *Facilità d'uso*: l'interfaccia e le funzionalità devono essere intuitive e accessibili per gli utenti, minimizzando il rischio di errori;
+
+- *Flessibilità*: il _design_ deve essere modulare, permettendo adattamenti e riutilizzi in base alle esigenze mutevoli dell'azienda;
+
+- *Durevolezza*: il prodotto deve dimostrarsi resistente nel tempo, con una struttura che faciliti eventuali interventi di manutenzione o riparazione;
+
+L'obiettivo, come discusso nel #ref(<obiettiviTirocinio>), era di garantire un prodotto _software_ di qualità, pronto per essere utilizzato e integrato nel prodotto esistente.
+
+Il raggiungimento di questi obiettivi è stato perseguito mediante l'utilizzo di strumenti di verifica e validazione descritti nel #ref(<strumentiDiVerifica>, supplement: "paragrafo").
+
 === Obiettivi di qualità di processo
-Panoramica del mio approccio a garantire efficacia ed efficienza nel conseguimento dei miei obiettivi.
+Durante il mio tirocinio, ho cercato di garantire efficacia ed efficienza nel conseguimento dei miei obiettivi, seguendo un approccio di qualità e di conformità alle convenzioni aziendali, dando particolare rilevanza a due elementi chiave: l'efficacia e l'efficienza.
+
+- *Efficacia*: rappresenta il primo cardine di questa metodologia. Essa si traduce nella capacità del prodotto di soddisfare pienamente le esigenze e le aspettative dell'azienda. Ogni componente sviluppato viene sottoposto a un rigoroso processo di convalida, garantendo così la sua conformità agli obiettivi prestabiliti e il suo effettivo contributo al valore complessivo del progetto.
+
+
+- *Efficienza*: il secondo pilastro è costituito dall'efficienza del processo di sviluppo. Qui l'attenzione si concentra sull'ottimizzazione delle risorse disponibili, con l'obiettivo di contenere i costi mantenendo inalterati gli _standard_ qualitativi del prodotto finale. Questo aspetto assume particolare rilevanza considerando i limiti temporali imposti al progetto. Si punta quindi a creare un flusso di lavoro agile e ben coordinato, capace di massimizzare i risultati entro le scadenze prefissate.
+
+Il raggiungimento di questi obiettivi è stato possibile grazie alle diverse attività caratterizzanti il modello di sviluppo _Agile_ e _Scrum_, come descritto nel #ref(<modelloDiSviluppo>, supplement: "paragrafo").
+
+In particolare, grazie alle _Sprint Review_ e _Sprint Retrospective_, io e l'intero _team_ di sviluppo, abbiamo avuto modo di valutare costantemente l'andamento del progetto, individuando eventuali criticità e aree di miglioramento, e di adattare di conseguenza il nostro approccio di lavoro.
+
 === Interazione con il referente aziendale
-Il rapporto che ho tenuto durante lo svolgimento del tirocinio con il mio referente aziendale.
+Il rapporto con il referente aziendale è stato fondamentale per garantire il successo del mio tirocinio. Durante il percorso (svolto per quasi la totalità in presenza in sede), ho mantenuto un contatto costante, garantendo un allineamento tra le parti e un monitoraggio efficace dell'avanzamento del progetto.
+
+Giornalmente ho partecipato ai _Daily Standup Meeting_, in cui ho condiviso con il _team_ le attività svolte, le problematiche riscontrate e le soluzioni adottate: in questo modo, il referente aziendale ha potuto monitorare costantemente il mio percorso e fornirmi un _feedback_ costante sulle attività svolte. 
+
+Quando il referente aziendale lavorava in modalità _smart working_, ho mantenuto il contatto con lui tramite gli strumenti di comunicazione aziendali come Google Meet e Google Chat descritti nel #ref(<strumentiDiComunicazione>, supplement: "paragrafo"). 
+
 === Revisioni di progresso
-Come durante il tirocinio ho svolto le revisioni di progresso insieme al_team_e al tutor aziendale.
-=== Strumenti di verifica
-Gli strumenti utilizzati per la garantire standard elevati di qualità e di conformità alle convenzioni aziendali, in modo tale che il prodotto che ho realizzato fosse direttamente utilizzabile dall'azienda. In questo paragrafo mi riferisco a strumenti come:
+Le revisioni di progresso sono state fondamentali per garantire un monitoraggio costante dell'avanzamento e per ottenere _feedback_ valido e tempestivo sulle attività svolte.
+
+Come menzionato nel #ref(<modelloDiSviluppo>, supplement: "paragrafo"), ho avuto modo di partecipare attivamente a diverse attività di revisione, dalle giornaliere durante i _Daily Standup Meeting_, alle revisioni di fine Sprint (_Sprint Review_ e _Sprint Retrospective_), fino alla revisione finale del lavoro svolto durante la presentazione conclusiva al _team_ e al referente aziendale. Man mano che prendevo confidenza con le pratiche e con le tecnologie aziendali, ho potuto partecipare in modo sempre più attivo a queste attività, riuscendo a fare domande sempre più mirate e proporre soluzioni sempre più precise. 
+
+Queste attività mi hanno dato la possibilità di avere un rapporto attivo e partecipativo con il _team_ con cui ho lavorato, permettendomi di insermi sia nel contesto lavorativo sia all'interno del _team_.
+
+=== Strumenti di verifica <strumentiDiVerifica>
+Gli strumenti utilizzati per la garantire _standard_ elevati di qualità e di conformità alle convenzioni aziendali, in modo tale che il prodotto che ho realizzato fosse direttamente utilizzabile dall'azienda. In questo paragrafo mi riferisco a strumenti come:
 - Test automatici: unità, integrazione e di sistema (attraverso il framework synergy e Mockito)
 - Analisi statica del codice
 - Analisi dinamica del codice (in merito soprattutto alle prestazioni visto il refactoring dell'ambiente tridimensionale)
 - Controllo di versione
 - Test manuali di validazione (eseguiti dal tester nel team).
+
+Al fine di perseguire gli obiettivi di qualità indicati nel #ref(<obiettiviDiQualita>, supplement: "paragrafo"), ho utilizzato strumenti e tencologie che rendessero i processi di verifica e validazione efficaci e conformi alle esigenze aziendali.
+
+Come menzionato nel #ref(<softwareQualificationTesting>, supplement: "paragrafo"), l'azienda opera con un processo di _continuous integration_ e _continuous deployment_, garantendo un monitoraggio costante del codice e delle funzionalità sviluppate, al fine di accettare all'interno del _repository_ un prodotto sempre funzionante e conforme alle aspettative.
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/CICD.png",
+  imageWidth: auto,
+  caption: [Pipeline di _Continuous Integration_ e _Continuous Deployment_],
+  source: "https://katalon.com/resources-center/blog/ci-cd-pipeline",
+  label: <CICD>
+)
+
+Come mostro nell'#ref(<CICD>), i _test_ rappresentano un aspetto fondamentale di questo processo: alla creazione di una _pull request_, viene eseguita la _build_ del progetto e successivamente vengono eseguiti i _test_ automatici. Solo qualora tutta la _pipeline_ venga superata con successo, allora la _pull request_ viene accettata e il codice viene integrato nel _repository_. In caso contrario, la _pull request_ viene respinta e il lavoro deve essere rivisto e corretto.
+
+Gli strumenti e le tecnologie che ho utilizzato per garantire la qualità del prodotto sono le seguenti:
+- *_Test_ automatici*: questa tipologia di _test_ viene eseguita in modo automatico. Durante il mio percorso ho implementato 3 principali tipologie di _test_:
+  - *_Test_ di unità*: _test_ che verificano il corretto funzionamento di singole unità di codice, garantendo che ciascuna unità funzioni correttamente;
+  
+  - *_Test_ di integrazione*: _test_ che verificano il corretto funzionamento dell'integrazione tra le diverse unità di codice, garantendo che le unità funzionino correttamente anche quando integrate tra loro;
+  
+  - *_Test_ di sistema*: _test_ che verificano il corretto funzionamento del sistema nel suo complesso, garantendo che tutte le funzionalità siano conformi alle aspettative.
+
+  Il _framework_ Synergy predisponeva un ambiente di test completo, che mi ha permesso di implementare i _test_ agevolemente e in modo conforme alle esigenze aziendali.
+
+\
+- *Analisi statica del codice*: ho utilizzato strumenti di analisi statica per verificare la qualità del codice prodotto in grado di evidenziare errori e _code smell_, permettendomi di produrre codice che rispettasse le convenzioni aziendali e fosse conforme alle aspettative. In particolare, ho utilizzato i seguenti _linter_:
+  
+  - *SonarLint*: _linter_ per Javascript e TypeScript;
+  
+  - *Intellij IDEA*: _linter_ integrato nell'IDE utilizzato per lo sviluppo.
+
+\
+- *Analisi dinamica del codice*: ho utilizzato strumenti di analisi dinamica per verificare le prestazioni del codice prodotto, garantendo che il prodotto fosse conforme alle aspettative e rispondesse ai requisiti di _performance_ richiesti. Infatti, il mio tirocinio comprendeva la ristrutturazione del codice dell'ambiente tridimensionale, e quindi era fondamentale garantire che le prestazioni del prodotto fossero adeguate. In particolare, ho utilizzato i _DevTools_ di Google Chrome, che mi hanno permesse di verificare il livello di carico del prodotto e di identificare eventuali criticità nel _rendering_ dell'ambiente tridimensionale.
+
+\
+- *Controllo di versione*: come descritto nel #ref(<strumentiSviluppo>, supplement: "paragrafo"), ho utilizzato BitBucket come sistema di controllo di versione, garantendo un monitoraggio costante del codice e delle funzionalità sviluppate.
+
+  Come mostro nell'#ref(<PRpipeline>), la _pipeline_ per l'accettazione di una _Pull Request_ prevedeva una serie di passaggi, tra cui la _build_ del progetto e l'esecuzione dei _test_ automatici, garantendo che il codice prodotto fosse conforme alle aspettative e pronto per essere integrato nel _repository_.
+
+  #showImageWithSource(
+    imagePath: "/assets/chapter3/PRpipeline.png",
+    imageWidth: auto,
+    caption: [_Pipeline_ per l'accettazione di una _Pull Request_],
+    source: "",
+    label: <PRpipeline>
+  )
+
+  Il tracciamento pertanto delle modifiche apportate e il versionamento del codice prodotto hanno rappresentato un aspetto fondamentale del mio percorso, avendo ulteriore conferma dei principi appresi durante il corso di "Ingegneria del _software_". 
+  
+  Ogni attività veniva tracciata mediante un riferimento alla _issue_ di Jira corrispondente, identificata da un codice univoco così strutturato:
+  #align(center, [`WMS-XX`])
+  dove:
+  - *WMS*: identifica il progetto WMS;
+  - *XX*: identifica il numero progressivo della _issue_.
+
+  Ogni _task_ ha il riferimento all'assegnatario, al tempo stimato per il completamento e al _branch_ di riferimento. Ad ogni _pull request_ veniva associato invece il membro del _team_ che avrebbe dovuto effettuare la revisione del codice.
+
+  In questo modo, l'intero sviluppo del progetto è stato tracciato e monitorato costantemente, avendo sempre la possibilità di comprendere in ogni momento "chi fa cosa" e "quando", con un chiaro riferimento alle modifiche apportate al cambiamento di versione.
+
 === Resoconti
 Il mio approccio a tenere documentata l'intera esperienza, mediante resoconti giornalieri relativi al lavoro svolto durante la giornata e i resoconti settimanali a lei inviati. 
 
