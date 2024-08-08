@@ -557,6 +557,7 @@ In particolare lo _stack_ tecnologico utilizzato è il seguente:
 
   - *PostgreSQL*: _database_ relazionale utilizzato per la memorizzazione dei dati.
 
+Una descrizione più dettagliata delle tecnologie la presenterò nel #ref(<tecnologieUtilizzate>, supplement: "paragrafo").
 \
 ==== Vincoli organizzativi
 L'organizzazione del periodo di tirocinio è stata fondamentale al fine di garantire un percorso valido e conforme alle aspettative, provvedendo ad un costante allineamento tra tutti gli attori coinvolti. 
@@ -699,7 +700,7 @@ Nel complesso, la pianificazione del tirocinio è la seguente:
 )
 == Metodo di lavoro
 === _Way of Working_
-Durante il corso di "Ingegneria del _software_" ho avuto modo di comprendere l'importanza di seguire una metodologia di sviluppo _software_ strutturata e organizzata, e il tirocinio mi ha permesso di metterli in pratica, e vedere come questi venissero applicati in un contesto aziendale.
+Durante il corso di "Ingegneria del _software_" ho avuto modo di comprendere l'importanza di seguire i principi di una metodologia di sviluppo _software_ strutturata e organizzata, e, grazie al tirocinio, ho avuto modo di mettere in pratica questi concetti in un contesto aziendale.
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/semat.png",
@@ -722,7 +723,7 @@ Come descritto nel #ref(<modelloDiSviluppo>, supplement: "paragrafo"), l'azienda
 
 In particolare, ho partecipato attivamente ai _Daily Standup Meeting_ e alle _Sprint Review_ e _Sprint Retrospective_, in modo da garantire un allineamento costante tra le parti e un monitoraggio efficace dell'avanzamento del progetto.
 
-Trattandosi di un'esperienza dal carattere fortemente formativo, ho ritenuto inoltre opportuno prendere costantemente appunti, configurando una bacheca personale su Notion ( piattaforma per la presa di note in modo strutturato) dove ho annotato le attività svolte, le problematiche riscontrate e le soluzioni adottate, in modo da garantire una traccia costante del mio percorso e un'analisi critica delle attività svolte, come mostrato nell'#ref(<notion>):
+Trattandosi di un'esperienza dal carattere fortemente formativo, ho ritenuto inoltre opportuno prendere costantemente appunti, configurando una bacheca personale su Notion ( piattaforma per la presa di note in modo strutturato) dove ho annotato le attività svolte, in modo da garantire un tracciamento costante del mio percorso e un'analisi critica delle attività svolte, come mostrato nell'#ref(<notion>):
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/notion.png",
@@ -783,13 +784,6 @@ Come menzionato nel #ref(<modelloDiSviluppo>, supplement: "paragrafo"), ho avuto
 Queste attività mi hanno dato la possibilità di avere un rapporto attivo e partecipativo con il _team_ con cui ho lavorato, permettendomi di insermi sia nel contesto lavorativo sia all'interno del _team_.
 
 === Strumenti di verifica <strumentiDiVerifica>
-Gli strumenti utilizzati per la garantire _standard_ elevati di qualità e di conformità alle convenzioni aziendali, in modo tale che il prodotto che ho realizzato fosse direttamente utilizzabile dall'azienda. In questo paragrafo mi riferisco a strumenti come:
-- Test automatici: unità, integrazione e di sistema (attraverso il framework synergy e Mockito)
-- Analisi statica del codice
-- Analisi dinamica del codice (in merito soprattutto alle prestazioni visto il refactoring dell'ambiente tridimensionale)
-- Controllo di versione
-- Test manuali di validazione (eseguiti dal tester nel team).
-
 Al fine di perseguire gli obiettivi di qualità indicati nel #ref(<obiettiviDiQualita>, supplement: "paragrafo"), ho utilizzato strumenti e tencologie che rendessero i processi di verifica e validazione efficaci e conformi alle esigenze aziendali.
 
 Come menzionato nel #ref(<softwareQualificationTesting>, supplement: "paragrafo"), l'azienda opera con un processo di _continuous integration_ e _continuous deployment_, garantendo un monitoraggio costante del codice e delle funzionalità sviluppate, al fine di accettare all'interno del _repository_ un prodotto sempre funzionante e conforme alle aspettative.
@@ -850,25 +844,397 @@ Gli strumenti e le tecnologie che ho utilizzato per garantire la qualità del pr
   In questo modo, l'intero sviluppo del progetto è stato tracciato e monitorato costantemente, avendo sempre la possibilità di comprendere in ogni momento "chi fa cosa" e "quando", con un chiaro riferimento alle modifiche apportate al cambiamento di versione.
 
 === Resoconti
-Il mio approccio a tenere documentata l'intera esperienza, mediante resoconti giornalieri relativi al lavoro svolto durante la giornata e i resoconti settimanali a lei inviati. 
+Durante l'intero percorso mi sono impegnato a tenere documentata l'esperienza, sia mediante dei resoconti giornalieri su una bacheca personale su Notion (#ref(<notion>)), sia mediante dei resoconti settimanali inviati al relatore. Questo approccio mi ha permesso di avere una traccia costante del mio percorso e di analizzare criticamente le attività svolte, garantendo un monitoraggio costante dell'avanzamento del progetto e un _feedback_ costante sulle attività svolte.
+
+Infatti, oltre ad agevolare la scrittura del documento di tesi, i resoconti mi hanno permesso di avere uno strumento di autovalutazione costante del progresso ottenuto, rendendo più chiaro il percorso svolto e le attività completate.
+
+I resoconti settimanali, d'altro canto, mi hanno permesso di allineare costantemente il mio relatore sullo stato di avanzamento dello _stage_, indicando gli obiettivi prefissati, gli obiettivi raggiunti e descrivendo le attività svolte durante la settimana.
 
 == Analisi dei requisiti
 === Casi d'uso
-Per rappresentare il comportamento delle funzionalità implementate ho utilizzato ne ho derivato i casi d'uso. Descrizione di cosa sono e come li ho utilizzati.
+I casi d'uso (use case) sono uno strumento utile nel rappresentare le interazioni tra gli utenti e l'applicativo. Un diagramma dei casi d'uso illustra graficamente queste interazioni, evidenziando gli attori coinvolti e le funzionalità del sistema. 
+
+Nel contesto di questo tirocinio, ho adottato la seguente convenzione per la descrizione dei casi d'uso: 
+#align(center, [`UC-X.Y.Z: nome del caso d'uso`])
+dove:
+- *X*: intero positivo che rappresenta il numero del caso d'uso;
+- *Y e Z*: interi positivi che rappresentano eventuali sottocasi d'uso.
+
+Ogni caso d'uso evidenzia inoltre le seguenti proprietà: 
+- *Descrizione*: una breve descrizione del caso d'uso;
+- *Attore primario*: l'attore principale coinvolto nel caso d'uso;
+- *Precondizioni*: le condizioni necessarie affinché il caso d'uso possa essere eseguito;
+- *Postcondizioni*: le condizioni che devono essere soddisfatte al termine dell'esecuzione del caso d'uso;
+- *Estensioni o inclusioni (se presenti)*: scenari alternativi che possono verificarsi durante l'esecuzione del caso d'uso;
+- *Generalizzazioni (se presenti)*: casi d'uso che rappresentano una generalizzazione del caso d'uso principale.
+
+Nel contesto specifico di questo sistema, l'attore principale è l'operatore di _backoffice_. Questa figura rappresenta un utente dotato di completa autonomia e competenza nell'utilizzo del prodotto WMS. L'operatore di _backoffice_ è in grado di utilizzare tutte le funzionalità offerte dal sistema, essendo una figura amministrativa che gestisce i diversi aspetti del magazzino, inclusa la creazione degli ordini di movimentazione.
+
+È importante notare che gli _use case_ presentati in questa sezione si concentrano sui casi principali, al fine di non appesantire la descrizione con dettagli superflui o comportamenti banali dell'applicativo: nel caso dell'ambiente tridimensionale infatti, ho mantenuto il focus sulla visualizzazione delle strutture e l'interazione con esse, aspetti essenziali per la funzionalità di creazione degli ordini di movimentazione.
+
+\
+*Ambiente tridimensionale*:
+#showImageWithSource(
+  imagePath: "/assets/chapter3/UC/UC3d.png",
+  imageWidth: 97%,
+  caption: [Casi d'uso per l'ambiente tridimensionale],
+  source: "",
+  label: <UC3d>
+)
+
+- *Nome*: Visualizzazione tridimensionale magazzino;
+- *Attore primario*: Utente;
+- *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
+- *Postcondizioni*: L'ambiente 3D viene visualizzato correttamente;
+
+\
+*UC-1.1 Visualizzazione strutture magazzino* \
+L'utente visualizza le strutture del magazzino all'interno dell'ambiente tridimensionale. L'utente deve poter navigare nell'ambiente, avendo una visione chiara del posizionamento delle strutture del magazzino.
+- *Attore primario*: Utente;
+- *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
+- *Postcondizioni*: Le strutture del magazzino viene visualizzata correttamente.
+\
+*UC-1.2 Selezione struttura* \
+L'utente seleziona una struttura del magazzino all'interno dell'ambiente tridimensionale, avendo modo di modificarla, riposizionarla o visualizzarne i dettagli.
+- *Attore primario*: Utente;
+- *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
+- *Postcondizioni*: La struttura selezionata viene evidenziata, cambiandone il colore in base al tema dell'applicativo.
+- *Estensioni*:
+  - *UC-1.2.1*: Riposizionamento strutture magazzino;
+
+\
+*UC-1.2.1 Riposizionamento della struttura nel magazzino* \
+L'utente riposiziona la struttura del magazzino all'interno dell'ambiente tridimensionale.
+- *Attore primario*: Utente;
+- *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
+- *Postcondizioni*: La struttura del magazzino vengono riposizionate correttamente.
+
+\
+*UC-1.4 Selezione bin nell'ambiente* \
+L'utente seleziona un bin all'interno dell'ambiente tridimensionale, avendo modo di visualizzare i saldi presenti al suo interno.
+- *Attore primario*: Utente;
+- *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
+- *Postcondizioni*: Il bin selezionato viene evidenziato, cambiandone il colore in base al tema dell'applicativo.
+
+
+\
+*Creazione dell'ordine di movimentazione*
+#showImageWithSource(
+  imagePath: "/assets/chapter3/UC/UC.png",
+  imageWidth: 97%,
+  caption: [Casi d'uso per la creazione dell'ordine di movimentazione],
+  source: "",
+  label: <UCdnd>
+)
+
+- *Nome*: Creazione dell'ordine di movimentazione;
+- *Attore primario*: Utente;
+- *Precondizioni*:
+  - L'ambiente 3D deve essere correttamente caricato e configurato;
+  - Deve essere presente almeno un bin di partenza valido da cui iniziare l'operazione di dragging;
+  - Deve essere presente almeno un bin valido da utilizzare come bin di destinazione diverso dal bin di partenza;
+  - Il bin di destinazione deve essere in grado di accogliere i saldi che si intendono movimentare;
+  - In caso si movimenti più di un saldo, il bin di destinazione deve essere in grado di accogliere più saldi differenti.
+
+- *Postcondizioni*:
+  - Viene generata una richista di ordine di movimentazione che sarà preso in carico dagli operatori in magazzino.
+
+\
+*UC-2.1 Seleziona bin di partenza* \
+L'utente seleziona il bin di partenza da cui iniziare l'operazione di _drag&drop_.
+- *Attore primario*: Utente;
+- *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
+- *Postcondizioni*: Il bin di partenza viene "Selezionato", cambiandone il colore in base al tema dell'applicativo.
+- *Esensioni*:
+  - *UC-2.1.1*: Errore bin di partenza privo di saldi;
+
+\
+*UC-2.1.1 Errore bin di partenza privo di saldi* \
+L'utente seleziona un bin privo di saldi, e pertanto non è possibile procedere con la selezione dei saldi da movimentare.
+- *Attore primario*: Utente;
+- *Precondizioni*: Il bin selezionato deve essere privo di saldi;
+- *Postcondizioni*: Il bin rimane selezionato, ma non è possibile procedere con la selezione dei saldi da movimentare.
+
+\  
+*UC-2.2 Selezione bin di destinazione* \
+L'utente seleziona il bin di destinazione in cui posizionare i saldi movimentati.
+- *Attore primario*: Utente;
+- *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
+- *Postcondizioni*: Il bin di destinazione viene "Evidenziato", cambiandone il colore in base al tema dell'applicativo.
+- *Esensioni*:
+  - *UC-2.2.1*: Errore bin di destinazione non valido;
+
+\
+*UC-2.2.1 Errore bin di destinazione non valido* \
+L'utente seleziona un bin di destinazione non valido, e pertanto non è possibile procedere con la selezione dei saldi da movimentare.
+- *Attore primario*: Utente;
+- *Precondizioni*: Il bin di destinazione selezionato deve essere non valido;
+- *Postcondizioni*: Il bin viene resettato, tornando allo stato iniziale.
+- *Generalizzazioni*:
+  - *UC-2.2.1.1*: Bin di destinazione completo;
+  - *UC-2.2.1.2*: Bin di destinazione non in grado di accogliere i saldi movimentati;
+
+\
+*UC-2.2.1.1 Errore bin di destinazione pieno* \
+Il bin di destinazione selezionato è completo, e pertanto non è possibile procedere con la selezione dei saldi da movimentare.
+- *Attore primario*: Utente;
+- *Precondizioni*: Il bin di destinazione selezionato deve essere completo;
+- *Postcondizioni*: Il bin viene resettato, tornando allo stato iniziale e l'operazione di creazione dell'ordine di movimentazione viene annullata.
+
+\
+*UC-2.2.1.2 Errore bin di destinazione non in grado di accogliere più di un saldo* \
+Il bin di destinazione selezionato non è in grado di accogliere i saldi movimentati, e pertanto non è possibile procedere con la selezione dei saldi da movimentare. Può infatti succedere che un bin possa accogliere solamente un tipo di prodotto.
+- *Attore primario*: Utente;
+- *Precondizioni*: Il bin di destinazione selezionato deve essere non in grado di accogliere i saldi movimentati;
+- *Postcondizioni*: Il bin viene resettato, tornando allo stato iniziale e l'operazione di creazione dell'ordine di movimentazione viene annullata.
+
+\
+*UC-2.3 Selezione saldi da movimentare* \
+L'utente seleziona i saldi da movimentare dal bin di partenza al bin di destinazione.
+- *Attore primario*: Utente;
+- *Precondizioni*: Il bin di partenza e il bin di destinazione devono essere specificati e validi;
+- *Postcondizioni*: Viene mostrato il resoconto di quali saldi si vuole movimentare e in che quantità, e la quantità rimanente del saldo dal bin di partenza.
+- *Estensioni*:
+  - *UC-2.3.1*: Errore quantità selezionata non valida;
+
+\
+*UC-2.3.1 Errore quantità selezionata non valida* \
+L'utente seleziona una quantità di saldi non valida, e pertanto non è possibile procedere con la creazione della richiesta di movimentazione. Si applica sia per la quantità principale che alternativa.
+- *Attore primario*: Utente;
+- *Precondizioni*: La quantità selezionata deve essere non valida;
+- *Postcondizioni*: Viene mostrato un messaggio di errore e l'operazione di creazione dell'ordine di movimentazione viene annullata.
+- *Generalizzazioni*:
+  - *UC-2.3.1.1*: Quantità selezionata minore di 0;
+  - *UC-2.3.1.2*: Quantità selezionata maggiore della quantità disponibile;
+  - *UC-2.3.1.3*: Quantità alternativa selezionata non conforme alle regole di scostamento.
+
+\
+*UC-2.3.1.1 Quantità selezionata minore di 0* \
+L'utente seleziona una quantità di saldi minore di 0, e pertanto non è possibile procedere con la creazione della richiesta di movimentazione.
+- *Attore primario*: Utente;
+- *Precondizioni*: La quantità selezionata deve essere minore di 0;
+- *Postcondizioni*: Viene mostrato un messaggio di errore.
+
+\
+*UC-2.3.1.2 Quantità selezionata maggiore della quantità disponibile* \
+L'utente seleziona una quantità di saldi maggiore della quantità disponibile, e pertanto non è possibile procedere con la creazione della richiesta di movimentazione.
+- *Attore primario*: Utente;
+- *Precondizioni*: La quantità selezionata deve essere maggiore della quantità disponibile;
+- *Postcondizioni*: Viene mostrato un messaggio di errore.
+
+\
+*UC-2.3.1.3 Quantità alternativa selezionata non conforme alle regole di scostamento* \
+L'utente seleziona una quantità alternativa di saldi non conforme alle regole di scostamento, e pertanto non è possibile procedere con la creazione della richiesta di movimentazione.
+- *Attore primario*: Utente;
+- *Precondizioni*: La quantità alternativa selezionata deve essere non conforme alle regole di scostamento;
+- *Postcondizioni*: Viene mostrato un messaggio di errore.
+
+\
+*UC-2.4 Specifica della causale di creazione* \
+L'utente specifica la causale per la creazione dell'ordine di movimentazione.
+- *Attore primario*: Utente;
+- *Precondizioni*: Il bin di partenza e il bin di destinazione devono essere specificati e validi;
+- *Postcondizioni*: La causale di creazione viene specificata e associata all'ordine di movimentazione.
+- *Estensioni*:
+  - *UC-2.4.1*: Causale non valida;
+
+\
+*UC-2.4.1 Causale non valida* \
+L'utente specifica una causale non presente nell'anagrafica delle causali possibili, e pertanto non è possibile procedere con la creazione della richiesta di movimentazione.
+- *Attore primario*: Utente;
+- *Precondizioni*: La causale specificata deve essere non valida;
+- *Postcondizioni*: Viene mostrato un messaggio di errore.
+
+\
+*UC-2.5 Specifica della priorità della richiesta* \
+L'utente specifica la priorità per la creazione dell'ordine di movimentazione.
+- *Attore primario*: Utente;
+- *Precondizioni*: Il bin di partenza e il bin di destinazione devono essere specificati e validi;
+- *Postcondizioni*: La priorità della richiesta viene specificata e associata all'ordine di movimentazione.
+- *Estensioni*:
+  - *UC-2.5.1*: Errore priorità non valida;
+
+\
+*UC-2.5.1 Errore priorità non valida* \
+L'utente specifica una priorità non presente nell'anagrafica delle priorità possibili, e pertanto non è possibile procedere con la creazione della richiesta di movimentazione.
+- *Attore primario*: Utente;
+- *Precondizioni*: La priorità specificata deve essere non valida;
+- *Postcondizioni*: Viene mostrato un messaggio di errore.
+
+\
+
+
 === Tracciamento dei requisiti
 Come sono stati identificati i requisiti e il mio approccio al loro soddisfacimento.
 
 == Progettazione
-=== Tecnologie utilizzate
-Panoramica dello stack tencologico che ho utilizzato.
+=== Tecnologie utilizzate <tecnologieUtilizzate>
+Come stabilito dai vincoli di progetto (#ref(<vincoliTecnologici>, supplement: "paragrafo")), trattandosi di un'estensione delle funzionalità di un prodotto esistente, ho utilizzato le tecnologie e gli strumenti già in uso dall'azienda, garantendo un'interoperabilità e una coerenza con il prodotto esistente.
+
+Nel dettaglio, le tecnologie utilizzate sono le seguenti:
+
+- *Frontend*:
+  - *Angular*: _framework_ TypeScript per lo sviluppo di applicazioni _web_ . Ho utilizzato Angular per la creazione dell'interfaccia utente e per la gestione delle funzionalità _frontend_ del prodotto WMS; Si tratta di un _framework_ che già conoscevo, ma che non avevo mai utilizzato in un contesto professionale, e che mi ha permesso di approfondire le mie conoscenze e di metterle in pratica in un contesto aziendale.
+
+    Angular si basa su un'architettura _component-based_, che permette di creare componenti riutilizzabili e modulabili, garantendo una struttura chiara e ben organizzata del codice.
+
+    #showImageWithSource(
+      imagePath: "/assets/chapter3/angular.png",
+      imageWidth: auto,
+      caption: [Struttura Angular],
+      source: "https://www.educba.com/how-angular-works/",
+      label: <angular>
+    )
+
+    Come mostro nell'#ref(<angular>), ogni componente fa riferimento da un _template_ HTML, a cusi sono associati delle proprietà e degli eventi, assumendo un comportamento dinamico e interattivo. Un ruolo cruciale è svolto dall'_injector_ (secondo il pattern _dependency injection_), che permette di iniettare le dipendenze necessarie per il funzionamento del componente, in particolar modo dei servizi.
+
+  
+  - *Three.js*: libreria JavaScript per la creazione di ambienti 3D. Ho utilizzato Three.js per la creazione dell'ambiente tridimensionale, garantendo una visualizzazione realistica e interattiva dell'ambiente di lavoro.
+
+    Three.js permette di creare una scena 3D complessa e strutturata, garantendo una visualizzazione realistica e interattiva dell'ambiente di lavoro.
+
+    #showImageWithSource(
+      imagePath: "/assets/chapter3/threejs.png",
+      imageWidth: auto,
+      caption: [Ambiente 3D realizzato durante il tirocinio con Three.js],
+      source: "",
+      label: <threejs>
+    )
+
+    Sviluppare un ambiente 3D presenta delle sfide specifiche, in particolar modo riguardo alle _performance_ e alla gestione delle risorse, che durante il mio percorso ho dovuto affrontare e risolvere, al fine di garantire un prodotto fluido e reattivo.
+
+- *Backend*:
+  - *Java con _framework_ Synergy*: nello sviluppo del lato _backend_ dell'applicativo ho utilizzato il _framework_ proprietario Synergy sviluppato in Java. Il suo comportamento è similare al _framework_ Spring, ed entrambi si occupando di semplificare lo sviluppo e la configurazione delle applicazioni, permettendo agli sviluppatori di concentrarsi sulla logica di _business_. 
+
+  Synergy risulta essere versatile e in grado di predisporre un ambiente di sviluppo completo, curando gli aspetti relativi al _testing_, alla _build_, alla gestione delle dipendenze e la comunicazione con il _database_.
+
+- *Database*:
+  - *PostgreSQL*: _database_ relazionale utilizzato per la memorizzazione dei dati dell'applicativo. PostgreSQL è un _database_ relazionale che garantisce un'alta affidabilità e un'ottima scalabilità, garantendo un ambiente di lavoro stabile e performante anche in presenza di un grande volume di dati.
+
+  Il database è stato utilizzato per la memorizzazione dei dati relativi all'ambiente di tridimensionale e alla creazione degli ordini di movimentazione.
+
+
+Nel complesso le tecnologie si integrano come mostro nell'#ref(<integrazioneTecnologie>):
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/tecnologie.png",
+  imageWidth: auto,
+  caption: [Integrazione delle tecnologie utilizzate],
+  source: "",
+  label: <integrazioneTecnologie>
+)
+
+
+Le tecnologie utilizzate mi hanno permesso di sviluppare un prodotto conforme alle aspettative e alle esigenze dell'azienda, garantendo che quanto prodotto fosse integrabile e interoperabile con il prodotto esistente.
+
+=== _Workspace_ e _widget_
+Per poter comprendere come ho svolto implementato l'ambiente tridimensionale, è necessario che siano chiari i concetti di _workspace_ e di _widget_:
+
+- *Widget*: rappresenta un componente autonomo all'interno del _workspace_, che può essere configurato e personalizzato in base alle esigenze dell'utente. Ogni _widget_ è responsabile di una specifica funzionalità, e può comunicare con gli altri _widget_ presenti nel _workspace_. L'ambiente tridimensionale è di fatto un _widget_ all'interno del _workspace_, che permette di visualizzare le strutture del magazzino e i saldi presenti al suo interno;
+
+- *Workspace*: rappresenta l'ambiente di lavoro dell'operatore di _backoffice_, in cui vengono visualizzati i diversi _widget_, personalizzandone dimensione e posizione. L'operatore può configurare il _workspace_ in base alle proprie esigenze, organizzando i _widget_ in modo da avere una visione chiara e completa delle informazioni necessarie per svolgere le proprie attività.
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/workspace.png",
+  imageWidth: auto,
+  caption: [Esempio dei _widget_ presenti nel _workspace_],
+  source: "",
+  label: <workspace>
+)
+
+Nel'#ref(<workspace>) mostro un esempio dei _widget_ presenti nel _workspace_, tra cui l'ambiente tridimensionale, la lista dei saldi presenti nel magazzino e la lista dei bin disponibili.
+
 === Progettazione dell'ambiente tridimensionale
-Descrizione ad alto livello del refactor dell'ambiente tridimensionale che ho svolto.
-=== Progettazione della funzionalità _drag & drop_
-Descrizione ad alto livello della funzionalità di _drag & drop_ per la creazione dell'ordine di movimentazione.
+L'applicativo WMS inizialmente prevedeva una gestione dell'ambiente 3D basata sull'istanziazione di un'unica _mesh_ globale, ossia un'unica istanza grafica rappresentante tutte le strutture del magazzino: tale approccio, seppur funzionante, risultava potenzialmente poco flessibile nel caso di future estensioni in merito al comportamento di aree, strutture e bin. Infatti, al momento dell'interazione, non si andava direttamente ad interagire con l'oggetto della logica corrispondente, bensì con la _mesh_ globale, che si occupava successivamente, mediante l'indice dell'istanza selezionata, di definire quale bin fosse stato selezionato. L'immagine seguente rappresenta graficamente il cambiamento apportato:
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/strutture.png",
+  imageWidth: auto,
+  caption: [Cambiamento apportato durante il _refactor_ dell'ambiente 3D],
+  source: "",
+  label: <strutture>
+)
+
+\
+Il refactoring dell'ambiente 3D, pertanto, si pone come obiettivo la creazione di un sistema di gestione più flessibile e scalabile, che permetta di interagire direttamente con gli oggetti dell'ambiente 3D, avendo un riferimento concreto al bin, alla struttura o all'area selezionata.
+
+*_Mesh_* \
+La libreria Three.js mette a disposizione divere tipologie di _mesh_ per la visualizzazione di oggetti 3D, ciascuna caratterizzata da un consumo di risorse differente e da un comportamento diverso all'interno dell'ambiente. Durante il mio percorso ho svolto un'attenta analisi delle prestazioni del prodotto, cercando di ottimizzare le operazioni di _rendering_ allegerendo il carico di lavoro che la GPU doveva sostenere.
+
+A tale scopo ho utilizzato una tipologia particolare di _mesh_ chiamata `InstancedMesh`, che permette di istanziare un oggetto 3D a partire da un modello base, replicandolo in base a un insieme di parametri specificati. La particolarità di questa tipologia di _mesh_ è che è possibilie applicarla a diversi oggetti 3D (in questo caso per i diversi bin di ogni struttura), in un'unica operazione svolta dalla GPU, garantendo un approccio più efficiente rispetto all'istanziazione di una _mesh_ per ogni oggetto.
+
+*Vantaggi* \
+La gestione centralizzata della _mesh_ dei bin per ciascuna struttura semplifica notevolmente la selezione e l'interazione da parte dell'utente. In futuro, qualora si desiderasse implementare funzionalità aggiuntive (es. la disabilitazione di una struttura, la modifica del colore di un determinato gruppo di strutture per evidenziare diverse aree del magazzino, ...) si disporrebbe di un punto di accesso centralizzato per gestire tutte le strutture e i bin a esse associati.
+
+*Considerazioni aggiuntive* \
+A differenza di quanto avveniva in precedenza, in cui la _mesh_ globale veniva caricata una sola volta, ora viene istanziata una `InstanceMesh` per ogni struttura. Questo aspetto è stato tenuto in particolare attenzione durante l'implementazione, controllando che il carico di risorse e la gestione della memoria fossero ottimizzati e che il prodotto risultante fosse performante e reattivo. Maggiori dettagli nel #ref(<testPerformance>, supplement: "paragrafo").
+
+=== Progettazione della funzionalità di creazione degli ordini di movimentazione
+Il prodotto WMS si pone come obiettivo la gestione dei diversi aspetti che compongono le prartiche logistiche e amministrative di un magazzino. Durante il corso del mio tirocinio mi sono occupato di implementare la funzionalità per la generazione degli ordini di movimentazione mediante un'operazione di _drag & drop_, con l'obiettivo di rendere tale operazione più intuitiva e veloce. 
+
+L'operazione consiste nel selezionare un _bin_ e trascinarlo in un'altra posizione dell'ambiente 3D, generando una richiesta di movimentazione manuale. Questo permetterebbe una gestione rapida ed intuitiva delle movimentazioni, avendo una visione concreta e diretta dell'ambiente 3D.
+
+Nello specifico, la funzionalità generà una richiesta di movimentazione, i dettagli della richiesta e i _task_ corrispondenti, uno per ogni saldo movimentato. In futuro, i _task_ verranno presi in carico dagli operatori in magazzino, che si occuperanno di eseguire la movimentazione fisica dei saldi.
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/richieste.png",
+  imageWidth: auto,
+  caption: [Comportamento creazione dell'ordine di movimentazione],
+  source: "",
+  label: <richieste>
+)
+
+
+
 === Architettura del sistema
-Descrizione dell'architettura del sistema su cui ho lavorato, sia lato backend sia lato frontend, in modo da avere una comprensione maggiore dell'applicativo e del contesto in cui mi sono inserito.
+Descrizione dell'architettura del sistema su cui ho lavorato, sia lato backend sia lato frontend, in modo da avere una comprensione maggiore dell'applicativo e del contesto in cui mi sono inserito. (immagine architettura synergy backend e MVVM frontend)
+
+L'applicativo WMS è una _web application_ che si compone di due parti principali: il _frontend_ e il _backend_. Il _frontend_ è sviluppato in Angular, mentre il _backend_ è sviluppato in Java con il _framework_ Synergy. Entrambi i componenti comunicano tra loro mediante servizi REST esposti.
+
+Durante il mio tirocinio ho avuto modo di sviluppare funzionalità sia lato _frontend_ che lato _backend_, adattandomi ai _pattern_ architetturali presenti, in particolare:
+
+- *Lato _frontend_*: ho seguito il _pattern_ MVVM (_Model-View-ViewModel_), derivato dall'utilizzo di _Angular_, che permette di separare la logica di _business_ dalla presentazione, garantendo una struttura chiara e ben organizzata del codice. In particolare, ho sviluppato i _componenti_ e i _servizi_ necessari per la visualizzazione dell'ambiente 3D e la creazione degli ordini di movimentazione.
+
+  #showImageWithSource(
+    imagePath: "/assets/chapter3/MVVM.png",
+    imageWidth: auto,
+    caption: [Struttura MVVM],
+    source: "https://medium.com/@mutebibrian256/mastering-android-mvvm-architecture-developers-guide-3271e4c8908b",
+    label: <mvvm>
+  )
+
+- *Lato _backend_*: ho seguito il _pattern_ architetturale a _layer_ di _Synergy_, che permette di separare le diverse responsabilità del sistema in _layer_ distinti, garantendo una struttura modulare e scalabile, come mostrato dall'immagine seguente:
+
+  #showImageWithSource(
+    imagePath: "/assets/chapter3/synergy.png",
+    imageWidth: 70%,
+    caption: [Struttura a _layer_ di Synergy],
+    source: "",
+    label: <synergy>
+  )
+
+  In particolare, ho lavorato ai seguenti _layer_:
+
+  - *WS layer*: _layer_ che si occupa di esporre i servizi REST all'esterno, permettendo la comunicazione con il _frontend_. Si occupa di richiamare i servizi del _layer_ _Logic_ e di gestire le richieste in arrivo;
+
+  - *DAO layer* (_Data Access Object_): _layer_ che si occupa di gestire l'accesso ai dati, interfacciandosi con il _database_ e fornendo i metodi per l'interazione con i dati. Si occupa di eseguire le operazioni di lettura e scrittura dei dati, garantendo un'interfaccia semplice e chiara per il _layer_ _Logic_;
+
+  - *Logic layer*: _layer_ che contiene la logica di _business_ dell'applicativo, richiamato dal _layer_ _WS_ per eseguire le operazioni richieste. Si occupa di gestire le richieste in arrivo, di eseguire la logica di _business_ e di restituire i risultati al _layer_ _WS_.
+
 === Design pattern
-I design pattern che ho utilizzato per garantire un prodotto software di qualità, spiegando le motivazioni delle scelte e i vantaggi nel loro utilizzo.
+Nella progettazione e nello sviluppo del prodotto WMS, oltre ad utilizzare le _best practice_ derivanti dall'utilizzo di _framework_ come Angular e _Synergy_, ho utilizzato _design pattern_ seguendo le convenzioni aziendali al fine di garantire un codice ben strutturato, manutenibile e scalabile. 
+
+I _design pattern_ che ho utilizzato sono i seguenti:
+- *Singleton*: ho utilizzato il _pattern_ Singleton nell'interfacciamento dell'applicativo con il _database_, garantendo che una sola istanza della classe di connessione fosse creata e condivisa tra le varie componenti dell'applicativo; Nello specifico, mi sono occupato di estendere le classi presenti per estendere le operazioni di lettura e scrittura dei dati all'interno del DAO layer. Inoltre, tale _pattern_ è utilizzato da Angular nella definizione dei _service_, responsabili della comunicazione fra componenti e da/verso il _backend_.
+
+- *DAO (_Data Access Object_)*: ho utilizzato il _pattern_ DAO per separare la logica di accesso ai dati dalla logica di _business_, garantendo una struttura chiara e ben organizzata del codice. In particolare, ho sviluppato le classi DAO per l'interfacciamento con il _database_, grazie alla predisposizione offerta dal _framework_ Synergy. Questo mi ha permesso di separare le operazioni di lettura e scrittura dei dati dalla logica di _business_, garantendo una maggiore modularità e scalabilità del codice.
+
+- *Decorator*: Il framework Angular si distingue per l'adozione innovativa del concetto di decoratori, quali l'annotazione `@Injectable()`. Tali costrutti consentono di arricchire dinamicamente le funzionalità degli oggetti esistenti, ampliandone le capacità senza introdurre eccessivi vincoli di dipendenza tra le varie componenti del sistema. Questo _pattern_ si è rivelato particolarmente vantaggioso nell'ambito dell'iniezione delle dipendenze necessarie all'interno di specifiche classi e funzioni dell'applicazione, permettendo di ottenere un disaccoppiamento più efficace tra le diverse parti del codice.
+
+
+  Un esempio concreto di decoratori che ho utilizzato è il decoratore `@ExhaustingEvent ()` per la gestione degli eventi "iscrivibili": tali eventi sono gestiti in modo trasparente dal framework mediante l'applicazione del decoratore, che gestirà automaticamente gli eventi di _subscribe_ e _unsubscribe_.
+
+- *_Dependency injection_*: Uno degli aspetti distintivi di Angular è l'enfasi posta sull'adozione del pattern _dependency injection_. Questo paradigma consente di incorporare le dipendenze richieste direttamente nel processo di costruzione degli oggetti, semplificando notevolmente la gestione e l'utilizzo dei servizi all'interno del codice sorgente. Tale approccio è stato particolarmente valorizzato nella realizzazione di servizi e componenti, agevolando l'identificazione e l'impiego dei servizi necessari all'interno dell'applicazione. La _dependency injection_ rappresenta quindi un elemento chiave nell'architettura di Angular, favorendo un disaccoppiamento efficace tra le diverse parti del sistema.
 
 == Codifica
 === Visualizzazione tridimensionale
@@ -894,12 +1260,12 @@ Descrizione dei servizi REST che ho implementato.
 I test di unità che ho implementato per il lato backend, con il supporto del framework Synergy.
 === Test di integrazione
 I test di integrazione che ho implementato per il lato backend, con il supporto del framework Synergy.
-=== Test di _performance_
+=== Test di _performance_ <testPerformance>
 I test che ho svolto per verificare che le _performance_ del prodotto realizzato rispecchiassero le aspettative. (particolare riferimento all'ambiente tridimensionale).
 === Test di sistema
 I test di sistema che ho svolto per accertarmi del corretto funzionamento delle funzionalità implementate.
 === Test di accettazione
-I test di accettazione svolti dal tester del_team_che permettono di definire concluso il processo di sviluppo della funzionalità.
+I test di accettazione svolti dal tester del _team_ che permettono di definire concluso il processo di sviluppo della funzionalità.
 
 == Risultati raggiunti
 === Il prodotto realizzato
@@ -909,7 +1275,7 @@ Il livello di copertura dei requisiti individuati durante l'analisi.
 === Copertura di testing
 Il livello di copertura di codice in relazione ai test implementati.
 === Materiali prodotti
-Il livello complessivo dei materiali prodotti durante il tirocinio: oltre infatti al codice, durante il percorso di tirocinio ho tenuto traccia giornalmente della attività svolte mediante una bacheca su Notion. Inoltre mi sono preoccupato di redigere puntualmente la documentazione relativa a tutte le funzionalità prodotte e alla loro analisi, condividendola anche il referente aziendale. Questa sezione riporterà una panoramica quantitativa di questi materiali prodotti, le linee di codice scritte, i _meeting_ svolti e le issue su Jira svolte (_bugfix_ e funzionalità).
+Il livello complessivo dei materiali prodotti durante il tirocinio: o ltre infatti al codice, durante il percorso di tirocinio ho tenuto traccia giornalmente della attività svolte mediante una bacheca su Notion. Inoltre mi sono preoccupato di redigere puntualmente la documentazione relativa a tutte le funzionalità prodotte e alla loro analisi, condividendola anche il referente aziendale. Questa sezione riporterà una panoramica quantitativa di questi materiali prodotti, le linee di codice scritte, i _meeting_ svolti e le issue su Jira svolte (_bugfix_ e funzionalità).
 
 #pagebreak()
 = Valutazione retrospettiva

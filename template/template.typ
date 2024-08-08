@@ -141,6 +141,8 @@
   glossaryRegex = glossaryRegex.dedup().sorted().rev().join(regexSeparator)
   // Highlight glossary terms
   
+  
+
   show regex(
     glossaryRegex
   ): it => {
@@ -152,7 +154,7 @@
     )
     h(0.02em)
   }
-  
+
   // Body
   set par(
     justify: true
@@ -225,7 +227,8 @@
     outlined: false,
     previousTerm.at(0)
   )
-  v(-1em)
+
+  v(1em)
   line(length: 100%)
   v(-1em)
   for term in glossary.keys() {
@@ -258,14 +261,15 @@
   pagebreak()
 
   [= Bibliografia e sitografia]
-
   let bibliography = json("/bibliografia_sitografia.json");
   let previousTerm = bibliography.keys().at(0)
+
   heading(
     level: 1,
     outlined: false,
     previousTerm.at(0)
   )
+
   v(-1em)
   line(length: 100%)
   for term in bibliography.keys() {

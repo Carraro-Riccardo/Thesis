@@ -1,9 +1,4 @@
 {
-    "Gestione di progetto": {
-        "url" : "https://www.math.unipd.it/~tullio/IS-1/2023/Dispense/T4.pdf",
-        "description" : "_Gestione di progetto_, slide del corso di Ingegneria del Software",
-        "date" : [5, 8, 24]
-    },
     "I processi di ciclo di vita del software": {
         "url" : "https://www.math.unipd.it/~tullio/IS-1/2023/Dispense/T2.pdf",
         "description" : "_I processi di ciclo di vita del software_, slide del corso di Ingegneria del Software",
@@ -13,6 +8,11 @@
         "url" : "https://www.math.unipd.it/~tullio/IS-1/2023/Dispense/T3.pdf",
         "description" : "_Modelli di sviluppo software_, slide del corso di Ingegneria del Software",
         "date" : [25, 7, 24]
+    },
+    "Project Management": {
+        "url" : "https://www.math.unipd.it/~tullio/IS-1/2023/Dispense/T4.pdf",
+        "description" : "_Project Management_, slide del corso di Ingegneria del Software",
+        "date" : [5, 8, 24]
     },
     "Qualità del Software": {
         "url" : "https://www.math.unipd.it/~tullio/IS-1/2023/Dispense/T7.pdf",

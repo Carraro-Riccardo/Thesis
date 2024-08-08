@@ -14,6 +14,11 @@
     "acronyms": [],
     "synonyms": []
   },
+  "Bin": {
+    "description": "Unità minima di spazio del magazzino atta a contenere prodotti. I bin sono posizionati in automatico all'interno degli scaffali al momento della loro creazione, e possono contenere al massimo un tipo di prodotto. È possibile creare bin, eliminarli se vuoti, e modificarne le dimensioni.",
+    "acronyms": [],
+    "synonyms": []
+  },
   "Bitbucket": {
     "description": "Software di versionamento distribuito utilizzabile tramite linea di comando.",
     "acronyms": [],
@@ -44,11 +49,6 @@
     "acronyms": ["CI/CD"],
     "synonyms": []
   },
-  "Database": {
-    "description": "Insieme di informazioni (o dati) strutturate, in genere archiviate elettronicamente in un sistema informatico. Solitamente i database sono gestiti da un DBMS (Database Management System), il quale deve garantire efficacia, efficienza, privacy ed affidabilità.",
-    "acronyms": ["DB"],
-    "synonyms": []
-  },
   "Diagrammi di burndown": {
     "description": "Un burndown chart è una rappresentazione grafica del lavoro da fare su un progetto nel tempo. Di solito il lavoro rimanente (o backlog) è indicato sull'asse verticale e il tempo sull'asse orizzontale. Il diagramma rappresenta una serie storica del lavoro da fare.",
     "acronyms": [],
@@ -56,21 +56,6 @@
   },
   "Feature": {
     "description": "Specifica funzionalità o caratteristica del prodotto sviluppato. Può essere richiesta esplicitamente dal Proponente o individuata dal Fornitore sulla base del processo di Analisi dei Requisiti.",
-    "acronyms": [],
-    "synonyms": []
-  },
-  "GitHub": {
-    "description": "Servizio di hosting di progetti software basato su Git utilizzato da singoli ed organizzazioni. Fornisce un Issue Tracking System integrato e permette di implementare sistemi di Continuous Integration e Continuous Delivery tramite automazioni chiamate Action.",
-    "acronyms": ["GH"],
-    "synonyms": []
-  },
-  "Google Drive": {
-    "description": "Servizio di web cloud offerto da Google basato sull'archiviazione e condivisione di file e documenti all'interno di uno spazio condiviso e modificabile via web.",
-    "acronyms": [],
-    "synonyms": []
-  },
-  "Google Sheets": {
-    "description": "Applicazione web-based che permette la creazione, aggiornamento e modifica di fogli di calcolo.",
     "acronyms": [],
     "synonyms": []
   },
