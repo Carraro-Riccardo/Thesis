@@ -54,11 +54,6 @@
     "acronyms": [],
     "synonyms": ["burndown", "burndown chart"]
   },
-  "Feature": {
-    "description": "Specifica funzionalità o caratteristica del prodotto sviluppato. Può essere richiesta esplicitamente dal Proponente o individuata dal Fornitore sulla base del processo di Analisi dei Requisiti.",
-    "acronyms": [],
-    "synonyms": []
-  },
   "Ingegneria del Software": {
     "description": "Disciplina che si occupa della progettazione, sviluppo, test e manutenzione del software. Adotta un approccio sistematico, disciplinato e quantificabile, che mira a creare software di alta qualità, affidabile e manutenibile. ",
     "acronyms": ["IS", "SWE"],
@@ -142,11 +137,6 @@
   "Unified Modeling Language": {
     "description": "Linguaggio di modellazione visivo, destinato a fornire un modo standard per visualizzare la progettazione di un sistema.",
     "acronyms": ["UML"],
-    "synonyms": []
-  },
-	"Versionamento": {
-    "description": "Processo di assegnazione di identificatori univoci a diversi momenti di sviluppo di un software o progetto. Comprende il recupero di versioni diverse da quella attuale e l'aggiornamento della versione stessa.",
-    "acronyms": [],
     "synonyms": []
   },
 	"Way of Working": {

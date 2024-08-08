@@ -1,4 +1,14 @@
 {
+    "Angular": {
+        "url" : "https://angular.io/",
+        "description" : "Sito web ufficiale di Angular",
+        "date" : [8, 8, 24]
+    },
+    "Documentazione Three.js": {
+        "url" : "https://threejs.org/docs/",
+        "description" : "Documentazione ufficiale di Three.js",
+        "date" : [8, 8, 24]
+    },
     "I processi di ciclo di vita del software": {
         "url" : "https://www.math.unipd.it/~tullio/IS-1/2023/Dispense/T2.pdf",
         "description" : "_I processi di ciclo di vita del software_, slide del corso di Ingegneria del Software",
