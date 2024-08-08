@@ -1065,7 +1065,102 @@ L'utente specifica una priorità non presente nell'anagrafica delle priorità po
 
 
 === Tracciamento dei requisiti
-Come sono stati identificati i requisiti e il mio approccio al loro soddisfacimento.
+Ho tracciato i requisiti con un codice identificativo definito nel seguente modo:
+#align(center, [TC-I])
+dove:
+
+- *T* rappresenta la tipologia. Può assumere i valori:
+  - *F*: funzionale;
+
+  - *Q*: di qualità;
+
+  - *P*: prestazionale;
+  
+  - *V*: di vincolo.
+
+- *C* appresenta la classificazione. Può assumere i valori:  
+  - *M*: _mandatory_, obbligatorio;
+  
+  - *D*: desiderabile;
+  
+  - *O*: opzionale.
+
+- *I*: intero positivo identificativo del requisito.
+
+\
+*Requisiti funzionali*:
+#figure(
+  table(
+    columns: (0.5fr, auto, 2fr, auto),
+    [*Codice*],[*Classe*],[*Descrizione*],[*Fonte*],
+    [F-M1],[Obbligatorio],[L'utente può visualizzare le strutture del magazzino all'interno dell'ambiente tridimensionale.],[UC-1.1 \ Obiettivi aziendali],
+    [F-M2],[Obbligatorio],[L'utente può selezionare una struttura del magazzino all'interno dell'ambiente tridimensionale.],[UC-1.2 \ Obiettivi aziendali],
+    [F-M3],[Obbligatorio],[L'utente può riposizionare la struttura del magazzino all'interno dell'ambiente tridimensionale.],[UC-1.2.1 \ Obiettivi aziendali],
+    [F-M4],[Obbligatorio],[L'utente può selezionare un bin all'interno dell'ambiente tridimensionale.],[UC-1.4 \ Obiettivi aziendali],
+    [F-M5],[Obbligatorio],[L'utente può selezionare il bin di partenza da cui iniziare l'operazione di _drag&drop_.],[UC-2.1 \ Obiettivi aziendali],
+    [F-M6],[Obbligatorio],[L'utente può selezionare il bin di destinazione in cui posizionare i saldi movimentati.],[UC-2.2 \ Obiettivi aziendali],
+    [F-M7],[Obbligatorio],[L'utente può selezionare i saldi da movimentare dal bin di partenza al bin di destinazione.],[UC-2.3 \ Obiettivi aziendali],
+    [F-M8],[Obbligatorio],[L'utente può specificare la causale per la creazione dell'ordine di movimentazione.],[UC-2.4 \ Obiettivi aziendali],
+    [F-M9],[Obbligatorio],[L'utente può specificare la priorità per la creazione dell'ordine di movimentazione.],[UC-2.5 \ Obiettivi aziendali],
+    [F-D10],[Desiderabile],[L'utente deve visualizzare un errore se il bin di partenza è privo di saldi.],[UC-2.1.1],
+    [F-D11],[Desiderabile],[L'utente deve visualizzare un errore se il bin di destinazione non è valido.],[UC-2.2.1],
+    [F-D12],[Desiderabile],[L'utente deve visualizzare un errore se la quantità selezionata non è valida.],[UC-2.3.1],
+    [F-D13],[Desiderabile],[L'utente deve visualizzare un errore se la causale specificata non è valida.],[UC-2.4.1],
+    [F-D14],[Desiderabile],[L'utente deve visualizzare un errore se la priorità specificata non è valida.],[UC-2.5.1],
+  ),
+  caption: [Requisiti funzionali],
+)
+
+\
+*Requisiti di qualità*:
+#figure(
+  table(
+    columns: (0.5fr, auto, 2fr, auto),
+    [*Codice*],[*Classe*],[*Descrizione*],[*Fonte*],
+    [Q-M1],[Obbligatorio],[Il prodotto deve rispettare le convenzioni aziendali.],[Azienda],
+    [Q-O2],[Opzionale],[Devono essere consegnati i diagrammi UML delle classi implementate.],[Obiettivi aziendali],
+    [Q-O3],[Opzionale],[Devono essere consegnata la documentazione delle funzionalità implementate.],[Obiettivi aziendali],
+    [Q-O4],[Opzionale],[Devono essere consegnata la documentazione dei servizi REST implementati.],[Obiettivi aziendali],
+  ),
+  caption: [Requisiti di qualità],
+)
+
+*Requisiti prestazionali*:
+#figure(
+  table(
+    columns: (0.5fr, auto, 2fr, auto),
+    [*Codice*],[*Classe*],[*Descrizione*],[*Fonte*],
+    [P-M1],[Obbligatorio],[Il tempo di caricamento dell'ambiente 3D a seguito del refactoring deve rimanere sotto i 4 secondi],[Azienda],
+  ),
+  caption: [Requisiti prestazionali],
+)
+
+*Requisiti di vincolo*:
+#figure(
+  table(
+    columns: (0.5fr, auto, 2fr, auto),
+    [*Codice*],[*Classe*],[*Descrizione*],[*Fonte*],
+    [V-M1],[Obbligatorio],[Il prodotto deve essere sviluppato in Angular 16.],[Azienda],
+    [V-M2],[Obbligatorio],[Il prodotto deve essere sviluppato in Java 21 seguendo le convenzioni imposte dal _framework_ Synergy.],[Azienda],
+    [V-M3],[Obbligatorio],[L'ambiente tridimensionale deve essere sviluppato in Three.js.],[Azienda],
+    [V-M4],[Obbligatorio],[Il browser utilizzato per accedere al prodotto deve supportare WebGLG 2.0],[V-M3],
+  ),
+  caption: [Requisiti di vincolo],
+)
+
+\
+*Riepilogo requisiti*:
+#figure(
+  table(
+    columns: (0.5fr, auto, auto, auto, auto),
+    [*Tipologia*], [*Obbligatori*], [*Desiderabili*], [*Opzionali*], [*Totale*],
+    [Funzionali],[9],[5],[0],[14],
+    [Qualità],[1],[0],[3],[4],
+    [Prestazionali],[1],[0],[0],[1],
+    [Vincolo],[4],[0],[0],[4],
+  ),
+  caption: [Riepilogo requisiti],
+)
 
 == Progettazione
 === Tecnologie utilizzate <tecnologieUtilizzate>
@@ -1086,7 +1181,7 @@ Nel dettaglio, le tecnologie utilizzate sono le seguenti:
       label: <angular>
     )
 
-    Come mostro nell'#ref(<angular>), ogni componente fa riferimento da un _template_ HTML, a cusi sono associati delle proprietà e degli eventi, assumendo un comportamento dinamico e interattivo. Un ruolo cruciale è svolto dall'_injector_ (secondo il pattern _dependency injection_), che permette di iniettare le dipendenze necessarie per il funzionamento del componente, in particolar modo dei servizi.
+    Come mostro nell'#ref(<angular>), ogni componente fa riferimento da un _template_ HTML, a cui sono associati le proprietà e gli eventi, assumendo un comportamento dinamico e interattivo. Un ruolo cruciale è svolto dall'_injector_ (secondo il pattern _dependency injection_), che permette di iniettare le dipendenze necessarie per il funzionamento del componente, in particolar modo dei servizi.
 
   
   - *Three.js*: libreria JavaScript per la creazione di ambienti 3D. Ho utilizzato Three.js per la creazione dell'ambiente tridimensionale, garantendo una visualizzazione realistica e interattiva dell'ambiente di lavoro.
@@ -1158,14 +1253,17 @@ L'applicativo WMS inizialmente prevedeva una gestione dell'ambiente 3D basata su
 \
 Il refactoring dell'ambiente 3D, pertanto, si pone come obiettivo la creazione di un sistema di gestione più flessibile e scalabile, che permetta di interagire direttamente con gli oggetti dell'ambiente 3D, avendo un riferimento concreto al bin, alla struttura o all'area selezionata.
 
+\
 *_Mesh_* \
 La libreria Three.js mette a disposizione divere tipologie di _mesh_ per la visualizzazione di oggetti 3D, ciascuna caratterizzata da un consumo di risorse differente e da un comportamento diverso all'interno dell'ambiente. Durante il mio percorso ho svolto un'attenta analisi delle prestazioni del prodotto, cercando di ottimizzare le operazioni di _rendering_ allegerendo il carico di lavoro che la GPU doveva sostenere.
 
 A tale scopo ho utilizzato una tipologia particolare di _mesh_ chiamata `InstancedMesh`, che permette di istanziare un oggetto 3D a partire da un modello base, replicandolo in base a un insieme di parametri specificati. La particolarità di questa tipologia di _mesh_ è che è possibilie applicarla a diversi oggetti 3D (in questo caso per i diversi bin di ogni struttura), in un'unica operazione svolta dalla GPU, garantendo un approccio più efficiente rispetto all'istanziazione di una _mesh_ per ogni oggetto.
 
+\
 *Vantaggi* \
 La gestione centralizzata della _mesh_ dei bin per ciascuna struttura semplifica notevolmente la selezione e l'interazione da parte dell'utente. In futuro, qualora si desiderasse implementare funzionalità aggiuntive (es. la disabilitazione di una struttura, la modifica del colore di un determinato gruppo di strutture per evidenziare diverse aree del magazzino, ...) si disporrebbe di un punto di accesso centralizzato per gestire tutte le strutture e i bin a esse associati.
 
+\
 *Considerazioni aggiuntive* \
 A differenza di quanto avveniva in precedenza, in cui la _mesh_ globale veniva caricata una sola volta, ora viene istanziata una `InstanceMesh` per ogni struttura. Questo aspetto è stato tenuto in particolare attenzione durante l'implementazione, controllando che il carico di risorse e la gestione della memoria fossero ottimizzati e che il prodotto risultante fosse performante e reattivo. Maggiori dettagli nel #ref(<testPerformance>, supplement: "paragrafo").
 
@@ -1183,8 +1281,6 @@ Nello specifico, la funzionalità generà una richiesta di movimentazione, i det
   source: "",
   label: <richieste>
 )
-
-
 
 === Architettura del sistema
 Descrizione dell'architettura del sistema su cui ho lavorato, sia lato backend sia lato frontend, in modo da avere una comprensione maggiore dell'applicativo e del contesto in cui mi sono inserito. (immagine architettura synergy backend e MVVM frontend)
@@ -1221,6 +1317,7 @@ Durante il mio tirocinio ho avuto modo di sviluppare funzionalità sia lato _fro
 
   - *Logic layer*: _layer_ che contiene la logica di _business_ dell'applicativo, richiamato dal _layer_ _WS_ per eseguire le operazioni richieste. Si occupa di gestire le richieste in arrivo, di eseguire la logica di _business_ e di restituire i risultati al _layer_ _WS_.
 
+\
 === Design pattern
 Nella progettazione e nello sviluppo del prodotto WMS, oltre ad utilizzare le _best practice_ derivanti dall'utilizzo di _framework_ come Angular e _Synergy_, ho utilizzato _design pattern_ seguendo le convenzioni aziendali al fine di garantire un codice ben strutturato, manutenibile e scalabile. 
 
@@ -1238,14 +1335,12 @@ I _design pattern_ che ho utilizzato sono i seguenti:
 
 == Codifica
 === Visualizzazione tridimensionale
-\
 ==== Classi implementate
 Descrizione delle classi implementate per la visualizzazione dell'ambiente 3D.
 \
 ==== Cambiamenti apportati
 Come ho svolto il _refactoring_ dell'ambiente 3d, quali i componenti, i servizi, i cambiamenti apportati per adattarsi alla nuova logica implementata, inserendo anche immagini dell'interfaccia.
 === Drag & Drop e creazione ordini di movimentazione
-\
 ==== Componenti
 Descrizione dei componenti che ho implementato, con immagini dell'interfaccia.
 \
