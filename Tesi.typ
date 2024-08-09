@@ -180,10 +180,10 @@ Anche l'approccio al _framework Synergy_, è stato un'ulteriore conferma in meri
 
 Inoltre, anche all'interno del codice mi sono assicurato di seguire le convezioni aziendali in materia di commenti e produzione dei _Javadoc_, in modo da garantire che ogni porzione di codice da me prodotta fosse conforme, documentata e rapidamente comprensibile.
 
-==== Verifica
+==== Verifica <processoVerifica>
 Il processo di verifica comprende l'insieme di attività necessarie per garantire che il prodotto _software_ soddisfi i requisiti del cliente e che sia pronto per la consegna. Durante il mio tirocinio ho avuto modo di osservare come questa attività sia svolta in azienda, partendo dai _test_ di unità e di integrazione, fino ai _test_ di sistema e di accettazione.
 
-A seguito al processo di progettazione, vengono identificati e definiti i requisiti del prodotto, e per ciascun di questi definiti i test necessari per verificarne il loro soddisfacimento.
+A seguito al processo di progettazione, vengono identificati e definiti i requisiti del prodotto, e per ciascun di questi definiti i _test_ necessari per verificarne il loro soddisfacimento.
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/testing.png",
@@ -203,7 +203,7 @@ Come mostro nell'#ref(<testingImage>), il processo di verifica comprende diversi
 
 - *Test di accettazione*: attività di verifica del prodotto da parte del cliente. L'obiettivo è verificare che il prodotto soddisfi le esigenze del cliente e che sia pronto per la consegna. Questa tipologia di _test_ viene in un primo momento svolta dal _tester_ del _team_, sia manualmente che in modo automatico.
 
-In azienda ho partecipato attivamente a queste attività, in particolare ai test di unità e di integrazione, con l'obiettivo di garantire che il prodotto fosse pronto per il _Software qualification testing_ (#ref(<softwareQualificationTesting>, supplement: "paragrafo")).
+In azienda ho partecipato attivamente a queste attività, in particolare ai _test_ di unità e di integrazione, con l'obiettivo di garantire che il prodotto fosse pronto per il _Software qualification testing_ (#ref(<softwareQualificationTesting>, supplement: "paragrafo")).
 
 Nel mio caso infatti, prima di procedere all'integrazione della _codebase_ con il mio lavoro svolto, un automatismo si occupava di verificare che tutte le _suite_ di _test_ predisposte fossero eseguite con esito positivo, in modo da non compromettere il funzionamento del prodotto.
 
@@ -458,7 +458,7 @@ Il progetto di _stage_ pertanto, non trattandosi di un'implementazione da zero, 
 
 \
 === Obiettivi <obiettiviTirocinio>
-==== Obiettivi aziendali
+==== Obiettivi aziendali <obiettiviAziendali>
 Gli obiettivi del tirocinio di interesse aziendale sono individuabili nello sviluppo e miglioramento delle funzionalità del prodotto WMS, in modo da renderlo più competitivo sul mercato e rispondere alle esigenze del cliente.
 
 Farò riferimento agli obiettivi aziendali (OA) secondo la seguente notazione:
@@ -737,9 +737,9 @@ Trattandosi di un'esperienza dal carattere fortemente formativo, ho ritenuto ino
 Ispirandomi ai principi dell'Ingegneria del _software_, ho cercato di garantire efficacia ed efficienza nel conseguimento dei miei obiettivi, seguendo un approccio di qualità e di conformità alle convenzioni aziendali.
 
 In particolare, ho posto attenzione a due processi fondamentali, quali:
-- *Verifica*: ho svolto attività di verifica costanti, mediante l'utilizzo di strumenti di analisi statica e dinamica del codice, e di test automatici e manuali, in modo da garantire la qualità del prodotto _software_ sviluppato;
+- *Verifica*: ho svolto attività di verifica costanti, mediante l'utilizzo di strumenti di analisi statica e dinamica del codice, e di _test_ automatici e manuali, in modo da garantire la qualità del prodotto _software_ sviluppato;
 
-- *Validazione*: ho svolto attività di validazione costanti, mediante l'esecuzione di test di sistema e di accettazione (svolti dal _tester_ del _team_), in modo da garantire che il prodotto realizzato fosse conforme alle aspettative e alle esigenze del cliente.
+- *Validazione*: ho svolto attività di validazione costanti, mediante l'esecuzione di _test_ di sistema e di accettazione (svolti dal _tester_ del _team_), in modo da garantire che il prodotto realizzato fosse conforme alle aspettative e alle esigenze del cliente.
 
 Attraverso l'applicazione rigorosa di questi processi, ho mirato a creare un prodotto che consideri questi aspetti cruciali:
 
@@ -806,7 +806,7 @@ Gli strumenti e le tecnologie che ho utilizzato per garantire la qualità del pr
   
   - *_Test_ di sistema*: _test_ che verificano il corretto funzionamento del sistema nel suo complesso, garantendo che tutte le funzionalità siano conformi alle aspettative.
 
-  Il _framework_ Synergy predisponeva un ambiente di test completo, che mi ha permesso di implementare i _test_ agevolemente e in modo conforme alle esigenze aziendali.
+  Il _framework_ Synergy predisponeva un ambiente di _test_ completo, che mi ha permesso di implementare i _test_ agevolemente e in modo conforme alle esigenze aziendali.
 
 \
 - *Analisi statica del codice*: ho utilizzato strumenti di analisi statica per verificare la qualità del codice prodotto in grado di evidenziare errori e _code smell_, permettendomi di produrre codice che rispettasse le convenzioni aziendali e fosse conforme alle aspettative. In particolare, ho utilizzato i seguenti _linter_:
@@ -1064,7 +1064,7 @@ L'utente specifica una priorità non presente nell'anagrafica delle priorità po
 \
 
 
-=== Tracciamento dei requisiti
+=== Tracciamento dei requisiti <tracciamentoRequisiti>
 Ho tracciato i requisiti con un codice identificativo definito nel seguente modo:
 #align(center, [TC-I])
 dove:
@@ -1140,7 +1140,7 @@ dove:
   table(
     columns: (0.5fr, auto, 2fr, auto),
     [*Codice*],[*Classe*],[*Descrizione*],[*Fonte*],
-    [V-M1],[Obbligatorio],[Il prodotto deve essere sviluppato in Angular 16.],[Azienda],
+    [V-M1],[Obbligatorio],[Il prodotto deve essere sviluppato in Angular 17.],[Azienda],
     [V-M2],[Obbligatorio],[Il prodotto deve essere sviluppato in Java 21 seguendo le convenzioni imposte dal _framework_ Synergy.],[Azienda],
     [V-M3],[Obbligatorio],[L'ambiente tridimensionale deve essere sviluppato in Three.js.],[Azienda],
     [V-M4],[Obbligatorio],[Il browser utilizzato per accedere al prodotto deve supportare WebGLG 2.0],[V-M3],
@@ -1282,6 +1282,22 @@ Nello specifico, la funzionalità generà una richiesta di movimentazione, i det
   label: <richieste>
 )
 
+Insieme al _team_ pertanto, come prima cosa abbiamo definito le tabelle coinvolte, in modo da avere una visione chiara e completa delle informazioni necessarie per la creazione degli ordini di movimentazione. In particolare, abbiamo definito le seguenti tabelle:
+
+- `WmsReq`: tabella contenente le informazioni relative alla richiesta di movimentazione, la priorità, la tipologia e se si tratta di una richiesta manuale;
+
+- `WmsReqDet`: tabella contenente i dettagli della richiesta di movimentazione, uno per ogni saldo movimentato. Contiene le informazioni relative al prodotto movimentato e la quantità;
+
+- `WmsTsk`: tabella contenente i _task_ corrispondenti alla richiesta di movimentazione, direttamente associato alla tabella `WmsReqDet`. Anche questa tabella contiene le informazioni relative al prodotto movimentato e la quantità aggiungendo inoltre la tipologia del _task_, il bin di partenza, il bin di destinazione e lo stato del _task_.
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/dbSchemas.png",
+  imageWidth: auto,
+  caption: [Tabelle coinvolte nella creazione degli ordini di movimentazione],
+  source: "",
+  label: <dbSchema>
+)
+
 === Architettura del sistema
 Descrizione dell'architettura del sistema su cui ho lavorato, sia lato backend sia lato frontend, in modo da avere una comprensione maggiore dell'applicativo e del contesto in cui mi sono inserito. (immagine architettura synergy backend e MVVM frontend)
 
@@ -1289,33 +1305,40 @@ L'applicativo WMS è una _web application_ che si compone di due parti principal
 
 Durante il mio tirocinio ho avuto modo di sviluppare funzionalità sia lato _frontend_ che lato _backend_, adattandomi ai _pattern_ architetturali presenti, in particolare:
 
-- *Lato _frontend_*: ho seguito il _pattern_ MVVM (_Model-View-ViewModel_), derivato dall'utilizzo di _Angular_, che permette di separare la logica di _business_ dalla presentazione, garantendo una struttura chiara e ben organizzata del codice. In particolare, ho sviluppato i _componenti_ e i _servizi_ necessari per la visualizzazione dell'ambiente 3D e la creazione degli ordini di movimentazione.
+- *Lato _frontend_*: ho seguito il _pattern_ MVVM (_Model-View-ViewModel_), derivato dall'utilizzo di Angular, che permette di separare la logica di _business_ dalla presentazione, garantendo una struttura chiara e ben organizzata del codice. In particolare, ho sviluppato i _componenti_ e i _servizi_ necessari per la visualizzazione dell'ambiente 3D e la creazione degli ordini di movimentazione.
 
   #showImageWithSource(
     imagePath: "/assets/chapter3/MVVM.png",
     imageWidth: auto,
-    caption: [Struttura MVVM],
+    caption: [Pattern MVVM del _frontend_ con Angular],
     source: "https://medium.com/@mutebibrian256/mastering-android-mvvm-architecture-developers-guide-3271e4c8908b",
     label: <mvvm>
   )
 
+\
 - *Lato _backend_*: ho seguito il _pattern_ architetturale a _layer_ di _Synergy_, che permette di separare le diverse responsabilità del sistema in _layer_ distinti, garantendo una struttura modulare e scalabile, come mostrato dall'immagine seguente:
 
   #showImageWithSource(
     imagePath: "/assets/chapter3/synergy.png",
-    imageWidth: 70%,
-    caption: [Struttura a _layer_ di Synergy],
+    imageWidth: auto,
+    caption: [Architettura a _layer_ del backend con Synergy],
     source: "",
     label: <synergy>
   )
 
-  In particolare, ho lavorato ai seguenti _layer_:
+\
+  Nell'implementazione delle funzionalità, ho lavorato attivamente a tutti i _layer_ dell'architettura, rispettando le responsabilità di cui ciascun livello si fa carico:
 
-  - *WS layer*: _layer_ che si occupa di esporre i servizi REST all'esterno, permettendo la comunicazione con il _frontend_. Si occupa di richiamare i servizi del _layer_ _Logic_ e di gestire le richieste in arrivo;
+  - *Service layer*: _layer_ che si occupa di esporre i servizi REST all'esterno, controllare l'autenticazione e di chiamare il _layer_ _WS_ per l'esecuzione delle operazioni richieste; 
 
-  - *DAO layer* (_Data Access Object_): _layer_ che si occupa di gestire l'accesso ai dati, interfacciandosi con il _database_ e fornendo i metodi per l'interazione con i dati. Si occupa di eseguire le operazioni di lettura e scrittura dei dati, garantendo un'interfaccia semplice e chiara per il _layer_ _Logic_;
+  - *WS layer*: _layer_ che si occupa di gestire i parametri delle chiamate REST, controllando inoltre le autorizzazioni per la scrittura e la lettura dei dati. Si occupa di chiamare il _layer_ di logica per l'esecuzione delle operazioni richieste;
 
-  - *Logic layer*: _layer_ che contiene la logica di _business_ dell'applicativo, richiamato dal _layer_ _WS_ per eseguire le operazioni richieste. Si occupa di gestire le richieste in arrivo, di eseguire la logica di _business_ e di restituire i risultati al _layer_ _WS_.
+  - *Logic layer*: _layer_ che contiene la logica di _business_ dell'applicativo. Si occupa di eseguire la logica di _business_, richiamando il DAO per interagire con il database.
+
+  - *DAO layer* (_Data Access Object_): _layer_ che si occupa di gestire l'accesso ai dati, interfacciandosi con il _database_ e fornendo i metodi per per le operazioni CRUD (_Create, Read, Update, Delete_);
+
+  - *Model layer*: _layer_ che contiene le classi che rappresentano il modello dei dati dell'applicativo.
+
 
 \
 === Design pattern
@@ -1326,41 +1349,199 @@ I _design pattern_ che ho utilizzato sono i seguenti:
 
 - *DAO (_Data Access Object_)*: ho utilizzato il _pattern_ DAO per separare la logica di accesso ai dati dalla logica di _business_, garantendo una struttura chiara e ben organizzata del codice. In particolare, ho sviluppato le classi DAO per l'interfacciamento con il _database_, grazie alla predisposizione offerta dal _framework_ Synergy. Questo mi ha permesso di separare le operazioni di lettura e scrittura dei dati dalla logica di _business_, garantendo una maggiore modularità e scalabilità del codice.
 
-- *Decorator*: Il framework Angular si distingue per l'adozione innovativa del concetto di decoratori, quali l'annotazione `@Injectable()`. Tali costrutti consentono di arricchire dinamicamente le funzionalità degli oggetti esistenti, ampliandone le capacità senza introdurre eccessivi vincoli di dipendenza tra le varie componenti del sistema. Questo _pattern_ si è rivelato particolarmente vantaggioso nell'ambito dell'iniezione delle dipendenze necessarie all'interno di specifiche classi e funzioni dell'applicazione, permettendo di ottenere un disaccoppiamento più efficace tra le diverse parti del codice.
+- *Decorator*: Il _framework_ Angular si distingue per l'adozione innovativa del concetto di decoratori, quali l'annotazione `@Injectable()`. Tali costrutti consentono di arricchire dinamicamente le funzionalità degli oggetti esistenti, ampliandone le capacità senza introdurre eccessivi vincoli di dipendenza tra le varie componenti del sistema. Questo _pattern_ si è rivelato particolarmente vantaggioso nell'ambito dell'iniezione delle dipendenze necessarie all'interno di specifiche classi e funzioni dell'applicazione, permettendo di ottenere un disaccoppiamento più efficace tra le diverse parti del codice.
 
 
-  Un esempio concreto di decoratori che ho utilizzato è il decoratore `@ExhaustingEvent ()` per la gestione degli eventi "iscrivibili": tali eventi sono gestiti in modo trasparente dal framework mediante l'applicazione del decoratore, che gestirà automaticamente gli eventi di _subscribe_ e _unsubscribe_.
+  Un esempio concreto di decoratori che ho utilizzato è il decoratore `@ExhaustingEvent ()` per la gestione degli eventi "iscrivibili": tali eventi sono gestiti in modo trasparente dal _framework_ mediante l'applicazione del decoratore, che gestirà automaticamente gli eventi di _subscribe_ e _unsubscribe_.
 
 - *_Dependency injection_*: Uno degli aspetti distintivi di Angular è l'enfasi posta sull'adozione del pattern _dependency injection_. Questo paradigma consente di incorporare le dipendenze richieste direttamente nel processo di costruzione degli oggetti, semplificando notevolmente la gestione e l'utilizzo dei servizi all'interno del codice sorgente. Tale approccio è stato particolarmente valorizzato nella realizzazione di servizi e componenti, agevolando l'identificazione e l'impiego dei servizi necessari all'interno dell'applicazione. La _dependency injection_ rappresenta quindi un elemento chiave nell'architettura di Angular, favorendo un disaccoppiamento efficace tra le diverse parti del sistema.
 
 == Codifica
 === Visualizzazione tridimensionale
-==== Classi implementate
-Descrizione delle classi implementate per la visualizzazione dell'ambiente 3D.
-\
-==== Cambiamenti apportati
-Come ho svolto il _refactoring_ dell'ambiente 3d, quali i componenti, i servizi, i cambiamenti apportati per adattarsi alla nuova logica implementata, inserendo anche immagini dell'interfaccia.
+Al fine di apportare le modifiche necessarie all'ambiente 3D definite durante il processo di progettazione, ho implementato due nuovi classi, responsabili della gestione delle strutture e dei bin all'interno dell'ambiente tridimensionale:
+
+- *Bin3D*: la classe `Bin3D` rappresenta un bin all'interno dell'ambiente 3D, contenente le informazioni relative all'oggetto della _buisiness logic_ del bin stesso e le operazioni di interazione. La classe `Bin3D` contiene un riferimento alla `InstancedMesh` della struttura a cui appartiene, permettendo di visualizzare e interagire con il bin all'interno della struttura.
+
+- *Struct3D*: la classe `Struct3D` rappresenta una struttura all'interno dell'ambiente 3D, contenente i diversi bin e le informazioni relative alla struttura stessa. La classe `Struct3D` contiene un'istanza di `InstancedMesh` per tutti i bin presenti al suo interno, permettendo di visualizzare e interagire con i bin all'interno della struttura.
+
+Il rapporto che intercorre l'ho rappresentato con un diagramma UML, come mostrato nell'immagine seguente:
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/uml_base.png",
+  imageWidth: 80%,
+  caption: [Diagramma UML delle classi `Bin3D` e `Struct3D`],
+  source: "",
+  label: <uml>
+)
+
+Sia la classe `Bin3D` che la classe `Struct3D` sono specializzazione della classe 'Object3D' di Three.js, che rappresenta un oggetto 3D all'interno della scena, ed entrambe implementano l'interfaccia `Disposable`, che permette di liberare le risorse allocate in memoria quando l'oggetto non è più utilizzato richiamando il metodo `dispose()` alla distruzione dell'oggetto. 
+
+L'interfaccia `Disposable` svolge un ruolo fondamentale nell'ottimizzazione delle risorse e nella gestione della memoria, garantendo che le risorse allocate vengano liberate correttamente evitando così eventuali _memory leak_.
+
+All'interno dell'ambiente 3D, le due classi verranno mostrate come segue:
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/bin_struct.png",
+  imageWidth: 90%,
+  caption: [Bin3D e Struct3D all'interno dell'ambiente 3D],
+  source: "",
+  label: <binStruct>
+)
+
+Questo approccio ha permesso di centrallizzare la logica di gestione dei bin e delle strutture all'interno dell'ambiente 3D, garantendo una struttura chiara e ben organizzata del codice. Un esempio significativo di come ho utilizzato queste classi è la gestione dell'interazione con i bin e le strutture: `Struct3D` e `Bin3D` espongono infatti i seguenti metodi per gestire l'interazione:
+
+- *highlight ()*: permette di evidenziare il bin o la struttura selezionata, modificandone il colore e la trasparenza;
+
+- *select ()*: permette di selezionare il bin o la struttura, attivando la possibilità di operazioni di _drag & drop_ e di creazione dell'ordine di movimentazione;
+
+- *reset ()*: permette di ripristinare lo stato iniziale del bin o della struttura, rimuovendo l'evidenziazione e la selezione.
+
+Nel momento in cui con il _mouse_ ci si posiziona sopra la struttura o il bin, questo viene evidenziato e al click viene selezionato. Nel modo originale, la selezione avveniva direttamente sulla _mesh_ globale, dovendo identificare l'indice dell'istanza della _mesh_ corrispondente al bin selezionato. Con l'introduzione delle classi `Bin3D` e `Struct3D`, la selezione avviene direttamente sull'oggetto corrispondente, semplificando notevolmente la gestione dell'interazione e garantendo una maggiore flessibilità e scalabilità del codice. 
+
+Nel momento in cui si vuole evidenziare o selezionare un bin, ora che l'interazione avviene direttamente con l'oggetto `Bin3D` corrispondente, è sufficiente richiamare i metodi `highlight ()` e `select ()` dell'oggetto stesso, garantendo una gestione più chiara e modulare dell'interazione.
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/bins.png",
+  imageWidth: 90%,
+  caption: [Interazione con i bin],
+  source: "",
+  label: <bins>
+)
+
+Allo stesso modo, qualora si volesse evidenziare o selezionare una struttura, è sufficiente richiamare i metodi `highlight ()` e `select ()` dell'oggetto `Struct3D` corrispondente, che si occuperanno poi di gestire l'evidenziazione e la selezione dei bin al suo interno:
+
+#block(
+```javascript
+  // evidenziazione struttura
+  public highlight (): void {
+    for (const currentBin of this.binList) {
+      currentBin.highlight ();
+    } // for
+  } // highlight
+
+  // selezione struttura
+  public select (): void {
+    for (const currentBin of this.binList) {
+      currentBin.select ();
+    } // for
+  } // select
+```, breakable: false
+)
+
 === Drag & Drop e creazione ordini di movimentazione
-==== Componenti
-Descrizione dei componenti che ho implementato, con immagini dell'interfaccia.
+Lo sviluppo della funzionalità di _drag & drop_ e di creazione degli ordini di movimentazione ha richiesto la creazione di un nuovo componente e dei servizi necessari per la gestione dell'interazione e la comunicazione con il _backend_.
+
+Nello specifico ho implementato il componente `WmsNewMovementFormComponent`, responsabile della visualizzazione del _form_ per la creazione degli ordini di movimentazione secondo le specifiche definite durante la progettazione.
+
+Questo componente viene visualizzato al termine dell'operazione di _drag & drop_ di un bin, permettendo all'utente di specificare la causale, la priorità per la creazione dell'ordine di movimentazione e di selezionare i saldi da movimentare e in che quantità.
+
+Nell'immagine che segue mostro l'interfaccia del _form_ per la creazione degli ordini di movimentazione:
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/dialog.png",
+  imageWidth: 95%,
+  caption: [_Dialog_ per la creazione degli ordini di movimentazione],
+  source: "",
+  label: <dialog>
+)
+
+*Classi e servizi* \
+I servizi in Angular sono classi che gestiscono in modo centralizzato i dati e la logica dell'applicazione, mettendo in comunicazione i diversi componenti e permettendo la comunicazione con il _backend_. Durante il mio tirocinio ho utilizzato i servizi per poter recuperare le informazioni necessarie alla visualizzazione dell'ambiente 3D e alla creazione degli ordini di movimentazione. In particolare, nell'implementazione di quest'ultima funzionalità ho sviluppato le seguenti classi e servizi:
+
+- *InteractioService*: servizio responsabile della comunicazione con il _backend_ per la creazione degli ordini di movimentazione. L'`InteractioService` si occupa di aprire il _dialog_ `WmsNewMovementFormComponent` e successivamente di inviare le informazioni relative all'ordine al _backend_, gestendo la comunicazione con il servizio REST esposto;
+
+- *DragManager*: classe responsabile della gestione dell'operazione di _drag & drop_ all'interno dell'ambiente 3D. Il `DragManager` si occupa di gestire l'inizio e la fine dell'operazione di _drag & drop_, permettendo di selezionare e trascinare i bin all'interno dell'ambiente 3D. Al momento del rilascio del bin, il `DragManager` si occupa di generare l'evento di movimentazione e di richiamare il servizio `InteractioService` per la creazione dell'ordine, passando le informazioni relative al bin di partenza e di destinazione;
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/dnd.png",
+  imageWidth: 90%,
+  caption: [_Drag & drop_ nell'ambiente 3D],
+  source: "",
+  label: <dnd>
+)
+
 \
-==== Servizi
-Descrizione dei servizi che ho implementato.
-\
-==== Servizi REST
-Descrizione dei servizi REST che ho implementato.
+*Servizi REST*\
+I servizi REST sono esposti dal _backend_ per permettere la comunicazione con il _frontend_ e la gestione delle operazioni di lettura e scrittura dei dati. Durante il mio tirocinio mi sono occupato di implementare i servizi REST necessari per la creazione degli ordini di movimentazione, secondo le convenzioni definite dal _framework_ Synergy.
+
+Come mostrato nell'#ref(<synergy>), il _layer_ _Service_ espone i principali servizi disponibili lato _backend_, e, successivamente, le richieste vengono inoltrate al _layer_ WS, il quale si occuperà a sua volta di richiamare i servizi della _business logic_ per l'esecuzione delle operazioni richieste.
+
+Il flusso delle chiamate inizia pertanto dal _layer Service_ che espone il servizio REST in questo modo:
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/restApi.png",
+  imageWidth: auto,
+  caption: [Servizio REST per la creazione dell'ordine esposto dal _backend_],
+  source: "",
+  label: <service>
+)
+
+Successivamente viene richiamato il _layer_ WS, che controllerà i permessi di accesso alle tabelle:
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/restWs.png",
+  imageWidth: auto,
+  caption: [Layer WS per la creazione dell'ordine],
+  source: "",
+  label: <ws>
+)
+
+Accertati i permessi, il _layer_ WS richiamerà il _layer_ di logica per l'esecuzione dell'operazione richiesta.
 
 == Verifica e validazione
-=== Test di unità
-I test di unità che ho implementato per il lato backend, con il supporto del framework Synergy.
+=== Test di unità 
+Come discusso in precedenza nel #ref(<processoVerifica>, supplement: "paragrafo"), ho svolto i _test_ di unità per verificare il corretto funzionamento delle singole componenti e delle classi sviluppate, garantendo che le funzionalità implementate rispettassero le specifiche definite durante l'analisi.
+
+Infatti, grazie al supporto del _framework_ Synergy, per ogni classe del modello vengono predisposti i _test_ di unità (e di integrazione) passando dei parametri di input e verificando che l'output sia conforme alle aspettative. Seppur non sono riuscito a seguire la pratica _test driven development_ (TDD), ho comunque svolto i _test_ di unità per garantire la correttezza delle funzionalità implementate, focalizzandomi sugli aspetti critici e i _corner case_ che avrebbero potuto generare errori.
+
+L'implementazione di questi _test_ mi ha permesso pertanto di implementare un codice più robusto e di ridurre il numero di errori, garantendo che le funzionalità implementate fossero conformi alle specifiche definite.
+
 === Test di integrazione
-I test di integrazione che ho implementato per il lato backend, con il supporto del framework Synergy.
+I _test_ di integrazione si occupano di verificare il corretto funzionamento delle componenti e dei servizi sviluppati, garantendo che le varie parti dell'applicativo interagiscano correttamente tra loro. Durante il mio tirocinio ho svolto i _test_ di integrazione per verificare che le componenti sviluppate fossero in grado di comunicare tra loro e di scambiarsi i dati necessari, in particolar modo per verificare che l'interazione tra il _frontend_ e il _backend_ avvenisse correttamente.
+
+Infatti un aspetto cruciale che ho tenuto in considerazione durante lo sviluppo è stato il corretto funzionamento dei diversi servizi e chiamate REST che eseguivo per la creazione degli ordini di movimentazione, garantendo che i dati fossero conformi e che rispettassero i requisiti della _business logic_.
+
+I _test_ mi hanno permesso di verificare che i componenti che richiamavo nella _business logic_, come ad esempio i DAO per l'accesso ai dati, funzionassero correttamente e che i dati fossero correttamente scritti e letti dal _database_.
+
+A tal fine è stato fondamentale comprendere il meccanismo di _mocking_, che mi ha permesso di simulare il comportamento delle classi e dei servizi che interagivano con il _backend_, garantendo che i _test_ di integrazione fossero eseguiti in modo isolato e che non dipendessero da fattori esterni, rendendoli di fatto ripetibili e affidabili.
+
 === Test di _performance_ <testPerformance>
-I test che ho svolto per verificare che le _performance_ del prodotto realizzato rispecchiassero le aspettative. (particolare riferimento all'ambiente tridimensionale).
+I _test_ di _performance_ sono stati svolti per verificare il corretto funzionamento dell'ambiente 3D e la gestione delle risorse durante l'interazione con l'utente, evitando che a seguito del _refactor_ effettuato, il prodotto potesse riscontrare rallentamenti o problemi di _rendering_.
+
+Questa tipologia di _test_ è stata svolta grazie agli strumenti offerti da _Google Chrome_ per la profilazione delle prestazioni, che mi hanno permesso di monitorare il carico di lavoro della GPU e la quantità di risorse utilizzate durante l'interazione con l'ambiente 3D.
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/performance.png",
+  imageWidth: auto,
+  caption: [Test di _performance_ dell'ambiente 3D],
+  source: "",
+  label: <performance>
+)
+
+Nell'#ref(<performance>) mostro un esempio di _test_ di _performance_ dell'ambiente 3D, in cui è possibile visualizzare il carico di lavoro della GPU e la quantità di risorse utilizzate durante l'interazione con l'ambiente 3D. Il tempo di esecuzione del metodo `onLoad ()`, responsabile del caricamento delle strutture e dei bin all'interno dell'ambiente 3D, risulta in una media di valori tra i 60 e i 70 ms, garantendo un'esperienza utente fluida e reattiva, dimostrando che la ristrutturazione dell'ambiente 3D non ha compromesso le prestazioni del prodotto.
+
+Inoltre, se andassimo a considerare il tempo complessivo di caricamento dell'intera pagina (quindi non solo del componente 3D ma di tutta l'applicazione), il tempo medio di caricamento risulta essere di circa 3 secondi, al di sotto dunque del limite imposto da requisiti di _performance_ precedentemente definiti (#ref(<tracciamentoRequisiti>, supplement: "paragrafo")).
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/GPUcomparison.png",
+  imageWidth: auto,
+  caption: [Uso della GPU prima e dopo il caricamento dell'ambiente 3D],
+  source: "",
+  label: <GPUusage>
+)
+
+Come mostro nell'#ref(<GPUusage>), il carico di lavoro della GPU risulta essere inferiore al 20%, comportando un carico di lavoro di circa 200MB di memoria che garantisce un'esperienza fluida e priva di rallentamenti. 
+
 === Test di sistema
-I test di sistema che ho svolto per accertarmi del corretto funzionamento delle funzionalità implementate.
+I _test_ di sistema sono stati svolti al fine di garantire che il prodotto rispettasse i requisiti definiti durante l'analisi e che le funzionalità implementate fossero conformi alle specifiche richieste. Durante il mio tirocinio ho svolto i _test_ di sistema in prima persona, in modo manuale: l'implementazione di _test_ automatici, soprattutto considerando l'interazione con l'ambiente 3D, avrebbe potuto impedire la consegna di un prodotto completo e pronto per essere integrato nella _codebase_ aziendale.
+
+Questa tipologia di _test_, seppur eseguita manualmente, l'ho svolta con costanza, in modo che ad ogni progresso delle funzionalità implementate, potessi verificare che le operazioni di _drag & drop_ e di creazione degli ordini di movimentazione avvenissero in modo conforme alle aspettative. A tal fine, per verificare che i dati fossero letti e scritti correttamente nel _database_, ho utilizzato DBeaver, che mi ha permesso di monitorare le operazione effettuate e di assicurarmi che le richieste di movimentazione e i relativi dettagli fossero correttamente salvati.
+
 === Test di accettazione
-I test di accettazione svolti dal tester del _team_ che permettono di definire concluso il processo di sviluppo della funzionalità.
+I _test_ di accettazione sono stati svolti direttamente dal _tester_ del _team_ di sviluppo e dal referente aziendale, che si sono occupati di verificare che il prodotto rispettasse i requisiti definiti durante l'analisi e che il prodotto rispecchiasse le aspettative del cliente.
+Nel contesto di tirocinio, questi _test_ servono a verificare che gli obiettivi aziendali (#ref(<obiettiviAziendali>, supplement: "paragrafo")) siano stati raggiunti e che il percorso di _stage_ abbia prodotto i risultati attesi.
+
+Con i _test_ di accettazione si conclude il processo di verifica e validazione del prodotto, assicurando che il lavoro che ho svolto durante il mio tirocinio possa soddisfare le aspettative dell'azienda e del cliente.
 
 == Risultati raggiunti
 === Il prodotto realizzato
@@ -1368,7 +1549,7 @@ Descrizione di quanto ho prodotto dal punto di vista dell'utente finale.
 === Copertura dei requisiti
 Il livello di copertura dei requisiti individuati durante l'analisi.
 === Copertura di testing
-Il livello di copertura di codice in relazione ai test implementati.
+Il livello di copertura di codice in relazione ai _test_ implementati.
 === Materiali prodotti
 Il livello complessivo dei materiali prodotti durante il tirocinio: o ltre infatti al codice, durante il percorso di tirocinio ho tenuto traccia giornalmente della attività svolte mediante una bacheca su Notion. Inoltre mi sono preoccupato di redigere puntualmente la documentazione relativa a tutte le funzionalità prodotte e alla loro analisi, condividendola anche il referente aziendale. Questa sezione riporterà una panoramica quantitativa di questi materiali prodotti, le linee di codice scritte, i _meeting_ svolti e le issue su Jira svolte (_bugfix_ e funzionalità).
 
