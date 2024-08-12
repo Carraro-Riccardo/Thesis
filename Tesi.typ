@@ -42,7 +42,7 @@ Le BU in cui l'azienda è suddivisa sono undici, ciascuna specializzata in un se
   imagePath: "/assets/chapter1/BU.png",
   imageWidth: auto,
   caption: [Divisione in _business unit_],
-  source: "https://www.udemy.com/course/the-complete-guide-to-angular-2/",
+  source: "https://www.sanmarcoinformatica.it/intranet.pag",
   label: <BU>
 )
 
@@ -166,7 +166,7 @@ Ho potuto individuare tre tipologie di manutenzione:
 
 - *Manutenzione evolutiva*: attività di evoluzione del prodotto. Nasce solitamente dall'azienda stessa, con l'obiettivo di migliorare il prodotto e renderlo più competitivo sul mercato.
 
-Un esempio concreto è relativo al _framework_ proprietario _Synergy_ (#ref(<vincoliTecnologici>, supplement: "paragrafo")), il cui sviluppo ed evoluzione è seguito da un _team_ dedicato.
+Un esempio concreto è relativo al _framework_ proprietario Synergy (#ref(<vincoliTecnologici>, supplement: "paragrafo")), il cui sviluppo ed evoluzione è seguito da un _team_ dedicato.
 Questo _framework_ infatti si trova alla base di tutti i prodotti _software_ sviluppati dall'azienda, e la sua manutenzione è fondamentale affinchè questi siano in grado di rispondere non solo alle esigenze del cliente, ma anche alle evoluzioni delle tecnologie con cui si integra.
 
 \
@@ -402,7 +402,7 @@ Il processo di gestione delle risorse umane si occupa di definire le competenze 
 
 Nello svolgimento del mio percorso ho avuto la possibilità di comprendere come questo processo sia istanziato dall'azienda, e l'importanza che riveste la formazione e la crescita professionale dei membri del _team_.
 
-Le prime due settimane del mio tirocinio sono state dedicate alla formazione, mediante lo svolgimento di lezioni frontali e di esercitazioni pratiche, permettondomi di apprendere le basi del _framework_ _Synergy_ mediante un approccio _learn by doing_.
+Le prime due settimane del mio tirocinio sono state dedicate alla formazione, mediante lo svolgimento di lezioni frontali e di esercitazioni pratiche, permettondomi di apprendere le basi del _framework_ Synergy mediante un approccio _learn by doing_.
 Inoltre ho avuto modo di constatare come la formazione sia un processo continuo che anche per i membri del _team_ a cui sono stato affiancato, i quali svolgono regolarmente corsi offerti dall'azienda nella piattaforma Udemy.
 
 #showImageWithSource(
@@ -420,7 +420,7 @@ L'azienda stessa incentiva la formazione continua dei propri dipendenti, ritenut
 == Il ruolo dell'innovazione<innovazione>
 Un elemento distintivo della strategia aziendale di Sanmarco Informatica è l'importanza attribuita all'innovazione, come testimoniato dall'investimento annuale di una quota significativa del fatturato, tra il 15% e il 20%, in Ricerca e Sviluppo. Questo impegno garantisce l'aggiornamento continuo dei prodotti e dei servizi, assicurando che rimangano allineati con le ultime tendenze tecnologiche.
 
-La formazione continua dei dipendenti è un altro pilastro della filosofia aziendale. Come ho spiegato nel #ref(<formazione>, supplement: "paragrafo"), Sanmarco Informatica offre costantemtne corsi di formazione su nuove tecnologie e strumenti, avvalendosi di esperti interni e consulenti esterni, e utilizzando piattaforme di _e-learning_ come Udemy. Questo investimento in competenze garantisce che il personale sia sempre aggiornato e in grado di affrontare le sfide tecnologiche future.
+La formazione continua dei dipendenti è un altro pilastro della filosofia aziendale. Come ho spiegato nel #ref(<formazione>, supplement: "paragrafo"), Sanmarco Informatica offre costantemente corsi di formazione su nuove tecnologie e strumenti, avvalendosi di esperti interni e consulenti esterni, e utilizzando piattaforme di _e-learning_ come Udemy. Questo investimento in competenze garantisce che il personale sia sempre aggiornato e in grado di affrontare le sfide tecnologiche future.
 
 L'azienda inoltre promuove la partecipazione a conferenze e seminari come ad esempio l'evento "I nuovi paradigmi innovativi della Pianificazione su Commessa" tenutosi il 17 luglio 2024, o ancora il seminario "Intelligenza Artificiale al Servizio del _Business_" organizzato in collaborazione con IBM, _partner_ storico dell'azienda.
 
@@ -531,7 +531,6 @@ Alla luce degli aspetti sopra descritti, gli obiettivi personali che mi sono pos
   caption: [Obiettivi personali],
 )
 
-
 \
 === Vincoli
 ==== Vincoli temporali<vincoliTemporali>
@@ -583,6 +582,63 @@ Le ragioni per cui ho scelto di svolgere il tirocinio presso Sanmarco Informatic
 Nella scelta non ho tenuto in particolare considerazione la posizione geografica delle aziende presso cui ho svolto i colloqui, in quanto il principale obiettivo era l'aspetto formativo e l'esperienza che avrei potuto acquisire. Nel caso specifico di Sanmarco Informatica, la sede dista tra i 30 e i 40 minuti in auto da dove risiedo.
 
 Prima di inziare il percorso di tirocinio, ho svolto due colloqui conoscitivi in sede con l'azienda, in presenza del _team_ delle risorse umane e del referente aziendale, e solo a seguito del processo di selezione tenutosi nei giorni successivi, ho avuto modo di procedere con l'inizio del tirocinio.
+
+== Premesse allo svolgimento del tirocinio
+=== Approccio al lavoro <approccioLavoro>
+Durante il corso di "Ingegneria del _software_" ho avuto modo di comprendere l'importanza di seguire i principi di una metodologia di sviluppo _software_ strutturata e organizzata, e, grazie al tirocinio, ho avuto modo di mettere in pratica questi concetti in un contesto aziendale.
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/semat.png",
+  imageWidth: 70%,
+  caption: [L'importanza del _Way of Working_ nel SEMAT],
+  source: "https://www.semanticscholar.org/paper/The-Essence-of-Software-Engineering%3A-The-SEMAT-Jacobson-Ng/ba4a3c5706ced64a2a71a230b30ba6ff5370ab6d",
+  label: <semat>
+)
+
+Come descritto dal SEMAT (#ref(<semat>)), il _way of working_ è fondamentale per garantire il successo di un progetto _software_, situato di fatto alla base di tutti gli aspetti del progetto.
+
+Durante il mio tirocinio, mi sono impegnato a seguire un approccio strutturato e organizzato, che possedesse le seguenti caratteristiche:
+- *Sistematico*: ho cercato di seguire un approccio sistematico e strutturato, organizzando le attività in modo da garantire un avanzamento costante e un monitoraggio efficace;
+
+- *Disciplinato*: ho cercato di seguire le procedure e le convenzioni aziendali, rispettando le scadenze e gli impegni presi, e garantendo la qualità del prodotto _software_ sviluppato;
+
+- *Quantificabile*: ho cercato di quantificare le attività svolte, in modo da poter monitorare l'avanzamento del progetto e garantire il rispetto delle scadenze.
+
+=== Obiettivi di qualità <obiettiviDiQualita>
+Ispirandomi ai principi dell'Ingegneria del _software_, ho cercato di garantire efficacia ed efficienza nel conseguimento dei miei obiettivi, perseguendo qualità e conformità alle convenzioni aziendali.
+
+In particolare, ho posto attenzione a due processi fondamentali, quali:
+- *Verifica*: ho svolto attività di verifica costanti, mediante l'utilizzo di strumenti di analisi statica e dinamica del codice, e di _test_ automatici e manuali, in modo da garantire la qualità del prodotto _software_ sviluppato;
+
+- *Validazione*: ho svolto attività di validazione costanti, mediante l'esecuzione di _test_ di sistema e di accettazione (svolti dal _tester_ del _team_), in modo da garantire che il prodotto realizzato fosse conforme alle aspettative e alle esigenze del cliente.
+
+Attraverso l'applicazione rigorosa di questi processi, ho mirato a creare un prodotto che consideri questi aspetti cruciali:
+
+- *Funzionalità*: il prodotto deve essere esaustivo nelle sue caratteristiche, preciso nel suo funzionamento e adattato al suo contesto d'uso;
+
+- *Aderenza agli _standard_*: è essenziale che il prodotto rispetti le norme e le convenzioni aziendali, garantendo una coerenza e una uniformità nel codice e nelle funzionalità;
+
+- *Facilità d'uso*: l'interfaccia e le funzionalità devono essere intuitive e accessibili per gli utenti, minimizzando il rischio di errori;
+
+- *Flessibilità*: il _design_ deve essere modulare, permettendo adattamenti e riutilizzi in base alle esigenze mutevoli dell'azienda;
+
+- *Durevolezza*: il prodotto deve dimostrarsi resistente nel tempo, con una struttura che faciliti eventuali interventi di manutenzione o riparazione;
+
+L'obiettivo, come discusso nel #ref(<obiettiviTirocinio>, supplement: "paragrafo"), era di garantire un prodotto _software_ di qualità, pronto per essere utilizzato e integrato nel prodotto esistente.
+
+Il raggiungimento di questi obiettivi è stato perseguito mediante l'utilizzo di strumenti di verifica e validazione descritti nel #ref(<strumentiDiVerifica>, supplement: "paragrafo").
+
+=== Obiettivi di qualità di processo
+Durante il mio tirocinio, ho cercato di garantire efficacia ed efficienza nel conseguimento dei miei obiettivi, perseguendo qualità e conformità alle convenzioni aziendali, dando particolare rilevanza a due elementi chiave: l'efficacia e l'efficienza.
+
+- *Efficacia*: rappresenta il primo cardine di questa metodologia. Essa si traduce nella capacità del prodotto di soddisfare pienamente le esigenze e le aspettative dell'azienda. Ogni componente sviluppato viene sottoposto a un rigoroso processo di convalida, garantendo così la sua conformità agli obiettivi prestabiliti e il suo effettivo contributo al valore complessivo del progetto.
+
+
+- *Efficienza*: il secondo pilastro è costituito dall'efficienza del processo di sviluppo. L'attenzione si concentra sull'ottimizzazione delle risorse disponibili, con l'obiettivo di contenere i costi mantenendo inalterati gli _standard_ qualitativi del prodotto finale. Questo aspetto assume particolare rilevanza considerando i limiti temporali imposti dal tirocinio.
+
+Il raggiungimento di questi obiettivi è stato possibile grazie alle diverse attività caratterizzanti il modello di sviluppo _Agile_ e _Scrum_, come descritto nel #ref(<modelloDiSviluppo>, supplement: "paragrafo").
+
+In particolare, grazie alle _Sprint Review_ e _Sprint Retrospective_, io e l'intero _team_ di sviluppo, abbiamo avuto modo di valutare costantemente l'andamento del progetto, individuando eventuali criticità e aree di miglioramento, e di adattare di conseguenza il nostro approccio al lavoro.
 
 #pagebreak()
 = Svolgimento del tirocinio
@@ -657,11 +713,11 @@ Nel dettaglio, i quattro periodi del tirocinio sono stati organizzati come segue
 
   - *Implementazione della funzionalità di _drag & drop_*: implementazione della funzionalità di _drag & drop_ per la creazione degli ordini di movimentazione, mediante il trascianamento di un _bin_ (unità di contenimento) sull'interfaccia;
 
-  - *Implementazione del _dialog_ di creazione dell'ordine di movimentazione*: implementazione del _dialog_ per la creazione dell'ordine di movimentazione per la definizione dei saldi da movimentare, aperto al termine dell'operazione di _drag & drop_;
+  - *Implementazione del _dialog_ di creazione dell'ordine*: implementazione del _dialog_ per la creazione dell'ordine di movimentazione per la definizione dei saldi da movimentare, aperto al termine dell'operazione di _drag & drop_;
 
-  - *Analisi tabelle necessarie per la creazione dell'ordine di movimentazione*: analisi collettiva con i membri del _team_ delle tabelle necessarie per la creazione dell'ordine di movimentazione;
+  - *Analisi tabelle necessarie*: analisi collettiva con i membri del _team_ delle tabelle necessarie per la creazione dell'ordine di movimentazione;
 
-  - *Implementazione dei servizi REST per la creazione dell'ordine di movimentazione*: implementazione dei servizi REST per la creazione dell'ordine di movimentazione;
+  - *Implementazione dei servizi REST*: implementazione dei servizi REST per la creazione dell'ordine di movimentazione;
 
   - *Verifica corretto funzionamento della funzionalità _drag & drop_*: verifica del corretto funzionamento della funzionalità di _drag & drop_ e implementazione dei _test_ necessari.
 
@@ -680,6 +736,7 @@ Nel dettaglio, i quattro periodi del tirocinio sono stati organizzati come segue
 
   - *Documentazione delle funzionalità sviluppate*: produzione della documentazione delle funzionalità sviluppate durante il tirocinio.
 
+  \ \ \ \ 
   Tali attività sono state organizzate come mostro nell'#ref(<gantt4>):
   #showImageWithSource(
     imagePath: "/assets/chapter3/gantt4.png",
@@ -700,30 +757,11 @@ Nel complesso, la pianificazione del tirocinio è la seguente:
 )
 == Metodo di lavoro
 === _Way of Working_
-Durante il corso di "Ingegneria del _software_" ho avuto modo di comprendere l'importanza di seguire i principi di una metodologia di sviluppo _software_ strutturata e organizzata, e, grazie al tirocinio, ho avuto modo di mettere in pratica questi concetti in un contesto aziendale.
-
-#showImageWithSource(
-  imagePath: "/assets/chapter3/semat.png",
-  imageWidth: auto,
-  caption: [L'importanza del _Way of Working_ nel SEMAT],
-  source: "https://www.semanticscholar.org/paper/The-Essence-of-Software-Engineering%3A-The-SEMAT-Jacobson-Ng/ba4a3c5706ced64a2a71a230b30ba6ff5370ab6d",
-  label: <semat>
-)
-
-Come descritto dal SEMAT (#ref(<semat>)), il _way of working_ è fondamentale per garantire il successo di un progetto _software_, situato di fatto alla base di tutti gli aspetti del progetto.
-
-Durante il mio tirocinio, mi sono impegnato a seguire un approccio strutturato e organizzato, che possedesse le seguenti caratteristiche:
-- *Sistematico*: ho cercato di seguire un approccio sistematico e strutturato, organizzando le attività in modo da garantire un avanzamento costante e un monitoraggio efficace;
-
-- *Disciplinato*: ho cercato di seguire le procedure e le convenzioni aziendali, rispettando le scadenze e gli impegni presi, e garantendo la qualità del prodotto _software_ sviluppato;
-
-- *Quantificabile*: ho cercato di quantificare le attività svolte, in modo da poter monitorare l'avanzamento del progetto e garantire il rispetto delle scadenze.
-
-Come descritto nel #ref(<modelloDiSviluppo>, supplement: "paragrafo"), l'azienda segue un modello di sviluppo _software_ _Agile_, implementando nello specifico la metodologia _Scrum_. Questo approccio mi ha permesso di lavorare in modo organizzato e strutturato, garantendo un avanzamento costante e un monitoraggio efficace delle attività svolte.
+Come descritto nel #ref(<modelloDiSviluppo>, supplement: "paragrafo"), l'azienda segue un modello di sviluppo _software_ _Agile_, implementando nello specifico la metodologia _Scrum_. Questo approccio mi ha permesso di lavorare in modo organizzato e strutturato, garantendo un avanzamento costante e un monitoraggio efficace delle attività svolte, prendendo di riferimento i principi precedentemente descritti nel #ref(<approccioLavoro>, supplement: "paragrafo").
 
 In particolare, ho partecipato attivamente ai _Daily Standup Meeting_ e alle _Sprint Review_ e _Sprint Retrospective_, in modo da garantire un allineamento costante tra le parti e un monitoraggio efficace dell'avanzamento del progetto.
 
-Trattandosi di un'esperienza dal carattere fortemente formativo, ho ritenuto inoltre opportuno prendere costantemente appunti, configurando una bacheca personale su Notion ( piattaforma per la presa di note in modo strutturato) dove ho annotato le attività svolte, in modo da garantire un tracciamento costante del mio percorso e un'analisi critica delle attività svolte, come mostrato nell'#ref(<notion>):
+Trattandosi di un'esperienza dal carattere fortemente formativo, ho ritenuto inoltre opportuno prendere costantemente appunti, configurando una bacheca personale su Notion (piattaforma per la presa di note in modo organizzato) dove ho annotato quotidianamente le attività svolte, al fine di rendicontare il mio percorso e svolgere un'analisi critica del lavoro svolto, come mostrato nell'#ref(<notion>):
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/notion.png",
@@ -733,55 +771,19 @@ Trattandosi di un'esperienza dal carattere fortemente formativo, ho ritenuto ino
   label: <notion>
 )
 
-=== Obiettivi di qualità <obiettiviDiQualita>
-Ispirandomi ai principi dell'Ingegneria del _software_, ho cercato di garantire efficacia ed efficienza nel conseguimento dei miei obiettivi, seguendo un approccio di qualità e di conformità alle convenzioni aziendali.
-
-In particolare, ho posto attenzione a due processi fondamentali, quali:
-- *Verifica*: ho svolto attività di verifica costanti, mediante l'utilizzo di strumenti di analisi statica e dinamica del codice, e di _test_ automatici e manuali, in modo da garantire la qualità del prodotto _software_ sviluppato;
-
-- *Validazione*: ho svolto attività di validazione costanti, mediante l'esecuzione di _test_ di sistema e di accettazione (svolti dal _tester_ del _team_), in modo da garantire che il prodotto realizzato fosse conforme alle aspettative e alle esigenze del cliente.
-
-Attraverso l'applicazione rigorosa di questi processi, ho mirato a creare un prodotto che consideri questi aspetti cruciali:
-
-- *Funzionalità*: il prodotto deve essere esaustivo nelle sue caratteristiche, preciso nel suo funzionamento e adattato al suo contesto d'uso;
-
-- *Aderenza agli _standard_*: è essenziale che il prodotto rispetti le norme e le convenzioni aziendali, garantendo una coerenza e una uniformità nel codice e nelle funzionalità;
-
-- *Facilità d'uso*: l'interfaccia e le funzionalità devono essere intuitive e accessibili per gli utenti, minimizzando il rischio di errori;
-
-- *Flessibilità*: il _design_ deve essere modulare, permettendo adattamenti e riutilizzi in base alle esigenze mutevoli dell'azienda;
-
-- *Durevolezza*: il prodotto deve dimostrarsi resistente nel tempo, con una struttura che faciliti eventuali interventi di manutenzione o riparazione;
-
-L'obiettivo, come discusso nel #ref(<obiettiviTirocinio>), era di garantire un prodotto _software_ di qualità, pronto per essere utilizzato e integrato nel prodotto esistente.
-
-Il raggiungimento di questi obiettivi è stato perseguito mediante l'utilizzo di strumenti di verifica e validazione descritti nel #ref(<strumentiDiVerifica>, supplement: "paragrafo").
-
-=== Obiettivi di qualità di processo
-Durante il mio tirocinio, ho cercato di garantire efficacia ed efficienza nel conseguimento dei miei obiettivi, seguendo un approccio di qualità e di conformità alle convenzioni aziendali, dando particolare rilevanza a due elementi chiave: l'efficacia e l'efficienza.
-
-- *Efficacia*: rappresenta il primo cardine di questa metodologia. Essa si traduce nella capacità del prodotto di soddisfare pienamente le esigenze e le aspettative dell'azienda. Ogni componente sviluppato viene sottoposto a un rigoroso processo di convalida, garantendo così la sua conformità agli obiettivi prestabiliti e il suo effettivo contributo al valore complessivo del progetto.
-
-
-- *Efficienza*: il secondo pilastro è costituito dall'efficienza del processo di sviluppo. Qui l'attenzione si concentra sull'ottimizzazione delle risorse disponibili, con l'obiettivo di contenere i costi mantenendo inalterati gli _standard_ qualitativi del prodotto finale. Questo aspetto assume particolare rilevanza considerando i limiti temporali imposti al progetto. Si punta quindi a creare un flusso di lavoro agile e ben coordinato, capace di massimizzare i risultati entro le scadenze prefissate.
-
-Il raggiungimento di questi obiettivi è stato possibile grazie alle diverse attività caratterizzanti il modello di sviluppo _Agile_ e _Scrum_, come descritto nel #ref(<modelloDiSviluppo>, supplement: "paragrafo").
-
-In particolare, grazie alle _Sprint Review_ e _Sprint Retrospective_, io e l'intero _team_ di sviluppo, abbiamo avuto modo di valutare costantemente l'andamento del progetto, individuando eventuali criticità e aree di miglioramento, e di adattare di conseguenza il nostro approccio di lavoro.
-
 === Interazione con il referente aziendale
 Il rapporto con il referente aziendale è stato fondamentale per garantire il successo del mio tirocinio. Durante il percorso (svolto per quasi la totalità in presenza in sede), ho mantenuto un contatto costante, garantendo un allineamento tra le parti e un monitoraggio efficace dell'avanzamento del progetto.
 
-Giornalmente ho partecipato ai _Daily Standup Meeting_, in cui ho condiviso con il _team_ le attività svolte, le problematiche riscontrate e le soluzioni adottate: in questo modo, il referente aziendale ha potuto monitorare costantemente il mio percorso e fornirmi un _feedback_ costante sulle attività svolte. 
+Giornalmente ho partecipato ai _Daily Standup Meeting_, in cui ho condiviso con il _team_ le attività svolte, le problematiche riscontrate e le soluzioni adottate: in questo modo, il referente aziendale ha potuto monitorare costantemente il mio percorso e fornirmi un _feedback_ utile e tempestivo sulle attività svolte. 
 
 Quando il referente aziendale lavorava in modalità _smart working_, ho mantenuto il contatto con lui tramite gli strumenti di comunicazione aziendali come Google Meet e Google Chat descritti nel #ref(<strumentiDiComunicazione>, supplement: "paragrafo"). 
 
 === Revisioni di progresso
-Le revisioni di progresso sono state fondamentali per garantire un monitoraggio costante dell'avanzamento e per ottenere _feedback_ valido e tempestivo sulle attività svolte.
+Le revisioni di progresso sono state fondamentali per monitorare lo stado di avanzamento e per ottenere _feedback_ valido sulle attività svolte.
 
-Come menzionato nel #ref(<modelloDiSviluppo>, supplement: "paragrafo"), ho avuto modo di partecipare attivamente a diverse attività di revisione, dalle giornaliere durante i _Daily Standup Meeting_, alle revisioni di fine Sprint (_Sprint Review_ e _Sprint Retrospective_), fino alla revisione finale del lavoro svolto durante la presentazione conclusiva al _team_ e al referente aziendale. Man mano che prendevo confidenza con le pratiche e con le tecnologie aziendali, ho potuto partecipare in modo sempre più attivo a queste attività, riuscendo a fare domande sempre più mirate e proporre soluzioni sempre più precise. 
+Come menzionato nel #ref(<modelloDiSviluppo>, supplement: "paragrafo"), ho avuto modo di partecipare attivamente a diverse attività di revisione, dalle giornaliere durante i _daily standup meeting_, alle revisioni di fine Sprint (_Sprint review_ e _Sprint retrospective_), fino alla revisione finale del lavoro svolto durante la presentazione conclusiva al _team_ e al referente aziendale. Man mano che prendevo confidenza con le pratiche e con le tecnologie aziendali, ho potuto partecipare in modo sempre più attivo a queste attività, riuscendo a fare domande sempre più mirate e proporre soluzioni sempre più precise. 
 
-Queste attività mi hanno dato la possibilità di avere un rapporto attivo e partecipativo con il _team_ con cui ho lavorato, permettendomi di insermi sia nel contesto lavorativo sia all'interno del _team_.
+Queste attività mi hanno dato la possibilità di avere un rapporto attivo e partecipativo con il _team_ con cui ho lavorato, permettendomi di insermi nel contesto lavorativo sia dal punto di vista tecnico che umano.
 
 === Strumenti di verifica <strumentiDiVerifica>
 Al fine di perseguire gli obiettivi di qualità indicati nel #ref(<obiettiviDiQualita>, supplement: "paragrafo"), ho utilizzato strumenti e tencologie che rendessero i processi di verifica e validazione efficaci e conformi alle esigenze aziendali.
@@ -796,19 +798,22 @@ Come menzionato nel #ref(<softwareQualificationTesting>, supplement: "paragrafo"
   label: <CICD>
 )
 
-Come mostro nell'#ref(<CICD>), i _test_ rappresentano un aspetto fondamentale di questo processo: alla creazione di una _pull request_, viene eseguita la _build_ del progetto e successivamente vengono eseguiti i _test_ automatici. Solo qualora tutta la _pipeline_ venga superata con successo, allora la _pull request_ viene accettata e il codice viene integrato nel _repository_. In caso contrario, la _pull request_ viene respinta e il lavoro deve essere rivisto e corretto.
+Come mostro nell'#ref(<CICD>), i _test_ rappresentano un aspetto fondamentale di questo processo: alla creazione di una _pull request_, si procede con la _build_ del progetto e successivamente vengono eseguiti i _test_ automatici. Solo qualora tutta la _pipeline_ venga eseguita con successo, allora la _pull request_ viene accettata e il codice viene integrato nel _repository_. In caso contrario, la _pull request_ viene respinta e il lavoro deve essere rivisto e corretto.
 
 Gli strumenti e le tecnologie che ho utilizzato per garantire la qualità del prodotto sono le seguenti:
-- *_Test_ automatici*: questa tipologia di _test_ viene eseguita in modo automatico. Durante il mio percorso ho implementato 3 principali tipologie di _test_:
+- *_Test_ automatici*: questa tipologia di _test_ viene eseguita in modo automatico. Durante il mio percorso ho implementato 3 principali tipologie di _test_ automatici:
   - *_Test_ di unità*: _test_ che verificano il corretto funzionamento di singole unità di codice, garantendo che ciascuna unità funzioni correttamente;
   
   - *_Test_ di integrazione*: _test_ che verificano il corretto funzionamento dell'integrazione tra le diverse unità di codice, garantendo che le unità funzionino correttamente anche quando integrate tra loro;
-  
-  - *_Test_ di sistema*: _test_ che verificano il corretto funzionamento del sistema nel suo complesso, garantendo che tutte le funzionalità siano conformi alle aspettative.
 
   Il _framework_ Synergy predisponeva un ambiente di _test_ completo, che mi ha permesso di implementare i _test_ agevolemente e in modo conforme alle esigenze aziendali.
 
 \
+- *_Test_ manuali*:  _test_ svolti manualmente. Durante il mio percorso ho implementato 2 principali tipologie di _test_ manuali:
+  - *_Test_ di sistema*: _test_ che verificano il corretto funzionamento del sistema nel suo complesso, garantendo che tutte le funzionalità siano conformi alle aspettative;
+
+  - *_Test_ di perfomance*: _test_ che verificano le prestazioni del sistema, garantendo che il prodotto risponda ai requisiti di _performance_ richiesti.
+
 - *Analisi statica del codice*: ho utilizzato strumenti di analisi statica per verificare la qualità del codice prodotto in grado di evidenziare errori e _code smell_, permettendomi di produrre codice che rispettasse le convenzioni aziendali e fosse conforme alle aspettative. In particolare, ho utilizzato i seguenti _linter_:
   
   - *SonarLint*: _linter_ per Javascript e TypeScript;
@@ -844,15 +849,15 @@ Gli strumenti e le tecnologie che ho utilizzato per garantire la qualità del pr
   In questo modo, l'intero sviluppo del progetto è stato tracciato e monitorato costantemente, avendo sempre la possibilità di comprendere in ogni momento "chi fa cosa" e "quando", con un chiaro riferimento alle modifiche apportate al cambiamento di versione.
 
 === Resoconti
-Durante l'intero percorso mi sono impegnato a tenere documentata l'esperienza, sia mediante dei resoconti giornalieri su una bacheca personale su Notion (#ref(<notion>)), sia mediante dei resoconti settimanali inviati al relatore. Questo approccio mi ha permesso di avere una traccia costante del mio percorso e di analizzare criticamente le attività svolte, garantendo un monitoraggio costante dell'avanzamento del progetto e un _feedback_ costante sulle attività svolte.
+Durante l'intero percorso mi sono impegnato a tenere documentata l'esperienza, sia mediante dei resoconti giornalieri su una bacheca personale su Notion (#ref(<notion>)), sia mediante dei resoconti settimanali inviati al relatore. Questo approccio mi ha permesso di avere una traccia costante del mio percorso e di analizzare criticamente le attività svolte, garantendo un monitoraggio costante dell'avanzamento del progetto e un _feedback_ costante.
 
 Infatti, oltre ad agevolare la scrittura del documento di tesi, i resoconti mi hanno permesso di avere uno strumento di autovalutazione costante del progresso ottenuto, rendendo più chiaro il percorso svolto e le attività completate.
 
-I resoconti settimanali, d'altro canto, mi hanno permesso di allineare costantemente il mio relatore sullo stato di avanzamento dello _stage_, indicando gli obiettivi prefissati, gli obiettivi raggiunti e descrivendo le attività svolte durante la settimana.
+I resoconti settimanali, d'altro canto, mi hanno permesso di allineare regolarmente il mio relatore sullo stato di avanzamento dello _stage_, indicando gli obiettivi prefissati, gli obiettivi raggiunti e descrivendo le attività svolte durante la settimana.
 
 == Analisi dei requisiti
 === Casi d'uso
-I casi d'uso (use case) sono uno strumento utile nel rappresentare le interazioni tra gli utenti e l'applicativo. Un diagramma dei casi d'uso illustra graficamente queste interazioni, evidenziando gli attori coinvolti e le funzionalità del sistema. 
+I casi d'uso (_use case_) sono uno strumento utile nel rappresentare le interazioni tra l'utente e l'applicativo. Un diagramma dei casi d'uso illustra graficamente queste interazioni, evidenziando gli attori coinvolti e le funzionalità del sistema. 
 
 Nel contesto di questo tirocinio, ho adottato la seguente convenzione per la descrizione dei casi d'uso: 
 #align(center, [`UC-X.Y.Z: nome del caso d'uso`])
@@ -876,7 +881,7 @@ Nel contesto specifico di questo sistema, l'attore principale è l'operatore di 
 *Ambiente tridimensionale*:
 #showImageWithSource(
   imagePath: "/assets/chapter3/UC/UC3d.png",
-  imageWidth: 97%,
+  imageWidth: 92%,
   caption: [Casi d'uso per l'ambiente tridimensionale],
   source: "",
   label: <UC3d>
@@ -910,12 +915,18 @@ L'utente riposiziona la struttura del magazzino all'interno dell'ambiente tridim
 - *Postcondizioni*: La struttura del magazzino vengono riposizionate correttamente.
 
 \
+*UC-1.3 Visualizzazione dei soli bin utilizzati* \
+L'utente visualizza solo i bin utilizzati all'interno dell'ambiente tridimensionale, ossia i bin contenenti almeno un saldo al loro interno.
+- *Attore primario*: Utente;
+- *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
+- *Postcondizioni*: Vengono visualizzati solo i bin utilizzati all'interno dell'ambiente tridimensionale, nascondendo i bin vuoti.
+
+\
 *UC-1.4 Selezione bin nell'ambiente* \
 L'utente seleziona un bin all'interno dell'ambiente tridimensionale, avendo modo di visualizzare i saldi presenti al suo interno.
 - *Attore primario*: Utente;
 - *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
 - *Postcondizioni*: Il bin selezionato viene evidenziato, cambiandone il colore in base al tema dell'applicativo.
-
 
 \
 *Creazione dell'ordine di movimentazione*
@@ -931,7 +942,7 @@ L'utente seleziona un bin all'interno dell'ambiente tridimensionale, avendo modo
 - *Attore primario*: Utente;
 - *Precondizioni*:
   - L'ambiente 3D deve essere correttamente caricato e configurato;
-  - Deve essere presente almeno un bin di partenza valido da cui iniziare l'operazione di dragging;
+  - Deve essere presente almeno un bin di partenza valido da cui iniziare l'operazione di _dragging_;
   - Deve essere presente almeno un bin valido da utilizzare come bin di destinazione diverso dal bin di partenza;
   - Il bin di destinazione deve essere in grado di accogliere i saldi che si intendono movimentare;
   - In caso si movimenti più di un saldo, il bin di destinazione deve essere in grado di accogliere più saldi differenti.
@@ -947,13 +958,6 @@ L'utente seleziona il bin di partenza da cui iniziare l'operazione di _drag&drop
 - *Postcondizioni*: Il bin di partenza viene "Selezionato", cambiandone il colore in base al tema dell'applicativo.
 - *Esensioni*:
   - *UC-2.1.1*: Errore bin di partenza privo di saldi;
-
-\
-*UC-2.1.1 Errore bin di partenza privo di saldi* \
-L'utente seleziona un bin privo di saldi, e pertanto non è possibile procedere con la selezione dei saldi da movimentare.
-- *Attore primario*: Utente;
-- *Precondizioni*: Il bin selezionato deve essere privo di saldi;
-- *Postcondizioni*: Il bin rimane selezionato, ma non è possibile procedere con la selezione dei saldi da movimentare.
 
 \  
 *UC-2.2 Selezione bin di destinazione* \
@@ -975,20 +979,6 @@ L'utente seleziona un bin di destinazione non valido, e pertanto non è possibil
   - *UC-2.2.1.2*: Bin di destinazione non in grado di accogliere i saldi movimentati;
 
 \
-*UC-2.2.1.1 Errore bin di destinazione pieno* \
-Il bin di destinazione selezionato è completo, e pertanto non è possibile procedere con la selezione dei saldi da movimentare.
-- *Attore primario*: Utente;
-- *Precondizioni*: Il bin di destinazione selezionato deve essere completo;
-- *Postcondizioni*: Il bin viene resettato, tornando allo stato iniziale e l'operazione di creazione dell'ordine di movimentazione viene annullata.
-
-\
-*UC-2.2.1.2 Errore bin di destinazione non in grado di accogliere più di un saldo* \
-Il bin di destinazione selezionato non è in grado di accogliere i saldi movimentati, e pertanto non è possibile procedere con la selezione dei saldi da movimentare. Può infatti succedere che un bin possa accogliere solamente un tipo di prodotto.
-- *Attore primario*: Utente;
-- *Precondizioni*: Il bin di destinazione selezionato deve essere non in grado di accogliere i saldi movimentati;
-- *Postcondizioni*: Il bin viene resettato, tornando allo stato iniziale e l'operazione di creazione dell'ordine di movimentazione viene annullata.
-
-\
 *UC-2.3 Selezione saldi da movimentare* \
 L'utente seleziona i saldi da movimentare dal bin di partenza al bin di destinazione.
 - *Attore primario*: Utente;
@@ -996,38 +986,6 @@ L'utente seleziona i saldi da movimentare dal bin di partenza al bin di destinaz
 - *Postcondizioni*: Viene mostrato il resoconto di quali saldi si vuole movimentare e in che quantità, e la quantità rimanente del saldo dal bin di partenza.
 - *Estensioni*:
   - *UC-2.3.1*: Errore quantità selezionata non valida;
-
-\
-*UC-2.3.1 Errore quantità selezionata non valida* \
-L'utente seleziona una quantità di saldi non valida, e pertanto non è possibile procedere con la creazione della richiesta di movimentazione. Si applica sia per la quantità principale che alternativa.
-- *Attore primario*: Utente;
-- *Precondizioni*: La quantità selezionata deve essere non valida;
-- *Postcondizioni*: Viene mostrato un messaggio di errore e l'operazione di creazione dell'ordine di movimentazione viene annullata.
-- *Generalizzazioni*:
-  - *UC-2.3.1.1*: Quantità selezionata minore di 0;
-  - *UC-2.3.1.2*: Quantità selezionata maggiore della quantità disponibile;
-  - *UC-2.3.1.3*: Quantità alternativa selezionata non conforme alle regole di scostamento.
-
-\
-*UC-2.3.1.1 Quantità selezionata minore di 0* \
-L'utente seleziona una quantità di saldi minore di 0, e pertanto non è possibile procedere con la creazione della richiesta di movimentazione.
-- *Attore primario*: Utente;
-- *Precondizioni*: La quantità selezionata deve essere minore di 0;
-- *Postcondizioni*: Viene mostrato un messaggio di errore.
-
-\
-*UC-2.3.1.2 Quantità selezionata maggiore della quantità disponibile* \
-L'utente seleziona una quantità di saldi maggiore della quantità disponibile, e pertanto non è possibile procedere con la creazione della richiesta di movimentazione.
-- *Attore primario*: Utente;
-- *Precondizioni*: La quantità selezionata deve essere maggiore della quantità disponibile;
-- *Postcondizioni*: Viene mostrato un messaggio di errore.
-
-\
-*UC-2.3.1.3 Quantità alternativa selezionata non conforme alle regole di scostamento* \
-L'utente seleziona una quantità alternativa di saldi non conforme alle regole di scostamento, e pertanto non è possibile procedere con la creazione della richiesta di movimentazione.
-- *Attore primario*: Utente;
-- *Precondizioni*: La quantità alternativa selezionata deve essere non conforme alle regole di scostamento;
-- *Postcondizioni*: Viene mostrato un messaggio di errore.
 
 \
 *UC-2.4 Specifica della causale di creazione* \
@@ -1039,13 +997,6 @@ L'utente specifica la causale per la creazione dell'ordine di movimentazione.
   - *UC-2.4.1*: Causale non valida;
 
 \
-*UC-2.4.1 Causale non valida* \
-L'utente specifica una causale non presente nell'anagrafica delle causali possibili, e pertanto non è possibile procedere con la creazione della richiesta di movimentazione.
-- *Attore primario*: Utente;
-- *Precondizioni*: La causale specificata deve essere non valida;
-- *Postcondizioni*: Viene mostrato un messaggio di errore.
-
-\
 *UC-2.5 Specifica della priorità della richiesta* \
 L'utente specifica la priorità per la creazione dell'ordine di movimentazione.
 - *Attore primario*: Utente;
@@ -1055,15 +1006,6 @@ L'utente specifica la priorità per la creazione dell'ordine di movimentazione.
   - *UC-2.5.1*: Errore priorità non valida;
 
 \
-*UC-2.5.1 Errore priorità non valida* \
-L'utente specifica una priorità non presente nell'anagrafica delle priorità possibili, e pertanto non è possibile procedere con la creazione della richiesta di movimentazione.
-- *Attore primario*: Utente;
-- *Precondizioni*: La priorità specificata deve essere non valida;
-- *Postcondizioni*: Viene mostrato un messaggio di errore.
-
-\
-
-
 === Tracciamento dei requisiti <tracciamentoRequisiti>
 Ho tracciato i requisiti con un codice identificativo definito nel seguente modo:
 #align(center, [TC-I])
@@ -1078,7 +1020,7 @@ dove:
   
   - *V*: di vincolo.
 
-- *C* appresenta la classificazione. Può assumere i valori:  
+- *C* rappresenta la classificazione. Può assumere i valori:  
   - *M*: _mandatory_, obbligatorio;
   
   - *D*: desiderabile;
@@ -1087,7 +1029,6 @@ dove:
 
 - *I*: intero positivo identificativo del requisito.
 
-\
 *Requisiti funzionali*:
 #figure(
   table(
@@ -1096,22 +1037,23 @@ dove:
     [F-M1],[Obbligatorio],[L'utente può visualizzare le strutture del magazzino all'interno dell'ambiente tridimensionale.],[UC-1.1 \ Obiettivi aziendali],
     [F-M2],[Obbligatorio],[L'utente può selezionare una struttura del magazzino all'interno dell'ambiente tridimensionale.],[UC-1.2 \ Obiettivi aziendali],
     [F-M3],[Obbligatorio],[L'utente può riposizionare la struttura del magazzino all'interno dell'ambiente tridimensionale.],[UC-1.2.1 \ Obiettivi aziendali],
-    [F-M4],[Obbligatorio],[L'utente può selezionare un bin all'interno dell'ambiente tridimensionale.],[UC-1.4 \ Obiettivi aziendali],
-    [F-M5],[Obbligatorio],[L'utente può selezionare il bin di partenza da cui iniziare l'operazione di _drag&drop_.],[UC-2.1 \ Obiettivi aziendali],
-    [F-M6],[Obbligatorio],[L'utente può selezionare il bin di destinazione in cui posizionare i saldi movimentati.],[UC-2.2 \ Obiettivi aziendali],
-    [F-M7],[Obbligatorio],[L'utente può selezionare i saldi da movimentare dal bin di partenza al bin di destinazione.],[UC-2.3 \ Obiettivi aziendali],
-    [F-M8],[Obbligatorio],[L'utente può specificare la causale per la creazione dell'ordine di movimentazione.],[UC-2.4 \ Obiettivi aziendali],
-    [F-M9],[Obbligatorio],[L'utente può specificare la priorità per la creazione dell'ordine di movimentazione.],[UC-2.5 \ Obiettivi aziendali],
-    [F-D10],[Desiderabile],[L'utente deve visualizzare un errore se il bin di partenza è privo di saldi.],[UC-2.1.1],
-    [F-D11],[Desiderabile],[L'utente deve visualizzare un errore se il bin di destinazione non è valido.],[UC-2.2.1],
-    [F-D12],[Desiderabile],[L'utente deve visualizzare un errore se la quantità selezionata non è valida.],[UC-2.3.1],
-    [F-D13],[Desiderabile],[L'utente deve visualizzare un errore se la causale specificata non è valida.],[UC-2.4.1],
-    [F-D14],[Desiderabile],[L'utente deve visualizzare un errore se la priorità specificata non è valida.],[UC-2.5.1],
+    [F-M4],[Obbligatorio],[L'utente può visualizzare solo i bin utilizzati all'interno dell'ambiente tridimensionale.],[UC-1.3 \ Obiettivi aziendali],
+    [F-M5],[Obbligatorio],[L'utente può selezionare un bin all'interno dell'ambiente tridimensionale.],[UC-1.4 \ Obiettivi aziendali],
+    [F-M6],[Obbligatorio],[L'utente può selezionare il bin di partenza da cui iniziare l'operazione di _drag&drop_.],[UC-2.1 \ Obiettivi aziendali],
+    [F-M7],[Obbligatorio],[L'utente può selezionare il bin di destinazione in cui posizionare i saldi movimentati.],[UC-2.2 \ Obiettivi aziendali],
+    [F-M8],[Obbligatorio],[L'utente può selezionare i saldi da movimentare dal bin di partenza al bin di destinazione.],[UC-2.3 \ Obiettivi aziendali],
+    [F-M9],[Obbligatorio],[L'utente può specificare la causale per la creazione dell'ordine di movimentazione.],[UC-2.4 \ Obiettivi aziendali],
+    [F-M10],[Obbligatorio],[L'utente può specificare la priorità per la creazione dell'ordine di movimentazione.],[UC-2.5 \ Obiettivi aziendali],
+    [F-D11],[Desiderabile],[L'utente deve visualizzare un errore se il bin di partenza è privo di saldi.],[UC-2.1.1],
+    [F-D12],[Desiderabile],[L'utente deve visualizzare un errore se il bin di destinazione non è valido.],[UC-2.2.1],
+    [F-D13],[Desiderabile],[L'utente deve visualizzare un errore se la quantità selezionata non è valida.],[UC-2.3.1],
+    [F-D14],[Desiderabile],[L'utente deve visualizzare un errore se la causale specificata non è valida.],[UC-2.4.1],
+    [F-D15],[Desiderabile],[L'utente deve visualizzare un errore se la priorità specificata non è valida.],[UC-2.5.1],
   ),
   caption: [Requisiti funzionali],
 )
 
-\
+\ 
 *Requisiti di qualità*:
 #figure(
   table(
@@ -1125,6 +1067,9 @@ dove:
   caption: [Requisiti di qualità],
 )
 
+
+\
+#v(-0.5em)
 *Requisiti prestazionali*:
 #figure(
   table(
@@ -1149,19 +1094,22 @@ dove:
 )
 
 \
-*Riepilogo requisiti*:
-#figure(
-  table(
-    columns: (0.5fr, auto, auto, auto, auto),
-    [*Tipologia*], [*Obbligatori*], [*Desiderabili*], [*Opzionali*], [*Totale*],
-    [Funzionali],[9],[5],[0],[14],
-    [Qualità],[1],[0],[3],[4],
-    [Prestazionali],[1],[0],[0],[1],
-    [Vincolo],[4],[0],[0],[4],
-  ),
-  caption: [Riepilogo requisiti],
+#block(breakable: false,
+[
+  *Riepilogo requisiti*:
+  #figure(
+    table(
+      columns: (0.5fr, auto, auto, auto, auto),
+      [*Tipologia*], [*Obbligatori*], [*Desiderabili*], [*Opzionali*], [*Totale*],
+      [Funzionali],[10],[5],[0],[15],
+      [Qualità],[1],[0],[3],[4],
+      [Prestazionali],[1],[0],[0],[1],
+      [Vincolo],[4],[0],[0],[4],
+    ),
+    caption: [Riepilogo requisiti],
+  )
+]
 )
-
 == Progettazione
 === Tecnologie utilizzate <tecnologieUtilizzate>
 Come stabilito dai vincoli di progetto (#ref(<vincoliTecnologici>, supplement: "paragrafo")), trattandosi di un'estensione delle funzionalità di un prodotto esistente, ho utilizzato le tecnologie e gli strumenti già in uso dall'azienda, garantendo un'interoperabilità e una coerenza con il prodotto esistente.
@@ -1169,7 +1117,7 @@ Come stabilito dai vincoli di progetto (#ref(<vincoliTecnologici>, supplement: "
 Nel dettaglio, le tecnologie utilizzate sono le seguenti:
 
 - *Frontend*:
-  - *Angular*: _framework_ TypeScript per lo sviluppo di applicazioni _web_ . Ho utilizzato Angular per la creazione dell'interfaccia utente e per la gestione delle funzionalità _frontend_ del prodotto WMS; Si tratta di un _framework_ che già conoscevo, ma che non avevo mai utilizzato in un contesto professionale, e che mi ha permesso di approfondire le mie conoscenze e di metterle in pratica in un contesto aziendale.
+  - *Angular*: _framework_ TypeScript per lo sviluppo di applicazioni _web_ . Ho utilizzato Angular per la creazione dell'interfaccia utente e per la gestione delle funzionalità _frontend_ del prodotto WMS; si tratta di un _framework_ che già conoscevo, ma che non avevo mai utilizzato in un contesto professionale, e che mi ha permesso di approfondire le mie conoscenze e di metterle in pratica in un contesto aziendale.
 
     Angular si basa su un'architettura _component-based_, che permette di creare componenti riutilizzabili e modulabili, garantendo una struttura chiara e ben organizzata del codice.
 
@@ -1185,8 +1133,6 @@ Nel dettaglio, le tecnologie utilizzate sono le seguenti:
 
   
   - *Three.js*: libreria JavaScript per la creazione di ambienti 3D. Ho utilizzato Three.js per la creazione dell'ambiente tridimensionale, garantendo una visualizzazione realistica e interattiva dell'ambiente di lavoro.
-
-    Three.js permette di creare una scena 3D complessa e strutturata, garantendo una visualizzazione realistica e interattiva dell'ambiente di lavoro.
 
     #showImageWithSource(
       imagePath: "/assets/chapter3/threejs.png",
@@ -1223,7 +1169,7 @@ Nel complesso le tecnologie si integrano come mostro nell'#ref(<integrazioneTecn
 Le tecnologie utilizzate mi hanno permesso di sviluppare un prodotto conforme alle aspettative e alle esigenze dell'azienda, garantendo che quanto prodotto fosse integrabile e interoperabile con il prodotto esistente.
 
 === _Workspace_ e _widget_
-Per poter comprendere come ho svolto implementato l'ambiente tridimensionale, è necessario che siano chiari i concetti di _workspace_ e di _widget_:
+Per poter comprendere come ho implementato l'ambiente tridimensionale, è necessario che siano chiari i concetti di _workspace_ e di _widget_:
 
 - *Widget*: rappresenta un componente autonomo all'interno del _workspace_, che può essere configurato e personalizzato in base alle esigenze dell'utente. Ogni _widget_ è responsabile di una specifica funzionalità, e può comunicare con gli altri _widget_ presenti nel _workspace_. L'ambiente tridimensionale è di fatto un _widget_ all'interno del _workspace_, che permette di visualizzare le strutture del magazzino e i saldi presenti al suo interno;
 
@@ -1251,9 +1197,20 @@ L'applicativo WMS inizialmente prevedeva una gestione dell'ambiente 3D basata su
 )
 
 \
-Il refactoring dell'ambiente 3D, pertanto, si pone come obiettivo la creazione di un sistema di gestione più flessibile e scalabile, che permetta di interagire direttamente con gli oggetti dell'ambiente 3D, avendo un riferimento concreto al bin, alla struttura o all'area selezionata.
+La ristrutturazione dell'ambiente 3D, pertanto, si pone come obiettivo la creazione di un sistema di gestione più flessibile e scalabile, che permetta di interagire direttamente con gli oggetti dell'ambiente 3D, avendo un riferimento concreto al bin, alla struttura o all'area selezionata.
 
-\
+Durante l'implementazione ho lavorato con diversi _design pattern_ derivanti dall'utilizzo di Angular e Synergy, con l'obiettivo di produrre un codice manuntenibile e scalabile. Infatti, grazie al pattern _dependency injection_ di Angular, mi sono occupato dell'aggiornamento dei servizi necessari alla rappresentazione dell'ambiente 3D, mantenendo una struttura del codice chiara e ben organizzata: infatti questo paradigma consente di incorporare le dipendenze richieste direttamente nel processo di costruzione degli oggetti, semplificando notevolmente la gestione e l'utilizzo dei servizi all'interno del codice sorgente. 
+
+In sinergia con esso ho utilizzato il _pattern_ _decorator_: Angular si distingue per l'adozione sistematica del concetto di decoratori, come ad esempio l'annotazione `@Injectable()`. Tali costrutti consentono di arricchire dinamicamente le funzionalità degli oggetti esistenti, ampliandone le capacità senza introdurre eccessivi vincoli di dipendenza tra le varie componenti del sistema. Un altro esempio concreto è il decoratore `@ExhaustingEvent ()`, che ho utilizzato per la gestione degli eventi "iscrivibili" nell'ambito degli _Observable_ per le chiamate asincrone dei servizi REST: in questo modo, tali eventi vengono gestiti in modo trasparente da Synergy, che si occuperà automaticamente delle operazioni di _subscribe_ e _unsubscribe_. Il comportamento di tali _pattern_ lo mostro nella seguente immagine:
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/dependencyInjection.png",
+  imageWidth: 95%,
+  caption: [Comportamento del _dependency injector_ in Angular],
+  source: "",
+  label: <dependencyInjection>
+)
+
 *_Mesh_* \
 La libreria Three.js mette a disposizione divere tipologie di _mesh_ per la visualizzazione di oggetti 3D, ciascuna caratterizzata da un consumo di risorse differente e da un comportamento diverso all'interno dell'ambiente. Durante il mio percorso ho svolto un'attenta analisi delle prestazioni del prodotto, cercando di ottimizzare le operazioni di _rendering_ allegerendo il carico di lavoro che la GPU doveva sostenere.
 
@@ -1282,13 +1239,13 @@ Nello specifico, la funzionalità generà una richiesta di movimentazione, i det
   label: <richieste>
 )
 
-Insieme al _team_ pertanto, come prima cosa abbiamo definito le tabelle coinvolte, in modo da avere una visione chiara e completa delle informazioni necessarie per la creazione degli ordini di movimentazione. In particolare, abbiamo definito le seguenti tabelle:
+Io e il _team_ pertanto, come prima cosa abbiamo definito le tabelle coinvolte, in modo da avere una visione chiara e completa delle informazioni necessarie per la creazione degli ordini di movimentazione. In particolare, abbiamo definito le seguenti tabelle:
 
 - `WmsReq`: tabella contenente le informazioni relative alla richiesta di movimentazione, la priorità, la tipologia e se si tratta di una richiesta manuale;
 
 - `WmsReqDet`: tabella contenente i dettagli della richiesta di movimentazione, uno per ogni saldo movimentato. Contiene le informazioni relative al prodotto movimentato e la quantità;
 
-- `WmsTsk`: tabella contenente i _task_ corrispondenti alla richiesta di movimentazione, direttamente associato alla tabella `WmsReqDet`. Anche questa tabella contiene le informazioni relative al prodotto movimentato e la quantità aggiungendo inoltre la tipologia del _task_, il bin di partenza, il bin di destinazione e lo stato del _task_.
+- `WmsTsk`: tabella contenente i _task_ corrispondenti alla richiesta di movimentazione, direttamente associato alla tabella `WmsReqDet`. Anche questa tabella contiene le informazioni relative al prodotto movimentato e la quantità, aggiungendo inoltre la tipologia del _task_, il bin di partenza, il bin di destinazione e lo stato del _task_.
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/dbSchemas.png",
@@ -1298,10 +1255,10 @@ Insieme al _team_ pertanto, come prima cosa abbiamo definito le tabelle coinvolt
   label: <dbSchema>
 )
 
-=== Architettura del sistema
-Descrizione dell'architettura del sistema su cui ho lavorato, sia lato backend sia lato frontend, in modo da avere una comprensione maggiore dell'applicativo e del contesto in cui mi sono inserito. (immagine architettura synergy backend e MVVM frontend)
+La gestione della connessione con il _database_ è gestita dal _framework_ Synergy mediante l'utilizzo di classi che utilizzano il _pattern singleton_ per garantire un'unica istanza della connessione al _database_. Al fine di esegure le operazioni di lettura e scrittura dei dati ho definito delle classi che implementassero il _pattern_ DAO (_Data Access Object_) in grado di interfacciarsi con il _database_ e fornire i metodi per l'esecuzione delle operazioni richieste. Questo mi ha permesso di separare la logica di accesso ai dati dalla logica di _business_, garantendo una maggiore modularità e scalabilità del codice.
 
-L'applicativo WMS è una _web application_ che si compone di due parti principali: il _frontend_ e il _backend_. Il _frontend_ è sviluppato in Angular, mentre il _backend_ è sviluppato in Java con il _framework_ Synergy. Entrambi i componenti comunicano tra loro mediante servizi REST esposti.
+=== Architettura del sistema
+L'applicativo WMS è una _web application_ che si compone di due parti principali: il _frontend_, sviluppato in Angular, e il _backend_, sviluppato in Java con il _framework_ Synergy. Le due parti comunicano tra loro mediante servizi REST esposti.
 
 Durante il mio tirocinio ho avuto modo di sviluppare funzionalità sia lato _frontend_ che lato _backend_, adattandomi ai _pattern_ architetturali presenti, in particolare:
 
@@ -1333,29 +1290,13 @@ Durante il mio tirocinio ho avuto modo di sviluppare funzionalità sia lato _fro
 
   - *WS layer*: _layer_ che si occupa di gestire i parametri delle chiamate REST, controllando inoltre le autorizzazioni per la scrittura e la lettura dei dati. Si occupa di chiamare il _layer_ di logica per l'esecuzione delle operazioni richieste;
 
-  - *Logic layer*: _layer_ che contiene la logica di _business_ dell'applicativo. Si occupa di eseguire la logica di _business_, richiamando il DAO per interagire con il database.
+  - *Logic layer*: _layer_ che contiene la logica di _business_ dell'applicativo. Si occupa di eseguire la logica di _business_, richiamando il DAO (_Data Access Object_) per interagire con il database.
 
-  - *DAO layer* (_Data Access Object_): _layer_ che si occupa di gestire l'accesso ai dati, interfacciandosi con il _database_ e fornendo i metodi per per le operazioni CRUD (_Create, Read, Update, Delete_);
+  - *DAO layer*: _layer_ che si occupa di gestire l'accesso ai dati, interfacciandosi con il _database_ e fornendo i metodi per per le operazioni CRUD (_Create, Read, Update, Delete_);
 
   - *Model layer*: _layer_ che contiene le classi che rappresentano il modello dei dati dell'applicativo.
 
-
-\
-=== Design pattern
-Nella progettazione e nello sviluppo del prodotto WMS, oltre ad utilizzare le _best practice_ derivanti dall'utilizzo di _framework_ come Angular e _Synergy_, ho utilizzato _design pattern_ seguendo le convenzioni aziendali al fine di garantire un codice ben strutturato, manutenibile e scalabile. 
-
-I _design pattern_ che ho utilizzato sono i seguenti:
-- *Singleton*: ho utilizzato il _pattern_ Singleton nell'interfacciamento dell'applicativo con il _database_, garantendo che una sola istanza della classe di connessione fosse creata e condivisa tra le varie componenti dell'applicativo; Nello specifico, mi sono occupato di estendere le classi presenti per estendere le operazioni di lettura e scrittura dei dati all'interno del DAO layer. Inoltre, tale _pattern_ è utilizzato da Angular nella definizione dei _service_, responsabili della comunicazione fra componenti e da/verso il _backend_.
-
-- *DAO (_Data Access Object_)*: ho utilizzato il _pattern_ DAO per separare la logica di accesso ai dati dalla logica di _business_, garantendo una struttura chiara e ben organizzata del codice. In particolare, ho sviluppato le classi DAO per l'interfacciamento con il _database_, grazie alla predisposizione offerta dal _framework_ Synergy. Questo mi ha permesso di separare le operazioni di lettura e scrittura dei dati dalla logica di _business_, garantendo una maggiore modularità e scalabilità del codice.
-
-- *Decorator*: Il _framework_ Angular si distingue per l'adozione innovativa del concetto di decoratori, quali l'annotazione `@Injectable()`. Tali costrutti consentono di arricchire dinamicamente le funzionalità degli oggetti esistenti, ampliandone le capacità senza introdurre eccessivi vincoli di dipendenza tra le varie componenti del sistema. Questo _pattern_ si è rivelato particolarmente vantaggioso nell'ambito dell'iniezione delle dipendenze necessarie all'interno di specifiche classi e funzioni dell'applicazione, permettendo di ottenere un disaccoppiamento più efficace tra le diverse parti del codice.
-
-
-  Un esempio concreto di decoratori che ho utilizzato è il decoratore `@ExhaustingEvent ()` per la gestione degli eventi "iscrivibili": tali eventi sono gestiti in modo trasparente dal _framework_ mediante l'applicazione del decoratore, che gestirà automaticamente gli eventi di _subscribe_ e _unsubscribe_.
-
-- *_Dependency injection_*: Uno degli aspetti distintivi di Angular è l'enfasi posta sull'adozione del pattern _dependency injection_. Questo paradigma consente di incorporare le dipendenze richieste direttamente nel processo di costruzione degli oggetti, semplificando notevolmente la gestione e l'utilizzo dei servizi all'interno del codice sorgente. Tale approccio è stato particolarmente valorizzato nella realizzazione di servizi e componenti, agevolando l'identificazione e l'impiego dei servizi necessari all'interno dell'applicazione. La _dependency injection_ rappresenta quindi un elemento chiave nell'architettura di Angular, favorendo un disaccoppiamento efficace tra le diverse parti del sistema.
-
+\ \
 == Codifica
 === Visualizzazione tridimensionale
 Al fine di apportare le modifiche necessarie all'ambiente 3D definite durante il processo di progettazione, ho implementato due nuovi classi, responsabili della gestione delle strutture e dei bin all'interno dell'ambiente tridimensionale:
@@ -1390,7 +1331,7 @@ All'interno dell'ambiente 3D, le due classi verranno mostrate come segue:
 
 Questo approccio ha permesso di centrallizzare la logica di gestione dei bin e delle strutture all'interno dell'ambiente 3D, garantendo una struttura chiara e ben organizzata del codice. Un esempio significativo di come ho utilizzato queste classi è la gestione dell'interazione con i bin e le strutture: `Struct3D` e `Bin3D` espongono infatti i seguenti metodi per gestire l'interazione:
 
-- *highlight ()*: permette di evidenziare il bin o la struttura selezionata, modificandone il colore e la trasparenza;
+- *highlight ()*: permette di evidenziare il bin o la struttura selezionata, modificandone il colore;
 
 - *select ()*: permette di selezionare il bin o la struttura, attivando la possibilità di operazioni di _drag & drop_ e di creazione dell'ordine di movimentazione;
 
@@ -1435,6 +1376,7 @@ Nello specifico ho implementato il componente `WmsNewMovementFormComponent`, res
 
 Questo componente viene visualizzato al termine dell'operazione di _drag & drop_ di un bin, permettendo all'utente di specificare la causale, la priorità per la creazione dell'ordine di movimentazione e di selezionare i saldi da movimentare e in che quantità.
 
+\ \
 Nell'immagine che segue mostro l'interfaccia del _form_ per la creazione degli ordini di movimentazione:
 
 #showImageWithSource(
@@ -1452,6 +1394,8 @@ I servizi in Angular sono classi che gestiscono in modo centralizzato i dati e l
 
 - *DragManager*: classe responsabile della gestione dell'operazione di _drag & drop_ all'interno dell'ambiente 3D. Il `DragManager` si occupa di gestire l'inizio e la fine dell'operazione di _drag & drop_, permettendo di selezionare e trascinare i bin all'interno dell'ambiente 3D. Al momento del rilascio del bin, il `DragManager` si occupa di generare l'evento di movimentazione e di richiamare il servizio `InteractioService` per la creazione dell'ordine, passando le informazioni relative al bin di partenza e di destinazione;
 
+\ \ \
+L'operazione avviene come mostro nella seguente immagine:
 #showImageWithSource(
   imagePath: "/assets/chapter3/dnd.png",
   imageWidth: 90%,
@@ -1481,7 +1425,7 @@ Successivamente viene richiamato il _layer_ WS, che controllerà i permessi di a
 #showImageWithSource(
   imagePath: "/assets/chapter3/restWs.png",
   imageWidth: auto,
-  caption: [Layer WS per la creazione dell'ordine],
+  caption: [_Layer_ WS per la creazione dell'ordine],
   source: "",
   label: <ws>
 )
@@ -1489,23 +1433,23 @@ Successivamente viene richiamato il _layer_ WS, che controllerà i permessi di a
 Accertati i permessi, il _layer_ WS richiamerà il _layer_ di logica per l'esecuzione dell'operazione richiesta.
 
 == Verifica e validazione
-=== Test di unità 
-Come discusso in precedenza nel #ref(<processoVerifica>, supplement: "paragrafo"), ho svolto i _test_ di unità per verificare il corretto funzionamento delle singole componenti e delle classi sviluppate, garantendo che le funzionalità implementate rispettassero le specifiche definite durante l'analisi.
+=== _Test_ di unità 
+Come menzionato in precedenza nel #ref(<processoVerifica>, supplement: "paragrafo"), ho svolto i _test_ di unità per verificare il corretto funzionamento delle singole componenti e delle classi sviluppate, garantendo che le funzionalità implementate rispettassero le specifiche definite durante l'analisi.
 
-Infatti, grazie al supporto del _framework_ Synergy, per ogni classe del modello vengono predisposti i _test_ di unità (e di integrazione) passando dei parametri di input e verificando che l'output sia conforme alle aspettative. Seppur non sono riuscito a seguire la pratica _test driven development_ (TDD), ho comunque svolto i _test_ di unità per garantire la correttezza delle funzionalità implementate, focalizzandomi sugli aspetti critici e i _corner case_ che avrebbero potuto generare errori.
+Infatti, grazie al supporto del _framework_ Synergy, per ogni classe del modello vengono predisposti i _test_ di unità (e di integrazione) passando dei parametri di input e verificando che l'output sia conforme alle aspettative. Seppur non sono riuscito a seguire la pratica _test driven development_ (TDD), ho comunque implementato i _test_ di unità per garantire la correttezza delle funzionalità implementate, focalizzandomi sugli aspetti critici e i _corner case_ che avrebbero potuto generare errori.
 
 L'implementazione di questi _test_ mi ha permesso pertanto di implementare un codice più robusto e di ridurre il numero di errori, garantendo che le funzionalità implementate fossero conformi alle specifiche definite.
 
-=== Test di integrazione
+=== _Test_ di integrazione
 I _test_ di integrazione si occupano di verificare il corretto funzionamento delle componenti e dei servizi sviluppati, garantendo che le varie parti dell'applicativo interagiscano correttamente tra loro. Durante il mio tirocinio ho svolto i _test_ di integrazione per verificare che le componenti sviluppate fossero in grado di comunicare tra loro e di scambiarsi i dati necessari, in particolar modo per verificare che l'interazione tra il _frontend_ e il _backend_ avvenisse correttamente.
 
-Infatti un aspetto cruciale che ho tenuto in considerazione durante lo sviluppo è stato il corretto funzionamento dei diversi servizi e chiamate REST che eseguivo per la creazione degli ordini di movimentazione, garantendo che i dati fossero conformi e che rispettassero i requisiti della _business logic_.
+Infatti, un aspetto cruciale che ho tenuto in considerazione durante lo sviluppo è stato il corretto funzionamento dei diversi servizi e chiamate REST che eseguivo per la creazione degli ordini di movimentazione, garantendo che i dati fossero conformi e che rispettassero i requisiti della _business logic_.
 
 I _test_ mi hanno permesso di verificare che i componenti che richiamavo nella _business logic_, come ad esempio i DAO per l'accesso ai dati, funzionassero correttamente e che i dati fossero correttamente scritti e letti dal _database_.
 
 A tal fine è stato fondamentale comprendere il meccanismo di _mocking_, che mi ha permesso di simulare il comportamento delle classi e dei servizi che interagivano con il _backend_, garantendo che i _test_ di integrazione fossero eseguiti in modo isolato e che non dipendessero da fattori esterni, rendendoli di fatto ripetibili e affidabili.
 
-=== Test di _performance_ <testPerformance>
+=== _Test_ di _performance_ <testPerformance>
 I _test_ di _performance_ sono stati svolti per verificare il corretto funzionamento dell'ambiente 3D e la gestione delle risorse durante l'interazione con l'utente, evitando che a seguito del _refactor_ effettuato, il prodotto potesse riscontrare rallentamenti o problemi di _rendering_.
 
 Questa tipologia di _test_ è stata svolta grazie agli strumenti offerti da _Google Chrome_ per la profilazione delle prestazioni, che mi hanno permesso di monitorare il carico di lavoro della GPU e la quantità di risorse utilizzate durante l'interazione con l'ambiente 3D.
@@ -1518,9 +1462,9 @@ Questa tipologia di _test_ è stata svolta grazie agli strumenti offerti da _Goo
   label: <performance>
 )
 
-Nell'#ref(<performance>) mostro un esempio di _test_ di _performance_ dell'ambiente 3D, in cui è possibile visualizzare il carico di lavoro della GPU e la quantità di risorse utilizzate durante l'interazione con l'ambiente 3D. Il tempo di esecuzione del metodo `onLoad ()`, responsabile del caricamento delle strutture e dei bin all'interno dell'ambiente 3D, risulta in una media di valori tra i 60 e i 70 ms, garantendo un'esperienza utente fluida e reattiva, dimostrando che la ristrutturazione dell'ambiente 3D non ha compromesso le prestazioni del prodotto.
+Nell'#ref(<performance>) mostro un esempio di _test_ di _performance_ dell'ambiente 3D, in cui è possibile visualizzare il carico di lavoro della GPU e la quantità di risorse utilizzate. Il tempo di esecuzione del metodo `onLoad ()`, responsabile del caricamento delle strutture e dei bin all'interno dell'ambiente 3D, risulta in una media di valori tra i 60 e i 70 ms, garantendo un'esperienza utente fluida e reattiva, dimostrando che la ristrutturazione dell'ambiente 3D non ha compromesso le prestazioni del prodotto.
 
-Inoltre, se andassimo a considerare il tempo complessivo di caricamento dell'intera pagina (quindi non solo del componente 3D ma di tutta l'applicazione), il tempo medio di caricamento risulta essere di circa 3 secondi, al di sotto dunque del limite imposto da requisiti di _performance_ precedentemente definiti (#ref(<tracciamentoRequisiti>, supplement: "paragrafo")).
+Inoltre, se andassimo a considerare il tempo complessivo di caricamento dell'intera pagina (quindi non solo del componente 3D ma di tutta l'applicazione), il tempo medio di caricamento risulta essere di circa 3 secondi, al di sotto dunque del limite imposto da requisiti di _performance_ (_4s_) precedentemente definiti (#ref(<tracciamentoRequisiti>, supplement: "paragrafo")).
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/GPUcomparison.png",
@@ -1532,12 +1476,12 @@ Inoltre, se andassimo a considerare il tempo complessivo di caricamento dell'int
 
 Come mostro nell'#ref(<GPUusage>), il carico di lavoro della GPU risulta essere inferiore al 20%, comportando un carico di lavoro di circa 200MB di memoria che garantisce un'esperienza fluida e priva di rallentamenti. 
 
-=== Test di sistema
+=== _Test_ di sistema
 I _test_ di sistema sono stati svolti al fine di garantire che il prodotto rispettasse i requisiti definiti durante l'analisi e che le funzionalità implementate fossero conformi alle specifiche richieste. Durante il mio tirocinio ho svolto i _test_ di sistema in prima persona, in modo manuale: l'implementazione di _test_ automatici, soprattutto considerando l'interazione con l'ambiente 3D, avrebbe potuto impedire la consegna di un prodotto completo e pronto per essere integrato nella _codebase_ aziendale.
 
-Questa tipologia di _test_, seppur eseguita manualmente, l'ho svolta con costanza, in modo che ad ogni progresso delle funzionalità implementate, potessi verificare che le operazioni di _drag & drop_ e di creazione degli ordini di movimentazione avvenissero in modo conforme alle aspettative. A tal fine, per verificare che i dati fossero letti e scritti correttamente nel _database_, ho utilizzato DBeaver, che mi ha permesso di monitorare le operazione effettuate e di assicurarmi che le richieste di movimentazione e i relativi dettagli fossero correttamente salvati.
+Questa tipologia di _test_, seppur eseguita manualmente, l'ho svolta con costanza, in modo che ad ogni progresso delle funzionalità implementate, potessi verificare che le operazioni di _drag & drop_ e di creazione degli ordini di movimentazione avvenissero in modo conforme alle aspettative. A tal fine, per verificare che i dati fossero letti e scritti correttamente nel _database_, ho utilizzato lo strumento DBeaver (#ref(<dbeaver>)), che mi ha permesso di monitorare le operazione effettuate e di assicurarmi che le richieste di movimentazione e i relativi dettagli fossero correttamente salvati.
 
-=== Test di accettazione
+=== _Test_ di accettazione
 I _test_ di accettazione sono stati svolti direttamente dal _tester_ del _team_ di sviluppo e dal referente aziendale, che si sono occupati di verificare che il prodotto rispettasse i requisiti definiti durante l'analisi e che il prodotto rispecchiasse le aspettative del cliente.
 Nel contesto di tirocinio, questi _test_ servono a verificare che gli obiettivi aziendali (#ref(<obiettiviAziendali>, supplement: "paragrafo")) siano stati raggiunti e che il percorso di _stage_ abbia prodotto i risultati attesi.
 
@@ -1545,13 +1489,127 @@ Con i _test_ di accettazione si conclude il processo di verifica e validazione d
 
 == Risultati raggiunti
 === Il prodotto realizzato
-Descrizione di quanto ho prodotto dal punto di vista dell'utente finale.
+Il prodotto che ho realizzato supera quanto atteso dall'azienda, risultando completo non solo dal punto di vista funzionale ma anche dal punto di vista dell'esperienza utente. L'implementazione della funzionalità di _drag & drop_ e di creazione degli ordini di movimentazione ha permesso di semplificare e velocizzare le operazioni di movimentazione all'interno del magazzino, garantendo una gestione intuitiva e diretta delle operazioni.
+
+Quando l'utente aprirà la _workspace_ contenente il _widget_ per la visualizzazione 3D del magazzino, avrà una visione chiara e completa della struttura dello stesso, evidenziando in modo chiaro i diversi scaffali presenti, identificati dal loro codice. L'utente è in grado di di esplorare il magazzino muovendo la visuale con il mouse, e di modificare l'organizzazione delle strutture riposizionandole all'interno dell'ambiente 3D.
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/UIfinale.png",
+  imageWidth: auto,
+  caption: [Interfaccia finale della _workspace_],
+  source: "",
+  label: <UI>
+)
+
+\
+Nell'#ref(<UI>) mostro l'interfaccia finale del _workspace_ utilizzato dall'utente: l'ambiente 3D che ho sviluppato si integra con gli altri _widget_ presenti nell'ambiente di lavoro, offrendo funzionalità che semplificano la gestione del magazzino e che forniscono informazioni utili sul suo stato. In particolare l'utente può interagire con le strutture, selezionando i bin di cui si vuole ispezionare il contenuto (#ref(<binSelezionato>)), oppure mostrare solo i bin concretamente utilizzati aventi almeno un saldo al proprio interno (#ref(<binPieni>)). L'integrazione con gli altri _widget_ inoltre, permette anche la selezione di un saldo dal _widget_ dedicato, per mostrare il suo collocamento all'interno dell'ambiente tridimensionale (#ref(<saldoSelezionato>)).
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/binSelezionato.png",
+  imageWidth: 90%,
+  caption: [Visualizzazione dei saldi contenuti all'interno del bin selezionato],
+  source: "",
+  label: <binSelezionato>
+)
+
+\
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/binPieni.png",
+  imageWidth: 92%,
+  caption: [Visualizzazione dei bin con almeno un saldo],
+  source: "",
+  label: <binPieni>
+)
+
+\
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/saldoSelezionato.png",
+  imageWidth: 95%,
+  caption: [Visualizzazione posizione del saldo selezionato dal _widget_ dei saldi],
+  source: "",
+  label: <saldoSelezionato>
+)
+
+
+Anche per quanto riguarda la funzionalità di _drag & drop_ per la creazione dell'ordine di movimentazione, l'ho implementata in modo che tale operazione fosse rapida ed intuitiva: l'utente può selezionare un bin e trascinarlo in un'altra posizione dell'ambiente 3D. Questa operazione aprirà un _dialog_ che gli permetterà di specificare i dettagli della richiesta con un'interfaccia semplice e facilmente comprensibile, come mostro nella seguente immagine:
+
+#showImageWithSource(
+  imagePath: "/assets/chapter3/ordineDiMovimentazione.png",
+  imageWidth: auto,
+  caption: [_Dialog_ di creazione dell'ordine di movimentazione],
+  source: "",
+  label: <ordineDiMovimentazione>
+)
+
+Alla conferma di creazione, l'utente visualizzerà la richiesta all'interno del _widget_ dedicato.
+
+\
 === Copertura dei requisiti
-Il livello di copertura dei requisiti individuati durante l'analisi.
+L'applicativo che ho sviluppato copre l'interezza dei requisiti delineati nel #ref(<tracciamentoRequisiti>, supplement: "paragrafo"), garantendo che le funzionalità implementate rispettassero le specifiche definite durante l'analisi e che il prodotto rispecchiasse le aspettative dell'azienda e del cliente.
+
+#figure(
+  table(
+    columns: (auto, auto, auto, auto),
+    align: center+horizon,
+    [*Tipologia*], [*Individuati*], [*Soddisfatti*], [*Percentuale*],
+    [Funzionali],[15],[15],table.cell([100%], fill: rgb(0, 255, 0, 100)),
+    [Qualità],[4],[4],table.cell([100%], fill: rgb(0, 255, 0, 100)),
+    [Prestazionali],[1],[1],table.cell([100%], fill: rgb(0, 255, 0, 100)),
+    [Vincolo],[4],[4],table.cell([100%], fill: rgb(0, 255, 0, 100)),
+
+  ),
+  caption: [Copertura dei requisiti],
+)
+
+#v(-1.3em)
 === Copertura di testing
-Il livello di copertura di codice in relazione ai _test_ implementati.
+Durante lo svolgimento del tirocinio, mi sono impegnato ad implementare i _test_ necessari a garantire un prodotto che fosse conforme alle aspettative e un che il codice fosse robusto e mantenibile.
+
+I _test_ implementati, grazie anche alla predisposizione offerta dal _framework_ _Synergy_, hanno una copertura del 100% delle codice prodotto lato _backend_, con particolare attenzione ai _test_ di integrazione nella verifica del corretto funzionamento dei servizi REST coinvolti.
+
+Nella seguente tabella riporto il livello di copertura dei _test_ implementati:
+#figure(
+  table(
+    columns: (auto, auto, auto, auto),
+    align: center+horizon,
+    [*Tipologia*], [*Esecuzione*], [*Implementati*], [*Copertura*],
+    [Unità], [Automatica], [Predisposti dal _framework_ Synergy],table.cell([100%], fill: rgb(0, 255, 0, 100)),
+    [Integrazione], [Automatica],[22],table.cell([100%], fill: rgb(0, 255, 0, 100)),
+    [Performance],[Manuale],[2],table.cell([100%], fill: rgb(0, 255, 0, 100)),
+    [Sistema],[Manuale],[15 \ (uno per ogni requisito funzionale)],table.cell([100%], fill: rgb(0, 255, 0, 100)),
+
+  ),
+  caption: [Copertura dei _test_],
+)
+
 === Materiali prodotti
-Il livello complessivo dei materiali prodotti durante il tirocinio: o ltre infatti al codice, durante il percorso di tirocinio ho tenuto traccia giornalmente della attività svolte mediante una bacheca su Notion. Inoltre mi sono preoccupato di redigere puntualmente la documentazione relativa a tutte le funzionalità prodotte e alla loro analisi, condividendola anche il referente aziendale. Questa sezione riporterà una panoramica quantitativa di questi materiali prodotti, le linee di codice scritte, i _meeting_ svolti e le issue su Jira svolte (_bugfix_ e funzionalità).
+Il mio percorso di tirocinio ha visto la produzione di diversi materiali necessari al fine di garantire un'esperienza formativa sia sul profilo personale sia sul profilo tecnico lavorativo. Di seguito, riporto una valutazione quantitativa dell'esperienza svolta, in base ai diversi aspetti considerati:
+
+#figure(
+  table(
+    columns: (20em, 10em),
+    align: (left+horizon, center+horizon),
+    table.cell([*Organizzativoe*], colspan: 2, align: center),
+    [_Daily meeting_ svolti], [30],
+    [_Sprint review_ svolte], [3],
+    [_Sprint retrospective_ svolte], [3],
+    table.cell([*Tecnico*], colspan: 2, fill: luma(220), align: center),
+    [_Ticket_ di Jira risolti], [11],
+    [_Bug_ risolti], [7],
+    [Classi implementate], [4],
+    [Servizi implementati], [2],
+    [Servizi REST implementati], [4],
+    table.cell([*Documentale*], colspan: 2, fill: luma(220), align: center),
+    [Resoconti giornalieri redatti], [36],
+    [Resoconti settimanali redatti], [8],
+    [Documentazione tecnica prodotta], [1 \ (omnicomprensiva)],
+    table.cell([*Temporale*], colspan: 2, fill: luma(220), align: center),
+    [Ore totali di tirocinio], [320],
+  ),
+  caption: [Materiali complessivamente prodotti durante il tirocinio],
+)
 
 #pagebreak()
 = Valutazione retrospettiva
