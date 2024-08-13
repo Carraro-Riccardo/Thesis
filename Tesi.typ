@@ -812,7 +812,7 @@ Gli strumenti e le tecnologie che ho utilizzato per garantire la qualità del pr
 - *_Test_ manuali*:  _test_ svolti manualmente. Durante il mio percorso ho implementato 2 principali tipologie di _test_ manuali:
   - *_Test_ di sistema*: _test_ che verificano il corretto funzionamento del sistema nel suo complesso, garantendo che tutte le funzionalità siano conformi alle aspettative;
 
-  - *_Test_ di perfomance*: _test_ che verificano le prestazioni del sistema, garantendo che il prodotto risponda ai requisiti di _performance_ richiesti.
+  - *_Test_ prestazionali*: _test_ che verificano le prestazioni del sistema, garantendo che il prodotto risponda ai requisiti prestazionali richiesti.
 
 - *Analisi statica del codice*: ho utilizzato strumenti di analisi statica per verificare la qualità del codice prodotto in grado di evidenziare errori e _code smell_, permettendomi di produrre codice che rispettasse le convenzioni aziendali e fosse conforme alle aspettative. In particolare, ho utilizzato i seguenti _linter_:
   
@@ -821,7 +821,7 @@ Gli strumenti e le tecnologie che ho utilizzato per garantire la qualità del pr
   - *Intellij IDEA*: _linter_ integrato nell'IDE utilizzato per lo sviluppo.
 
 \
-- *Analisi dinamica del codice*: ho utilizzato strumenti di analisi dinamica per verificare le prestazioni del codice prodotto, garantendo che il prodotto fosse conforme alle aspettative e rispondesse ai requisiti di _performance_ richiesti. Infatti, il mio tirocinio comprendeva la ristrutturazione del codice dell'ambiente tridimensionale, e quindi era fondamentale garantire che le prestazioni del prodotto fossero adeguate. In particolare, ho utilizzato i _DevTools_ di Google Chrome, che mi hanno permesse di verificare il livello di carico del prodotto e di identificare eventuali criticità nel _rendering_ dell'ambiente tridimensionale.
+- *Analisi dinamica del codice*: ho utilizzato strumenti di analisi dinamica per verificare le prestazioni del codice prodotto, garantendo che il prodotto fosse conforme alle aspettative e rispondesse ai requisiti prestazionali richiesti. Infatti, il mio tirocinio comprendeva la ristrutturazione del codice dell'ambiente tridimensionale, e quindi era fondamentale garantire che le prestazioni del prodotto fossero adeguate. In particolare, ho utilizzato i _DevTools_ di Google Chrome, che mi hanno permesse di verificare il livello di carico del prodotto e di identificare eventuali criticità nel _rendering_ dell'ambiente tridimensionale.
 
 \
 - *Controllo di versione*: come descritto nel #ref(<strumentiSviluppo>, supplement: "paragrafo"), ho utilizzato BitBucket come sistema di controllo di versione, garantendo un monitoraggio costante del codice e delle funzionalità sviluppate.
@@ -915,18 +915,18 @@ L'utente riposiziona la struttura del magazzino all'interno dell'ambiente tridim
 - *Postcondizioni*: La struttura del magazzino vengono riposizionate correttamente.
 
 \
-*UC-1.3 Visualizzazione dei soli bin utilizzati* \
-L'utente visualizza solo i bin utilizzati all'interno dell'ambiente tridimensionale, ossia i bin contenenti almeno un saldo al loro interno.
+*UC-1.3 Visualizzazione dei soli _bin_ utilizzati* \
+L'utente visualizza solo i _bin_ utilizzati all'interno dell'ambiente tridimensionale, ossia i _bin_ contenenti almeno un saldo al loro interno.
 - *Attore primario*: Utente;
 - *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
-- *Postcondizioni*: Vengono visualizzati solo i bin utilizzati all'interno dell'ambiente tridimensionale, nascondendo i bin vuoti.
+- *Postcondizioni*: Vengono visualizzati solo i _bin_ utilizzati all'interno dell'ambiente tridimensionale, nascondendo i _bin_ vuoti.
 
 \
-*UC-1.4 Selezione bin nell'ambiente* \
-L'utente seleziona un bin all'interno dell'ambiente tridimensionale, avendo modo di visualizzare i saldi presenti al suo interno.
+*UC-1.4 Selezione _bin_ nell'ambiente* \
+L'utente seleziona un _bin_ all'interno dell'ambiente tridimensionale, avendo modo di visualizzare i saldi presenti al suo interno.
 - *Attore primario*: Utente;
 - *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
-- *Postcondizioni*: Il bin selezionato viene evidenziato, cambiandone il colore in base al tema dell'applicativo.
+- *Postcondizioni*: Il _bin_ selezionato viene evidenziato, cambiandone il colore in base al tema dell'applicativo.
 
 \
 *Creazione dell'ordine di movimentazione*
@@ -942,48 +942,48 @@ L'utente seleziona un bin all'interno dell'ambiente tridimensionale, avendo modo
 - *Attore primario*: Utente;
 - *Precondizioni*:
   - L'ambiente 3D deve essere correttamente caricato e configurato;
-  - Deve essere presente almeno un bin di partenza valido da cui iniziare l'operazione di _dragging_;
-  - Deve essere presente almeno un bin valido da utilizzare come bin di destinazione diverso dal bin di partenza;
-  - Il bin di destinazione deve essere in grado di accogliere i saldi che si intendono movimentare;
-  - In caso si movimenti più di un saldo, il bin di destinazione deve essere in grado di accogliere più saldi differenti.
+  - Deve essere presente almeno un _bin_ di partenza valido da cui iniziare l'operazione di _dragging_;
+  - Deve essere presente almeno un _bin_ valido da utilizzare come _bin_ di destinazione diverso dal _bin_ di partenza;
+  - Il _bin_ di destinazione deve essere in grado di accogliere i saldi che si intendono movimentare;
+  - In caso si movimenti più di un saldo, il _bin_ di destinazione deve essere in grado di accogliere più saldi differenti.
 
 - *Postcondizioni*:
   - Viene generata una richista di ordine di movimentazione che sarà preso in carico dagli operatori in magazzino.
 
 \
-*UC-2.1 Seleziona bin di partenza* \
-L'utente seleziona il bin di partenza da cui iniziare l'operazione di _drag&drop_.
+*UC-2.1 Seleziona _bin_ di partenza* \
+L'utente seleziona il _bin_ di partenza da cui iniziare l'operazione di _drag&drop_.
 - *Attore primario*: Utente;
 - *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
-- *Postcondizioni*: Il bin di partenza viene "Selezionato", cambiandone il colore in base al tema dell'applicativo.
+- *Postcondizioni*: Il _bin_ di partenza viene "Selezionato", cambiandone il colore in base al tema dell'applicativo.
 - *Esensioni*:
-  - *UC-2.1.1*: Errore bin di partenza privo di saldi;
+  - *UC-2.1.1*: Errore _bin_ di partenza privo di saldi;
 
 \  
-*UC-2.2 Selezione bin di destinazione* \
-L'utente seleziona il bin di destinazione in cui posizionare i saldi movimentati.
+*UC-2.2 Selezione _bin_ di destinazione* \
+L'utente seleziona il _bin_ di destinazione in cui posizionare i saldi movimentati.
 - *Attore primario*: Utente;
 - *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
-- *Postcondizioni*: Il bin di destinazione viene "Evidenziato", cambiandone il colore in base al tema dell'applicativo.
+- *Postcondizioni*: Il _bin_ di destinazione viene "Evidenziato", cambiandone il colore in base al tema dell'applicativo.
 - *Esensioni*:
-  - *UC-2.2.1*: Errore bin di destinazione non valido;
+  - *UC-2.2.1*: Errore _bin_ di destinazione non valido;
 
 \
-*UC-2.2.1 Errore bin di destinazione non valido* \
-L'utente seleziona un bin di destinazione non valido, e pertanto non è possibile procedere con la selezione dei saldi da movimentare.
+*UC-2.2.1 Errore _bin_ di destinazione non valido* \
+L'utente seleziona un _bin_ di destinazione non valido, e pertanto non è possibile procedere con la selezione dei saldi da movimentare.
 - *Attore primario*: Utente;
-- *Precondizioni*: Il bin di destinazione selezionato deve essere non valido;
-- *Postcondizioni*: Il bin viene resettato, tornando allo stato iniziale.
+- *Precondizioni*: Il _bin_ di destinazione selezionato deve essere non valido;
+- *Postcondizioni*: Il _bin_ viene resettato, tornando allo stato iniziale.
 - *Generalizzazioni*:
-  - *UC-2.2.1.1*: Bin di destinazione completo;
-  - *UC-2.2.1.2*: Bin di destinazione non in grado di accogliere i saldi movimentati;
+  - *UC-2.2.1.1*: _bin_ di destinazione completo;
+  - *UC-2.2.1.2*: _bin_ di destinazione non in grado di accogliere i saldi movimentati;
 
 \
 *UC-2.3 Selezione saldi da movimentare* \
-L'utente seleziona i saldi da movimentare dal bin di partenza al bin di destinazione.
+L'utente seleziona i saldi da movimentare dal _bin_ di partenza al _bin_ di destinazione.
 - *Attore primario*: Utente;
-- *Precondizioni*: Il bin di partenza e il bin di destinazione devono essere specificati e validi;
-- *Postcondizioni*: Viene mostrato il resoconto di quali saldi si vuole movimentare e in che quantità, e la quantità rimanente del saldo dal bin di partenza.
+- *Precondizioni*: Il _bin_ di partenza e il _bin_ di destinazione devono essere specificati e validi;
+- *Postcondizioni*: Viene mostrato il resoconto di quali saldi si vuole movimentare e in che quantità, e la quantità rimanente del saldo dal _bin_ di partenza.
 - *Estensioni*:
   - *UC-2.3.1*: Errore quantità selezionata non valida;
 
@@ -991,7 +991,7 @@ L'utente seleziona i saldi da movimentare dal bin di partenza al bin di destinaz
 *UC-2.4 Specifica della causale di creazione* \
 L'utente specifica la causale per la creazione dell'ordine di movimentazione.
 - *Attore primario*: Utente;
-- *Precondizioni*: Il bin di partenza e il bin di destinazione devono essere specificati e validi;
+- *Precondizioni*: Il _bin_ di partenza e il _bin_ di destinazione devono essere specificati e validi;
 - *Postcondizioni*: La causale di creazione viene specificata e associata all'ordine di movimentazione.
 - *Estensioni*:
   - *UC-2.4.1*: Causale non valida;
@@ -1000,7 +1000,7 @@ L'utente specifica la causale per la creazione dell'ordine di movimentazione.
 *UC-2.5 Specifica della priorità della richiesta* \
 L'utente specifica la priorità per la creazione dell'ordine di movimentazione.
 - *Attore primario*: Utente;
-- *Precondizioni*: Il bin di partenza e il bin di destinazione devono essere specificati e validi;
+- *Precondizioni*: Il _bin_ di partenza e il _bin_ di destinazione devono essere specificati e validi;
 - *Postcondizioni*: La priorità della richiesta viene specificata e associata all'ordine di movimentazione.
 - *Estensioni*:
   - *UC-2.5.1*: Errore priorità non valida;
@@ -1037,15 +1037,15 @@ dove:
     [F-M1],[Obbligatorio],[L'utente può visualizzare le strutture del magazzino all'interno dell'ambiente tridimensionale.],[UC-1.1 \ Obiettivi aziendali],
     [F-M2],[Obbligatorio],[L'utente può selezionare una struttura del magazzino all'interno dell'ambiente tridimensionale.],[UC-1.2 \ Obiettivi aziendali],
     [F-M3],[Obbligatorio],[L'utente può riposizionare la struttura del magazzino all'interno dell'ambiente tridimensionale.],[UC-1.2.1 \ Obiettivi aziendali],
-    [F-M4],[Obbligatorio],[L'utente può visualizzare solo i bin utilizzati all'interno dell'ambiente tridimensionale.],[UC-1.3 \ Obiettivi aziendali],
-    [F-M5],[Obbligatorio],[L'utente può selezionare un bin all'interno dell'ambiente tridimensionale.],[UC-1.4 \ Obiettivi aziendali],
-    [F-M6],[Obbligatorio],[L'utente può selezionare il bin di partenza da cui iniziare l'operazione di _drag&drop_.],[UC-2.1 \ Obiettivi aziendali],
-    [F-M7],[Obbligatorio],[L'utente può selezionare il bin di destinazione in cui posizionare i saldi movimentati.],[UC-2.2 \ Obiettivi aziendali],
-    [F-M8],[Obbligatorio],[L'utente può selezionare i saldi da movimentare dal bin di partenza al bin di destinazione.],[UC-2.3 \ Obiettivi aziendali],
+    [F-M4],[Obbligatorio],[L'utente può visualizzare solo i _bin_ utilizzati all'interno dell'ambiente tridimensionale.],[UC-1.3 \ Obiettivi aziendali],
+    [F-M5],[Obbligatorio],[L'utente può selezionare un _bin_ all'interno dell'ambiente tridimensionale.],[UC-1.4 \ Obiettivi aziendali],
+    [F-M6],[Obbligatorio],[L'utente può selezionare il _bin_ di partenza da cui iniziare l'operazione di _drag&drop_.],[UC-2.1 \ Obiettivi aziendali],
+    [F-M7],[Obbligatorio],[L'utente può selezionare il _bin_ di destinazione in cui posizionare i saldi movimentati.],[UC-2.2 \ Obiettivi aziendali],
+    [F-M8],[Obbligatorio],[L'utente può selezionare i saldi da movimentare dal _bin_ di partenza al _bin_ di destinazione.],[UC-2.3 \ Obiettivi aziendali],
     [F-M9],[Obbligatorio],[L'utente può specificare la causale per la creazione dell'ordine di movimentazione.],[UC-2.4 \ Obiettivi aziendali],
     [F-M10],[Obbligatorio],[L'utente può specificare la priorità per la creazione dell'ordine di movimentazione.],[UC-2.5 \ Obiettivi aziendali],
-    [F-D11],[Desiderabile],[L'utente deve visualizzare un errore se il bin di partenza è privo di saldi.],[UC-2.1.1],
-    [F-D12],[Desiderabile],[L'utente deve visualizzare un errore se il bin di destinazione non è valido.],[UC-2.2.1],
+    [F-D11],[Desiderabile],[L'utente deve visualizzare un errore se il _bin_ di partenza è privo di saldi.],[UC-2.1.1],
+    [F-D12],[Desiderabile],[L'utente deve visualizzare un errore se il _bin_ di destinazione non è valido.],[UC-2.2.1],
     [F-D13],[Desiderabile],[L'utente deve visualizzare un errore se la quantità selezionata non è valida.],[UC-2.3.1],
     [F-D14],[Desiderabile],[L'utente deve visualizzare un errore se la causale specificata non è valida.],[UC-2.4.1],
     [F-D15],[Desiderabile],[L'utente deve visualizzare un errore se la priorità specificata non è valida.],[UC-2.5.1],
@@ -1183,10 +1183,10 @@ Per poter comprendere come ho implementato l'ambiente tridimensionale, è necess
   label: <workspace>
 )
 
-Nel'#ref(<workspace>) mostro un esempio dei _widget_ presenti nel _workspace_, tra cui l'ambiente tridimensionale, la lista dei saldi presenti nel magazzino e la lista dei bin disponibili.
+Nel'#ref(<workspace>) mostro un esempio dei _widget_ presenti nel _workspace_, tra cui l'ambiente tridimensionale, la lista dei saldi presenti nel magazzino e la lista dei _bin_ disponibili.
 
 === Progettazione dell'ambiente tridimensionale
-L'applicativo WMS inizialmente prevedeva una gestione dell'ambiente 3D basata sull'istanziazione di un'unica _mesh_ globale, ossia un'unica istanza grafica rappresentante tutte le strutture del magazzino: tale approccio, seppur funzionante, risultava potenzialmente poco flessibile nel caso di future estensioni in merito al comportamento di aree, strutture e bin. Infatti, al momento dell'interazione, non si andava direttamente ad interagire con l'oggetto della logica corrispondente, bensì con la _mesh_ globale, che si occupava successivamente, mediante l'indice dell'istanza selezionata, di definire quale bin fosse stato selezionato. L'immagine seguente rappresenta graficamente il cambiamento apportato:
+L'applicativo WMS inizialmente prevedeva una gestione dell'ambiente 3D basata sull'istanziazione di un'unica _mesh_ globale, ossia un'unica istanza grafica rappresentante tutte le strutture del magazzino: tale approccio, seppur funzionante, risultava potenzialmente poco flessibile nel caso di future estensioni in merito al comportamento di aree, strutture e bin. Infatti, al momento dell'interazione, non si andava direttamente ad interagire con l'oggetto della logica corrispondente, bensì con la _mesh_ globale, che si occupava successivamente, mediante l'indice dell'istanza selezionata, di definire quale _bin_ fosse stato selezionato. L'immagine seguente rappresenta graficamente il cambiamento apportato:
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/strutture.png",
@@ -1214,18 +1214,18 @@ In sinergia con esso ho utilizzato il _pattern_ _decorator_: Angular si distingu
 *_Mesh_* \
 La libreria Three.js mette a disposizione divere tipologie di _mesh_ per la visualizzazione di oggetti 3D, ciascuna caratterizzata da un consumo di risorse differente e da un comportamento diverso all'interno dell'ambiente. Durante il mio percorso ho svolto un'attenta analisi delle prestazioni del prodotto, cercando di ottimizzare le operazioni di _rendering_ allegerendo il carico di lavoro che la GPU doveva sostenere.
 
-A tale scopo ho utilizzato una tipologia particolare di _mesh_ chiamata `InstancedMesh`, che permette di istanziare un oggetto 3D a partire da un modello base, replicandolo in base a un insieme di parametri specificati. La particolarità di questa tipologia di _mesh_ è che è possibilie applicarla a diversi oggetti 3D (in questo caso per i diversi bin di ogni struttura), in un'unica operazione svolta dalla GPU, garantendo un approccio più efficiente rispetto all'istanziazione di una _mesh_ per ogni oggetto.
+A tale scopo ho utilizzato una tipologia particolare di _mesh_ chiamata `InstancedMesh`, che permette di istanziare un oggetto 3D a partire da un modello base, replicandolo in base a un insieme di parametri specificati. La particolarità di questa tipologia di _mesh_ è che è possibilie applicarla a diversi oggetti 3D (in questo caso per i diversi _bin_ di ogni struttura), in un'unica operazione svolta dalla GPU, garantendo un approccio più efficiente rispetto all'istanziazione di una _mesh_ per ogni oggetto.
 
 \
 *Vantaggi* \
-La gestione centralizzata della _mesh_ dei bin per ciascuna struttura semplifica notevolmente la selezione e l'interazione da parte dell'utente. In futuro, qualora si desiderasse implementare funzionalità aggiuntive (es. la disabilitazione di una struttura, la modifica del colore di un determinato gruppo di strutture per evidenziare diverse aree del magazzino, ...) si disporrebbe di un punto di accesso centralizzato per gestire tutte le strutture e i bin a esse associati.
+La gestione centralizzata della _mesh_ dei _bin_ per ciascuna struttura semplifica notevolmente la selezione e l'interazione da parte dell'utente. In futuro, qualora si desiderasse implementare funzionalità aggiuntive (es. la disabilitazione di una struttura, la modifica del colore di un determinato gruppo di strutture per evidenziare diverse aree del magazzino, ...) si disporrebbe di un punto di accesso centralizzato per gestire tutte le strutture e i _bin_ a esse associati.
 
 \
 *Considerazioni aggiuntive* \
 A differenza di quanto avveniva in precedenza, in cui la _mesh_ globale veniva caricata una sola volta, ora viene istanziata una `InstanceMesh` per ogni struttura. Questo aspetto è stato tenuto in particolare attenzione durante l'implementazione, controllando che il carico di risorse e la gestione della memoria fossero ottimizzati e che il prodotto risultante fosse performante e reattivo. Maggiori dettagli nel #ref(<testPerformance>, supplement: "paragrafo").
 
 === Progettazione della funzionalità di creazione degli ordini di movimentazione
-Il prodotto WMS si pone come obiettivo la gestione dei diversi aspetti che compongono le prartiche logistiche e amministrative di un magazzino. Durante il corso del mio tirocinio mi sono occupato di implementare la funzionalità per la generazione degli ordini di movimentazione mediante un'operazione di _drag & drop_, con l'obiettivo di rendere tale operazione più intuitiva e veloce. 
+L'obiettivo è la gestione dei diversi aspetti che compongono le prartiche logistiche e amministrative di un magazzino. Durante il corso del mio tirocinio mi sono occupato di implementare la funzionalità per la generazione degli ordini di movimentazione mediante un'operazione di _drag & drop_, al fine di rendere tale processo più intuitivo e veloce. 
 
 L'operazione consiste nel selezionare un _bin_ e trascinarlo in un'altra posizione dell'ambiente 3D, generando una richiesta di movimentazione manuale. Questo permetterebbe una gestione rapida ed intuitiva delle movimentazioni, avendo una visione concreta e diretta dell'ambiente 3D.
 
@@ -1239,13 +1239,13 @@ Nello specifico, la funzionalità generà una richiesta di movimentazione, i det
   label: <richieste>
 )
 
-Io e il _team_ pertanto, come prima cosa abbiamo definito le tabelle coinvolte, in modo da avere una visione chiara e completa delle informazioni necessarie per la creazione degli ordini di movimentazione. In particolare, abbiamo definito le seguenti tabelle:
+Come prima cosa, io e il team abbiamo definito le tabelle coinvolte, in modo da avere una visione chiara e completa delle informazioni necessarie per la creazione degli ordini di movimentazione. In particolare, abbiamo definito le seguenti tabelle:
 
 - `WmsReq`: tabella contenente le informazioni relative alla richiesta di movimentazione, la priorità, la tipologia e se si tratta di una richiesta manuale;
 
 - `WmsReqDet`: tabella contenente i dettagli della richiesta di movimentazione, uno per ogni saldo movimentato. Contiene le informazioni relative al prodotto movimentato e la quantità;
 
-- `WmsTsk`: tabella contenente i _task_ corrispondenti alla richiesta di movimentazione, direttamente associato alla tabella `WmsReqDet`. Anche questa tabella contiene le informazioni relative al prodotto movimentato e la quantità, aggiungendo inoltre la tipologia del _task_, il bin di partenza, il bin di destinazione e lo stato del _task_.
+- `WmsTsk`: tabella contenente i _task_ corrispondenti alla richiesta di movimentazione, direttamente associato alla tabella `WmsReqDet`. Anche questa tabella contiene le informazioni relative al prodotto e la quantità movimentata, aggiungendo inoltre dettagli come la tipologia del _task_, il _bin_ di partenza, il _bin_ di destinazione e lo stato del _task_.
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/dbSchemas.png",
@@ -1299,11 +1299,11 @@ Durante il mio tirocinio ho avuto modo di sviluppare funzionalità sia lato _fro
 \ \
 == Codifica
 === Visualizzazione tridimensionale
-Al fine di apportare le modifiche necessarie all'ambiente 3D definite durante il processo di progettazione, ho implementato due nuovi classi, responsabili della gestione delle strutture e dei bin all'interno dell'ambiente tridimensionale:
+Al fine di apportare le modifiche necessarie all'ambiente 3D definite durante il processo di progettazione, ho implementato due nuovi classi, responsabili della gestione delle strutture e dei _bin_ all'interno dell'ambiente tridimensionale:
 
-- *Bin3D*: la classe `Bin3D` rappresenta un bin all'interno dell'ambiente 3D, contenente le informazioni relative all'oggetto della _buisiness logic_ del bin stesso e le operazioni di interazione. La classe `Bin3D` contiene un riferimento alla `InstancedMesh` della struttura a cui appartiene, permettendo di visualizzare e interagire con il bin all'interno della struttura.
+- *Bin3D*: la classe `Bin3D` rappresenta un _bin_ all'interno dell'ambiente 3D, contenente le informazioni relative all'oggetto della _buisiness logic_ del _bin_ stesso e le operazioni di interazione. La classe `Bin3D` contiene un riferimento alla `InstancedMesh` della struttura a cui appartiene, permettendo di visualizzare e interagire con il _bin_ all'interno della struttura.
 
-- *Struct3D*: la classe `Struct3D` rappresenta una struttura all'interno dell'ambiente 3D, contenente i diversi bin e le informazioni relative alla struttura stessa. La classe `Struct3D` contiene un'istanza di `InstancedMesh` per tutti i bin presenti al suo interno, permettendo di visualizzare e interagire con i bin all'interno della struttura.
+- *Struct3D*: la classe `Struct3D` rappresenta una struttura all'interno dell'ambiente 3D, contenente i diversi _bin_ e le informazioni relative alla struttura stessa. La classe `Struct3D` contiene un'istanza di `InstancedMesh` per tutti i _bin_ presenti al suo interno, permettendo di visualizzare e interagire con i _bin_ all'interno della struttura.
 
 Il rapporto che intercorre l'ho rappresentato con un diagramma UML, come mostrato nell'immagine seguente:
 
@@ -1329,15 +1329,15 @@ All'interno dell'ambiente 3D, le due classi verranno mostrate come segue:
   label: <binStruct>
 )
 
-Questo approccio ha permesso di centrallizzare la logica di gestione dei bin e delle strutture all'interno dell'ambiente 3D, garantendo una struttura chiara e ben organizzata del codice. Un esempio significativo di come ho utilizzato queste classi è la gestione dell'interazione con i bin e le strutture: `Struct3D` e `Bin3D` espongono infatti i seguenti metodi per gestire l'interazione:
+Questo approccio ha permesso di centrallizzare la logica di gestione dei _bin_ e delle strutture all'interno dell'ambiente 3D, garantendo una struttura chiara e ben organizzata del codice. Un esempio significativo di come ho utilizzato queste classi è la gestione dell'interazione con i _bin_ e le strutture: `Struct3D` e `Bin3D` espongono infatti i seguenti metodi per gestire l'interazione:
 
-- *highlight ()*: permette di evidenziare il bin o la struttura selezionata, modificandone il colore;
+- *highlight ()*: permette di evidenziare il _bin_ o la struttura selezionata, modificandone il colore;
 
-- *select ()*: permette di selezionare il bin o la struttura, attivando la possibilità di operazioni di _drag & drop_ e di creazione dell'ordine di movimentazione;
+- *select ()*: permette di selezionare il _bin_ o la struttura, attivando la possibilità di operazioni di _drag & drop_ e di creazione dell'ordine di movimentazione;
 
-- *reset ()*: permette di ripristinare lo stato iniziale del bin o della struttura, rimuovendo l'evidenziazione e la selezione.
+- *reset ()*: permette di ripristinare lo stato iniziale del _bin_ o della struttura, rimuovendo l'evidenziazione e la selezione.
 
-Nel momento in cui con il _mouse_ ci si posiziona sopra la struttura o il bin, questo viene evidenziato e al click viene selezionato. Nel modo originale, la selezione avveniva direttamente sulla _mesh_ globale, dovendo identificare l'indice dell'istanza della _mesh_ corrispondente al bin selezionato. Con l'introduzione delle classi `Bin3D` e `Struct3D`, la selezione avviene direttamente sull'oggetto corrispondente, semplificando notevolmente la gestione dell'interazione e garantendo una maggiore flessibilità e scalabilità del codice. 
+Nel momento in cui con il _mouse_ ci si posiziona sopra la struttura o il bin, questo viene evidenziato e al click viene selezionato. Nel modo originale, la selezione avveniva direttamente sulla _mesh_ globale, dovendo identificare l'indice dell'istanza della _mesh_ corrispondente al _bin_ selezionato. Con l'introduzione delle classi `Bin3D` e `Struct3D`, la selezione avviene direttamente sull'oggetto corrispondente, semplificando notevolmente la gestione dell'interazione e garantendo una maggiore flessibilità e scalabilità del codice. 
 
 Nel momento in cui si vuole evidenziare o selezionare un bin, ora che l'interazione avviene direttamente con l'oggetto `Bin3D` corrispondente, è sufficiente richiamare i metodi `highlight ()` e `select ()` dell'oggetto stesso, garantendo una gestione più chiara e modulare dell'interazione.
 
@@ -1349,7 +1349,7 @@ Nel momento in cui si vuole evidenziare o selezionare un bin, ora che l'interazi
   label: <bins>
 )
 
-Allo stesso modo, qualora si volesse evidenziare o selezionare una struttura, è sufficiente richiamare i metodi `highlight ()` e `select ()` dell'oggetto `Struct3D` corrispondente, che si occuperanno poi di gestire l'evidenziazione e la selezione dei bin al suo interno:
+Allo stesso modo, qualora si volesse evidenziare o selezionare una struttura, è sufficiente richiamare i metodi `highlight ()` e `select ()` dell'oggetto `Struct3D` corrispondente, che si occuperanno poi di gestire l'evidenziazione e la selezione dei _bin_ al suo interno:
 
 #block(
 ```javascript
@@ -1392,7 +1392,7 @@ I servizi in Angular sono classi che gestiscono in modo centralizzato i dati e l
 
 - *InteractioService*: servizio responsabile della comunicazione con il _backend_ per la creazione degli ordini di movimentazione. L'`InteractioService` si occupa di aprire il _dialog_ `WmsNewMovementFormComponent` e successivamente di inviare le informazioni relative all'ordine al _backend_, gestendo la comunicazione con il servizio REST esposto;
 
-- *DragManager*: classe responsabile della gestione dell'operazione di _drag & drop_ all'interno dell'ambiente 3D. Il `DragManager` si occupa di gestire l'inizio e la fine dell'operazione di _drag & drop_, permettendo di selezionare e trascinare i bin all'interno dell'ambiente 3D. Al momento del rilascio del bin, il `DragManager` si occupa di generare l'evento di movimentazione e di richiamare il servizio `InteractioService` per la creazione dell'ordine, passando le informazioni relative al bin di partenza e di destinazione;
+- *DragManager*: classe responsabile della gestione dell'operazione di _drag & drop_ all'interno dell'ambiente 3D. Il `DragManager` si occupa di gestire l'inizio e la fine dell'operazione di _drag & drop_, permettendo di selezionare e trascinare i _bin_ all'interno dell'ambiente 3D. Al momento del rilascio del bin, il `DragManager` si occupa di generare l'evento di movimentazione e di richiamare il servizio `InteractioService` per la creazione dell'ordine, passando le informazioni relative al _bin_ di partenza e di destinazione;
 
 \ \ \
 L'operazione avviene come mostro nella seguente immagine:
@@ -1449,22 +1449,22 @@ I _test_ mi hanno permesso di verificare che i componenti che richiamavo nella _
 
 A tal fine è stato fondamentale comprendere il meccanismo di _mocking_, che mi ha permesso di simulare il comportamento delle classi e dei servizi che interagivano con il _backend_, garantendo che i _test_ di integrazione fossero eseguiti in modo isolato e che non dipendessero da fattori esterni, rendendoli di fatto ripetibili e affidabili.
 
-=== _Test_ di _performance_ <testPerformance>
-I _test_ di _performance_ sono stati svolti per verificare il corretto funzionamento dell'ambiente 3D e la gestione delle risorse durante l'interazione con l'utente, evitando che a seguito del _refactor_ effettuato, il prodotto potesse riscontrare rallentamenti o problemi di _rendering_.
+=== _Test_ prestazionali <testPerformance>
+I _test_ prestazionali sono stati svolti per verificare il corretto funzionamento dell'ambiente 3D e la gestione delle risorse durante l'interazione con l'utente, evitando che a seguito del _refactor_ effettuato, il prodotto potesse riscontrare rallentamenti o problemi di _rendering_.
 
 Questa tipologia di _test_ è stata svolta grazie agli strumenti offerti da _Google Chrome_ per la profilazione delle prestazioni, che mi hanno permesso di monitorare il carico di lavoro della GPU e la quantità di risorse utilizzate durante l'interazione con l'ambiente 3D.
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/performance.png",
   imageWidth: auto,
-  caption: [Test di _performance_ dell'ambiente 3D],
+  caption: [_Test_ prestazionali dell'ambiente 3D],
   source: "",
   label: <performance>
 )
 
-Nell'#ref(<performance>) mostro un esempio di _test_ di _performance_ dell'ambiente 3D, in cui è possibile visualizzare il carico di lavoro della GPU e la quantità di risorse utilizzate. Il tempo di esecuzione del metodo `onLoad ()`, responsabile del caricamento delle strutture e dei bin all'interno dell'ambiente 3D, risulta in una media di valori tra i 60 e i 70 ms, garantendo un'esperienza utente fluida e reattiva, dimostrando che la ristrutturazione dell'ambiente 3D non ha compromesso le prestazioni del prodotto.
+Nell'#ref(<performance>) mostro un esempio di _test_ prestazionali dell'ambiente 3D, in cui è possibile visualizzare il carico di lavoro della GPU e la quantità di risorse utilizzate. Il tempo di esecuzione del metodo `onLoad ()`, responsabile del caricamento delle strutture e dei _bin_ all'interno dell'ambiente 3D, risulta in una media di valori tra i 60 e i 70 ms, garantendo un'esperienza utente fluida e reattiva, dimostrando che la ristrutturazione dell'ambiente 3D non ha compromesso le prestazioni del prodotto.
 
-Inoltre, se andassimo a considerare il tempo complessivo di caricamento dell'intera pagina (quindi non solo del componente 3D ma di tutta l'applicazione), il tempo medio di caricamento risulta essere di circa 3 secondi, al di sotto dunque del limite imposto da requisiti di _performance_ (_4s_) precedentemente definiti (#ref(<tracciamentoRequisiti>, supplement: "paragrafo")).
+Inoltre, se andassimo a considerare il tempo complessivo di caricamento dell'intera pagina (quindi non solo del componente 3D ma di tutta l'applicazione), il tempo medio di caricamento risulta essere di circa 3 secondi, al di sotto dunque del limite imposto da requisiti prestazionali (_4s_) precedentemente definiti (#ref(<tracciamentoRequisiti>, supplement: "paragrafo")).
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/GPUcomparison.png",
@@ -1502,12 +1502,12 @@ Quando l'utente aprirà la _workspace_ contenente il _widget_ per la visualizzaz
 )
 
 \
-Nell'#ref(<UI>) mostro l'interfaccia finale del _workspace_ utilizzato dall'utente: l'ambiente 3D che ho sviluppato si integra con gli altri _widget_ presenti nell'ambiente di lavoro, offrendo funzionalità che semplificano la gestione del magazzino e che forniscono informazioni utili sul suo stato. In particolare l'utente può interagire con le strutture, selezionando i bin di cui si vuole ispezionare il contenuto (#ref(<binSelezionato>)), oppure mostrare solo i bin concretamente utilizzati aventi almeno un saldo al proprio interno (#ref(<binPieni>)). L'integrazione con gli altri _widget_ inoltre, permette anche la selezione di un saldo dal _widget_ dedicato, per mostrare il suo collocamento all'interno dell'ambiente tridimensionale (#ref(<saldoSelezionato>)).
+Nell'#ref(<UI>) mostro l'interfaccia finale del _workspace_ utilizzato dall'utente: l'ambiente 3D che ho sviluppato si integra con gli altri _widget_ presenti nell'ambiente di lavoro, offrendo funzionalità che semplificano la gestione del magazzino e che forniscono informazioni utili sul suo stato. In particolare l'utente può interagire con le strutture, selezionando i _bin_ di cui si vuole ispezionare il contenuto (#ref(<binSelezionato>)), oppure mostrare solo i _bin_ concretamente utilizzati aventi almeno un saldo al proprio interno (#ref(<binPieni>)). L'integrazione con gli altri _widget_ inoltre, permette anche la selezione di un saldo dal _widget_ dedicato, per mostrare il suo collocamento all'interno dell'ambiente tridimensionale (#ref(<saldoSelezionato>)).
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/binSelezionato.png",
   imageWidth: 90%,
-  caption: [Visualizzazione dei saldi contenuti all'interno del bin selezionato],
+  caption: [Visualizzazione dei saldi contenuti all'interno del _bin_ selezionato],
   source: "",
   label: <binSelezionato>
 )
@@ -1517,7 +1517,7 @@ Nell'#ref(<UI>) mostro l'interfaccia finale del _workspace_ utilizzato dall'uten
 #showImageWithSource(
   imagePath: "/assets/chapter3/binPieni.png",
   imageWidth: 92%,
-  caption: [Visualizzazione dei bin con almeno un saldo],
+  caption: [Visualizzazione dei _bin_ con almeno un saldo],
   source: "",
   label: <binPieni>
 )
@@ -1533,7 +1533,7 @@ Nell'#ref(<UI>) mostro l'interfaccia finale del _workspace_ utilizzato dall'uten
 )
 
 
-Anche per quanto riguarda la funzionalità di _drag & drop_ per la creazione dell'ordine di movimentazione, l'ho implementata in modo che tale operazione fosse rapida ed intuitiva: l'utente può selezionare un bin e trascinarlo in un'altra posizione dell'ambiente 3D. Questa operazione aprirà un _dialog_ che gli permetterà di specificare i dettagli della richiesta con un'interfaccia semplice e facilmente comprensibile, come mostro nella seguente immagine:
+Anche per quanto riguarda la funzionalità di _drag & drop_ per la creazione dell'ordine di movimentazione, l'ho implementata in modo che tale operazione fosse rapida ed intuitiva: l'utente può selezionare un _bin_ e trascinarlo in un'altra posizione dell'ambiente 3D. Questa operazione aprirà un _dialog_ che gli permetterà di specificare i dettagli della richiesta con un'interfaccia semplice e facilmente comprensibile, come mostro nella seguente immagine:
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/ordineDiMovimentazione.png",
