@@ -340,7 +340,7 @@ Le numerose estensioni disponibili, rendono questo strumento estremamente versat
 #showImageWithSource(
   imagePath: "/assets/chapter1/vscode.png",
   imageWidth: 98%,
-  caption: [Interfaccia di _VSCode_ con il codice _frontend_ del prodotto del tirocinio],
+  caption: [Interfaccia di _VSCode_ con il codice _front-end_ del prodotto del tirocinio],
   source: "",
   label: <vscode>
 )
@@ -348,12 +348,12 @@ Le numerose estensioni disponibili, rendono questo strumento estremamente versat
 \ \
 *IntelliJ*
 \
-IntelliJ è un altro ambiente di sviluppo integrato (IDE) utilizzato dall'azienda per la scrittura del codice sorgente. Data la sua migliore integrazione con _gradle_ e _tomcat_, il suo utilizzo semplifica lo sviluppo del codice _backend_ realizzato in Java.
+IntelliJ è un altro ambiente di sviluppo integrato (IDE) utilizzato dall'azienda per la scrittura del codice sorgente. Data la sua migliore integrazione con _gradle_ e _tomcat_, il suo utilizzo semplifica lo sviluppo del codice _back-end_ realizzato in Java.
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/intellij.png",
   imageWidth: 97%,
-  caption: [Interfaccia di _IntelliJ_ con il codice _backend_ del prodotto del tirocinio],
+  caption: [Interfaccia di _IntelliJ_ con il codice _back-end_ del prodotto del tirocinio],
   source: "",
   label: <intellij>
 )
@@ -540,15 +540,15 @@ I vincoli temporali rappresentano le tempistiche entro cui il progetto doveva es
 Trattandosi di un progetto che prevedeva l'estensione di un prodotto già esistente, i vincoli tecnologici erano rappresentati dalle tecnologie già utilizzate e presenti nel prodotto, in modo da garantire la compatibilità e l'integrazione delle nuove funzionalità con quelle già esistenti.
 
 In particolare lo _stack_ tecnologico utilizzato è il seguente:
-- *Frontend*:
+- *_Front-end_*:
   - *Angular*: _framework_ per lo sviluppo di applicazioni _web_ in _TypeScript_;
 
   - *TypeScript*: sovrastruttura di _JavaScript_ che permette di scrivere codice più robusto e manutenibile basato sul paradigma della programmazione ad oggetti;
 
   - *HTML e CSS*: linguaggi di _markup_ e di stile per la definizione dell'interfaccia _web_.
 
-- *Backend*:
-  - *Java*: linguaggio di programmazione utilizzato per lo sviluppo del _backend_ dell'applicativo (mediante il _framework_ proprietario Synergy);
+- *_Back-end_*:
+  - *Java*: linguaggio di programmazione utilizzato per lo sviluppo del _back-end_ dell'applicativo (mediante il _framework_ proprietario Synergy);
 
   - *Tomcat*: _server_ _web_ per l'esecuzione di applicazioni _web_ in Java.
 
@@ -673,7 +673,7 @@ Nel dettaglio, i quattro periodi del tirocinio sono stati organizzati come segue
 + *Formazione*:
   - *Formazione frontale _framework_ Synergy*: formazione sul _framework_ _Synergy_, mediante lezioni frontali e esercitazioni pratiche. Questo periodo mi ha permesso di apprendere le basi del _framework_ dell'azienda;
 
-  - *Visione video di formazione _frontend_*: videolezioni registrate dell'azienda per approfondire le mie conoscenze su Angular, il _framework_ _frontend_ utilizzato dall'azienda;
+  - *Visione video di formazione _front-end_*: videolezioni registrate dell'azienda per approfondire le mie conoscenze su Angular, il _framework_ _front-end_ utilizzato dall'azienda;
 
   - *Creazione e configurazione dell'ambiente di sviluppo*: configurazione dell'ambiente di sviluppo per poter iniziare a lavorare sul prodotto WMS;
 
@@ -1116,8 +1116,8 @@ Come stabilito dai vincoli di progetto (#ref(<vincoliTecnologici>, supplement: "
 
 Nel dettaglio, le tecnologie utilizzate sono le seguenti:
 
-- *Frontend*:
-  - *Angular*: _framework_ TypeScript per lo sviluppo di applicazioni _web_ . Ho utilizzato Angular per la creazione dell'interfaccia utente e per la gestione delle funzionalità _frontend_ del prodotto WMS; si tratta di un _framework_ che già conoscevo, ma che non avevo mai utilizzato in un contesto professionale, e che mi ha permesso di approfondire le mie conoscenze e di metterle in pratica in un contesto aziendale.
+- *_Front-end_*:
+  - *Angular*: _framework_ TypeScript per lo sviluppo di applicazioni _web_ . Ho utilizzato Angular per la creazione dell'interfaccia utente e per la gestione delle funzionalità _front-end_ del prodotto WMS; si tratta di un _framework_ che già conoscevo, ma che non avevo mai utilizzato in un contesto professionale, e che mi ha permesso di approfondire le mie conoscenze e di metterle in pratica in un contesto aziendale.
 
     Angular si basa su un'architettura _component-based_, che permette di creare componenti riutilizzabili e modulabili, garantendo una struttura chiara e ben organizzata del codice.
 
@@ -1144,8 +1144,8 @@ Nel dettaglio, le tecnologie utilizzate sono le seguenti:
 
     Sviluppare un ambiente 3D presenta delle sfide specifiche, in particolar modo riguardo alle _performance_ e alla gestione delle risorse, che durante il mio percorso ho dovuto affrontare e risolvere, al fine di garantire un prodotto fluido e reattivo.
 
-- *Backend*:
-  - *Java con _framework_ Synergy*: nello sviluppo del lato _backend_ dell'applicativo ho utilizzato il _framework_ proprietario Synergy sviluppato in Java. Il suo comportamento è similare al _framework_ Spring, ed entrambi si occupando di semplificare lo sviluppo e la configurazione delle applicazioni, permettendo agli sviluppatori di concentrarsi sulla logica di _business_. 
+- *_Back-end_*:
+  - *Java con _framework_ Synergy*: nello sviluppo del lato _back-end_ dell'applicativo ho utilizzato il _framework_ proprietario Synergy sviluppato in Java. Il suo comportamento è similare al _framework_ Spring, ed entrambi si occupando di semplificare lo sviluppo e la configurazione delle applicazioni, permettendo agli sviluppatori di concentrarsi sulla logica di _business_. 
 
   Synergy risulta essere versatile e in grado di predisporre un ambiente di sviluppo completo, curando gli aspetti relativi al _testing_, alla _build_, alla gestione delle dipendenze e la comunicazione con il _database_.
 
@@ -1186,7 +1186,7 @@ Per poter comprendere come ho implementato l'ambiente tridimensionale, è necess
 Nel'#ref(<workspace>) mostro un esempio dei _widget_ presenti nel _workspace_, tra cui l'ambiente tridimensionale, la lista dei saldi presenti nel magazzino e la lista dei _bin_ disponibili.
 
 === Progettazione dell'ambiente tridimensionale
-L'applicativo WMS inizialmente prevedeva una gestione dell'ambiente 3D basata sull'istanziazione di un'unica _mesh_ globale, ossia un'unica istanza grafica rappresentante tutte le strutture del magazzino: tale approccio, seppur funzionante, risultava potenzialmente poco flessibile nel caso di future estensioni in merito al comportamento di aree, strutture e bin. Infatti, al momento dell'interazione, non si andava direttamente ad interagire con l'oggetto della logica corrispondente, bensì con la _mesh_ globale, che si occupava successivamente, mediante l'indice dell'istanza selezionata, di definire quale _bin_ fosse stato selezionato. L'immagine seguente rappresenta graficamente il cambiamento apportato:
+L'applicativo WMS inizialmente prevedeva una gestione dell'ambiente 3D basata sull'istanziazione di un'unica _mesh_ globale, ossia un'unica istanza grafica rappresentante tutte le strutture del magazzino: tale approccio, seppur funzionante, risultava potenzialmente poco flessibile nel caso di future estensioni in merito al comportamento di aree, strutture e _bin_. Infatti, al momento dell'interazione, non si andava direttamente ad interagire con l'oggetto della logica corrispondente, bensì con la _mesh_ globale, che si occupava successivamente, mediante l'indice dell'istanza selezionata, di definire quale _bin_ fosse stato selezionato. L'immagine seguente rappresenta graficamente il cambiamento apportato:
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/strutture.png",
@@ -1197,7 +1197,7 @@ L'applicativo WMS inizialmente prevedeva una gestione dell'ambiente 3D basata su
 )
 
 \
-La ristrutturazione dell'ambiente 3D, pertanto, si pone come obiettivo la creazione di un sistema di gestione più flessibile e scalabile, che permetta di interagire direttamente con gli oggetti dell'ambiente 3D, avendo un riferimento concreto al bin, alla struttura o all'area selezionata.
+La ristrutturazione dell'ambiente 3D, pertanto, si pone come obiettivo la creazione di un sistema di gestione più flessibile e scalabile, che permetta di interagire direttamente con gli oggetti dell'ambiente 3D, avendo un riferimento concreto al _bin_, alla struttura o all'area selezionata.
 
 Durante l'implementazione ho lavorato con diversi _design pattern_ derivanti dall'utilizzo di Angular e Synergy, con l'obiettivo di produrre un codice manuntenibile e scalabile. Infatti, grazie al pattern _dependency injection_ di Angular, mi sono occupato dell'aggiornamento dei servizi necessari alla rappresentazione dell'ambiente 3D, mantenendo una struttura del codice chiara e ben organizzata: infatti questo paradigma consente di incorporare le dipendenze richieste direttamente nel processo di costruzione degli oggetti, semplificando notevolmente la gestione e l'utilizzo dei servizi all'interno del codice sorgente. 
 
@@ -1258,27 +1258,27 @@ Come prima cosa, io e il team abbiamo definito le tabelle coinvolte, in modo da 
 La gestione della connessione con il _database_ è gestita dal _framework_ Synergy mediante l'utilizzo di classi che utilizzano il _pattern singleton_ per garantire un'unica istanza della connessione al _database_. Al fine di esegure le operazioni di lettura e scrittura dei dati ho definito delle classi che implementassero il _pattern_ DAO (_Data Access Object_) in grado di interfacciarsi con il _database_ e fornire i metodi per l'esecuzione delle operazioni richieste. Questo mi ha permesso di separare la logica di accesso ai dati dalla logica di _business_, garantendo una maggiore modularità e scalabilità del codice.
 
 === Architettura del sistema
-L'applicativo WMS è una _web application_ che si compone di due parti principali: il _frontend_, sviluppato in Angular, e il _backend_, sviluppato in Java con il _framework_ Synergy. Le due parti comunicano tra loro mediante servizi REST esposti.
+L'applicativo WMS è una _web application_ che si compone di due parti principali: il _front-end_, sviluppato in Angular, e il _back-end_, sviluppato in Java con il _framework_ Synergy. Le due parti comunicano tra loro mediante servizi REST esposti.
 
-Durante il mio tirocinio ho avuto modo di sviluppare funzionalità sia lato _frontend_ che lato _backend_, adattandomi ai _pattern_ architetturali presenti, in particolare:
+Durante il mio tirocinio ho avuto modo di sviluppare funzionalità sia lato _front-end_ che lato _back-end_, adattandomi ai _pattern_ architetturali presenti, in particolare:
 
-- *Lato _frontend_*: ho seguito il _pattern_ MVVM (_Model-View-ViewModel_), derivato dall'utilizzo di Angular, che permette di separare la logica di _business_ dalla presentazione, garantendo una struttura chiara e ben organizzata del codice. In particolare, ho sviluppato i _componenti_ e i _servizi_ necessari per la visualizzazione dell'ambiente 3D e la creazione degli ordini di movimentazione.
+- *Lato _front-end_*: ho seguito il _pattern_ MVVM (_Model-View-ViewModel_), derivato dall'utilizzo di Angular, che permette di separare la logica di _business_ dalla presentazione, garantendo una struttura chiara e ben organizzata del codice. In particolare, ho sviluppato i _componenti_ e i _servizi_ necessari per la visualizzazione dell'ambiente 3D e la creazione degli ordini di movimentazione.
 
   #showImageWithSource(
     imagePath: "/assets/chapter3/MVVM.png",
     imageWidth: auto,
-    caption: [Pattern MVVM del _frontend_ con Angular],
+    caption: [Pattern MVVM del _front-end_ con Angular],
     source: "https://medium.com/@mutebibrian256/mastering-android-mvvm-architecture-developers-guide-3271e4c8908b",
     label: <mvvm>
   )
 
 \
-- *Lato _backend_*: ho seguito il _pattern_ architetturale a _layer_ di _Synergy_, che permette di separare le diverse responsabilità del sistema in _layer_ distinti, garantendo una struttura modulare e scalabile, come mostrato dall'immagine seguente:
+- *Lato _back-end_*: ho seguito il _pattern_ architetturale a _layer_ di _Synergy_, che permette di separare le diverse responsabilità del sistema in _layer_ distinti, garantendo una struttura modulare e scalabile, come mostrato dall'immagine seguente:
 
   #showImageWithSource(
     imagePath: "/assets/chapter3/synergy.png",
     imageWidth: auto,
-    caption: [Architettura a _layer_ del backend con Synergy],
+    caption: [Architettura a _layer_ del _back-end_ con Synergy],
     source: "",
     label: <synergy>
   )
@@ -1337,14 +1337,14 @@ Questo approccio ha permesso di centrallizzare la logica di gestione dei _bin_ e
 
 - *reset ()*: permette di ripristinare lo stato iniziale del _bin_ o della struttura, rimuovendo l'evidenziazione e la selezione.
 
-Nel momento in cui con il _mouse_ ci si posiziona sopra la struttura o il bin, questo viene evidenziato e al click viene selezionato. Nel modo originale, la selezione avveniva direttamente sulla _mesh_ globale, dovendo identificare l'indice dell'istanza della _mesh_ corrispondente al _bin_ selezionato. Con l'introduzione delle classi `Bin3D` e `Struct3D`, la selezione avviene direttamente sull'oggetto corrispondente, semplificando notevolmente la gestione dell'interazione e garantendo una maggiore flessibilità e scalabilità del codice. 
+Nel momento in cui con il _mouse_ ci si posiziona sopra la struttura o il _bin_, questo viene evidenziato e al click viene selezionato. Nel modo originale, la selezione avveniva direttamente sulla _mesh_ globale, dovendo identificare l'indice dell'istanza della _mesh_ corrispondente al _bin_ selezionato. Con l'introduzione delle classi `Bin3D` e `Struct3D`, la selezione avviene direttamente sull'oggetto corrispondente, semplificando notevolmente la gestione dell'interazione e garantendo una maggiore flessibilità e scalabilità del codice. 
 
-Nel momento in cui si vuole evidenziare o selezionare un bin, ora che l'interazione avviene direttamente con l'oggetto `Bin3D` corrispondente, è sufficiente richiamare i metodi `highlight ()` e `select ()` dell'oggetto stesso, garantendo una gestione più chiara e modulare dell'interazione.
+Nel momento in cui si vuole evidenziare o selezionare un _bin_, ora che l'interazione avviene direttamente con l'oggetto `Bin3D` corrispondente, è sufficiente richiamare i metodi `highlight ()` e `select ()` dell'oggetto stesso, garantendo una gestione più chiara e modulare dell'interazione.
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/bins.png",
   imageWidth: 90%,
-  caption: [Interazione con i bin],
+  caption: [Interazione con i _bin_],
   source: "",
   label: <bins>
 )
@@ -1370,11 +1370,11 @@ Allo stesso modo, qualora si volesse evidenziare o selezionare una struttura, è
 )
 
 === Drag & Drop e creazione ordini di movimentazione
-Lo sviluppo della funzionalità di _drag & drop_ e di creazione degli ordini di movimentazione ha richiesto la creazione di un nuovo componente e dei servizi necessari per la gestione dell'interazione e la comunicazione con il _backend_.
+Lo sviluppo della funzionalità di _drag & drop_ e di creazione degli ordini di movimentazione ha richiesto la creazione di un nuovo componente e dei servizi necessari per la gestione dell'interazione e la comunicazione con il _back-end_.
 
 Nello specifico ho implementato il componente `WmsNewMovementFormComponent`, responsabile della visualizzazione del _form_ per la creazione degli ordini di movimentazione secondo le specifiche definite durante la progettazione.
 
-Questo componente viene visualizzato al termine dell'operazione di _drag & drop_ di un bin, permettendo all'utente di specificare la causale, la priorità per la creazione dell'ordine di movimentazione e di selezionare i saldi da movimentare e in che quantità.
+Questo componente viene visualizzato al termine dell'operazione di _drag & drop_ di un _bin_, permettendo all'utente di specificare la causale, la priorità per la creazione dell'ordine di movimentazione e di selezionare i saldi da movimentare e in che quantità.
 
 \ \
 Nell'immagine che segue mostro l'interfaccia del _form_ per la creazione degli ordini di movimentazione:
@@ -1388,11 +1388,11 @@ Nell'immagine che segue mostro l'interfaccia del _form_ per la creazione degli o
 )
 
 *Classi e servizi* \
-I servizi in Angular sono classi che gestiscono in modo centralizzato i dati e la logica dell'applicazione, mettendo in comunicazione i diversi componenti e permettendo la comunicazione con il _backend_. Durante il mio tirocinio ho utilizzato i servizi per poter recuperare le informazioni necessarie alla visualizzazione dell'ambiente 3D e alla creazione degli ordini di movimentazione. In particolare, nell'implementazione di quest'ultima funzionalità ho sviluppato le seguenti classi e servizi:
+I servizi in Angular sono classi che gestiscono in modo centralizzato i dati e la logica dell'applicazione, mettendo in comunicazione i diversi componenti e permettendo la comunicazione con il _back-end_. Durante il mio tirocinio ho utilizzato i servizi per poter recuperare le informazioni necessarie alla visualizzazione dell'ambiente 3D e alla creazione degli ordini di movimentazione. In particolare, nell'implementazione di quest'ultima funzionalità ho sviluppato le seguenti classi e servizi:
 
-- *InteractioService*: servizio responsabile della comunicazione con il _backend_ per la creazione degli ordini di movimentazione. L'`InteractioService` si occupa di aprire il _dialog_ `WmsNewMovementFormComponent` e successivamente di inviare le informazioni relative all'ordine al _backend_, gestendo la comunicazione con il servizio REST esposto;
+- *InteractioService*: servizio responsabile della comunicazione con il _back-end_ per la creazione degli ordini di movimentazione. L'`InteractioService` si occupa di aprire il _dialog_ `WmsNewMovementFormComponent` e successivamente di inviare le informazioni relative all'ordine al _back-end_, gestendo la comunicazione con il servizio REST esposto;
 
-- *DragManager*: classe responsabile della gestione dell'operazione di _drag & drop_ all'interno dell'ambiente 3D. Il `DragManager` si occupa di gestire l'inizio e la fine dell'operazione di _drag & drop_, permettendo di selezionare e trascinare i _bin_ all'interno dell'ambiente 3D. Al momento del rilascio del bin, il `DragManager` si occupa di generare l'evento di movimentazione e di richiamare il servizio `InteractioService` per la creazione dell'ordine, passando le informazioni relative al _bin_ di partenza e di destinazione;
+- *DragManager*: classe responsabile della gestione dell'operazione di _drag & drop_ all'interno dell'ambiente 3D. Il `DragManager` si occupa di gestire l'inizio e la fine dell'operazione di _drag & drop_, permettendo di selezionare e trascinare i _bin_ all'interno dell'ambiente 3D. Al momento del rilascio del _bin_, il `DragManager` si occupa di generare l'evento di movimentazione e di richiamare il servizio `InteractioService` per la creazione dell'ordine, passando le informazioni relative al _bin_ di partenza e di destinazione;
 
 \ \ \
 L'operazione avviene come mostro nella seguente immagine:
@@ -1406,16 +1406,16 @@ L'operazione avviene come mostro nella seguente immagine:
 
 \
 *Servizi REST*\
-I servizi REST sono esposti dal _backend_ per permettere la comunicazione con il _frontend_ e la gestione delle operazioni di lettura e scrittura dei dati. Durante il mio tirocinio mi sono occupato di implementare i servizi REST necessari per la creazione degli ordini di movimentazione, secondo le convenzioni definite dal _framework_ Synergy.
+I servizi REST sono esposti dal _back-end_ per permettere la comunicazione con il _front-end_ e la gestione delle operazioni di lettura e scrittura dei dati. Durante il mio tirocinio mi sono occupato di implementare i servizi REST necessari per la creazione degli ordini di movimentazione, secondo le convenzioni definite dal _framework_ Synergy.
 
-Come mostrato nell'#ref(<synergy>), il _layer_ _Service_ espone i principali servizi disponibili lato _backend_, e, successivamente, le richieste vengono inoltrate al _layer_ WS, il quale si occuperà a sua volta di richiamare i servizi della _business logic_ per l'esecuzione delle operazioni richieste.
+Come mostrato nell'#ref(<synergy>), il _layer_ _Service_ espone i principali servizi disponibili lato _back-end_, e, successivamente, le richieste vengono inoltrate al _layer_ WS, il quale si occuperà a sua volta di richiamare i servizi della _business logic_ per l'esecuzione delle operazioni richieste.
 
 Il flusso delle chiamate inizia pertanto dal _layer Service_ che espone il servizio REST in questo modo:
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/restApi.png",
   imageWidth: auto,
-  caption: [Servizio REST per la creazione dell'ordine esposto dal _backend_],
+  caption: [Servizio REST per la creazione dell'ordine esposto dal _back-end_],
   source: "",
   label: <service>
 )
@@ -1441,13 +1441,13 @@ Infatti, grazie al supporto del _framework_ Synergy, per ogni classe del modello
 L'implementazione di questi _test_ mi ha permesso pertanto di implementare un codice più robusto e di ridurre il numero di errori, garantendo che le funzionalità implementate fossero conformi alle specifiche definite.
 
 === _Test_ di integrazione
-I _test_ di integrazione si occupano di verificare il corretto funzionamento delle componenti e dei servizi sviluppati, garantendo che le varie parti dell'applicativo interagiscano correttamente tra loro. Durante il mio tirocinio ho svolto i _test_ di integrazione per verificare che le componenti sviluppate fossero in grado di comunicare tra loro e di scambiarsi i dati necessari, in particolar modo per verificare che l'interazione tra il _frontend_ e il _backend_ avvenisse correttamente.
+I _test_ di integrazione si occupano di verificare il corretto funzionamento delle componenti e dei servizi sviluppati, garantendo che le varie parti dell'applicativo interagiscano correttamente tra loro. Durante il mio tirocinio ho svolto i _test_ di integrazione per verificare che le componenti sviluppate fossero in grado di comunicare tra loro e di scambiarsi i dati necessari, in particolar modo per verificare che l'interazione tra il _front-end_ e il _back-end_ avvenisse correttamente.
 
 Infatti, un aspetto cruciale che ho tenuto in considerazione durante lo sviluppo è stato il corretto funzionamento dei diversi servizi e chiamate REST che eseguivo per la creazione degli ordini di movimentazione, garantendo che i dati fossero conformi e che rispettassero i requisiti della _business logic_.
 
 I _test_ mi hanno permesso di verificare che i componenti che richiamavo nella _business logic_, come ad esempio i DAO per l'accesso ai dati, funzionassero correttamente e che i dati fossero correttamente scritti e letti dal _database_.
 
-A tal fine è stato fondamentale comprendere il meccanismo di _mocking_, che mi ha permesso di simulare il comportamento delle classi e dei servizi che interagivano con il _backend_, garantendo che i _test_ di integrazione fossero eseguiti in modo isolato e che non dipendessero da fattori esterni, rendendoli di fatto ripetibili e affidabili.
+A tal fine è stato fondamentale comprendere il meccanismo di _mocking_, che mi ha permesso di simulare il comportamento delle classi e dei servizi che interagivano con il _back-end_, garantendo che i _test_ di integrazione fossero eseguiti in modo isolato e che non dipendessero da fattori esterni, rendendoli di fatto ripetibili e affidabili.
 
 === _Test_ prestazionali <testPerformance>
 I _test_ prestazionali sono stati svolti per verificare il corretto funzionamento dell'ambiente 3D e la gestione delle risorse durante l'interazione con l'utente, evitando che a seguito del _refactor_ effettuato, il prodotto potesse riscontrare rallentamenti o problemi di _rendering_.
@@ -1567,7 +1567,7 @@ L'applicativo che ho sviluppato copre l'interezza dei requisiti delineati nel #r
 === Copertura di testing
 Durante lo svolgimento del tirocinio, mi sono impegnato ad implementare i _test_ necessari a garantire un prodotto che fosse conforme alle aspettative e un che il codice fosse robusto e mantenibile.
 
-I _test_ implementati, grazie anche alla predisposizione offerta dal _framework_ _Synergy_, hanno una copertura del 100% delle codice prodotto lato _backend_, con particolare attenzione ai _test_ di integrazione nella verifica del corretto funzionamento dei servizi REST coinvolti.
+I _test_ implementati, grazie anche alla predisposizione offerta dal _framework_ _Synergy_, hanno una copertura del 100% delle codice prodotto lato _back-end_, con particolare attenzione ai _test_ di integrazione nella verifica del corretto funzionamento dei servizi REST coinvolti.
 
 Nella seguente tabella riporto il livello di copertura dei _test_ implementati:
 #figure(
@@ -1615,13 +1615,13 @@ Il mio percorso di tirocinio ha visto la produzione di diversi materiali necessa
 = Valutazione retrospettiva
 == Soddisfacimento degli obiettivi
 === Obiettivi aziendali
-Durante il mio percorso di tirocinio sono riuscito a sviluppare le funzionalità richieste dall'azienda, garantendo che il prodotto fosse conforme alle aspettative e che rispettasse i requisiti definiti durante l'analisi. Quanto sviluppato è stato approvato dal _team_ di sviluppo e dal referente aziendale, integrando direttamente il codice sorgente del prodotto WMS.
+Durante il mio percorso di tirocinio sono riuscito a sviluppare le funzionalità richieste dall'azienda, garantendo che il prodotto fosse conforme alle aspettative e che rispettasse i requisiti definiti durante l'analisi. Il _team_ di sviluppo e il referente aziendale hanno approvato quanto ho sviluppato, integrando il codice sorgente del prodotto WMS con il lavoro da me svolto.
 
 Ho raggiunto il 100% degli obiettivi obbligatori definiti nel #ref(<obiettiviAziendali>, supplement: "paragrafo"), non limitandomi alla semplice implementazione ma garantendo che le funzionalità sviluppate affrontassero in modo completo anche i casi d'uso più complessi e i _corner case_ che avrebbero potuto generare errori, coprendo gli aspetti qualitativi e prestazionali richiesti.
 
 Inoltre, mi sono impegnato a garantire che il codice prodotto fosse robusto e mantenibile, implementando i _test_ necessari e producendo una documentazione tecnica completa e dettagliata comprensiva di tutto il lavoro svolto.
 
-Nella seguente tabella riporto il resocono degli obiettivi aziendali definiti:
+La seguente tabella riporta il resocono degli obiettivi aziendali definiti:
 #figure(
   table(
     columns: (0.3fr, 1fr, auto),
@@ -1638,12 +1638,12 @@ Nella seguente tabella riporto il resocono degli obiettivi aziendali definiti:
   caption: [Raggiungimento obiettivi aziendali],
 )
 
-Come è possibile notare dalla tabella, non sono riuscito a raggiungere gli obiettivi desiderabili: questi prevedevano la gestione dell'assegnazione e della presa in carico degli ordini di movimentazione creati e la gestione della loro esecuzione. Queste funzionalità, parlando anche con il _team_ di sviluppo e con il referente aziendale, risultavano eccessivamente avanzate se messe in relazione allo stadio di sviluppo del prodotto WMS, in quanto argomenti non ancora affrontati e che avrebbero richiesto tempistiche di sviluppo non compatibili con il periodo di tirocinio.
+Non sono riuscito a raggiungere gli obiettivi desiderabili: questi prevedevano la gestione dell'assegnazione e della presa in carico degli ordini di movimentazione creati e la gestione della loro esecuzione. Queste funzionalità, parlando anche con il _team_ di sviluppo e con il referente aziendale, risultavano eccessivamente avanzate se messe in relazione allo stadio di sviluppo del prodotto WMS, in quanto argomenti non ancora affrontati e che avrebbero richiesto tempistiche di sviluppo non compatibili con il periodo di tirocinio.
 
 Per questo motivo, in accordo con il referente aziendale, mi sono impegnato a sviluppare le funzionalità richieste dagli obiettivi obbligatori nel modo più completo possibile, estendendo concretamente quanto offerto dal prodotto WMS.
 
 === Obiettivi personali <soddisafimentoObiettiviPersonali>
-Gli obiettivi personali che mi sono prefissato prima di inziare il tirocinio (#ref(<obiettiviPersonali>, supplement: "paragrafo")) erano volti a sviluppare competenze tecniche e personali che potessero arricchire il mio bagaglio professionale e che potessero farmi crescere sia dal punto di vista personale che lavorativo.
+Gli obiettivi personali che mi sono dato prima di inziare il tirocinio (#ref(<obiettiviPersonali>, supplement: "paragrafo")) erano volti a sviluppare competenze tecniche e personali che potessero arricchire il mio bagaglio professionale e che potessero farmi crescere sia dal punto di vista personale che lavorativo.
 
 Durante l'esperienza presso Sanmarco Informatica sono riuscito a conseguire tutti gli obiettivi che mi ero prefissato:
 

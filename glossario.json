@@ -143,5 +143,15 @@
     "description": "Rappresenta il modo di lavorare del gruppo. È la descrizione di tutte le tecnologie, attività, metodologie adottate dal gruppo e di come queste sono utilizzate.",
     "acronyms": ["WoW"],
     "synonyms": []
+  },
+  "Widget" : {
+    "description": "Componente grafico autonomo che permette di visualizzare e interagire con i dati all'interno della workspace. La visualizzazione tridimensionale è un esempio di widget.",
+    "acronyms": [],
+    "synonyms": []
+  },
+  "Workspace": {
+    "description": "Schermata di lavoro dell'utente, in cui vengono visualizzati i widget e le informazioni necessarie per svolgere le attività.",
+    "acronyms": [],
+    "synonyms": []
   }
 }
