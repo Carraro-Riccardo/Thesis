@@ -41,6 +41,33 @@
 
   pagebreak()
 
+  heading("Ringraziamenti", outlined: false)
+  text([
+    Al termine di questo percorso universitario, desidero ringraziare tutte le persone che mi hanno sostenuto e accompagnato credendo in me anche nei momenti più difficili.
+
+    Ringrazio il professor Tullio Vardanega per tutto il supporto ricevuto durante il tirocinio e nella redazione di questo documento, dimostrandosi sempre disponibile per chiarimenti e consigli.
+
+    Un grazie a tutti i colleghi di Sanmarco Informatica S.p.A. per l'accoglienza e la disponibilità dimostrata, con i quali sin da subito ho instaurato un rapporto di collaborazione e amicizia che ha reso l'intera esperienza formativa e piacevole.
+
+    Dedico inoltre un grazie speciale a mia madre Marilisa, mio padre Claudio e la sua compagna Silvia per l'enorme supporto che mi hanno dato in questi anni di studio e per avermi sempre sostenuto e spronato a dare il meglio di me stesso.
+
+    Ringrazio in modo altrettanto speciale la mia ragazza Sofia, per essere sempre stata al mio fianco durante questa esperienza e per tutti i momenti vissuti insieme in questi anni.
+
+    Infine ringrazio tutti i miei amici e compagni di corso  che hanno reso questi anni di studio indimenticabili, insieme ai quali ho condiviso gioie e momenti di difficoltà, crescendo e imparando insieme.
+
+    \
+    Grazie a tutti voi.
+
+    #grid(
+      columns: (1fr, 1fr),
+      align: (left, right),
+      [_Padova, settembre 2024_], [_Riccardo Carraro_]
+    )
+  ]
+  )
+
+  pagebreak()
+
   heading("Sommario", outlined: false)
   [
     Il presente documento descrive l'esperienza di tirocinio svolta presso l'azienda Sanmarco Informatica S.p.A. del laureando Riccardo Carraro, nel periodo 20 maggio - 12 luglio 2024. 
@@ -69,9 +96,6 @@
   ]
 
   pagebreak()
-
-  heading("Ringraziamenti", outlined: false)
-  [Ringraziamenti da definire]
   
   body
 }

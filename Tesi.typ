@@ -475,8 +475,8 @@ dove:
 
 #figure(
   table(
-    columns: (0.5fr, 1fr),
-    align: left+horizon,
+    columns: (0.3fr, 1fr),
+    align: (center+horizon, left+horizon),
     table.cell([*Obiettivi aziendali obbligatori (OB)*], fill: luma(220), colspan: 2, align: center),
     [*OA-OB1*], [Implementazione dell'ambiente tridimensionale per la visualizzazione dello stato del magazzino],
     [*OA-OB2*], [Implementazione della funzionalità di _drag & drop_ per la creazione degli ordini di movimentazione],
@@ -490,7 +490,7 @@ dove:
 )
 
 \
-==== Obiettivi personali
+==== Obiettivi personali <obiettiviPersonali>
 Gli obiettivi del tirocinio di interesse personale riguardano l'insieme di quegli aspetti che mi aspettavo di curare durante il tirocinio, in modo da crescere professionalmente e personalmente. 
 
 In particolare, prima di iniziare il tirocinio, questi sono gli aspetti che ho tenuto in particolare considerazione: 
@@ -1615,12 +1615,99 @@ Il mio percorso di tirocinio ha visto la produzione di diversi materiali necessa
 = Valutazione retrospettiva
 == Soddisfacimento degli obiettivi
 === Obiettivi aziendali
-Descrizione del livello di soddisfacimento degli obiettivi aziendali indicati nel paragrafo 2.2.3.
-=== Obiettivi personali
-Descrizione del livello di soddisfacimento degli obiettivi personali indicati nel paragrafo 2.2.4.
-== Competenze acquisite
-Anali delle competenze tecniche e personali che ho sviluppato durante il percorso di tirocinio. Entrerò maggiormente nel dettaglio rispetto al paragrafo 4.1.2.
+Durante il mio percorso di tirocinio sono riuscito a sviluppare le funzionalità richieste dall'azienda, garantendo che il prodotto fosse conforme alle aspettative e che rispettasse i requisiti definiti durante l'analisi. Quanto sviluppato è stato approvato dal _team_ di sviluppo e dal referente aziendale, integrando direttamente il codice sorgente del prodotto WMS.
+
+Ho raggiunto il 100% degli obiettivi obbligatori definiti nel #ref(<obiettiviAziendali>, supplement: "paragrafo"), non limitandomi alla semplice implementazione ma garantendo che le funzionalità sviluppate affrontassero in modo completo anche i casi d'uso più complessi e i _corner case_ che avrebbero potuto generare errori, coprendo gli aspetti qualitativi e prestazionali richiesti.
+
+Inoltre, mi sono impegnato a garantire che il codice prodotto fosse robusto e mantenibile, implementando i _test_ necessari e producendo una documentazione tecnica completa e dettagliata comprensiva di tutto il lavoro svolto.
+
+Nella seguente tabella riporto il resocono degli obiettivi aziendali definiti:
+#figure(
+  table(
+    columns: (0.3fr, 1fr, auto),
+    align: (center+horizon, left+horizon, center+horizon),
+    table.cell([*Obiettivi aziendali obbligatori (OB)*], fill: luma(220), colspan: 3, align: center),
+    [*OA-OB1*], [Implementazione dell'ambiente tridimensionale per la visualizzazione dello stato del magazzino], [*Raggiunto*],
+    [*OA-OB2*], [Implementazione della funzionalità di _drag & drop_ per la creazione degli ordini di movimentazione], [*Raggiunto*],
+    table.cell([*Obiettivi aziendali desiderabili (D)*], fill: luma(220), colspan: 3, align: center),
+    [*OA-D1*], [Gestione assegnazione e presa in carico degli ordini di movimentazione], [*Non Raggiunto*],
+    [*OA-D2*], [Gestione esecuzione degli ordini di movimentazione], [*Non Raggiunto*],
+    table.cell([*Obiettivi aziendali opzionali (OP)*], fill: luma(220), colspan: 3, align: center), 
+    [*OA-OP1*], [Documentazione funzionalità sviluppate], [*Raggiunto*]
+  ),
+  caption: [Raggiungimento obiettivi aziendali],
+)
+
+Come è possibile notare dalla tabella, non sono riuscito a raggiungere gli obiettivi desiderabili: questi prevedevano la gestione dell'assegnazione e della presa in carico degli ordini di movimentazione creati e la gestione della loro esecuzione. Queste funzionalità, parlando anche con il _team_ di sviluppo e con il referente aziendale, risultavano eccessivamente avanzate se messe in relazione allo stadio di sviluppo del prodotto WMS, in quanto argomenti non ancora affrontati e che avrebbero richiesto tempistiche di sviluppo non compatibili con il periodo di tirocinio.
+
+Per questo motivo, in accordo con il referente aziendale, mi sono impegnato a sviluppare le funzionalità richieste dagli obiettivi obbligatori nel modo più completo possibile, estendendo concretamente quanto offerto dal prodotto WMS.
+
+=== Obiettivi personali <soddisafimentoObiettiviPersonali>
+Gli obiettivi personali che mi sono prefissato prima di inziare il tirocinio (#ref(<obiettiviPersonali>, supplement: "paragrafo")) erano volti a sviluppare competenze tecniche e personali che potessero arricchire il mio bagaglio professionale e che potessero farmi crescere sia dal punto di vista personale che lavorativo.
+
+Durante l'esperienza presso Sanmarco Informatica sono riuscito a conseguire tutti gli obiettivi che mi ero prefissato:
+
+- *Attività e strumenti*: ho partecipato attivamente ai processi e alle  attività caratterizzanti lo sviluppo di un applicativo _software_, mettendo in pratica le conoscenze acquisite durante i percorsi di studi di "Ingegneria del _software_" e "Metodologie e Tecnologie per lo sviluppo _software_". In questo contesto aziendale ho potuto vedere come concretamente fosse seguito il modello di sviluppo Agile con _framework_ Scrum, partecipando in prima persona alle attività di _Daily meeting_, _Sprint review_ e _Sprint retrospective_. Queste attività venivano svolte in modo organizzato e strutturato, con il supporto di strumenti di comunicazione, collaborazione e tracciamento come Google Meet, GitHub e Jira, che mi hanno permesso di integrarmi con il _team_ di sviluppo e di collaborare in modo efficace e produttivo;
+
+
+- *Sviluppo e qualità*: il tirocinio mi ha dato modo di mettere in pratica i concetti appresi durante il mio percorso di studi, concretizzando le mie conoscenze e sviluppando competenze che mi hanno permesso di affrontare le sfide proposte dall'azienda. L'implementazione delle funzionalità richieste mi ha dato modo di lavorare attivamente con _framework_ ampiamenti utilizzati come Angular e di approfondire le conoscenze con nuovi linguaggi di programmazione come Java e TypeScript che già in parte conoscevo, ma che non avevo mai utilizzato in un contesto professionale. Il codice che ho prodotto ha soddisfatto le aspettative dell'azienda, divenendo di fatto parte integrante del prodotto WMS;
+
+#block(
+  [
+    Nella seguente tabella riporto il resocono degli obiettivi personali definiti:
+    #figure(
+      table(
+        columns: (0.3fr, 1fr, 0.3fr),
+        align: (center+horizon, left+horizon, center+horizon),
+        table.cell([*Obiettivi personali (OP)*], fill: luma(220), colspan: 3, align: center),
+        [*OP1*], [Sviluppare competenze con strumenti di comunicazione e collaborazione aziendali come Google Meet e GitHub], [*Raggiunto*],
+        [*OP2*], [Approfondire l'utilizzo di ITS in un contesto aziendale, come ad esempio Jira], [*Raggiunto*],
+        [*OP3*], [Partecipare attivamente ai processi di sviluppo _software_ in un contesto aziendale], [*Raggiunto*],
+        [*OP4*], [Sviluppare competenze con _framework_ ampiamente utilizzati come Angular], [*Raggiunto*],
+        [*OP5*], [Sviluppare competenze con nuovi linguaggi di programmazione come Java e TypeScript], [*Raggiunto*],
+        [*OP6*], [Sviluppare codice di qualità tale da essere utilizzabile dall'azienda al termine del mio percorso], [*Raggiunto*],
+        [*OP7*], [Comprendere i ritmi e le dinamiche di un lavoro in questo settore], [*Raggiunto*],
+      ),
+      caption: [Raggiungimento obiettivi personali],
+    )
+  ], 
+  breakable: false
+)
+== Competenze acquisite <competenzeAcquisite>
+Come descritto nel #ref(<soddisafimentoObiettiviPersonali>, supplement: "paragrafo"), sono risucito a perseguire gli obiettivi personali che mi ero prefissato, sviluppando competenze utili per il mio percorso professionale.
+
+Posso categorizzare le competenze acquisite durante il mio tirocinio in tre macroaree:
+
+- *Competenze organizzative*: per comprendere e lavorare ad un prodotto _software_ di carattere aziendale mi sono impegnato a mantenere un approccio metodico e organizzato: sin dal primo giorno ho rendicontato l'esperienza, monitorando costantemente il mio avanzamento e organizzando le attività in modo da rispettare le scadenze e gli obiettivi prefissati.
+
+  Approcciare nuove tecnologie e strumenti mi ha richiesto una buona organizzazione, in modo che potessi apprendere e mettere in pratica le conoscenze efficacemente e rispettare gli _standard_ qualitativi richiesti dall'azienda. 
+  
+  Inoltre, partecipare attivamente ai processi di sviluppo _software_ in un contesto aziendale mi ha permesso di comprendere i ritmi e le dinamiche di lavoro in questo settore, apprendendo come affrontare le sfide proposte e come collaborare in modo efficace con il _team_ di sviluppo;
+
+- *Competenze tecniche*: l'utilizzo di nuove tecnologie e strumenti era alla base della scelta del mio percorso di tirocinio. Durante il periodo di _stage_ presso Sanmarco Informatica ho avuto modo di sviluppare nuove competentenze e approfondire l'utilizzo di _framework_ come Angular, e di linguaggi di programmazione come Java e TypeScript. 
+
+  Lavorare in modo costante con queste tecnologie mi ha permesso di apprendere continuamente e di mettere in pratica le conoscenze acquisite dal corso di laurea, vedendo concretamente come queste tecnologie vengono utilizzate in un contesto aziendale.
+
+  In questo modo ho acquisito una maggiore consapevolezza dei concetti alla base dello sviluppo di una _web application_, apprendendo come strutturare il codice in modo efficace e mantenibile, e come garantire la qualità del prodotto sviluppato; 
+
+- *Competenze personali*: l'aspetto personale è stato altrettanto importante durante il mio percorso di tirocinio. Lavorare in un contesto aziendale mi ha permesso di sviluppare competenze trasversali come la capacità di lavorare in _team_, di comunicare in modo efficace e di gestire le scadenze e le priorità.
+
+  Il confronto costante con il _team_ di sviluppo e con il referente aziendale mi ha permesso di sviluppare la capacità di ascolto e di adattamento, imparando a gestire le criticità e a risolvere i problemi in modo efficace e produttivo: la comunicazione infatti ha ricoperto un ruolo fondamentale durante il mio percorso, permettendomi di esporre le mie idee e di confrontarmi con il _team_ per trovare soluzioni condivise e condividere i progressi e le difficoltà riscontrate.
+
 == Valutazione personale
-Valutazione personale dell'esperienza del tirocinio.
+Pur trattandosi della mia prima esperienza lavorativa nel settore informatico, ritengo che il percorso di tirocinio presso Sanmarco Informatica sia stato estremamente formativo e arricchente, permettendomi di sviluppare competenze tecniche e personali. 
+
+Nutrivo l'aspettativa di poter mettere in pratica le conoscenze acquisite durante il mio percorso di studi e di poter apprendere nuove tecnologie e metodologie di sviluppo _software_, e posso dire con certezza che le aspettative sono state pienamente soddisfatte.
+
+Anche l'ambiente di lavoro in cui sono stato inserito ha contribuito in modo significativo alla mia crescita professionale: il _team_ di sviluppo mi ha accolto con entusiasmo e mi ha supportato durante tutto il percorso, aiutandomi e guidandomi nelle attività svolte e garantendomi un ambiente di lavoro stimolante e collaborativo.
+
+In conclusione, dunque, mi ritengo molto soddisfatto del percorso svolto e dei risultati prodotti durante il mio tirocinio, che mi hanno permesso di crescere e di arricchire il mio bagaglio professionale, preparandomi per affrontare le sfide future.
+
 == Università e mondo del lavoro
-Valutazione del percorso universitario in relazione al mondo del lavoro.
+L'esperienza del tirocinio mi è servita a comprendere maggiormente le relazioni che intercorrono tra il mondo accademico e il mondo del lavoro. Personalmente ritengo che questi due mondi possano essere considerati complementari: il primo, quello universitario, mi ha dato modo di ampliare le mie conoscenze, conferendomi le basi necessarie alla comprensione dei concetti e formando il mio modo di pensare e approcciare determinate situazione, mentre il secondo, quello del lavoro, mi ha dato modo di mettere in pratica quanto appreso, trasformando le conoscenze in competenze.
+
+Questo rapporto di complementarietà, a mio avviso, denota anche l'importanza di entrambe le esperienze: porre lo svolgimento del tirocinio a seguito della conclusione del percorso di studi permette infatti di dedicare il giusto tempo alla formazione e all'acquisizione delle conoscenze, per poi poter mettere in pratica quanto appreso in un contesto lavorativo, avendo modo, a seguito della conclusione delle lezioni universitarie, di svolgere un'esperienza formativa completa con un impegno e una dedizione totale.
+
+Il tirocinio acquisisce importanza soprattutto se consideriamo il limitato numero di attività collaborative svolte durante il percorso universitario: durante il tirocinio ho avuto la riprova che in ambito informatico, soprattutto nello sviluppo _software_, la collaborazione e il lavoro in _team_ sono aspetti fondamentali, alla base di qualsiasi progetto di carattere professionale, e sviluppare le competenze necessarie per lavore in in modo collaborativo diventa di fatto di essenziale importanza.
+
+Nonostante ciò, ritengo che il percorso di studi fornisca delle basi più che solide per affrontare il mondo del lavoro: sono convinto che l'università più che le competenze tecniche di codifica (che sono facilmente apprendibili sul campo), fornisca una formazione più ampia, mirata a sviluppare il modo di pensare e di affrontare le sfide, al fine di concedere allo studente competenze trasversali indipendenti dal settore di lavoro in cui si troverà ad operare.
