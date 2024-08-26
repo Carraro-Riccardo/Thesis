@@ -72,7 +72,7 @@
   [
     Il presente documento descrive l'esperienza di tirocinio svolta presso l'azienda Sanmarco Informatica S.p.A. del laureando Riccardo Carraro, nel periodo 20 maggio - 12 luglio 2024. 
     
-    L'obiettivo era lo sviluppo di una visualizzazione tridimensionale per la gestione di magazzino, dando la possibilità di creare ordini di movimentazione della merce in modo intuitivo e veloce mediante un'operazione di _drag & drop_ direttamente nell'ambeitente 3D. Il lavoro svolto è stato direttamente integrato nel _software_ sviluppato dall'azienda, risultando in un'estensione delle funzionalità utilizzabili del prodotto.
+    L'obiettivo era lo sviluppo di una visualizzazione tridimensionale per la gestione di magazzino, dando la possibilità di creare ordini di movimentazione della merce in modo intuitivo e veloce mediante un'operazione di _drag & drop_ direttamente nell'ambiente 3D. Il lavoro svolto è stato direttamente integrato nel _software_ sviluppato dall'azienda, risultando in un'estensione delle funzionalità utilizzabili del prodotto.
 
     Il documento è strutturato in quattro capitoli, quali:
     - *L'azienda Sanmarco Informatica*: presenta il contesto organizzativo e produttivo in cui il laureando è stato inserito;
@@ -87,7 +87,7 @@
     Al fine di agevolare la lettura, il documento rispetta le seguenti convenzioni tipografiche:
     - i termini in linguaggio diverso dall'italiano sono posti in _corsivo_;
 
-    - ogni immagine è corredata da una didascalia e la fonte da cui è stata tratta;
+    - ogni immagine è corredata da una didascalia e dalla fonte da cui è stata tratta;
 
     - i termini riportati nel glossario riportano una _G_ posta a pedice.
 

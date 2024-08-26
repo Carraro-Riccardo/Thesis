@@ -11,7 +11,7 @@ Con oltre 2500 clienti e più di 650 dipendenti, Sanmarco Informatica opera in u
 L'obiettivo dell'azienda è l'innovazione delle aziende clienti, agevolandone la trasformazione digitale, progettando e realizzando soluzioni digitali integrate.
 
 == Organizzazione aziendale e i prodotti
-Durante il periodo di tirocinio ho potuto osservare da vicino l'organizzazione che l'azienda segue. Sanmarco Informatica è organizzazta in diverse _business unit_ (BU), ciascuna in grado di operare in modo autonomo o semi-autonomo, con l'obiettivo di garantire al cliente finale servizi e prodotti di qualità, adattandosi alle diverse esigenze del mercato.
+Durante il periodo di tirocinio ho potuto osservare da vicino l'organizzazione che l'azienda segue. Sanmarco Informatica è organizzata in diverse _business unit_ (BU), ciascuna in grado di operare in modo autonomo o semi-autonomo, con l'obiettivo di garantire al cliente finale servizi e prodotti di qualità, adattandosi alle diverse esigenze del mercato.
 
 Le BU in cui l'azienda è suddivisa sono undici, ciascuna specializzata in un settore specifico:
 
@@ -55,7 +55,7 @@ Durante il mio periodo di tirocinio, ho avuto modo di assistere al rapporto che 
 
 == Processi
 === Modello di sviluppo <modelloDiSviluppo>
-Durante il mio tirocinio, ho osservato da vicino il modello di sviluppo _software_ utilizzato dall'azienda: Sanmarco Informatica opera mediante un modello di sviluppo _Agile_, implementando nello specifico il _framework Scrum_. Per quanto avessi già familiartià con questo modello grazie ai corsi di "Ingegneria del _software_" e "Metodologie e Tecnologie per lo sviluppo _software_" frequentati durante il corso di laurea, il tirocinio mi ha permesso di osservare in prima persona come questo modello venga applicato in un contesto aziendale.
+Durante il mio tirocinio, ho osservato da vicino il modello di sviluppo _software_ utilizzato dall'azienda: Sanmarco Informatica opera mediante un modello di sviluppo _Agile_, implementando nello specifico il _framework Scrum_. Per quanto avessi già familiarità con questo modello grazie ai corsi di "Ingegneria del _software_" e "Metodologie e Tecnologie per lo sviluppo _software_" frequentati durante il corso di laurea, il tirocinio mi ha permesso di osservare in prima persona come questo modello venga applicato in un contesto aziendale.
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/scrum.png",
@@ -75,7 +75,7 @@ Il concetto cardine del modello _Agile_ sono le _User Stories_ definite in colla
 
 Il modello _Agile_ suddivide il periodo di realizzazione in _Sprint_, ossia iterazioni di sviluppo di durata fissa (nel caso di Sanmarco Informatica di 4 settimane), durante le quali il _team_ si impegna a sviluppare l'insieme di funzionalità definite all'interno dello _Sprint Backlog_.
 
-Per assicurare un allinemanto costante tra ogni membro del _team_ in merito allo stato di avanzamneto, si svolgono _Daily Standup Meeting_, brevi incontri quotidiani durante i quali ogni membro del _team_ informa gli altri membri in merito al proprio lavoro svolto e le eventuali difficoltà riscontrate.
+Per assicurare un allineamento costante tra ogni membro del _team_ in merito allo stato di avanzamento, si svolgono _Daily Standup Meeting_, brevi incontri quotidiani durante i quali ogni membro del _team_ informa gli altri membri in merito al proprio lavoro svolto e le eventuali difficoltà riscontrate.
 
 Svolgendo questa attività quotidianamente, ho avuto la riprova di quanto sia importante la comunicazione all'interno di un _team_ di sviluppo, in quanto permette di mantenere un allineamento costante tra i membri e di risolvere eventuali problemi in modo rapido ed efficace.
 
@@ -101,7 +101,7 @@ La corretta implementazione del _framework Scrum_ richiede l'individuazione di r
     [*_Team leader_*], [Responsabile del coordinamento del _team_ di sviluppo, si occupa di assegnare i compiti e di garantire che il _team_ sia allineato con gli obiettivi dello _Sprint_.],
     [*Sviluppatore*], [Responsabile della realizzazione effettiva delle funzionalità del prodotto.],
     [*_Tester_*], [Responsabile della verifica del prodotto, si occupa di testare le funzionalità implementate e di segnalare eventuali _bug_ al _team_ di sviluppo.],
-    [*Consulente*], [Responsabile dell'installazione del prodotto presso il cliente, si occupa di garantire che il prodotto soddisfi le esigenze del cliente.],
+    [*Consulente*], [Responsabile dell'installazione del prodotto presso il cliente: si occupa di garantire che il prodotto soddisfi le esigenze di quest'ultimo.],
   ),
   caption: [Ruoli aziendali],
 )
@@ -113,7 +113,7 @@ Come ho potuto osservare in azienda, questa suddivisione di compiti e responsabi
 ==== Fornitura<fornitura>
 Il processo di fornitura è il processo che si occupa di definire i requisiti del prodotto, di pianificare le attività di sviluppo e di garantire che il prodotto soddisfi le esigenze del cliente. Durante il mio tirocinio ho avuto modo di osservare come questo processo venga attuato in azienda, partendo dalla definizione dei requisiti del prodotto in collaborazione con il cliente, fino alla realizzazione del prodotto stesso.
 
-Tra le peculiarità del modello _Agile_ infatti, vi è la capacità di adattamento dello sviluppo ai cambiamenti, ottenibile mediante una stretta collaborazione tra il _Product Owner_ e il cliente.
+Tra le peculiarità del modello _Agile_, infatti, vi è la capacità di adattamento dello sviluppo ai cambiamenti, ottenibile mediante una stretta collaborazione tra il _Product Owner_ e il cliente.
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/userStories.png",
@@ -176,7 +176,7 @@ La documentazione è un aspetto fondamentale per garantire la qualità del prodo
 
 Come risultato di ogni _meeting_ il _team_ si occupa di documentare le decisioni prese, le funzionalità implementate e le problematiche riscontrate, utilizzando la piattaforma _Confluence_.
 
-Anche l'approccio al _framework Synergy_, è stato un'ulteriore conferma in merito all'importanza della documentazione del _software_: trattandosi di un _framework_ proprietario, la mia unica fonte di informazioni in merito al suo corretto utilizzo, residieva nella documentazione presente su _Confluence_, e per questo motivo, il suo aggiornamento costante e la sua completezza erano aspetti fondamentali per permettere a me (e anche ai nuovi colleghi) di utilizzarlo in modo efficace ed efficiente.
+Anche l'approccio al _framework Synergy_, è stato un'ulteriore conferma in merito all'importanza della documentazione del _software_: trattandosi di un _framework_ proprietario, la mia unica fonte di informazioni in merito al suo corretto utilizzo, risidieva nella documentazione presente su _Confluence_, e per questo motivo, il suo aggiornamento costante e la sua completezza erano aspetti fondamentali per permettere a me (e anche ai nuovi colleghi) di utilizzarlo in modo efficace ed efficiente.
 
 Inoltre, anche all'interno del codice mi sono assicurato di seguire le convezioni aziendali in materia di commenti e produzione dei _Javadoc_, in modo da garantire che ogni porzione di codice da me prodotta fosse conforme, documentata e rapidamente comprensibile.
 
@@ -231,7 +231,7 @@ Durante il mio tirocinio ho utilizzato lo strumento secondo le convenzioni azien
 Lo svolgimento di queste attività seguiva una _pipeline_ di stati ben definita:
 - *To do*: il _task_ è stato creato;
 - *In progress*: il _task_ è in corso di svolgimento: questo stato è sinonimo  della presenza  di un _branch_ di sviluppo attivo, e che uno o più membri del _team_ stanno lavorando al _task_;
-- *Ready for test*: il _task_ è stato completato e il lavoro prodotto è pronto per essere sottoposto al _software qualification test_ (#ref(<softwareQualificationTesting>, supplement: "paragrafo")). Il _task_ viene ora assgnato al _tester_ del _team_ e, a seconda del risultato dei _test_ condotti, il _task_ può tornare in _In progress_ o essere spostato in _Done_;
+- *Ready for test*: il _task_ è stato completato e il lavoro prodotto è pronto per essere sottoposto al _software qualification test_ (#ref(<softwareQualificationTesting>, supplement: "paragrafo")). Il _task_ viene ora assegnato al _tester_ del _team_ e, a seconda del risultato dei _test_ condotti, il _task_ può tornare in _In progress_ o essere spostato in _Done_;
 - *Done*: il _task_ è stato completato con successo.
 
 Le integrazioni con strumenti come Bitbucket (#ref(<strumentiSviluppo>, supplement: "paragrafo")) rendono Jira uno strumento estremamente versatile e in grado di adattarsi alle diverse esigenze dell'azienda.  
@@ -320,7 +320,7 @@ Questa piattaforma è stata per me la principale fonte di informazioni in merito
 
 Bitbucket è uno strumento di controllo di versione utilizzato dall'azienda per la gestione del codice sorgente. Lo strumento permette di creare _repository_ in cui caricare la _codebase_, e di gestire i diversi _branch_ di sviluppo affinchè l'avanzamento dei lavori possa avvenire in modo parallelo, coordinato e collaborativo.
 
-Grazie all'integrazione con Jira, Bitbucket permette di collegare i _task_ presenti nella _board_ con i _branch_ di sviluppo, in modo da garantire che ogni _task_ sia associato al _branch_ corrispontente.
+Grazie all'integrazione con Jira, Bitbucket permette di collegare i _task_ presenti nella _board_ con i _branch_ di sviluppo, in modo da garantire che ogni _task_ sia associato al _branch_ corrispondente.
 
 #showImageWithSource(
   imagePath: "/assets/chapter1/bitbucket.jpg",
@@ -402,7 +402,7 @@ Il processo di gestione delle risorse umane si occupa di definire le competenze 
 
 Nello svolgimento del mio percorso ho avuto la possibilità di comprendere come questo processo sia istanziato dall'azienda, e l'importanza che riveste la formazione e la crescita professionale dei membri del _team_.
 
-Le prime due settimane del mio tirocinio sono state dedicate alla formazione, mediante lo svolgimento di lezioni frontali e di esercitazioni pratiche, permettondomi di apprendere le basi del _framework_ Synergy mediante un approccio _learn by doing_.
+Le prime due settimane del mio tirocinio sono state dedicate alla formazione, mediante lo svolgimento di lezioni frontali e di esercitazioni pratiche, permettendomi di apprendere le basi del _framework_ Synergy mediante un approccio _learn by doing_.
 Inoltre ho avuto modo di constatare come la formazione sia un processo continuo che anche per i membri del _team_ a cui sono stato affiancato, i quali svolgono regolarmente corsi offerti dall'azienda nella piattaforma Udemy.
 
 #showImageWithSource(
@@ -426,7 +426,8 @@ L'azienda inoltre promuove la partecipazione a conferenze e seminari come ad ese
 
 Inoltre, data l'enorme risonanza che l'intelligenza artificiale sta avendo attualmente nel mondo dell'informatica, l'azienda ha in programma la definizione di un nuovo _team_ dedicato, in modo da poter sfruttare appieno le potenzialità di questa nuova tecnologia su cui tante aspettative sono riposte.
 
-#pagebreak()
+#pagebreak(to: "odd")
+
 = Il tirocinio
 == Il ruolo dello stage per Sanmarco Informatica
 Sanmarco Informatica attribuisce allo _stage_ un ruolo fondamentale nel suo processo di crescita: come descritto nel #ref(<innovazione>, supplement: "paragrafo"), per perseguire gli obiettivi di innovazione e di crescita, l'azienda investe in formazione continua, e lo _stage_, è un'occasione per far crescere nuovi talenti e per portare nuove idee e competenze all'interno dell'azienda.
@@ -438,7 +439,7 @@ L'esperienza di _stage_ infatti, rappresenta un'opportunità per gli studenti di
 
 == Il progetto proposto
 === Descrizione del progetto
-Il progetto proposto consisteva nell'estensione delle funzionalità del prodotto WMS (_Warehouse Management System_) sviluppato dall'azienda, un appicativo volto alla gestione della logistica interna di un'azienda, monitorando l'utilizzo di _asset_ e risorse, e ottimizzando operazioni di _handling_ e movimentazione.
+Il progetto proposto consisteva nell'estensione delle funzionalità del prodotto WMS (_Warehouse Management System_) sviluppato dall'azienda, un applicativo volto alla gestione della logistica interna di un'azienda, monitorando l'utilizzo di _asset_ e risorse, e ottimizzando operazioni di _handling_ e movimentazione.
 
 Nello specifico veniva richiesta l'implementazione di un ambiente tridimensionale in grado di rappresentare lo stato del magazzino, con la possibilità di interrogare i saldi presenti ed individuarne la collocazione.
 
@@ -581,7 +582,7 @@ Le ragioni per cui ho scelto di svolgere il tirocinio presso Sanmarco Informatic
 
 Nella scelta non ho tenuto in particolare considerazione la posizione geografica delle aziende presso cui ho svolto i colloqui, in quanto il principale obiettivo era l'aspetto formativo e l'esperienza che avrei potuto acquisire. Nel caso specifico di Sanmarco Informatica, la sede dista tra i 30 e i 40 minuti in auto da dove risiedo.
 
-Prima di inziare il percorso di tirocinio, ho svolto due colloqui conoscitivi in sede con l'azienda, in presenza del _team_ delle risorse umane e del referente aziendale, e solo a seguito del processo di selezione tenutosi nei giorni successivi, ho avuto modo di procedere con l'inizio del tirocinio.
+Prima di iniziare il percorso di tirocinio, ho svolto due colloqui conoscitivi in sede con l'azienda, in presenza del _team_ delle risorse umane e del referente aziendale, e solo a seguito del processo di selezione tenutosi nei giorni successivi, ho avuto modo di procedere con l'inizio del tirocinio.
 
 == Premesse allo svolgimento del tirocinio
 === Approccio al lavoro <approccioLavoro>
@@ -640,10 +641,11 @@ Il raggiungimento di questi obiettivi è stato possibile grazie alle diverse att
 
 In particolare, grazie alle _Sprint Review_ e _Sprint Retrospective_, io e l'intero _team_ di sviluppo, abbiamo avuto modo di valutare costantemente l'andamento del progetto, individuando eventuali criticità e aree di miglioramento, e di adattare di conseguenza il nostro approccio al lavoro.
 
-#pagebreak()
+#pagebreak(to: "odd")
+
 = Svolgimento del tirocinio
 == Pianificazione
-L'organizzazione del tirocinio, secondo i vincoli temporali discussi nel #ref(<vincoliTemporali>, supplement: "paragrafo"), prevedeva una pianificazione delle attività atta a garantire il raggiungimento degli obiettivi prefissati.
+L'organizzazione del tirocinio, secondo i vincoli temporali discussi nel #ref(<vincoliTemporali>, supplement: "paragrafo"), prevedeva una pianificazione delle attività mirata a garantire il raggiungimento degli obiettivi prefissati.
 
 Il mio percorso è suddiviso in quattro periodi di due settimane, ciascuno dedicato ad un aspetto specifico del piano di _stage_, in modo da garantire un'organizzazione efficace e una suddivisione chiara delle attività.
 
@@ -711,7 +713,7 @@ Nel dettaglio, i quattro periodi del tirocinio sono stati organizzati come segue
 
 + *Funzionalità _drag & drop_*:
 
-  - *Implementazione della funzionalità di _drag & drop_*: implementazione della funzionalità di _drag & drop_ per la creazione degli ordini di movimentazione, mediante il trascianamento di un _bin_ (unità di contenimento) sull'interfaccia;
+  - *Implementazione della funzionalità di _drag & drop_*: implementazione della funzionalità di _drag & drop_ per la creazione degli ordini di movimentazione, mediante il trascinamento di un _bin_ (unità di contenimento) sull'interfaccia;
 
   - *Implementazione del _dialog_ di creazione dell'ordine*: implementazione del _dialog_ per la creazione dell'ordine di movimentazione per la definizione dei saldi da movimentare, aperto al termine dell'operazione di _drag & drop_;
 
@@ -779,14 +781,14 @@ Giornalmente ho partecipato ai _Daily Standup Meeting_, in cui ho condiviso con 
 Quando il referente aziendale lavorava in modalità _smart working_, ho mantenuto il contatto con lui tramite gli strumenti di comunicazione aziendali come Google Meet e Google Chat descritti nel #ref(<strumentiDiComunicazione>, supplement: "paragrafo"). 
 
 === Revisioni di progresso
-Le revisioni di progresso sono state fondamentali per monitorare lo stado di avanzamento e per ottenere _feedback_ valido sulle attività svolte.
+Le revisioni di progresso sono state fondamentali per monitorare lo stato di avanzamento e per ottenere _feedback_ valido sulle attività svolte.
 
 Come menzionato nel #ref(<modelloDiSviluppo>, supplement: "paragrafo"), ho avuto modo di partecipare attivamente a diverse attività di revisione, dalle giornaliere durante i _daily standup meeting_, alle revisioni di fine Sprint (_Sprint review_ e _Sprint retrospective_), fino alla revisione finale del lavoro svolto durante la presentazione conclusiva al _team_ e al referente aziendale. Man mano che prendevo confidenza con le pratiche e con le tecnologie aziendali, ho potuto partecipare in modo sempre più attivo a queste attività, riuscendo a fare domande sempre più mirate e proporre soluzioni sempre più precise. 
 
-Queste attività mi hanno dato la possibilità di avere un rapporto attivo e partecipativo con il _team_ con cui ho lavorato, permettendomi di insermi nel contesto lavorativo sia dal punto di vista tecnico che umano.
+Queste attività mi hanno dato la possibilità di avere un rapporto attivo e partecipativo con il _team_ con cui ho lavorato, permettendomi di inserirmi nel contesto lavorativo sia dal punto di vista tecnico che umano.
 
 === Strumenti di verifica <strumentiDiVerifica>
-Al fine di perseguire gli obiettivi di qualità indicati nel #ref(<obiettiviDiQualita>, supplement: "paragrafo"), ho utilizzato strumenti e tencologie che rendessero i processi di verifica e validazione efficaci e conformi alle esigenze aziendali.
+Al fine di perseguire gli obiettivi di qualità indicati nel #ref(<obiettiviDiQualita>, supplement: "paragrafo"), ho utilizzato strumenti e tecnologie che rendessero i processi di verifica e validazione efficaci e conformi alle esigenze aziendali.
 
 Come menzionato nel #ref(<softwareQualificationTesting>, supplement: "paragrafo"), l'azienda opera con un processo di _continuous integration_ e _continuous deployment_, garantendo un monitoraggio costante del codice e delle funzionalità sviluppate, al fine di accettare all'interno del _repository_ un prodotto sempre funzionante e conforme alle aspettative.
 
@@ -806,7 +808,7 @@ Gli strumenti e le tecnologie che ho utilizzato per garantire la qualità del pr
   
   - *_Test_ di integrazione*: _test_ che verificano il corretto funzionamento dell'integrazione tra le diverse unità di codice, garantendo che le unità funzionino correttamente anche quando integrate tra loro;
 
-  Il _framework_ Synergy predisponeva un ambiente di _test_ completo, che mi ha permesso di implementare i _test_ agevolemente e in modo conforme alle esigenze aziendali.
+  Il _framework_ Synergy predisponeva un ambiente di _test_ completo, che mi ha permesso di implementare i _test_ agevolmente e in modo conforme alle esigenze aziendali.
 
 \
 - *_Test_ manuali*:  _test_ svolti manualmente. Durante il mio percorso ho implementato 2 principali tipologie di _test_ manuali:
@@ -948,7 +950,7 @@ L'utente seleziona un _bin_ all'interno dell'ambiente tridimensionale, avendo mo
   - In caso si movimenti più di un saldo, il _bin_ di destinazione deve essere in grado di accogliere più saldi differenti.
 
 - *Postcondizioni*:
-  - Viene generata una richista di ordine di movimentazione che sarà preso in carico dagli operatori in magazzino.
+  - Viene generata una richiesta di ordine di movimentazione che sarà preso in carico dagli operatori in magazzino.
 
 \
 *UC-2.1 Seleziona _bin_ di partenza* \
@@ -956,7 +958,7 @@ L'utente seleziona il _bin_ di partenza da cui iniziare l'operazione di _drag&dr
 - *Attore primario*: Utente;
 - *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
 - *Postcondizioni*: Il _bin_ di partenza viene "Selezionato", cambiandone il colore in base al tema dell'applicativo.
-- *Esensioni*:
+- *Estensioni*:
   - *UC-2.1.1*: Errore _bin_ di partenza privo di saldi;
 
 \  
@@ -965,7 +967,7 @@ L'utente seleziona il _bin_ di destinazione in cui posizionare i saldi movimenta
 - *Attore primario*: Utente;
 - *Precondizioni*: L'ambiente 3D deve essere correttamente caricato e configurato;
 - *Postcondizioni*: Il _bin_ di destinazione viene "Evidenziato", cambiandone il colore in base al tema dell'applicativo.
-- *Esensioni*:
+- *Estensioni*:
   - *UC-2.2.1*: Errore _bin_ di destinazione non valido;
 
 \
@@ -1212,9 +1214,9 @@ In sinergia con esso ho utilizzato il _pattern_ _decorator_: Angular si distingu
 )
 
 *_Mesh_* \
-La libreria Three.js mette a disposizione divere tipologie di _mesh_ per la visualizzazione di oggetti 3D, ciascuna caratterizzata da un consumo di risorse differente e da un comportamento diverso all'interno dell'ambiente. Durante il mio percorso ho svolto un'attenta analisi delle prestazioni del prodotto, cercando di ottimizzare le operazioni di _rendering_ allegerendo il carico di lavoro che la GPU doveva sostenere.
+La libreria Three.js mette a disposizione diverse tipologie di _mesh_ per la visualizzazione di oggetti 3D, ciascuna caratterizzata da un consumo di risorse differente e da un comportamento diverso all'interno dell'ambiente. Durante il mio percorso ho svolto un'attenta analisi delle prestazioni del prodotto, cercando di ottimizzare le operazioni di _rendering_ alleggerendo il carico di lavoro che la GPU doveva sostenere.
 
-A tale scopo ho utilizzato una tipologia particolare di _mesh_ chiamata `InstancedMesh`, che permette di istanziare un oggetto 3D a partire da un modello base, replicandolo in base a un insieme di parametri specificati. La particolarità di questa tipologia di _mesh_ è che è possibilie applicarla a diversi oggetti 3D (in questo caso per i diversi _bin_ di ogni struttura), in un'unica operazione svolta dalla GPU, garantendo un approccio più efficiente rispetto all'istanziazione di una _mesh_ per ogni oggetto.
+A tale scopo ho utilizzato una tipologia particolare di _mesh_ chiamata `InstancedMesh`, che permette di istanziare un oggetto 3D a partire da un modello base, replicandolo in base a un insieme di parametri specificati. La particolarità di questa tipologia di _mesh_ è che è possibile applicarla a diversi oggetti 3D (in questo caso per i diversi _bin_ di ogni struttura), in un'unica operazione svolta dalla GPU, garantendo un approccio più efficiente rispetto all'istanziazione di una _mesh_ per ogni oggetto.
 
 \
 *Vantaggi* \
@@ -1225,11 +1227,11 @@ La gestione centralizzata della _mesh_ dei _bin_ per ciascuna struttura semplifi
 A differenza di quanto avveniva in precedenza, in cui la _mesh_ globale veniva caricata una sola volta, ora viene istanziata una `InstanceMesh` per ogni struttura. Questo aspetto è stato tenuto in particolare attenzione durante l'implementazione, controllando che il carico di risorse e la gestione della memoria fossero ottimizzati e che il prodotto risultante fosse performante e reattivo. Maggiori dettagli nel #ref(<testPerformance>, supplement: "paragrafo").
 
 === Progettazione della funzionalità di creazione degli ordini di movimentazione
-L'obiettivo è la gestione dei diversi aspetti che compongono le prartiche logistiche e amministrative di un magazzino. Durante il corso del mio tirocinio mi sono occupato di implementare la funzionalità per la generazione degli ordini di movimentazione mediante un'operazione di _drag & drop_, al fine di rendere tale processo più intuitivo e veloce. 
+L'obiettivo è la gestione dei diversi aspetti che compongono le pratiche logistiche e amministrative di un magazzino. Durante il corso del mio tirocinio mi sono occupato di implementare la funzionalità per la generazione degli ordini di movimentazione mediante un'operazione di _drag & drop_, al fine di rendere tale processo più intuitivo e veloce. 
 
 L'operazione consiste nel selezionare un _bin_ e trascinarlo in un'altra posizione dell'ambiente 3D, generando una richiesta di movimentazione manuale. Questo permetterebbe una gestione rapida ed intuitiva delle movimentazioni, avendo una visione concreta e diretta dell'ambiente 3D.
 
-Nello specifico, la funzionalità generà una richiesta di movimentazione, i dettagli della richiesta e i _task_ corrispondenti, uno per ogni saldo movimentato. In futuro, i _task_ verranno presi in carico dagli operatori in magazzino, che si occuperanno di eseguire la movimentazione fisica dei saldi.
+Nello specifico, la funzionalità genererà una richiesta di movimentazione, i dettagli della richiesta e i _task_ corrispondenti, uno per ogni saldo movimentato. In futuro, i _task_ verranno presi in carico dagli operatori in magazzino, che si occuperanno di eseguire la movimentazione fisica dei saldi.
 
 #showImageWithSource(
   imagePath: "/assets/chapter3/richieste.png",
@@ -1255,7 +1257,7 @@ Come prima cosa, io e il team abbiamo definito le tabelle coinvolte, in modo da 
   label: <dbSchema>
 )
 
-La gestione della connessione con il _database_ è gestita dal _framework_ Synergy mediante l'utilizzo di classi che utilizzano il _pattern singleton_ per garantire un'unica istanza della connessione al _database_. Al fine di esegure le operazioni di lettura e scrittura dei dati ho definito delle classi che implementassero il _pattern_ DAO (_Data Access Object_) in grado di interfacciarsi con il _database_ e fornire i metodi per l'esecuzione delle operazioni richieste. Questo mi ha permesso di separare la logica di accesso ai dati dalla logica di _business_, garantendo una maggiore modularità e scalabilità del codice.
+La gestione della connessione con il _database_ è gestita dal _framework_ Synergy mediante l'utilizzo di classi che utilizzano il _pattern singleton_ per garantire un'unica istanza della connessione al _database_. Al fine di eseguire le operazioni di lettura e scrittura dei dati ho definito delle classi che implementassero il _pattern_ DAO (_Data Access Object_) in grado di interfacciarsi con il _database_ e fornire i metodi per l'esecuzione delle operazioni richieste. Questo mi ha permesso di separare la logica di accesso ai dati dalla logica di _business_, garantendo una maggiore modularità e scalabilità del codice.
 
 === Architettura del sistema
 L'applicativo WMS è una _web application_ che si compone di due parti principali: il _front-end_, sviluppato in Angular, e il _back-end_, sviluppato in Java con il _framework_ Synergy. Le due parti comunicano tra loro mediante servizi REST esposti.
@@ -1329,7 +1331,7 @@ All'interno dell'ambiente 3D, le due classi verranno mostrate come segue:
   label: <binStruct>
 )
 
-Questo approccio ha permesso di centrallizzare la logica di gestione dei _bin_ e delle strutture all'interno dell'ambiente 3D, garantendo una struttura chiara e ben organizzata del codice. Un esempio significativo di come ho utilizzato queste classi è la gestione dell'interazione con i _bin_ e le strutture: `Struct3D` e `Bin3D` espongono infatti i seguenti metodi per gestire l'interazione:
+Questo approccio ha permesso di centralizzare la logica di gestione dei _bin_ e delle strutture all'interno dell'ambiente 3D, garantendo una struttura chiara e ben organizzata del codice. Un esempio significativo di come ho utilizzato queste classi è la gestione dell'interazione con i _bin_ e le strutture: `Struct3D` e `Bin3D` espongono infatti i seguenti metodi per gestire l'interazione:
 
 - *highlight ()*: permette di evidenziare il _bin_ o la struttura selezionata, modificandone il colore;
 
@@ -1611,7 +1613,8 @@ Il mio percorso di tirocinio ha visto la produzione di diversi materiali necessa
   caption: [Materiali complessivamente prodotti durante il tirocinio],
 )
 
-#pagebreak()
+#pagebreak(to: "odd")
+
 = Valutazione retrospettiva
 == Soddisfacimento degli obiettivi
 === Obiettivi aziendali
@@ -1704,10 +1707,10 @@ Anche l'ambiente di lavoro in cui sono stato inserito ha contribuito in modo sig
 In conclusione, dunque, mi ritengo molto soddisfatto del percorso svolto e dei risultati prodotti durante il mio tirocinio, che mi hanno permesso di crescere e di arricchire il mio bagaglio professionale, preparandomi per affrontare le sfide future.
 
 == Università e mondo del lavoro
-L'esperienza del tirocinio mi è servita a comprendere maggiormente le relazioni che intercorrono tra il mondo accademico e il mondo del lavoro. Personalmente ritengo che questi due mondi possano essere considerati complementari: il primo, quello universitario, mi ha dato modo di ampliare le mie conoscenze, conferendomi le basi necessarie alla comprensione dei concetti e formando il mio modo di pensare e approcciare determinate situazione, mentre il secondo, quello del lavoro, mi ha dato modo di mettere in pratica quanto appreso, trasformando le conoscenze in competenze.
+L'esperienza del tirocinio mi è servita a comprendere maggiormente le relazioni che intercorrono tra il mondo accademico e il mondo del lavoro. Personalmente ritengo che questi due mondi possano essere considerati complementari: il primo, quello universitario, mi ha dato modo di ampliare le mie conoscenze, conferendomi le basi necessarie alla comprensione dei concetti e formando il mio modo di pensare e approcciare determinate situazioni, mentre il secondo, quello del lavoro, mi ha dato modo di mettere in pratica quanto appreso, trasformando le conoscenze in competenze.
 
 Questo rapporto di complementarietà, a mio avviso, denota anche l'importanza di entrambe le esperienze: porre lo svolgimento del tirocinio a seguito della conclusione del percorso di studi permette infatti di dedicare il giusto tempo alla formazione e all'acquisizione delle conoscenze, per poi poter mettere in pratica quanto appreso in un contesto lavorativo, avendo modo, a seguito della conclusione delle lezioni universitarie, di svolgere un'esperienza formativa completa con un impegno e una dedizione totale.
 
-Il tirocinio acquisisce importanza soprattutto se consideriamo il limitato numero di attività collaborative svolte durante il percorso universitario: durante il tirocinio ho avuto la riprova che in ambito informatico, soprattutto nello sviluppo _software_, la collaborazione e il lavoro in _team_ sono aspetti fondamentali, alla base di qualsiasi progetto di carattere professionale, e sviluppare le competenze necessarie per lavore in in modo collaborativo diventa di fatto di essenziale importanza.
+Il tirocinio acquisisce importanza soprattutto se consideriamo il limitato numero di attività collaborative svolte durante il percorso universitario: durante il tirocinio ho avuto la riprova che in ambito informatico, soprattutto nello sviluppo _software_, la collaborazione e il lavoro in _team_ sono aspetti fondamentali, alla base di qualsiasi progetto di carattere professionale, e sviluppare le competenze necessarie per lavore in modo collaborativo diventa di fatto di essenziale importanza.
 
 Nonostante ciò, ritengo che il percorso di studi fornisca delle basi più che solide per affrontare il mondo del lavoro: sono convinto che l'università più che le competenze tecniche di codifica (che sono facilmente apprendibili sul campo), fornisca una formazione più ampia, mirata a sviluppare il modo di pensare e di affrontare le sfide, al fine di concedere allo studente competenze trasversali indipendenti dal settore di lavoro in cui si troverà ad operare.
