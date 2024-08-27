@@ -1,6 +1,7 @@
 {
     "API": "Application Programming Interface",
     "BU": "Business Unit",
+    "CRUD": "Create, Read, Update, Delete",
     "OA": "Obiettivi aziendali",
     "OA-OB": "Obiettivi aziendali obbligatori",
     "OA-D": "Obiettivi aziendali desiderabili",

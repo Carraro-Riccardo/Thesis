@@ -3,6 +3,8 @@
 #show: template
 
 = L'azienda Sanmarco Informatica
+#counter(figure.where(kind: image)).update(0)
+#counter(figure.where(kind: table)).update(0)
 == Presentazione dell'azienda
 Sanmarco Informatica S.p.A è un'azienda nata nel 1984 specializzata nello sviluppo _software_ e nella consulenza informatica.
 
@@ -103,6 +105,8 @@ La corretta implementazione del _framework Scrum_ richiede l'individuazione di r
     [*_Tester_*], [Responsabile della verifica del prodotto, si occupa di testare le funzionalità implementate e di segnalare eventuali _bug_ al _team_ di sviluppo.],
     [*Consulente*], [Responsabile dell'installazione del prodotto presso il cliente: si occupa di garantire che il prodotto soddisfi le esigenze di quest'ultimo.],
   ),
+  kind: table,
+  numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
   caption: [Ruoli aziendali],
 )
 
@@ -429,6 +433,8 @@ Inoltre, data l'enorme risonanza che l'intelligenza artificiale sta avendo attua
 #pagebreak(to: "odd")
 
 = Il tirocinio
+#counter(figure.where(kind: image)).update(0)
+#counter(figure.where(kind: table)).update(0)
 == Il ruolo dello stage per Sanmarco Informatica
 Sanmarco Informatica attribuisce allo _stage_ un ruolo fondamentale nel suo processo di crescita: come descritto nel #ref(<innovazione>, supplement: "paragrafo"), per perseguire gli obiettivi di innovazione e di crescita, l'azienda investe in formazione continua, e lo _stage_, è un'occasione per far crescere nuovi talenti e per portare nuove idee e competenze all'interno dell'azienda.
 
@@ -487,6 +493,7 @@ dove:
     table.cell([*Obiettivi aziendali opzionali (OP)*], fill: luma(220), colspan: 2, align: center),
     [*OA-OP1*], [Documentazione funzionalità sviluppate],
   ),
+  numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
   caption: [Obiettivi aziendali],
 )
 
@@ -529,6 +536,7 @@ Alla luce degli aspetti sopra descritti, gli obiettivi personali che mi sono pos
     [*OP6*], [Sviluppare codice di qualità tale da essere utilizzabile dall'azienda al termine del mio percorso],
     [*OP7*], [Comprendere i ritmi e le dinamiche di un lavoro in questo settore],
   ),
+  numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
   caption: [Obiettivi personali],
 )
 
@@ -644,6 +652,9 @@ In particolare, grazie alle _Sprint Review_ e _Sprint Retrospective_, io e l'int
 #pagebreak(to: "odd")
 
 = Svolgimento del tirocinio
+#counter(figure.where(kind: image)).update(0)
+#counter(figure.where(kind: table)).update(0)
+
 == Pianificazione
 L'organizzazione del tirocinio, secondo i vincoli temporali discussi nel #ref(<vincoliTemporali>, supplement: "paragrafo"), prevedeva una pianificazione delle attività mirata a garantire il raggiungimento degli obiettivi prefissati.
 
@@ -663,6 +674,7 @@ I periodi del tirocinio sono stati organizzati secondo la seguente tabella:
     [*3*],        [Funzionalità _drag & drop_],  [17/06/2024],     [30/06/2024],
     [*4*],        [Validazione e documentazione],      [01/07/2024],     [14/07/2024],
   ),
+  numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
   caption: [Macrosuddivisione del tirocinio],
 )
 
@@ -1052,6 +1064,7 @@ dove:
     [F-D14],[Desiderabile],[L'utente deve visualizzare un errore se la causale specificata non è valida.],[UC-2.4.1],
     [F-D15],[Desiderabile],[L'utente deve visualizzare un errore se la priorità specificata non è valida.],[UC-2.5.1],
   ),
+  numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
   caption: [Requisiti funzionali],
 )
 
@@ -1066,6 +1079,7 @@ dove:
     [Q-O3],[Opzionale],[Devono essere consegnata la documentazione delle funzionalità implementate.],[Obiettivi aziendali],
     [Q-O4],[Opzionale],[Devono essere consegnata la documentazione dei servizi REST implementati.],[Obiettivi aziendali],
   ),
+  numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
   caption: [Requisiti di qualità],
 )
 
@@ -1079,6 +1093,7 @@ dove:
     [*Codice*],[*Classe*],[*Descrizione*],[*Fonte*],
     [P-M1],[Obbligatorio],[Il tempo di caricamento dell'ambiente 3D a seguito del refactoring deve rimanere sotto i 4 secondi],[Azienda],
   ),
+  numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
   caption: [Requisiti prestazionali],
 )
 
@@ -1092,6 +1107,7 @@ dove:
     [V-M3],[Obbligatorio],[L'ambiente tridimensionale deve essere sviluppato in Three.js.],[Azienda],
     [V-M4],[Obbligatorio],[Il browser utilizzato per accedere al prodotto deve supportare WebGLG 2.0],[V-M3],
   ),
+  numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
   caption: [Requisiti di vincolo],
 )
 
@@ -1108,6 +1124,7 @@ dove:
       [Prestazionali],[1],[0],[0],[1],
       [Vincolo],[4],[0],[0],[4],
     ),
+    numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
     caption: [Riepilogo requisiti],
   )
 ]
@@ -1275,7 +1292,7 @@ Durante il mio tirocinio ho avuto modo di sviluppare funzionalità sia lato _fro
   )
 
 \
-- *Lato _back-end_*: ho seguito il _pattern_ architetturale a _layer_ di _Synergy_, che permette di separare le diverse responsabilità del sistema in _layer_ distinti, garantendo una struttura modulare e scalabile, come mostrato dall'immagine seguente:
+- *Lato _back-end_*: ho seguito il _pattern_ architetturale a _layer_ di _Synergy_, che permette di separare le diverse responsabilità del sistema in livelli distinti, garantendo una struttura modulare e scalabile, come mostrato dall'immagine seguente:
 
   #showImageWithSource(
     imagePath: "/assets/chapter3/synergy.png",
@@ -1288,15 +1305,15 @@ Durante il mio tirocinio ho avuto modo di sviluppare funzionalità sia lato _fro
 \
   Nell'implementazione delle funzionalità, ho lavorato attivamente a tutti i _layer_ dell'architettura, rispettando le responsabilità di cui ciascun livello si fa carico:
 
-  - *Service layer*: _layer_ che si occupa di esporre i servizi REST all'esterno, controllare l'autenticazione e di chiamare il _layer_ _WS_ per l'esecuzione delle operazioni richieste; 
+  - *Service*: si occupa di esporre i servizi REST all'esterno, controllare l'autenticazione e di chiamare il _layer_ _WS_ per l'esecuzione delle operazioni richieste; 
 
-  - *WS layer*: _layer_ che si occupa di gestire i parametri delle chiamate REST, controllando inoltre le autorizzazioni per la scrittura e la lettura dei dati. Si occupa di chiamare il _layer_ di logica per l'esecuzione delle operazioni richieste;
+  - *WS*: si occupa di gestire i parametri delle chiamate REST, controllando inoltre le autorizzazioni per la scrittura e la lettura dei dati. Terminati i controlli, chiama il _layer_ di logica per l'esecuzione delle operazioni richieste;
 
-  - *Logic layer*: _layer_ che contiene la logica di _business_ dell'applicativo. Si occupa di eseguire la logica di _business_, richiamando il DAO (_Data Access Object_) per interagire con il database.
+  - *Logic*: contiene la logica di _business_ dell'applicativo. Si occupa di eseguire la logica di _business_, richiamando il DAO (_Data Access Object_) per interagire con il database.
 
-  - *DAO layer*: _layer_ che si occupa di gestire l'accesso ai dati, interfacciandosi con il _database_ e fornendo i metodi per per le operazioni CRUD (_Create, Read, Update, Delete_);
+  - *DAO*: si occupa di gestire l'accesso ai dati, interfacciandosi con il _database_ e fornendo i metodi per per le operazioni CRUD (_Create, Read, Update, Delete_);
 
-  - *Model layer*: _layer_ che contiene le classi che rappresentano il modello dei dati dell'applicativo.
+  - *Model*: contiene le classi che rappresentano il modello dei dati dell'applicativo.
 
 \ \
 == Codifica
@@ -1562,6 +1579,7 @@ L'applicativo che ho sviluppato copre l'interezza dei requisiti delineati nel #r
     [Vincolo],[4],[4],table.cell([100%], fill: rgb(0, 255, 0, 100)),
 
   ),
+  numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
   caption: [Copertura dei requisiti],
 )
 
@@ -1583,6 +1601,7 @@ Nella seguente tabella riporto il livello di copertura dei _test_ implementati:
     [Sistema],[Manuale],[15 \ (uno per ogni requisito funzionale)],table.cell([100%], fill: rgb(0, 255, 0, 100)),
 
   ),
+  numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
   caption: [Copertura dei _test_],
 )
 
@@ -1610,12 +1629,15 @@ Il mio percorso di tirocinio ha visto la produzione di diversi materiali necessa
     table.cell([*Temporale*], colspan: 2, fill: luma(220), align: center),
     [Ore totali di tirocinio], [320],
   ),
+  numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
   caption: [Materiali complessivamente prodotti durante il tirocinio],
 )
 
 #pagebreak(to: "odd")
 
 = Valutazione retrospettiva
+#counter(figure.where(kind: image)).update(0)
+#counter(figure.where(kind: table)).update(0)
 == Soddisfacimento degli obiettivi
 === Obiettivi aziendali
 Durante il mio percorso di tirocinio sono riuscito a sviluppare le funzionalità richieste dall'azienda, garantendo che il prodotto fosse conforme alle aspettative e che rispettasse i requisiti definiti durante l'analisi. Il _team_ di sviluppo e il referente aziendale hanno approvato quanto ho sviluppato, integrando il codice sorgente del prodotto WMS con il lavoro da me svolto.
@@ -1638,6 +1660,7 @@ La seguente tabella riporta il resocono degli obiettivi aziendali definiti:
     table.cell([*Obiettivi aziendali opzionali (OP)*], fill: luma(220), colspan: 3, align: center), 
     [*OA-OP1*], [Documentazione funzionalità sviluppate], [*Raggiunto*]
   ),
+  numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
   caption: [Raggiungimento obiettivi aziendali],
 )
 
@@ -1671,6 +1694,7 @@ Durante l'esperienza presso Sanmarco Informatica sono riuscito a conseguire tutt
         [*OP6*], [Sviluppare codice di qualità tale da essere utilizzabile dall'azienda al termine del mio percorso], [*Raggiunto*],
         [*OP7*], [Comprendere i ritmi e le dinamiche di un lavoro in questo settore], [*Raggiunto*],
       ),
+      numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: table)).display()],
       caption: [Raggiungimento obiettivi personali],
     )
   ], 

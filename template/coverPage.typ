@@ -2,23 +2,24 @@
   body
 ) = {
   box(width: 100%, height: 100%, stroke: 0.5pt, outset: 50pt, clip: false)[
-  #v(3.5em)
+  #v(1.5em)
   #align(center, image("./assets/logo.png", width: 15em))
   #v(4em)
   #align(center, text("UNIVERSITÀ DEGLI STUDI DI PADOVA", size: 2em, weight: "bold"))
   #align(center, text(smallcaps("Dipartimento DI Matematica \"Tullio Levi-Civita\""), size: 1.5em,))
-  #v(3em)
+  #v(2.5em)
   #align(center, text(smallcaps("Corso di Laurea in"), size: 1.5em))
   #align(center, text("INFORMATICA", size: 2em, weight: "bold"))
-  #v(3em)
-  #align(center, text([VISUALIZZAZIONE TRIDIMENSIONALE PER \ LA GESTIONE DI MAGAZZINO], size: 1.5em))
+  #v(2.5em)
+  #align(center, text(smallcaps("Tesi di Laurea"), size: 1.5em))
+  #align(center, text([VISUALIZZAZIONE TRIDIMENSIONALE PER \ LA GESTIONE DI MAGAZZINO], size: 1.6em))
   #v(3em)
   #align(center, text(smallcaps("A.A. 2023/2024"), size: 1.5em, weight: "extralight"))
   #show grid: set text(size: 1.2em)
   #align(bottom, grid(
     columns: (1fr,1fr),
     align: (left, right),
-    align(left+bottom, [*RELATORE*] + text("\nProf. Tullio Vardanega")),
+    align(left+bottom, [*RELATORE*] + text("\nProf. Tullio Vardanega\n" + [*Proclamazione*: 20 Settembre 2024]),),
     align(right+bottom, [*STUDENTE*] + text("\nRiccardo Carraro\n" + [*Matricola n.* 2042346]))
   ))
   ]
@@ -51,7 +52,7 @@
 
     Dedico inoltre un grazie speciale a mia madre Marilisa, mio padre Claudio e la sua compagna Silvia per l'enorme supporto che mi hanno dato in questi anni di studio e per avermi sempre sostenuto e spronato a dare il meglio di me stesso.
 
-    Ringrazio in modo altrettanto speciale la mia ragazza Sofia, per essere sempre stata al mio fianco durante questa esperienza e per tutti i momenti vissuti insieme in questi anni.
+    Ringrazio in modo altrettanto speciale Sofia, la persona che amo, per essere sempre stata al mio fianco durante questa esperienza e per tutti i momenti vissuti insieme in questi anni.
 
     Infine ringrazio tutti i miei amici e compagni di corso  che hanno reso questi anni di studio indimenticabili, insieme ai quali ho condiviso gioie e momenti di difficoltà, crescendo e imparando insieme.
 

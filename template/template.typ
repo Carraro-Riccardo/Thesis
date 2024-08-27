@@ -292,7 +292,8 @@
     #figure(
     align(center,image(imagePath, width: imageWidth)),
     caption: [#caption],
-    supplement: "Immagine"
+    supplement: "Immagine",
+    numbering: (_) => [#counter(heading).get().at(0)] + "." + [#counter(figure.where(kind: image)).display()],
     )#label
     #if source != "" [
       #v(-1.7em)
